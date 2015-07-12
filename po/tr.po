@@ -18,9 +18,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-16 11:29+0000\n"
+"PO-Revision-Date: 2015-07-14 11:58+0000\n"
 "Last-Translator: Demiray Muhterem <mdemiray@msn.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/manjaro-thus/language/tr/)\n"
+"Language-Team: Turkish (http://www.transifex.com/manjarolinux/manjaro-thus/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -541,7 +541,7 @@ msgstr "Ayrıntılı bilgi için https://wiki.archlinux.org/index.php/ECryptfs b
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
-msgstr "Ev dizinini şiifrelemk istediğinizden emin misiniz?\n"
+msgstr "Ev dizinini şifrelemek istediğinizden emin misiniz?\n"
 
 #: ../thus/user_info.py:310
 msgid "Invalid characters entered"

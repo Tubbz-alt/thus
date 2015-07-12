@@ -4,6 +4,7 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
+# Abbas Palash <abbas.palash@gmail.com>, 2015
 # Ali Abdollahzade <roshd2.ali@gmail.com>, 2014
 # Ali Mousavi <ali.mousavi@gmail.com>, 2011
 # Alireza Savand <agahia.com@gmail.com>, 2011
@@ -16,9 +17,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/manjaro-thus/language/fa/)\n"
+"PO-Revision-Date: 2015-08-21 06:21+0000\n"
+"Last-Translator: Abbas Palash <abbas.palash@gmail.com>\n"
+"Language-Team: Persian (http://www.transifex.com/manjarolinux/manjaro-thus/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,16 +36,16 @@ msgstr "ناشناخته"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr ""
+msgstr "خطا در فراخوانی دستور hexdump: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "شناسه پارتیشن نامعلوم {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
-msgstr ""
+msgstr "بررسی سیستم"
 
 #: ../thus/check.py:74
 #, python-brace-format
@@ -63,11 +64,11 @@ msgstr "به منبع تغذیه وصل باشد"
 
 #: ../thus/check.py:86
 msgid "is connected to the Internet"
-msgstr ""
+msgstr "به اینترنت وصل شده است"
 
 #: ../thus/check.py:90
 msgid "For best results, please ensure that this computer:"
-msgstr ""
+msgstr "برای کسب بهترین نتایج، مطمئن شوید که این رایانه:"
 
 #: ../thus/check.py:169
 msgid "We have Internet connection."
@@ -87,7 +88,7 @@ msgstr ""
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "دایرکتوری Home رمزگذاری نخواهد شد."
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
@@ -120,7 +121,7 @@ msgstr ""
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "به Manjaro خوش آمدید"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
@@ -142,11 +143,11 @@ msgstr ""
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "برگشت"
 
 #: ../thus/language.py:136
 #, python-brace-format
@@ -193,7 +194,7 @@ msgstr ""
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "فایل '{0}' از قبل وجود دارد."
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -219,7 +220,7 @@ msgstr ""
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr ""
+msgstr "واقعا می خواهید از برنامه نصب کننده خارج شوید؟"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
@@ -361,7 +362,7 @@ msgstr ""
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr ""
+msgstr "اطلاع از وضعیت شبکه ممکن نیست."
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
@@ -501,7 +502,7 @@ msgstr "نمایش گذرواژه"
 
 #: ../thus/user_info.py:161 ../ui/user_info.ui:468
 msgid "Show root password"
-msgstr ""
+msgstr "رمزعبور root را نشان بده"
 
 #: ../thus/user_info.py:164 ../ui/user_info.ui:350
 msgid "Use a root password"

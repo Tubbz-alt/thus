@@ -4,26 +4,28 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
+# Kristján Magnússon <kristjanmagnus@gmail.com>, 2015
+# Magnús Björn Traustason <mabjot@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Icelandic (http://www.transifex.com/projects/p/manjaro-thus/language/is/)\n"
+"PO-Revision-Date: 2015-08-21 12:21+0000\n"
+"Last-Translator: Kristján Magnússon <kristjanmagnus@gmail.com>\n"
+"Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: is\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: ../thus/bootinfo.py:70 ../thus/bootinfo.py:83 ../thus/bootinfo.py:89
 #: ../thus/bootinfo.py:138 ../thus/bootinfo.py:143 ../thus/bootinfo.py:152
 #: ../thus/bootinfo.py:165 ../thus/bootinfo.py:190 ../thus/bootinfo.py:212
 #: ../thus/bootinfo.py:215 ../thus/bootinfo.py:218 ../thus/bootinfo.py:248
 msgid "unknown"
-msgstr ""
+msgstr "óþekkt"
 
 #: ../thus/bootinfo.py:104
 #, python-brace-format
@@ -37,18 +39,18 @@ msgstr ""
 
 #: ../thus/check.py:69
 msgid "System Check"
-msgstr ""
+msgstr "Athuga stýrikerfi"
 
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "hefur að minnsta kosti {0}GB geymslupláss til ráðstöfunar. (*)"
 
 #: ../thus/check.py:77
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr ""
+msgstr "Þetta veltur að miklu leiti hvaða gluggaumhverfi þú velur, því gæti verið þörf á meira plássi."
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
@@ -56,15 +58,15 @@ msgstr ""
 
 #: ../thus/check.py:86
 msgid "is connected to the Internet"
-msgstr ""
+msgstr "er tengd við internetið"
 
 #: ../thus/check.py:90
 msgid "For best results, please ensure that this computer:"
-msgstr ""
+msgstr "Fyrir bestan árangur, vinsamlegast sjáið til að þessi tölva:"
 
 #: ../thus/check.py:169
 msgid "We have Internet connection."
-msgstr ""
+msgstr "Við höfum virka nettengingu."
 
 #: ../thus/check.py:170
 msgid "We're connected to a power source."
@@ -72,11 +74,11 @@ msgstr ""
 
 #: ../thus/check.py:171
 msgid "We have enough disk space."
-msgstr ""
+msgstr "Við höfum nóg disk pláss."
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "Get ekki búið til og breytt encfs stillingaskrá"
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
@@ -84,7 +86,7 @@ msgstr ""
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "Get ekki keyrt encfs.  Lélegt lykilorð?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
@@ -113,11 +115,11 @@ msgstr ""
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "Velkomin(n) til Manjaro"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
-msgstr ""
+msgstr "Athugið:  Uppsetningarforritið Thus er beta forrit."
 
 #: ../thus/language.py:85
 msgid ""
@@ -131,24 +133,24 @@ msgstr ""
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "Áfram"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "Loka"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "Bakka"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "Finn ekki þýðingarskrá fyrir {0} tungumálið"
 
 #: ../thus/location.py:71
 msgid "Select your location"
-msgstr ""
+msgstr "Veldu staðsetningu þína"
 
 #: ../thus/location.py:75
 msgid ""
@@ -163,7 +165,7 @@ msgstr ""
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "Sýna allar staðsetningar"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
@@ -186,7 +188,7 @@ msgstr ""
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "Skrá {0} þegar til."
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -203,20 +205,20 @@ msgstr ""
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr ""
+msgstr "Thus uppsetningar útgáfa {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr ""
+msgstr "Manjaro uppsetning - Thus {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr ""
+msgstr "Viltu virkilega hætta uppsetningunni"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
-msgstr ""
+msgstr "Loka uppsetningarforriti..."
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
@@ -228,27 +230,27 @@ msgstr ""
 
 #: ../thus/show_message.py:59
 msgid "Manjaro Installer - Error"
-msgstr ""
+msgstr "Manjaro Uppsetningarforrit - Villa"
 
 #: ../thus/show_message.py:73
 msgid "Manjaro Installer - Warning"
-msgstr ""
+msgstr "Manjaro Uppsetningarforrit - Viðvörun"
 
 #: ../thus/show_message.py:87
 msgid "Manjaro Installer - Information"
-msgstr ""
+msgstr "Manjaro Uppsetningarforrit - Upplýsingar"
 
 #: ../thus/show_message.py:101
 msgid "Manjaro Installer - Confirmation"
-msgstr ""
+msgstr "Manjaro Uppsetningarforrit - Staðfesting"
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
-msgstr ""
+msgstr "Uppsetning Manjaro..."
 
 #: ../thus/slides.py:82
 msgid "Please wait..."
-msgstr ""
+msgstr "Vinsamlegast bíðið..."
 
 #: ../thus/slides.py:192
 msgid ""
@@ -265,7 +267,7 @@ msgstr ""
 msgid ""
 "Installation Complete!\n"
 "Do you want to restart your system now?"
-msgstr ""
+msgstr "Uppsetning kláruð!\nViltu endurræsa kerfið núna?"
 
 #: ../thus/thus.py:66
 #, python-brace-format
@@ -280,7 +282,7 @@ msgstr ""
 #: ../thus/thus.py:181
 #, python-brace-format
 msgid "Thus v{0} - Manjaro Installer"
-msgstr ""
+msgstr "Thus v{0} - Manjaro uppsetning"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
@@ -312,7 +314,7 @@ msgstr ""
 
 #: ../thus/thus.py:265
 msgid "Program updated! Restarting..."
-msgstr ""
+msgstr "Forrit uppfært! Endurræsing..."
 
 #: ../thus/thus.py:305
 msgid "Thus files not found. Please, install Thus using pacman"
@@ -325,7 +327,7 @@ msgstr ""
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
-msgstr ""
+msgstr "Hvar ertu ?"
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
@@ -385,7 +387,7 @@ msgstr ""
 
 #: ../thus/updater.py:138
 msgid "Downloading new version of Thus..."
-msgstr ""
+msgstr "Niðurhlaða nýja útgáfu af Thus..."
 
 #: ../thus/updater.py:142
 msgid "Can't download new Thus version."
@@ -398,7 +400,7 @@ msgstr ""
 #: ../thus/updater.py:192
 #, python-brace-format
 msgid "Can't copy {0} to {1}"
-msgstr ""
+msgstr "Get ekki afritað {0} til {1}"
 
 #: ../thus/updater.py:195
 msgid "Wrong md5. Bad download or wrong file, won't update this one"
@@ -406,15 +408,15 @@ msgstr ""
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"
-msgstr ""
+msgstr "Hver ert þú?"
 
 #: ../thus/user_info.py:77 ../ui/user_info.ui:32
 msgid "Your name:"
-msgstr ""
+msgstr "Nafnið þitt:"
 
 #: ../thus/user_info.py:81 ../ui/user_info.ui:179
 msgid "Your name"
-msgstr ""
+msgstr "Nafnið þitt"
 
 #: ../thus/user_info.py:85 ../ui/user_info.ui:276
 msgid "Hostname"
@@ -422,34 +424,34 @@ msgstr ""
 
 #: ../thus/user_info.py:89 ../ui/user_info.ui:603
 msgid "Your computer's name:"
-msgstr ""
+msgstr "Nafn tölvunar þinnar:"
 
 #: ../thus/user_info.py:93 ../ui/user_info.ui:44
 msgid "Pick a username:"
-msgstr ""
+msgstr "Veldu notandanafn:"
 
 #: ../thus/user_info.py:97 ../ui/user_info.ui:213
 msgid "Username"
-msgstr ""
+msgstr "Notandanafn"
 
 #: ../thus/user_info.py:101 ../ui/user_info.ui:57
 msgid "Choose a password:"
-msgstr ""
+msgstr "Veldu lykilorð:"
 
 #: ../thus/user_info.py:105 ../thus/user_info.py:121 ../ui/user_info.ui:91
 #: ../ui/user_info.ui:495
 msgid "Password"
-msgstr ""
+msgstr "Lykilorð"
 
 #: ../thus/user_info.py:109 ../thus/installation/automatic.py:97
 #: ../ui/automatic.ui:302 ../ui/user_info.ui:70
 msgid "Confirm your password:"
-msgstr ""
+msgstr "Staðfesta lykilorðið þitt"
 
 #: ../thus/user_info.py:113 ../thus/user_info.py:129 ../ui/user_info.ui:135
 #: ../ui/user_info.ui:552
 msgid "Confirm password"
-msgstr ""
+msgstr "Staðfesta lykilorð"
 
 #: ../thus/user_info.py:117 ../ui/user_info.ui:531
 msgid "Choose a root password:"
@@ -465,19 +467,19 @@ msgstr ""
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
-msgstr ""
+msgstr "Þú verður að sétja nafn"
 
 #: ../thus/user_info.py:141
 msgid "You must enter a username"
-msgstr ""
+msgstr "Þú verður að sétja notandanafn"
 
 #: ../thus/user_info.py:145 ../thus/user_info.py:149
 msgid "You must enter a password"
-msgstr ""
+msgstr "Þú verður að sétja lykilorð"
 
 #: ../thus/user_info.py:153 ../ui/user_info.ui:383
 msgid "Log in automatically"
-msgstr ""
+msgstr "Sjálfvirk innskráning"
 
 #: ../thus/user_info.py:154 ../ui/user_info.ui:400
 msgid "A password is required to log in"
@@ -490,7 +492,7 @@ msgstr ""
 #: ../thus/user_info.py:158 ../thus/installation/automatic.py:105
 #: ../ui/user_info.ui:333
 msgid "Show password"
-msgstr ""
+msgstr "Sýna lykilorð"
 
 #: ../thus/user_info.py:161 ../ui/user_info.ui:468
 msgid "Show root password"
@@ -540,7 +542,7 @@ msgstr ""
 
 #: ../thus/user_info.py:314
 msgid "Username can't contain dots"
-msgstr ""
+msgstr "Notandanafn getur ekki haft punkta"
 
 #: ../thus/user_info.py:318
 msgid "Too many characters"
@@ -556,22 +558,22 @@ msgstr ""
 #: ../thus/download/download_urllib.py:64
 #, python-brace-format
 msgid "Can't open {0} - Reason: {1}"
-msgstr ""
+msgstr "Get ekki opnað {0} - Ástæða: {1}"
 
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr ""
+msgstr "HTTP Villa : {0}"
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr ""
+msgstr "Vefslóða Villa : {0}"
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
 msgid "Downloading {0} {1} ({2}/{3})..."
-msgstr ""
+msgstr "Niðurhlaðning {0} {1} ({2}/{3})..."
 
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
@@ -591,7 +593,7 @@ msgstr ""
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
 msgid "free space"
-msgstr ""
+msgstr "Laust pláss"
 
 #: ../thus/installation/advanced.py:365
 msgid "Device"
@@ -615,11 +617,11 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:388
 msgid "Size"
-msgstr ""
+msgstr "Stærð"
 
 #: ../thus/installation/advanced.py:391
 msgid "Used"
-msgstr ""
+msgstr "Notað"
 
 #: ../thus/installation/advanced.py:394
 msgid "Flags"
@@ -631,7 +633,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:559
 msgid "none"
-msgstr ""
+msgstr "enginn"
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
@@ -705,7 +707,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1306
 msgid "Root"
-msgstr ""
+msgstr "Rót"
 
 #: ../thus/installation/advanced.py:1310 ../ui/bootloader.ui:7
 msgid "Boot"
@@ -713,7 +715,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1314
 msgid "EFI"
-msgstr ""
+msgstr "EFI"
 
 #: ../thus/installation/advanced.py:1318
 msgid "Swap"
@@ -721,19 +723,19 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "Afturkalla"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
-msgstr ""
+msgstr "Nýtt"
 
 #: ../thus/installation/advanced.py:1334
 msgid "Delete"
-msgstr ""
+msgstr "Eyða"
 
 #: ../thus/installation/advanced.py:1337
 msgid "Edit..."
-msgstr ""
+msgstr "Breyta..."
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
@@ -741,15 +743,15 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
-msgstr ""
+msgstr "_Hætta við"
 
 #: ../thus/installation/advanced.py:1362
 msgid "_Apply"
-msgstr ""
+msgstr "_Virkja"
 
 #: ../thus/installation/advanced.py:1365 ../ui/advanced.ui:405
 msgid "Size:"
-msgstr ""
+msgstr "Stærð:"
 
 #: ../thus/installation/advanced.py:1369 ../ui/advanced.ui:604
 msgid "Type:"
@@ -769,7 +771,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1385 ../ui/advanced.ui:509
 msgid "Beginning of this space"
-msgstr ""
+msgstr "Byrjunin á þessu plássli"
 
 #: ../thus/installation/advanced.py:1389 ../ui/advanced.ui:528
 msgid "End of this space"
@@ -777,7 +779,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
-msgstr ""
+msgstr "Nota sem:"
 
 #: ../thus/installation/advanced.py:1397 ../thus/installation/advanced.py:1414
 msgid "Mount Point:"
@@ -814,11 +816,11 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1447 ../ui/advanced.ui:1184
 msgid "Password:"
-msgstr ""
+msgstr "Lykilorð:"
 
 #: ../thus/installation/advanced.py:1451 ../ui/advanced.ui:1196
 msgid "Confirm password:"
-msgstr ""
+msgstr "Staðfesta lykilorð:"
 
 #: ../thus/installation/advanced.py:1521
 #, python-brace-format
@@ -842,7 +844,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
-msgstr ""
+msgstr "Setja upp núna!"
 
 #: ../thus/installation/advanced.py:1772
 #, python-brace-format
@@ -995,7 +997,7 @@ msgstr ""
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
-msgstr ""
+msgstr "Uppsetning á þinni ábyrgð!"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
@@ -1041,7 +1043,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:197
 msgid " and "
-msgstr ""
+msgstr "og"
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
@@ -1054,7 +1056,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "Eyða disknum og sétja upp Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
@@ -1089,7 +1091,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "Hvernig viltu halda áfram?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
@@ -1117,7 +1119,7 @@ msgstr ""
 
 #: ../thus/installation/automatic.py:75
 msgid "Automatic installation mode"
-msgstr ""
+msgstr "Sjálfvirk uppsetningar kerfi"
 
 #: ../thus/installation/automatic.py:79 ../ui/automatic.ui:81
 msgid "Select drive:"
@@ -1149,7 +1151,7 @@ msgstr ""
 #: ../thus/installation/automatic.py:190
 #, python-brace-format
 msgid "Automatic install on {0}"
-msgstr ""
+msgstr "Sjálfvirk uppsetning á {0}"
 
 #: ../thus/installation/automatic.py:253
 msgid ""
@@ -1206,7 +1208,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:896
 #, python-brace-format
 msgid "Command {0} failed"
-msgstr ""
+msgstr "Skipun {0} mistókst"
 
 #: ../thus/installation/auto_partition.py:108
 #: ../thus/installation/auto_partition.py:114
@@ -1264,7 +1266,7 @@ msgstr ""
 
 #: ../thus/installation/auto_partition.py:250
 msgid "Can't run dd command"
-msgstr ""
+msgstr "Get ekki keyrt dd skipun"
 
 #: ../thus/installation/auto_partition.py:278
 #: ../thus/installation/auto_partition.py:306
@@ -1331,7 +1333,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:607
 #, python-format
 msgid "Boot partition size: %dMiB"
-msgstr ""
+msgstr "Ræsisneið stærð: %dMiB"
 
 #: ../thus/installation/auto_partition.py:610
 #, python-format
@@ -1459,11 +1461,11 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "Skrá ekki fundinn."
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr ""
+msgstr "Skrá þegar til."
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
@@ -1605,15 +1607,15 @@ msgstr ""
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} Eytt"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
-msgstr ""
+msgstr "Uppsetning Stýrikerfis ..."
 
 #: ../thus/installation/process.py:439
 msgid "System installed."
-msgstr ""
+msgstr "Stýrikerfi uppset."
 
 #: ../thus/installation/process.py:441
 msgid "Configuring system ..."
@@ -1681,12 +1683,12 @@ msgstr ""
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Bætt við fstab : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Bætt við crypttab : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
@@ -1700,12 +1702,12 @@ msgstr ""
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab skrifaður."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "Virkja {0} þjónustu."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
@@ -1755,7 +1757,7 @@ msgstr ""
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Notandi {0} bætur við."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
@@ -1812,11 +1814,11 @@ msgstr ""
 
 #: ../thus/installation/process.py:1327
 msgid "Running mkinitcpio ..."
-msgstr ""
+msgstr "Keyri mkinitcpio ..."
 
 #: ../thus/installation/process.py:1329
 msgid "Running mkinitcpio - done"
-msgstr ""
+msgstr "Keyri mkinitcpio - Lokið"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
@@ -1842,27 +1844,27 @@ msgstr ""
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Lykilorð er of stutt"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Veikt lykilorð"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Sangært lykilorð"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "Gott lykilorð"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Sterkt lykilorð"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
-msgstr ""
+msgstr "Lykilorðin passa ekki saman"
 
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
@@ -1960,7 +1962,7 @@ msgstr ""
 
 #: ../ui/advanced.ui:181 ../ui/advanced.ui:436
 msgid "Use as:"
-msgstr ""
+msgstr "Nota sem:"
 
 #: ../ui/advanced.ui:214 ../ui/advanced.ui:469
 msgid "Mount point:"
@@ -1976,11 +1978,11 @@ msgstr ""
 
 #: ../ui/advanced.ui:421
 msgid "Location:"
-msgstr ""
+msgstr "Staðsettning:"
 
 #: ../ui/advanced.ui:581
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: ../ui/advanced.ui:942
 msgid "label"
@@ -2016,7 +2018,7 @@ msgstr ""
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "Sýna lykilorð"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
@@ -2032,11 +2034,11 @@ msgstr ""
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
-msgstr ""
+msgstr "x86_64 UEFI"
 
 #: ../ui/bootloader.ui:142
 msgid "i386 UEFI"
-msgstr ""
+msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
@@ -2064,15 +2066,15 @@ msgstr ""
 
 #: ../ui/user_info.ui:152 ../ui/user_info.ui:569
 msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">Þú verður að sétja lykilorð</span></small>"
 
 #: ../ui/user_info.ui:230
 msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">Þú verður að sétja notendanafn</span></small>"
 
 #: ../ui/user_info.ui:290
 msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">Þú verður að sétja nafn</span></small>"
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"

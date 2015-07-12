@@ -4,126 +4,120 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
-# Aleksandar Velimirović <velimirovic.aleksandar.1989@gmail.com>, 2015
-# thewitcher83 <cubrilo.milos@gmail.com>, 2014
-# daimonion <pejakm@gmail.com>, 2013
-# dimitirje94 <ubazagrnje@gmail.com>, 2013
-# Zoran Olujić <olujicz@gmail.com>, 2011
-# Драгољуб Шишовић, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-07-23 20:24+0000\n"
-"Last-Translator: Aleksandar Velimirović <velimirovic.aleksandar.1989@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/manjarolinux/manjaro-thus/language/sr/)\n"
+"PO-Revision-Date: 2013-09-28 09:31+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English (United States) (http://www.transifex.com/manjarolinux/manjaro-thus/language/en_US/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thus/bootinfo.py:70 ../thus/bootinfo.py:83 ../thus/bootinfo.py:89
 #: ../thus/bootinfo.py:138 ../thus/bootinfo.py:143 ../thus/bootinfo.py:152
 #: ../thus/bootinfo.py:165 ../thus/bootinfo.py:190 ../thus/bootinfo.py:212
 #: ../thus/bootinfo.py:215 ../thus/bootinfo.py:218 ../thus/bootinfo.py:248
 msgid "unknown"
-msgstr "непознато"
+msgstr ""
 
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr "Грешка у извршавању hexdump команде: {0}"
+msgstr ""
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr "Непознат id партиције {0}"
+msgstr ""
 
 #: ../thus/check.py:69
 msgid "System Check"
-msgstr "Провера система"
+msgstr ""
 
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr "има бар {0}GB расположивог слободног простора. (*)"
+msgstr ""
 
 #: ../thus/check.py:77
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr "Ово је уско повезано са тим које десктоп окружење изаберете, па ће Вам можда требати више простора."
+msgstr ""
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
-msgstr "је укључен у извор напајања"
+msgstr ""
 
 #: ../thus/check.py:86
 msgid "is connected to the Internet"
-msgstr "је повезан на интернет"
+msgstr ""
 
 #: ../thus/check.py:90
 msgid "For best results, please ensure that this computer:"
-msgstr "За најбоље резултате молимо Вас постарајте се да је овај компјутер:"
+msgstr ""
 
 #: ../thus/check.py:169
 msgid "We have Internet connection."
-msgstr "Имамо интернет конекцију,"
+msgstr ""
 
 #: ../thus/check.py:170
 msgid "We're connected to a power source."
-msgstr "Повезани смо на извор напајања."
+msgstr ""
 
 #: ../thus/check.py:171
 msgid "We have enough disk space."
-msgstr "Постоји довољно места на диску."
+msgstr ""
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr "Није могуће креирати и изменити encfs датотеке за подешавање!"
+msgstr ""
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr "Почетни директоријум неће бити шифрован."
+msgstr ""
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr "Не могу да покренем encfs. Неисправна шифра?"
+msgstr ""
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
-msgstr "Изаберите распоред тастатуре"
+msgstr ""
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr "Тастатурни распоред"
+msgstr ""
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr "Врсте тастатура"
+msgstr ""
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
-msgstr "Распореди тастатура"
+msgstr ""
 
 #: ../thus/keymap.py:78
 msgid "Variants"
-msgstr "Варијанте"
+msgstr ""
 
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr "тастатурни_распоред је {0}"
+msgstr ""
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr "Добродошли у Manjaro"
+msgstr ""
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
-msgstr "Запажање: Thus инсталациони програм је бета софтвер."
+msgstr ""
 
 #: ../thus/language.py:85
 msgid ""
@@ -132,67 +126,67 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr "Thus је програм под активним развојем.\nЈош увек се не сналази поуздано са RAID, btrfs subvolumes и другим напредним подешавањима. Молимо приступите са опрезом пошто је могућ губитак података.\n\nУколико приметите грешке, молимо пријавите их на http://bugs.manjaro.org"
+msgstr ""
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr "Напред"
+msgstr ""
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr "Затвори"
+msgstr ""
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr "Назад"
+msgstr ""
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr "Не могу да нађем датотеку превода за {0} језик"
+msgstr ""
 
 #: ../thus/location.py:71
 msgid "Select your location"
-msgstr "Изаберите Вашу локацију"
+msgstr ""
 
 #: ../thus/location.py:75
 msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr "Локација коју сте изабрали биће искоришћена као помоћ при избору Ваше локализације. Уобичајено, ово би требало да буде земља у којој живите. Ово је кратка листа локација базирана на језику који сте одабрали."
+msgstr ""
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
-msgstr "Земља, територија или подручје:"
+msgstr ""
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr "Прикажи све локације"
+msgstr ""
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr "локализација промењена на : {0}"
+msgstr ""
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr "не могу да променим на локализацију '{0}'"
+msgstr ""
 
 #: ../thus/main_window.py:66
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
-msgstr "Инсталер мора бити покренут са администраторским привилегијама и не може да се настави без њих."
+msgstr ""
 
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr "Датотека '{0}' већ постоји."
+msgstr ""
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -204,57 +198,57 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr "Не можете покренути два пута одједном овај програм за инсталацију. \n\nУколико сте сигурни да програм за инсталацију није већ покренут\nможете да га покренете користећи --force опцију\nили можете ручно да избришете проблематичну датотеку.\n\nПроблематична датотека: '{0}'"
+msgstr ""
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr "Верзија Thus инсталера {0}"
+msgstr ""
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr "Manjaro инсталер - Thus {0}"
+msgstr ""
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr "Да ли заиста желите да прекинете инсталацију?"
+msgstr ""
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
-msgstr "Гашење инсталације..."
+msgstr ""
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr "Није могуће пронаћи скрипту огледала рангова - rank mirror script"
+msgstr ""
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
-msgstr "Није успело извршавање аутоматског пресликавања - \"mirroring\""
+msgstr ""
 
 #: ../thus/show_message.py:59
 msgid "Manjaro Installer - Error"
-msgstr "Манџаро инсталација - Грешка"
+msgstr ""
 
 #: ../thus/show_message.py:73
 msgid "Manjaro Installer - Warning"
-msgstr "Манџаро инсталација - Упозорење"
+msgstr ""
 
 #: ../thus/show_message.py:87
 msgid "Manjaro Installer - Information"
-msgstr "Манџаро инсталација - Информација"
+msgstr ""
 
 #: ../thus/show_message.py:101
 msgid "Manjaro Installer - Confirmation"
-msgstr "Манџаро инсталер - Потврда"
+msgstr ""
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
-msgstr "Манџаро се инсталира..."
+msgstr ""
 
 #: ../thus/slides.py:82
 msgid "Please wait..."
-msgstr "Молим сачекајте..."
+msgstr ""
 
 #: ../thus/slides.py:192
 msgid ""
@@ -265,7 +259,7 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr "ВАЖНО: могуће је да постоји проблем са bootloader\nинсталацијом који би могао да спречи систем да се исправно покрене. Пре\nрестарта, можда би требало да проверите да ли је или не bootloader инсталиран и\nконфигурисан. The Arch Linux Wiki садржи информације о проблему: https://wiki.archlinux.org/index.php/GRUB.\n\n Да ли би сте желели да погледате wiki страницу сада?"
+msgstr ""
 
 #: ../thus/slides.py:205
 msgid ""
@@ -276,7 +270,7 @@ msgstr ""
 #: ../thus/thus.py:66
 #, python-brace-format
 msgid "Can't create Thus main window: {0}"
-msgstr "Не могу да прикажем Thus-ов  почетни екран: {0}"
+msgstr ""
 
 #: ../thus/thus.py:166
 #, python-brace-format
@@ -290,81 +284,81 @@ msgstr ""
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
-msgstr "Подешава Thus-ов ниво бележења на отклањање грешака - 'debug'"
+msgstr ""
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
-msgstr "Покреће Thus чак и ако примети да је већ покренут"
+msgstr ""
 
 #: ../thus/thus.py:210
 msgid "Do not perform any changes (useful for developers)"
-msgstr "Без промена (корисно за \"девелопере\")"
+msgstr ""
 
 #: ../thus/thus.py:214
 msgid "Upgrade/downgrade Thus to the web version"
-msgstr "Надогради/врати Thus на његову веб верзију"
+msgstr ""
 
 #: ../thus/thus.py:218
 msgid "Do not search for new Thus versions online"
-msgstr "Не тражи преко интернета новије верзије Thus инсталера"
+msgstr ""
 
 #: ../thus/thus.py:222
 msgid "Show logging messages to stdout"
-msgstr "Прикажи поруке логовања у stdout"
+msgstr ""
 
 #: ../thus/thus.py:226
 msgid "Show options in development (for developers only, do not use this!)"
-msgstr "Прикажи могућности које су у развоју (само за програмере, не користите ово!)"
+msgstr ""
 
 #: ../thus/thus.py:265
 msgid "Program updated! Restarting..."
-msgstr "Програм надограђен! Рестартујем..."
+msgstr ""
 
 #: ../thus/thus.py:305
 msgid "Thus files not found. Please, install Thus using pacman"
-msgstr "Thus датотеке нису пронађене. Молимо, инсталирајте Thus користећи pacman."
+msgstr ""
 
 #: ../thus/thus.py:309
 #, python-brace-format
 msgid "Please install '{0}' before running this installer"
-msgstr "Молимо инсталирајте '{0}' пре покретања инсталера."
+msgstr ""
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
-msgstr "Ко сте Ви?"
+msgstr ""
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
-msgstr "Зона:"
+msgstr ""
 
 #: ../thus/timezone.py:103 ../ui/timezone.ui:79
 msgid "Region:"
-msgstr "Регион:"
+msgstr ""
 
 #: ../thus/timezone.py:107
 msgid "Use Network Time Protocol (NTP) for clock synchronization"
-msgstr "Користи мрежни протокол за време (NTP) за синхронизацију сата"
+msgstr ""
 
 #: ../thus/timezone.py:117
 #, python-brace-format
 msgid "location changed to : {0}"
-msgstr "локација промењена на : {0}"
+msgstr ""
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
-msgstr "Није могуће аутоматски детектовати координате временске зоне"
+msgstr ""
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
-msgstr "Заустављам процесе временске зоне..."
+msgstr ""
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr "Не могу да добијем статус мреже."
+msgstr ""
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
-msgstr "Имамо конекцију. Хајдемо сада да подесимо нашу временску зону."
+msgstr ""
 
 #: ../thus/timezone.py:335
 #, python-brace-format
@@ -383,11 +377,11 @@ msgstr ""
 
 #: ../thus/updater.py:131
 msgid "New version found. Updating installer..."
-msgstr "Нова верзија је пронађена. Надограђујем инсталер..."
+msgstr ""
 
 #: ../thus/updater.py:134
 msgid "No new version found. Updating anyways..."
-msgstr "Нова верзија није пронађена. Надограђујем инсталер у сваком случају..."
+msgstr ""
 
 #: ../thus/updater.py:138
 msgid "Downloading new version of Thus..."
@@ -399,12 +393,12 @@ msgstr ""
 
 #: ../thus/updater.py:146
 msgid "Uncompressing new version..."
-msgstr "Отпакујем нову верзију..."
+msgstr ""
 
 #: ../thus/updater.py:192
 #, python-brace-format
 msgid "Can't copy {0} to {1}"
-msgstr "Није могуће копирати {0} на {1}"
+msgstr ""
 
 #: ../thus/updater.py:195
 msgid "Wrong md5. Bad download or wrong file, won't update this one"
@@ -412,149 +406,149 @@ msgstr ""
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"
-msgstr "Ко сте Ви?"
+msgstr ""
 
 #: ../thus/user_info.py:77 ../ui/user_info.ui:32
 msgid "Your name:"
-msgstr "Ваше име:"
+msgstr ""
 
 #: ../thus/user_info.py:81 ../ui/user_info.ui:179
 msgid "Your name"
-msgstr "Ваше име"
+msgstr ""
 
 #: ../thus/user_info.py:85 ../ui/user_info.ui:276
 msgid "Hostname"
-msgstr "Hostname"
+msgstr ""
 
 #: ../thus/user_info.py:89 ../ui/user_info.ui:603
 msgid "Your computer's name:"
-msgstr "Име Вашег компјутера:"
+msgstr ""
 
 #: ../thus/user_info.py:93 ../ui/user_info.ui:44
 msgid "Pick a username:"
-msgstr "Изаберите корисничко име:"
+msgstr ""
 
 #: ../thus/user_info.py:97 ../ui/user_info.ui:213
 msgid "Username"
-msgstr "Корисничко име"
+msgstr ""
 
 #: ../thus/user_info.py:101 ../ui/user_info.ui:57
 msgid "Choose a password:"
-msgstr "Изаберите лозинку:"
+msgstr ""
 
 #: ../thus/user_info.py:105 ../thus/user_info.py:121 ../ui/user_info.ui:91
 #: ../ui/user_info.ui:495
 msgid "Password"
-msgstr "Лозинка"
+msgstr ""
 
 #: ../thus/user_info.py:109 ../thus/installation/automatic.py:97
 #: ../ui/automatic.ui:302 ../ui/user_info.ui:70
 msgid "Confirm your password:"
-msgstr "Потврдите Вашу лозинку:"
+msgstr ""
 
 #: ../thus/user_info.py:113 ../thus/user_info.py:129 ../ui/user_info.ui:135
 #: ../ui/user_info.ui:552
 msgid "Confirm password"
-msgstr "Потврдите лозинку"
+msgstr ""
 
 #: ../thus/user_info.py:117 ../ui/user_info.ui:531
 msgid "Choose a root password:"
-msgstr "Изаберите root лозинку:"
+msgstr ""
 
 #: ../thus/user_info.py:125 ../ui/user_info.ui:589
 msgid "Confirm root password:"
-msgstr "Потврдите лозинку за root:"
+msgstr ""
 
 #: ../thus/user_info.py:133
 msgid "Its name as it appears to other computers."
-msgstr "Његово име како ће изгледати на другим компјутерима."
+msgstr ""
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
-msgstr "Морате унети име"
+msgstr ""
 
 #: ../thus/user_info.py:141
 msgid "You must enter a username"
-msgstr "Морате унети корисничко име"
+msgstr ""
 
 #: ../thus/user_info.py:145 ../thus/user_info.py:149
 msgid "You must enter a password"
-msgstr "Морате унети лозинку"
+msgstr ""
 
 #: ../thus/user_info.py:153 ../ui/user_info.ui:383
 msgid "Log in automatically"
-msgstr "Аутоматско логовање"
+msgstr ""
 
 #: ../thus/user_info.py:154 ../ui/user_info.ui:400
 msgid "A password is required to log in"
-msgstr "Лозинка је потребна да би се пријавили"
+msgstr ""
 
 #: ../thus/user_info.py:155 ../ui/user_info.ui:439
 msgid "Encrypt home folder"
-msgstr "Енкриптовање home \"директоријума\""
+msgstr ""
 
 #: ../thus/user_info.py:158 ../thus/installation/automatic.py:105
 #: ../ui/user_info.ui:333
 msgid "Show password"
-msgstr "Покажи лозинку"
+msgstr ""
 
 #: ../thus/user_info.py:161 ../ui/user_info.ui:468
 msgid "Show root password"
-msgstr "Покажи root лозинку"
+msgstr ""
 
 #: ../thus/user_info.py:164 ../ui/user_info.ui:350
 msgid "Use a root password"
-msgstr "Користи root лозинку"
+msgstr ""
 
 #: ../thus/user_info.py:229
 msgid ""
 "Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
 "\n"
-msgstr "Манџаро ће користити eCryptfs да енкриптује home директоријум. Нажалост, eCryptfs се не сналази јако добро са раштрканим фајловима.\n\n"
+msgstr ""
 
 #: ../thus/user_info.py:230
 msgid ""
 "Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
 "\n"
-msgstr "Не брините, за већину намена ова мана не представља проблем.\n\n"
+msgstr ""
 
 #: ../thus/user_info.py:231
 msgid ""
 "Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
 "\n"
-msgstr "У сваком случају, једна популарна и непрепоручљива примена eCryptfs-a јесте да енкриптује BitTorrent локацију за преузимање, јер ово често захтева од eCryptfs да управља раштрканим фајловима од 10GB или већим, што може да доведе до интензивног губитка празног простора.\n\n"
+msgstr ""
 
 #: ../thus/user_info.py:232
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr "Једноставно решење је да сместите раштркане фајлове у неенкриптован .Public директоријум\n"
+msgstr ""
 
 #: ../thus/user_info.py:233
 msgid ""
 "Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
 "\n"
-msgstr "Погледајте на https://wiki.archlinux.org/index.php/ECryptfs за детаљније информације\n"
+msgstr ""
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
-msgstr "Да ли сте сигурни да желите да енкриптујете ваш Home директоријум?\n"
+msgstr ""
 
 #: ../thus/user_info.py:310
 msgid "Invalid characters entered"
-msgstr "Унешени су неодговарајући знаци"
+msgstr ""
 
 #: ../thus/user_info.py:314
 msgid "Username can't contain dots"
-msgstr "Корисничко име не може да садржи тачке"
+msgstr ""
 
 #: ../thus/user_info.py:318
 msgid "Too many characters"
-msgstr "Превише карактера - слова"
+msgstr ""
 
 #: ../thus/download/download_urllib.py:42
 msgid "Wrong url, will try another one if available."
-msgstr "Погрешна URL адреса, пробаћу са другом уколико је доступна."
+msgstr ""
 
 #: ../thus/download/download_urllib.py:52
 #: ../thus/download/download_urllib.py:56
@@ -562,17 +556,17 @@ msgstr "Погрешна URL адреса, пробаћу са другом ук
 #: ../thus/download/download_urllib.py:64
 #, python-brace-format
 msgid "Can't open {0} - Reason: {1}"
-msgstr "Не могу да отворим {0} - Разлог: {1}"
+msgstr ""
 
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr "HTTP Грешка : {0}"
+msgstr ""
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr "URL Грешка : {0}"
+msgstr ""
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
@@ -582,12 +576,12 @@ msgstr ""
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
 msgid "Metalink for package {0} has no size info"
-msgstr "Metalink за пакет {0} нема информацију о величини!"
+msgstr ""
 
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
 msgid "File {0} already exists, Thus will not overwrite it"
-msgstr "Датотека {0} већ постоји, Thus је неће преписати."
+msgstr ""
 
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
@@ -597,60 +591,60 @@ msgstr ""
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
 msgid "free space"
-msgstr "слободан простор"
+msgstr ""
 
 #: ../thus/installation/advanced.py:365
 msgid "Device"
-msgstr "Уређај"
+msgstr ""
 
 #: ../thus/installation/advanced.py:368
 msgid "Type"
-msgstr "Тип"
+msgstr ""
 
 #: ../thus/installation/advanced.py:371
 msgid "Mount point"
-msgstr "Тачка прикључка диск јединице"
+msgstr ""
 
 #: ../thus/installation/advanced.py:374
 msgid "Label"
-msgstr "Назив"
+msgstr ""
 
 #: ../thus/installation/advanced.py:381 ../thus/installation/advanced.py:1896
 msgid "Format"
-msgstr "Формат"
+msgstr ""
 
 #: ../thus/installation/advanced.py:388
 msgid "Size"
-msgstr "Величина"
+msgstr ""
 
 #: ../thus/installation/advanced.py:391
 msgid "Used"
-msgstr "Коришћено"
+msgstr ""
 
 #: ../thus/installation/advanced.py:394
 msgid "Flags"
-msgstr "Обележја"
+msgstr ""
 
 #: ../thus/installation/advanced.py:401
 msgid "SSD"
-msgstr "SSD"
+msgstr ""
 
 #: ../thus/installation/advanced.py:559
 msgid "none"
-msgstr "ништа"
+msgstr ""
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
-msgstr "Не могу да уредим партицију са LVM врстом фајл система."
+msgstr ""
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
-msgstr "Не могу двапут да користим исту тачку монтирања."
+msgstr ""
 
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
 msgid "You will delete the partition {0} from disk {1}"
-msgstr "Избрисаћете партицију {0} са диска {1}."
+msgstr ""
 
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
@@ -669,7 +663,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1054
 msgid "Can't use same mount point twice..."
-msgstr "Не можете користити једно исто место за припајање два пута..."
+msgstr ""
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
@@ -689,7 +683,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1283
 msgid "Advanced installation mode"
-msgstr "Напредни начин инсталације"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1287 ../thus/installation/automatic.py:110
 msgid "Use the device below for boot loader installation:"
@@ -707,23 +701,23 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1300
 msgid "Mount Checklist:"
-msgstr "Листа провере припајања - \"маунтовања\":"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1306
 msgid "Root"
-msgstr "Root"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1310 ../ui/bootloader.ui:7
 msgid "Boot"
-msgstr "Boot"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1314
 msgid "EFI"
-msgstr "EFI"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1318
 msgid "Swap"
-msgstr "Swap"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
@@ -731,7 +725,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
-msgstr "Нова"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1334
 msgid "Delete"
@@ -743,7 +737,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
-msgstr "Ново партиционисање диска"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
@@ -755,31 +749,31 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1365 ../ui/advanced.ui:405
 msgid "Size:"
-msgstr "Величину:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1369 ../ui/advanced.ui:604
 msgid "Type:"
-msgstr "Тип:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1373 ../ui/advanced.ui:621
 msgid "Primary"
-msgstr "Примарна"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1377 ../ui/advanced.ui:640
 msgid "Logical"
-msgstr "Логичка"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1381 ../ui/advanced.ui:658
 msgid "Extended"
-msgstr "Продужено"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1385 ../ui/advanced.ui:509
 msgid "Beginning of this space"
-msgstr "На почетку овог празног простора"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1389 ../ui/advanced.ui:528
 msgid "End of this space"
-msgstr "На крају овог празног простора"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
@@ -792,23 +786,23 @@ msgstr ""
 #: ../thus/installation/advanced.py:1401 ../thus/installation/advanced.py:1418
 #: ../ui/advanced.ui:251 ../ui/advanced.ui:687
 msgid "Label (optional):"
-msgstr "Назив (опционо):"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1405 ../thus/installation/advanced.py:1426
 msgid "Encryption Options..."
-msgstr "Опције за енкрипцију..."
+msgstr ""
 
 #: ../thus/installation/advanced.py:1422 ../ui/advanced.ui:278
 msgid "Format:"
-msgstr "Форматирање:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1431
 msgid "Partition Table Type:"
-msgstr "Тип партиционисања табела:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1436
 msgid "Create Partition Table"
-msgstr "Направите табелу партиционисања"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1439
 msgid "Use LUKS encryption:"
@@ -816,15 +810,15 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1443 ../ui/advanced.ui:1172
 msgid "LUKS volume name:"
-msgstr "LUKS партиција, назив:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1447 ../ui/advanced.ui:1184
 msgid "Password:"
-msgstr "Лозинка:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1451 ../ui/advanced.ui:1196
 msgid "Confirm password:"
-msgstr "Потврдите лозинку:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1521
 #, python-brace-format
@@ -840,15 +834,15 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
-msgstr "Није могуће направити BIOS GPT Boot партицију!"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1588
 msgid "Couldn't create BIOS GPT Boot partition"
-msgstr "Није могуће направити BIOS GPT Boot партицију"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
-msgstr "Инсталирај сада!"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1772
 #, python-brace-format
@@ -885,7 +879,7 @@ msgstr ""
 msgid ""
 "The root partition is not marked to be formatted.\n"
 "This might create problems. Should it be marked to be formatted now?"
-msgstr "Root партиција није обележена да буде форматирана.\nОво може створити проблеме. Да ли желите да се обележи за форматирање сада?"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1863
 #, python-brace-format
@@ -901,15 +895,15 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1896
 msgid "Partition"
-msgstr "Партиционисање"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1896
 msgid "Relabel"
-msgstr "Преименуј"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1896
 msgid "Mount"
-msgstr "Припој"
+msgstr ""
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
@@ -917,7 +911,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
-msgstr "На овим дисковима ће се извршити партиционисање:"
+msgstr ""
 
 #: ../thus/installation/advanced.py:2008
 #, python-brace-format
@@ -971,7 +965,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
-msgstr "Тест мод. Thus неће применити промене на Вашем систему!"
+msgstr ""
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
@@ -1005,7 +999,7 @@ msgstr ""
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
-msgstr "Манџаро упоредо са другим оперативним системом"
+msgstr ""
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
@@ -1051,7 +1045,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
-msgstr "Тип инсталације"
+msgstr ""
 
 #: ../thus/installation/ask.py:235
 #, python-brace-format
@@ -1068,7 +1062,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
-msgstr "Енкриптујте ову инсталацију за већу безбедност."
+msgstr ""
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
@@ -1076,7 +1070,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
-msgstr "Користи LVM са овом инсталацијом."
+msgstr ""
 
 #: ../thus/installation/ask.py:265
 msgid ""
@@ -1086,7 +1080,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
-msgstr "Подесите Ваш Home директоријум на другу партицију/драјв"
+msgstr ""
 
 #: ../thus/installation/ask.py:276
 msgid ""
@@ -1107,42 +1101,42 @@ msgstr ""
 
 #: ../thus/installation/ask.py:341
 msgid "Manjaro installation will be encrypted using LUKS"
-msgstr "Манџаро инсталација ће бити енкриптована користећи LUKS"
+msgstr ""
 
 #: ../thus/installation/ask.py:344
 msgid "Manjaro will be installed using LVM volumes"
-msgstr "Манџаро ће бити инсталиран користећи LVM партиције/драјвове"
+msgstr ""
 
 #: ../thus/installation/ask.py:346
 msgid "Manjaro will be installed using a separate /home volume."
-msgstr "Манџаро ће бити инсталиран користећи посебан /home драјв."
+msgstr ""
 
 #: ../thus/installation/ask.py:348
 msgid "Manjaro will be installed using a separate /home partition."
-msgstr "Манџаро ће бити инсталиран користећи посебну /home партицију."
+msgstr ""
 
 #: ../thus/installation/automatic.py:75
 msgid "Automatic installation mode"
-msgstr "Аутоматски тип инсталације"
+msgstr ""
 
 #: ../thus/installation/automatic.py:79 ../ui/automatic.ui:81
 msgid "Select drive:"
-msgstr "Изаверите диск, драјв-јединицу:"
+msgstr ""
 
 #: ../thus/installation/automatic.py:83
 msgid ""
 "WARNING! This installation mode will overwrite everything on your drive!"
-msgstr "УПОЗОРЕЊЕ! Овакав начин инсталације ће обрисати све што се налази на Вашем диску."
+msgstr ""
 
 #: ../thus/installation/automatic.py:88
 msgid ""
 "Please choose the drive where you want to install Manjaro\n"
 "and click the button below to start the process."
-msgstr "Молим Вас, изаберите диск на који желите да инсталирате Манџаро и кликните на дугме испод како бисте покренули процес."
+msgstr ""
 
 #: ../thus/installation/automatic.py:93 ../ui/automatic.ui:223
 msgid "Encryption Password:"
-msgstr "Лозинка енкрипције:"
+msgstr ""
 
 #: ../thus/installation/automatic.py:101
 msgid "LUKS Password. Do not use special characters or accents!"
@@ -1327,7 +1321,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:604
 #, python-format
 msgid "Total disk size: %dMiB"
-msgstr "Укупна величина диска: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:606
 #, python-format
@@ -1337,33 +1331,33 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:607
 #, python-format
 msgid "Boot partition size: %dMiB"
-msgstr "Величина \"бут\" партиције: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:610
 #, python-format
 msgid "LVM physical volume size: %dMiB"
-msgstr "LVM физичка величина: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:612
 #, python-format
 msgid "Swap partition size: %dMiB"
-msgstr "Величина \"swap\" партиције: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:613
 #, python-format
 msgid "Root partition size: %dMiB"
-msgstr "Величина \"root\" партиције: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:616
 #, python-format
 msgid "Home partition size: %dMiB"
-msgstr "Величина \"home\" партиције: %dMiB"
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:636
 msgid ""
 "Setup cannot detect size of your device, please use advanced installation "
 "routine for partitioning and mounting devices."
-msgstr "Програм не може да детектуеј величину Вашег уређаја, молим Вас користите напредну инсталацију за партиционисање и управљање уређајима."
+msgstr ""
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
@@ -1418,11 +1412,11 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
-msgstr "GRUB(2) BIOS је успешно инсталиран."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:272
 msgid "ERROR installing GRUB(2) BIOS."
-msgstr "ГРЕШКА при инсталацији GRUB(2) BIOS-a."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:287
 #, python-brace-format
@@ -1465,21 +1459,21 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr "Датотека није пронађена."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr "Датотека већ постоји."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
-msgstr "Генеришем grub.cfg"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:373
 msgid ""
 "grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
 " continue."
-msgstr "Делује да је grub-mkconfig задржан. Укидање grub-mount и os-prober би омогућило наставак."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
@@ -1499,35 +1493,35 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr "Копирам GRUB(2) датотеке са темама."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr "GRUB2 датотеке са темама нису пронађене!"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr "GRUB2 датотеке са темама већ постоје!"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
-msgstr "Инсталација Grub2 локализације."
+msgstr ""
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr "Не могу да инсталирам GRUB(2) локализацију!"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr "Инсталација Gummiboot-a је успела!"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr "Инсталација Gummiboot-a није успела!"
+msgstr ""
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
-msgstr "Не може се \"замрзнути/одмрзнути\" xfs систем"
+msgstr ""
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
@@ -1535,7 +1529,7 @@ msgstr ""
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
-msgstr "Посебни директоријуми нису припојени - \"маунтовани\". Прескаче се."
+msgstr ""
 
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
@@ -1546,7 +1540,7 @@ msgstr ""
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr "Команда {0} није успела!"
+msgstr ""
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
@@ -1561,16 +1555,16 @@ msgstr ""
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr "Thus ће покушати да настави у сваком случају"
+msgstr ""
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr "Грешка у извршавању команде: {0}"
+msgstr ""
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
-msgstr "Подешавање hooks-a и модула у mkinitcpio.conf"
+msgstr ""
 
 #: ../thus/installation/process.py:130
 #, python-brace-format
@@ -1615,19 +1609,19 @@ msgstr ""
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
-msgstr "Инсталација система ..."
+msgstr ""
 
 #: ../thus/installation/process.py:439
 msgid "System installed."
-msgstr "Систем инсталиран."
+msgstr ""
 
 #: ../thus/installation/process.py:441
 msgid "Configuring system ..."
-msgstr "Подешавање система ..."
+msgstr ""
 
 #: ../thus/installation/process.py:443
 msgid "System configured."
-msgstr "Систем подешен."
+msgstr ""
 
 #: ../thus/installation/process.py:476
 #, python-brace-format
@@ -1642,15 +1636,15 @@ msgstr ""
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
-msgstr "Инсталација је успешно завршена."
+msgstr ""
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr "Основни фајл систем не постоји! Критична грешка (излазак у току)."
+msgstr ""
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
-msgstr "Десктоп фајл систем не постоји! Критична грешка (излазак у току)."
+msgstr ""
 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
@@ -1667,11 +1661,11 @@ msgstr ""
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
-msgstr "Извлачење слике root-a ..."
+msgstr ""
 
 #: ../thus/installation/process.py:601
 msgid "Extracting desktop-image ..."
-msgstr "Отпакјуем слику desktop-a ..."
+msgstr ""
 
 #: ../thus/installation/process.py:616
 #, python-brace-format
@@ -1680,7 +1674,7 @@ msgstr ""
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
-msgstr "Није могуће копирати фајлове подешавања мреже"
+msgstr ""
 
 #: ../thus/installation/process.py:698 ../thus/installation/process.py:724
 #: ../thus/installation/process.py:739 ../thus/installation/process.py:797
@@ -1739,19 +1733,19 @@ msgstr ""
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
-msgstr "Подешавање Вашег новог система"
+msgstr ""
 
 #: ../thus/installation/process.py:1055
 msgid "fstab file generated."
-msgstr "fstab фајл је генерисан."
+msgstr ""
 
 #: ../thus/installation/process.py:1061
 msgid "Network configuration copied."
-msgstr "Конфигурација мреже је ископирана."
+msgstr ""
 
 #: ../thus/installation/process.py:1087
 msgid "Time zone set."
-msgstr "Временска зона подешена."
+msgstr ""
 
 #: ../thus/installation/process.py:1108
 #, python-brace-format
@@ -1770,23 +1764,23 @@ msgstr ""
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
-msgstr "Подесити root лозинку."
+msgstr ""
 
 #: ../thus/installation/process.py:1138
 msgid "Set the same password to root."
-msgstr "Подеси исту лозинку за root."
+msgstr ""
 
 #: ../thus/installation/process.py:1144
 msgid "Generating locales ..."
-msgstr "Генерисање локазлизације ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1162
 msgid "Adjusting hardware clock ..."
-msgstr "Подешавање хардверског сата ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1171
 msgid "Configuring hardware ..."
-msgstr "Подешавање хардвера ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
@@ -1794,35 +1788,35 @@ msgstr ""
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
-msgstr "Инсталирање драјвера ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1198
 msgid "Configure display manager ..."
-msgstr "Подешавање менаџера екрана ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1246
 msgid "Configure System ..."
-msgstr "Подешавање система ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1264
 msgid "Removing live configuration (packages)"
-msgstr "Уклањање live конфигурације (пакета)"
+msgstr ""
 
 #: ../thus/installation/process.py:1280
 msgid "Configuring package manager"
-msgstr "Подешавање менаџера пакета"
+msgstr ""
 
 #: ../thus/installation/process.py:1291
 msgid "Finished configuring package manager."
-msgstr "Заврешно подешавање менаџера пакета."
+msgstr ""
 
 #: ../thus/installation/process.py:1327
 msgid "Running mkinitcpio ..."
-msgstr "Покретање mkinitcpio ..."
+msgstr ""
 
 #: ../thus/installation/process.py:1329
 msgid "Running mkinitcpio - done"
-msgstr "Покретање mkinitcpio - завршено"
+msgstr ""
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
@@ -1830,7 +1824,7 @@ msgstr ""
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
-msgstr "Користи home директоријум као енкриптован"
+msgstr ""
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
@@ -1868,7 +1862,7 @@ msgstr ""
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
-msgstr "Лозинке се не поклапају"
+msgstr ""
 
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
@@ -1914,7 +1908,7 @@ msgstr ""
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
-msgstr "Партиција је превелика!"
+msgstr ""
 
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
@@ -1958,43 +1952,43 @@ msgstr ""
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"
-msgstr "Тип партиционисања:"
+msgstr ""
 
 #: ../ui/advanced.ui:159
 msgid "Edit partition"
-msgstr "Измени партицију"
+msgstr ""
 
 #: ../ui/advanced.ui:181 ../ui/advanced.ui:436
 msgid "Use as:"
-msgstr "Користи као:"
+msgstr ""
 
 #: ../ui/advanced.ui:214 ../ui/advanced.ui:469
 msgid "Mount point:"
-msgstr "Позиција припајања:"
+msgstr ""
 
 #: ../ui/advanced.ui:317 ../ui/advanced.ui:723
 msgid "Encryption options..."
-msgstr "Опције за енкрипцију"
+msgstr ""
 
 #: ../ui/advanced.ui:382
 msgid "Create partition"
-msgstr "Креирање партиције"
+msgstr ""
 
 #: ../ui/advanced.ui:421
 msgid "Location:"
-msgstr "Локација:"
+msgstr ""
 
 #: ../ui/advanced.ui:581
 msgid "MB"
-msgstr "MB"
+msgstr ""
 
 #: ../ui/advanced.ui:942
 msgid "label"
-msgstr "назив"
+msgstr ""
 
 #: ../ui/advanced.ui:1022 ../ui/automatic.ui:128
 msgid "Use this device for boot loader installation:"
-msgstr "Користи овај уређај за инсталацију \"boot loader\"-a:"
+msgstr ""
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
@@ -2002,11 +1996,11 @@ msgstr ""
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
-msgstr "Користи LUKS енкрипцију:"
+msgstr ""
 
 #: ../ui/advanced.ui:1285 ../ui/user_info.ui:107 ../ui/user_info.ui:511
 msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
-msgstr "<small><span color=\"darkgreen\">Јака лозинка</span></small>"
+msgstr ""
 
 #: ../ui/automatic.ui:38
 msgid ""
@@ -2022,7 +2016,7 @@ msgstr ""
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr "Покажи лозинку"
+msgstr ""
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
@@ -2030,7 +2024,7 @@ msgstr ""
 
 #: ../ui/bootloader.ui:69
 msgid "What is your boot system type?"
-msgstr "Који је тип boot-a Ваш систем?"
+msgstr ""
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
@@ -2038,11 +2032,11 @@ msgstr ""
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
-msgstr "x86_64 UEFI"
+msgstr ""
 
 #: ../ui/bootloader.ui:142
 msgid "i386 UEFI"
-msgstr "i386 UEFI"
+msgstr ""
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
@@ -2052,34 +2046,34 @@ msgstr ""
 msgid ""
 "<span weight=\"bold\" size=\"large\">For best results, please ensure that "
 "this computer:</span>"
-msgstr "<span weight=\"bold\" size=\"large\">За најбоље резултате, молим Вас постарајте се да је овај компјутер:</span>"
+msgstr ""
 
 #: ../ui/check.ui:86
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr "(*) Ово је уско повезано са тиме које десктоп окружење изаберете, па ће Вам можда требати више простора (на пример, KDE-у је потребно 6.5GB)."
+msgstr ""
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
-msgstr "<span weight=\"bold\" size=\"large\">Добродошли у Манџаро</span>"
+msgstr ""
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
-msgstr "Користи временски протокол мреже за синхронизацију сата:"
+msgstr ""
 
 #: ../ui/user_info.ui:152 ../ui/user_info.ui:569
 msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
-msgstr "<small><span color=\"darkred\">Морате унети лозинку</span></small>"
+msgstr ""
 
 #: ../ui/user_info.ui:230
 msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
-msgstr "<small><span color=\"darkred\">Морате унети корисничко име</span></small>"
+msgstr ""
 
 #: ../ui/user_info.ui:290
 msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
-msgstr "<small><span color=\"darkred\">Морате унети име</span></small>"
+msgstr ""
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr "<span size=\"small\">Његово име како ће изгледати на другим компјутерима.</span>"
+msgstr ""

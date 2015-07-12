@@ -6,6 +6,7 @@
 # Translators:
 # Elusiv_man <breaker9loc@gmail.com>, 2014
 # Fingli, 2013
+# Galin Iskrenov <loot270@abv.bg>, 2015
 # Georgi Georgiev <georgiev_1994@abv.bg>, 2014
 # Georgi Georgiev <georgiev_1994@abv.bg>, 2014-2015
 # Galin Iskrenov <loot270@abv.bg>, 2013
@@ -16,9 +17,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Bulgarian (http://www.transifex.com/projects/p/manjaro-thus/language/bg/)\n"
+"PO-Revision-Date: 2015-08-28 14:31+0000\n"
+"Last-Translator: Georgi Georgiev <georgiev_1994@abv.bg>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/manjarolinux/manjaro-thus/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,12 +36,12 @@ msgstr "неизвестно"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr ""
+msgstr "Грешка при извикване на команда hexdump: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "Непознат дял id {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -49,7 +50,7 @@ msgstr "Проверка на системата"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "има поне {0}GB свободно пространство. (*)"
 
 #: ../thus/check.py:77
 msgid ""
@@ -83,15 +84,15 @@ msgstr "Имаме достатъчно място на харддиска."
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "Не може да се създадат и променят файловете за конфигурация на encfs."
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "Потребителската папка няма да се криптира."
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "Не се стартира encfs. Грешна парола?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
@@ -99,11 +100,11 @@ msgstr "Изберете клавиатурна подредба"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Клавиатурни подредби"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "Клавиатурни варианти"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -116,11 +117,11 @@ msgstr "Варианти"
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr ""
+msgstr "keyboard_layout е {0}"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "Добре дошли в Manjaro!"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
@@ -133,25 +134,25 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "Thus е бета-версия на софтуер, който е в активно разработване.\nТой все още не може да работи добре с RAID, btrfs и други\nусложнени инсталатори. Моля, използвайте го предпазливо, защото е възможно да загубите данни.\n\nАко попаднете на някакви бъгове, моля, посетете http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "Напред"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "Обратно"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "Не може да се намери файлът за {0} език"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -162,7 +163,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "Избраното местоположение ще Ви бъде от полза при избор на език на системата. Обикновено това е държавата, в която живеете. Това е кратък списък с места базиран на езика, който избрахте."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -170,30 +171,30 @@ msgstr "Държава, територия или област:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "Покажи всички местоположения"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "езикът е сменен на : {0}"
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr ""
+msgstr "Не може да се смени на език '{0}'"
 
 #: ../thus/main_window.py:66
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
-msgstr ""
+msgstr "Инсталаторът трябва да бъде пуснат с администраторски права и не може да продължи без тях."
 
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "Файлът '{0}' вече съществува."
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -205,21 +206,21 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Не е възможно да работят два инсталатора едновременно.\n\nАко сте сигурни, че инсталаторът не е стартиран\nможете да може да го стартиране с --force параметър\nили ръчно да изтриете проблемния файл.\n\nПроблемен файл: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr ""
+msgstr "Версия на Thus {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr ""
+msgstr "Manjaro инсталатор - Thus {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr ""
+msgstr "Искате ли да затворите инсталатора?"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
@@ -227,7 +228,7 @@ msgstr "Спиране на инсталатора..."
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr "Скриптът за оценка на огледалните сайтове не може да бъде намерен."
+msgstr "Скриптът за оценка на огледалните сървъри не е намерен."
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
@@ -235,23 +236,23 @@ msgstr "Не може да бъде изпълнен автоматичният 
 
 #: ../thus/show_message.py:59
 msgid "Manjaro Installer - Error"
-msgstr "Манджаро инсталатор - Грешка"
+msgstr "Manjaro инсталатор - Грешка"
 
 #: ../thus/show_message.py:73
 msgid "Manjaro Installer - Warning"
-msgstr "Манджаро инсталатор - Предупреждение"
+msgstr "Manjaro инсталатор - Предупреждение"
 
 #: ../thus/show_message.py:87
 msgid "Manjaro Installer - Information"
-msgstr "Манджаро инсталатор - Информация"
+msgstr "Manjaro инсталатор - Информация"
 
 #: ../thus/show_message.py:101
 msgid "Manjaro Installer - Confirmation"
-msgstr "Манджаро инсталатор - Потвърждаване"
+msgstr "Manjaro инсталатор - Потвърждаване"
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
-msgstr "Инсталиране на Манджаро..."
+msgstr "Инсталиране на Manjaro..."
 
 #: ../thus/slides.py:82
 msgid "Please wait..."
@@ -266,28 +267,28 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "ВАЖНО: Вероятно е имало проблем с инсталацията на bootloader,\nкойто да попречи на системата ви да зареди правилно. Преди\nрестарт, трябва да се убедите дали bootloader е инсталиран и\nнастроен. В Arch Linux Wiki има повече информация:\nhttps://wiki.archlinux.org/index.php/GRUB\n\nИскате ли да посетите страницата сега?"
 
 #: ../thus/slides.py:205
 msgid ""
 "Installation Complete!\n"
 "Do you want to restart your system now?"
-msgstr ""
+msgstr "Инсталирането приключи!\nИскате ли да рестартирате системата сега?"
 
 #: ../thus/thus.py:66
 #, python-brace-format
 msgid "Can't create Thus main window: {0}"
-msgstr ""
+msgstr "Не може да се създаде главния прозорец на Thus: {0}"
 
 #: ../thus/thus.py:166
 #, python-brace-format
 msgid "Using pyalpm v{0} as interface to libalpm v{1}"
-msgstr ""
+msgstr "Използване pyalpm v{0} като интерфейс за libalpm v{1}"
 
 #: ../thus/thus.py:181
 #, python-brace-format
 msgid "Thus v{0} - Manjaro Installer"
-msgstr ""
+msgstr "Thus v{0} - Manjaro инсталатор"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
@@ -295,7 +296,7 @@ msgstr "Задаване на данните от Thus на ниво „debug\""
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
-msgstr ""
+msgstr "Зареждане на Thus дори ако вече е отворен"
 
 #: ../thus/thus.py:210
 msgid "Do not perform any changes (useful for developers)"
@@ -303,11 +304,11 @@ msgstr "Не извършвай никакви промени (полезно з
 
 #: ../thus/thus.py:214
 msgid "Upgrade/downgrade Thus to the web version"
-msgstr ""
+msgstr "Upgrade/downgrade Thus до уеб версия"
 
 #: ../thus/thus.py:218
 msgid "Do not search for new Thus versions online"
-msgstr ""
+msgstr "Не търси за нова версия на Thus"
 
 #: ../thus/thus.py:222
 msgid "Show logging messages to stdout"
@@ -315,24 +316,24 @@ msgstr "Показване на входните съобщения в stdout"
 
 #: ../thus/thus.py:226
 msgid "Show options in development (for developers only, do not use this!)"
-msgstr ""
+msgstr "Покажи опциите в разработка (само за разработчици, не го използвайте!)"
 
 #: ../thus/thus.py:265
 msgid "Program updated! Restarting..."
-msgstr ""
+msgstr "Програмата е обновена! Рестартиране…"
 
 #: ../thus/thus.py:305
 msgid "Thus files not found. Please, install Thus using pacman"
-msgstr ""
+msgstr "Файловете на Thus не са открити. Моля, инсталирайте Thus чрез pacman"
 
 #: ../thus/thus.py:309
 #, python-brace-format
 msgid "Please install '{0}' before running this installer"
-msgstr ""
+msgstr "Моля инсталирайте '{0}' преди да пуснете този инсталатор"
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
-msgstr "Вашето местоположение"
+msgstr "Къде сте?"
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
@@ -344,12 +345,12 @@ msgstr "Регион:"
 
 #: ../thus/timezone.py:107
 msgid "Use Network Time Protocol (NTP) for clock synchronization"
-msgstr ""
+msgstr "Използване на Network Time Protocol (NTP) за синхронизация на часовника"
 
 #: ../thus/timezone.py:117
 #, python-brace-format
 msgid "location changed to : {0}"
-msgstr ""
+msgstr "местоположението е променено на : {0}"
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
@@ -357,59 +358,59 @@ msgstr "Не е възможно да се открият данни за час
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
-msgstr ""
+msgstr "Спиране настройването на часовата зона"
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr ""
+msgstr "Не може да се определи състоянието на мрежата"
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
-msgstr ""
+msgstr "Имате връзка. Нека да намерим часовата ви зона."
 
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr ""
+msgstr "Часова зона (ширина {0}, дължина {1}) намерена."
 
 #: ../thus/updater.py:71
 msgid ""
 "Could not find 'update.info' file. Thus will not be able to update itself."
-msgstr ""
+msgstr "Файлът 'update.info' не е намерен. Thus не може да се обнови."
 
 #: ../thus/updater.py:91
 #, python-brace-format
 msgid "Thus Internet version: {0}"
-msgstr ""
+msgstr "Thus интернет версия: {0}"
 
 #: ../thus/updater.py:131
 msgid "New version found. Updating installer..."
-msgstr ""
+msgstr "Открита нова версия. Обновяване на инсталатора… "
 
 #: ../thus/updater.py:134
 msgid "No new version found. Updating anyways..."
-msgstr ""
+msgstr "Не е намерена нова версия. Обновяване въпреки това..."
 
 #: ../thus/updater.py:138
 msgid "Downloading new version of Thus..."
-msgstr ""
+msgstr "Изтегляне на новата версия на Thus..."
 
 #: ../thus/updater.py:142
 msgid "Can't download new Thus version."
-msgstr ""
+msgstr "Не може да се свали новата версия на Thus."
 
 #: ../thus/updater.py:146
 msgid "Uncompressing new version..."
-msgstr ""
+msgstr "Разкомпресиране на новата версия…"
 
 #: ../thus/updater.py:192
 #, python-brace-format
 msgid "Can't copy {0} to {1}"
-msgstr ""
+msgstr "не може да се копира {0} в {1}"
 
 #: ../thus/updater.py:195
 msgid "Wrong md5. Bad download or wrong file, won't update this one"
-msgstr ""
+msgstr "Грешна md5. Непълно сваляне или грешен файл, няма да се обнови"
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"
@@ -468,7 +469,7 @@ msgstr "Потвърди root паролата:"
 
 #: ../thus/user_info.py:133
 msgid "Its name as it appears to other computers."
-msgstr "Името, което ще се използва когато се свързва с други компютри."
+msgstr "Името, което е видимо за другите компютри."
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
@@ -529,7 +530,7 @@ msgstr "За всеки случай не е препоръчително да �
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr "Едно лесно решение би било да оставите фрагментираните файлове в некриптирана папка .Public\n\n"
+msgstr "Решението на проблема е да оставите фрагментираните файлове в некриптирана папка. Публична папка\n\n"
 
 #: ../thus/user_info.py:233
 msgid ""
@@ -539,7 +540,7 @@ msgstr "Прочетете повече в https://wiki.archlinux.org/index.php/
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
-msgstr "Наистина ли искате да криптирате домашната директорията?\n"
+msgstr "Наистина ли искате да криптирате домашната директория?\n"
 
 #: ../thus/user_info.py:310
 msgid "Invalid characters entered"
@@ -555,7 +556,7 @@ msgstr "Твърде много знаци"
 
 #: ../thus/download/download_urllib.py:42
 msgid "Wrong url, will try another one if available."
-msgstr ""
+msgstr "Грешен url, ще се пробва друг, ако е възможно."
 
 #: ../thus/download/download_urllib.py:52
 #: ../thus/download/download_urllib.py:56
@@ -563,37 +564,37 @@ msgstr ""
 #: ../thus/download/download_urllib.py:64
 #, python-brace-format
 msgid "Can't open {0} - Reason: {1}"
-msgstr ""
+msgstr "Не може да се отвори {0} - Причина: {1}"
 
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr ""
+msgstr "HTTP грешка: {0}"
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr ""
+msgstr "URL грешка: {0}"
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
 msgid "Downloading {0} {1} ({2}/{3})..."
-msgstr ""
+msgstr "Изтегляне на {0} {1} ({2}/{3})..."
 
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
 msgid "Metalink for package {0} has no size info"
-msgstr ""
+msgstr "Metalink на пакета {0} няма информация за размер"
 
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
 msgid "File {0} already exists, Thus will not overwrite it"
-msgstr ""
+msgstr "Файлът {0} вече съществува, Thus няма да го презаписва"
 
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
 msgid "Can't download {0}, even after trying all available mirrors"
-msgstr ""
+msgstr "Не може да се изтегли {0}, дори след опит от всички огледала"
 
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
@@ -642,51 +643,51 @@ msgstr "няма"
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
-msgstr ""
+msgstr "Не може да се промени дял с LVM файлова система"
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
-msgstr ""
+msgstr "Не може да се използва една и съща точка за монтиране."
 
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
 msgid "You will delete the partition {0} from disk {1}"
-msgstr ""
+msgstr "Ще издриете ли дяла {0} от диск {1}"
 
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
 msgid "Unmounting {0}..."
-msgstr ""
+msgstr "Демонтиране {0}..."
 
 #: ../thus/installation/advanced.py:995
 #, python-brace-format
 msgid "Sorry, you already have {0} primary partitions created."
-msgstr ""
+msgstr "Съжалявам, вече има създадени {0} първични дялове"
 
 #: ../thus/installation/advanced.py:999
 #, python-brace-format
 msgid "Sorry, you already have {0} primary and 1 extended partitions created."
-msgstr ""
+msgstr "Съжалявам, вече имате създадени {0} първични и 1 разширени дяла"
 
 #: ../thus/installation/advanced.py:1054
 msgid "Can't use same mount point twice..."
-msgstr "Не е възможно използването втори път на една точка на монтиране... "
+msgstr "Не може да се използва една и съща точка за монтиране..."
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
-msgstr ""
+msgstr "Създаване на основен дял"
 
 #: ../thus/installation/advanced.py:1090
 msgid "Creating an extended partition"
-msgstr ""
+msgstr "Създаване на разширен дял"
 
 #: ../thus/installation/advanced.py:1096
 msgid "Creating a logical partition"
-msgstr ""
+msgstr "Създаване на логически дял"
 
 #: ../thus/installation/advanced.py:1158
 msgid "LUKS passwords do not match!"
-msgstr ""
+msgstr "LUKS паролата не съвпада!"
 
 #: ../thus/installation/advanced.py:1283
 msgid "Advanced installation mode"
@@ -694,17 +695,17 @@ msgstr "Инсталиране за напреднали"
 
 #: ../thus/installation/advanced.py:1287 ../thus/installation/automatic.py:110
 msgid "Use the device below for boot loader installation:"
-msgstr ""
+msgstr "Използване на това устройство за инсталиране на boot loader:"
 
 #: ../thus/installation/advanced.py:1292 ../thus/installation/automatic.py:115
 #: ../ui/advanced.ui:1041 ../ui/automatic.ui:149
 msgid "Bootloader:"
-msgstr ""
+msgstr "Bootloader:"
 
 #: ../thus/installation/advanced.py:1296 ../thus/installation/automatic.py:119
 #: ../ui/advanced.ui:1067 ../ui/automatic.ui:174
 msgid "Device:"
-msgstr ""
+msgstr "Устройство:"
 
 #: ../thus/installation/advanced.py:1300
 msgid "Mount Checklist:"
@@ -728,7 +729,7 @@ msgstr "Swap"
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "Отмени"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
@@ -736,23 +737,23 @@ msgstr "Нов"
 
 #: ../thus/installation/advanced.py:1334
 msgid "Delete"
-msgstr ""
+msgstr "Изтрий"
 
 #: ../thus/installation/advanced.py:1337
 msgid "Edit..."
-msgstr ""
+msgstr "Редактиране..."
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
-msgstr "Нова дялова таблица"
+msgstr "Нова таблица на дяловете"
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
-msgstr ""
+msgstr "_Отказ"
 
 #: ../thus/installation/advanced.py:1362
 msgid "_Apply"
-msgstr ""
+msgstr "_Приложи"
 
 #: ../thus/installation/advanced.py:1365 ../ui/advanced.ui:405
 msgid "Size:"
@@ -776,19 +777,19 @@ msgstr "Разширен"
 
 #: ../thus/installation/advanced.py:1385 ../ui/advanced.ui:509
 msgid "Beginning of this space"
-msgstr "Начало от тук"
+msgstr "В началото на пространството"
 
 #: ../thus/installation/advanced.py:1389 ../ui/advanced.ui:528
 msgid "End of this space"
-msgstr "Край до тук"
+msgstr "В края на пространството"
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
-msgstr ""
+msgstr "Използване като:"
 
 #: ../thus/installation/advanced.py:1397 ../thus/installation/advanced.py:1414
 msgid "Mount Point:"
-msgstr ""
+msgstr "Точка на монтиране:"
 
 #: ../thus/installation/advanced.py:1401 ../thus/installation/advanced.py:1418
 #: ../ui/advanced.ui:251 ../ui/advanced.ui:687
@@ -813,7 +814,7 @@ msgstr "Създаване на дялова таблица"
 
 #: ../thus/installation/advanced.py:1439
 msgid "Use LUKS encryption:"
-msgstr ""
+msgstr "Използване на LUKS криптиране:"
 
 #: ../thus/installation/advanced.py:1443 ../ui/advanced.ui:1172
 msgid "LUKS volume name:"
@@ -830,22 +831,22 @@ msgstr "Потвърждаване на паролата:"
 #: ../thus/installation/advanced.py:1521
 #, python-brace-format
 msgid "Creating a new {0} partition table for disk {1}"
-msgstr ""
+msgstr "Създаване на {0} таблица с дялове на диск {1}"
 
 #: ../thus/installation/advanced.py:1531
 msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr ""
+msgstr "GRUB изисква BIOS зареждащ дял в BIOS системи, за да вгради файла core.img, поради липсата на пост-MBR вградена празнина в GPT дискове.\n\nThus ще създаде този BIOS зареждащ дял."
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
-msgstr "Не може да се създаде BIOS GPT Boot дял!"
+msgstr "Не може да се създаде BIOS GPT зареждащ дял!"
 
 #: ../thus/installation/advanced.py:1588
 msgid "Couldn't create BIOS GPT Boot partition"
-msgstr "Не може да се създаде BIOS GPT Boot дял"
+msgstr "Не може да се създаде BIOS GPT зареждащ дял"
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
@@ -857,7 +858,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} е монтиран като swap.\nЗа да продължите, дялът трябва да бъде демонтиран.\nНатиснете Да за демонтиране или Не за отказ\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -865,22 +866,22 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} е монтиран в '{1}'.\nЗа да продължите, дялът трябва да бъде демонтиран.\nНатиснете Да, за демонтиране или Не за отказ\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
 msgid "{0} unmounted"
-msgstr ""
+msgstr "{0} е демонтиран"
 
 #: ../thus/installation/advanced.py:1801
 #, python-brace-format
 msgid "Swap partition {0} unmounted"
-msgstr ""
+msgstr "Swap дяла {0} е демонтиран"
 
 #: ../thus/installation/advanced.py:1812
 #, python-brace-format
 msgid "{0} shows as mounted (busy) but it has no mount point"
-msgstr ""
+msgstr "{0} изглежда е монтиран (използва се), но няма точка на монтиране"
 
 #: ../thus/installation/advanced.py:1819
 msgid ""
@@ -893,12 +894,12 @@ msgstr "Дялът за root не е маркиран за форматиран�
 msgid ""
 "Added {0} to changelist: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] "
 "encrypt[{5}]"
-msgstr ""
+msgstr "Добавен {0} в списъка за промени: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] encrypt[{5}]"
 
 #: ../thus/installation/advanced.py:1888
 #, python-brace-format
 msgid "Partition {0} will be deleted"
-msgstr ""
+msgstr "Дялът {0} ще бъде изтрит"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Partition"
@@ -914,7 +915,7 @@ msgstr "Монтиране"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
-msgstr ""
+msgstr "Криптиране"
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
@@ -923,52 +924,52 @@ msgstr "Тези дискове ще претърпят дейности по д
 #: ../thus/installation/advanced.py:2008
 #, python-brace-format
 msgid "Finished saving changes in {0}"
-msgstr ""
+msgstr "Приключено записването на промените в {0}"
 
 #: ../thus/installation/advanced.py:2031
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1} labeled {2}"
-msgstr ""
+msgstr "Създаване на нова {0} файлова система в {1} с наименование {2}"
 
 #: ../thus/installation/advanced.py:2034
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1}"
-msgstr ""
+msgstr "Създаване на нова {0} файлова система в {1}"
 
 #: ../thus/installation/advanced.py:2043 ../thus/installation/advanced.py:2062
 #: ../thus/installation/advanced.py:2078
 #, python-brace-format
 msgid "Setting boot flag in {0} partition"
-msgstr ""
+msgstr "Настройване на зареждащ флаг в {0} дял"
 
 #: ../thus/installation/advanced.py:2051
 #, python-brace-format
 msgid "Setting boot_legacy flag in {0} partition"
-msgstr ""
+msgstr "Настройване boot_legacy флага в дял {0}"
 
 #: ../thus/installation/advanced.py:2086
 #, python-brace-format
 msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
-msgstr ""
+msgstr "Криптиране {0}, заседаване името на дяла {1} и форматиране..."
 
 #: ../thus/installation/advanced.py:2101
 #, python-brace-format
 msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "не може да се форматира LUKS устройство '{0}' с етикет '{1}' като '{2}'"
 
 #: ../thus/installation/advanced.py:2125
 #, python-brace-format
 msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "Не може да се форматира дял '{0}' с етикет '{1}' като '{2}'"
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr ""
+msgstr " Thus няма да инсталира bootloader"
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
 msgid "Manjaro will install the bootloader {0} in device {1}"
-msgstr ""
+msgstr "Manjaro ще инсталира bootloader {0} в устройство {1}"
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
@@ -976,33 +977,33 @@ msgstr "Тестов режим. Инсталаторът няма да напр
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
-msgstr ""
+msgstr "Няма налични основни дялове"
 
 #: ../thus/installation/alongside.py:142
 #, python-brace-format
 msgid "Will shrink device {0} and create new device {1}"
-msgstr ""
+msgstr "Ще се смали {0} и ще се създаде {1}"
 
 #: ../thus/installation/alongside.py:150
 msgid "Thus recommends at least 6.5GB free to install Manjaro."
-msgstr ""
+msgstr "Thus препоръчва да имате поне 6.5GB свободно място за инсталиране на Manjaro."
 
 #: ../thus/installation/alongside.py:151
 #, python-brace-format
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr ""
+msgstr "Новият дял {0} получен от смаляването на {1} няма да има достатъчно място за пълна инсталация."
 
 #: ../thus/installation/alongside.py:152
 msgid ""
 "You can still install Manjaro, but be carefull on which DE you choose as it "
 "might not fit in."
-msgstr ""
+msgstr "Все още можете да инсталирате Manjaro, но изберете внимателно вашата работна среда, защото може да е твърде голяма."
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
-msgstr ""
+msgstr "Исталиране на ваша отговорност!"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
@@ -1010,45 +1011,45 @@ msgstr "Манджаро успоредно с друга ОС"
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
-msgstr ""
+msgstr "Задаване на нов размер за вашата инсталация"
 
 #: ../thus/installation/alongside.py:216
 msgid "Choose the partition that you want to shrink:"
-msgstr ""
+msgstr "Изберете дял, който искате да смалите:"
 
 #: ../thus/installation/alongside.py:257
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Няма свободен номер на дял.\nЗатова инсталация не може да продължи."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "Няма открита инсталирана ОС!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
-msgstr ""
+msgstr "\"Успоредният\" режим на инсталация не работи в UEFI системи"
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "Засечена е Windows(tm) OС."
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "Windows(tm) ОС не е засечен."
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "Не се открива ОС на устройство sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "Тази дискова подредба не се поддържа от \"успоредният\" режим на инсталация"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
-msgstr ""
+msgstr "и"
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
@@ -1057,15 +1058,15 @@ msgstr "Вид инсталиране"
 #: ../thus/installation/ask.py:235
 #, python-brace-format
 msgid "Replace {0} with Manjaro"
-msgstr ""
+msgstr "Замени {0} с Манджаро"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "Изтриване на диска и инсталиране на Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr ""
+msgstr "Внимание: Това ще изтрие всички данни на диска."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
@@ -1073,7 +1074,7 @@ msgstr "Криптиране на тази инсталация за по-доб
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr ""
+msgstr "Ще трябва да създадете криптирана парола в следващата стъпка."
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
@@ -1083,7 +1084,7 @@ msgstr "Използване на LVM с тази инсталация."
 msgid ""
 "This will setup LVM and allow you to easily manage partitions and create "
 "snapshots."
-msgstr ""
+msgstr "Това ще даде възможност на LVM в бъдеще да променя размера на дяловете и да им прави моментни копия по лесен начин."
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
@@ -1092,19 +1093,19 @@ msgstr "Задаване на Домашната директория на ра�
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr ""
+msgstr "Инсталаторът ще направи /home директорията на друг дял или диск."
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "Как искате да продължите?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
-msgstr ""
+msgstr "Изберете точно къде ще инсталирате Manjaro."
 
 #: ../thus/installation/ask.py:309
 msgid "Edit partition table and choose mount points."
-msgstr ""
+msgstr "Редакция на дяловата таблица и избор на точки за монтиране."
 
 #: ../thus/installation/ask.py:341
 msgid "Manjaro installation will be encrypted using LUKS"
@@ -1112,15 +1113,15 @@ msgstr "Инсталацията на Manjaro  ще бъде криптиран�
 
 #: ../thus/installation/ask.py:344
 msgid "Manjaro will be installed using LVM volumes"
-msgstr "Манджаро ще бъде инсталиран използвайки LVM дискове"
+msgstr "Manjaro ще бъде инсталиран използвайки LVM дискове"
 
 #: ../thus/installation/ask.py:346
 msgid "Manjaro will be installed using a separate /home volume."
-msgstr "Манджаро ще бъде инсталиран използвайки отделен /home диск."
+msgstr "Manjaro ще бъде инсталиран използвайки отделен /home диск."
 
 #: ../thus/installation/ask.py:348
 msgid "Manjaro will be installed using a separate /home partition."
-msgstr "Манджаро ще бъде инсталиран използвайки отделен /home дял."
+msgstr "Manjaro ще бъде инсталиран използвайки отделен /home дял."
 
 #: ../thus/installation/automatic.py:75
 msgid "Automatic installation mode"
@@ -1139,7 +1140,7 @@ msgstr "ВНИМАНИЕ! Този режим на инсталиране ще �
 msgid ""
 "Please choose the drive where you want to install Manjaro\n"
 "and click the button below to start the process."
-msgstr "Моля, изберете устройство, където желаете да инсталирате Манджаро\nи натиснете бутона по-долу, за да стартирате процеса."
+msgstr "Моля, изберете устройство, където желаете да инсталирате Manjaro\nи натиснете бутона по-долу, за да стартирате процеса."
 
 #: ../thus/installation/automatic.py:93 ../ui/automatic.ui:223
 msgid "Encryption Password:"
@@ -1147,49 +1148,49 @@ msgstr "Парола за криптиране:"
 
 #: ../thus/installation/automatic.py:101
 msgid "LUKS Password. Do not use special characters or accents!"
-msgstr ""
+msgstr "LUKS парола. Не използвайте специални символи или ударения!"
 
 #: ../thus/installation/automatic.py:188
 msgid "A root LUKS password has been set"
-msgstr ""
+msgstr "Главна LUKS парола е избрана"
 
 #: ../thus/installation/automatic.py:190
 #, python-brace-format
 msgid "Automatic install on {0}"
-msgstr ""
+msgstr "Автоматично инсталиране в {0}"
 
 #: ../thus/installation/automatic.py:253
 msgid ""
 "Do you really want to proceed and delete all your content on your hard "
 "drive?"
-msgstr ""
+msgstr "Наистина ли искате да продължите и да изтриете всичката информация на вашия твърд диск?"
 
 #: ../thus/installation/automatic.py:267
 #, python-brace-format
 msgid "Thus will install Manjaro on device {0}"
-msgstr ""
+msgstr "Thus ще инсталира Manjaro на устройство {0}"
 
 #: ../thus/installation/automatic.py:286
 #, python-brace-format
 msgid "Thus will install the bootloader '{0}' in device '{1}'"
-msgstr ""
+msgstr "Thus ще инсталира bootloader '{0}' в устройство '{1}'"
 
 #: ../thus/installation/auto_partition.py:87
 #: ../thus/installation/process.py:485 ../thus/installation/process.py:502
 #: ../thus/installation/process.py:517
 #, python-brace-format
 msgid "Unmounting {0}"
-msgstr ""
+msgstr "Демонтиране {0}"
 
 #: ../thus/installation/auto_partition.py:91
 #, python-brace-format
 msgid "Unmounting {0} failed. Trying lazy arg."
-msgstr ""
+msgstr "Демонтирането на {0} се провали. Опит с мързелив аргумент."
 
 #: ../thus/installation/auto_partition.py:95
 #, python-brace-format
 msgid "Unmounting {0} failed."
-msgstr ""
+msgstr "Демонтирането на {0} се провали."
 
 #: ../thus/installation/auto_partition.py:107
 #: ../thus/installation/auto_partition.py:113
@@ -1213,7 +1214,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:896
 #, python-brace-format
 msgid "Command {0} failed"
-msgstr ""
+msgstr "Командата {0} се провали"
 
 #: ../thus/installation/auto_partition.py:108
 #: ../thus/installation/auto_partition.py:114
@@ -1238,92 +1239,92 @@ msgstr ""
 #: ../thus/installation/process.py:267
 #, python-brace-format
 msgid "Output: {0}"
-msgstr ""
+msgstr "Процес: {0}"
 
 #: ../thus/installation/auto_partition.py:158
 msgid "Can't delete existent LVM volumes"
-msgstr ""
+msgstr "Не може да се изтрият съществуващите LVM дискове"
 
 #: ../thus/installation/auto_partition.py:169
 msgid "Can't close already opened LUKS devices"
-msgstr ""
+msgstr "Не може да се затворят вече отворените LUKS дискове"
 
 #: ../thus/installation/auto_partition.py:178
 #, python-brace-format
 msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
-msgstr ""
+msgstr "Не може да се установи LUKS в {0}. Нужни са парола или файл с ключ"
 
 #: ../thus/installation/auto_partition.py:186
 #, python-brace-format
 msgid "Thus will setup LUKS on device {0}"
-msgstr ""
+msgstr "Thus ще инсталира LUKS на устройство {0}"
 
 #: ../thus/installation/auto_partition.py:204
 #: ../thus/installation/auto_partition.py:227
 #, python-brace-format
 msgid "Can't format and open the LUKS device {0}"
-msgstr ""
+msgstr "Не може да се форматира и отвори LUKS устройство {0}"
 
 #: ../thus/installation/auto_partition.py:238
 #, python-brace-format
 msgid "Can't wipe filesystem of device {0}"
-msgstr ""
+msgstr "Не може да се изтрие файловата система в {0}"
 
 #: ../thus/installation/auto_partition.py:250
 msgid "Can't run dd command"
-msgstr ""
+msgstr "Командата dd не може да се стартира"
 
 #: ../thus/installation/auto_partition.py:278
 #: ../thus/installation/auto_partition.py:306
 #, python-brace-format
 msgid "Error creating a new partition on device {0}"
-msgstr ""
+msgstr "Грешка при създаване на дял в устройство {0}"
 
 #: ../thus/installation/auto_partition.py:319
 #, python-brace-format
 msgid "Error creating a new partition table on device {0}"
-msgstr ""
+msgstr "Грешка при създаване на нова таблица с дялове в {0}"
 
 #: ../thus/installation/auto_partition.py:358
 #, python-brace-format
 msgid "Will format device {0} as {1}"
-msgstr ""
+msgstr "Ще се форматира устройството {0} като {1}"
 
 #: ../thus/installation/auto_partition.py:367
 #: ../thus/installation/process.py:407
 #, python-brace-format
 msgid "Can't activate swap in {0}"
-msgstr ""
+msgstr "Не може да се активира swap в {0}"
 
 #: ../thus/installation/auto_partition.py:385
 #, python-brace-format
 msgid "Unknown filesystem type {0}"
-msgstr ""
+msgstr "Неизвестна файлова система {0}"
 
 #: ../thus/installation/auto_partition.py:393
 #, python-brace-format
 msgid "Can't create filesystem {0}"
-msgstr ""
+msgstr "Не може да се създаде файлова система {0}"
 
 #: ../thus/installation/auto_partition.py:422
 #, python-brace-format
 msgid "Error trying to  mount {0} in {1}"
-msgstr ""
+msgstr "Грешка при монтирането на {0} в {1}"
 
 #: ../thus/installation/auto_partition.py:438
 #, python-brace-format
 msgid "Device details: {0} UUID={1} LABEL={2}"
-msgstr ""
+msgstr "Информация за устройство: {0} UUID={1} LABEL={2}"
 
 #: ../thus/installation/auto_partition.py:522
 #, python-brace-format
 msgid "{0} will be mounted as {1}"
-msgstr ""
+msgstr "{0} ще се монтира като {1}"
 
 #: ../thus/installation/auto_partition.py:554
 #, python-brace-format
 msgid "Device {0} will have a {1} filesystem"
-msgstr ""
+msgstr "Устройство {0} ще е с {1} файлова система"
 
 #: ../thus/installation/auto_partition.py:604
 #, python-format
@@ -1333,7 +1334,7 @@ msgstr "Общ размер на диска: %dMiB"
 #: ../thus/installation/auto_partition.py:606
 #, python-format
 msgid "EFI System Partition (ESP) size: %dMiB"
-msgstr ""
+msgstr "EFI системен дял (ESP) с размер: %dMiB"
 
 #: ../thus/installation/auto_partition.py:607
 #, python-format
@@ -1368,54 +1369,54 @@ msgstr "Настройката не може да определи размер�
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
-msgstr ""
+msgstr "Грешно уведомяване на ядрото за промени в дяловете."
 
 #: ../thus/installation/auto_partition.py:788
 #, python-brace-format
 msgid "Thus will setup LVM on device {0}"
-msgstr ""
+msgstr "Thus ще инсталира LVM на устройство {0}"
 
 #: ../thus/installation/auto_partition.py:793
 msgid "Error creating LVM physical volume"
-msgstr ""
+msgstr "Грешка при създаването LVM физически дял"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr ""
+msgstr "Грешка при създаване LVM дялова група"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
-msgstr ""
+msgstr "Грешка при създаване LVM логически дял"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
-msgstr ""
+msgstr "Не може да се копира LUKS ключът в инсталационното устройство"
 
 #: ../thus/installation/bootloader.py:102
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "\"ruuid\" променливата не е определена. Не може да се провери главното UUID в grub.cfg, дано всичко да е наред"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
-msgstr ""
+msgstr "Конфигурацията на /etc/default/grub е успешна."
 
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
 msgid "Could not copy {0} to grub.d"
-msgstr ""
+msgstr "не може да се копира {0} в grub.d"
 
 #: ../thus/installation/bootloader.py:229
 #, python-brace-format
 msgid "Installing GRUB(2) BIOS boot loader in {0}"
-msgstr ""
+msgstr "Инсталиране на GRUB(2) BIOS мениджър на зареждането в {0}"
 
 #: ../thus/installation/bootloader.py:260
 msgid ""
 "grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
 "continue."
-msgstr ""
+msgstr "grub-mkconfig не отговаря. Спиране на grub-mount и os-prober за продължаване."
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
@@ -1423,54 +1424,54 @@ msgstr "GRUB(2) BIOS е успешно инсталиран."
 
 #: ../thus/installation/bootloader.py:272
 msgid "ERROR installing GRUB(2) BIOS."
-msgstr "ГРЕШКА при инсталиране на GRUB(2) BIOS"
+msgstr "ГРЕШКА при инсталиране на GRUB(2) BIOS."
 
 #: ../thus/installation/bootloader.py:287
 #, python-brace-format
 msgid "The efi directory is: {0}"
-msgstr ""
+msgstr "EFI директорията е: {0}"
 
 #: ../thus/installation/bootloader.py:294
 #, python-brace-format
 msgid "Installing GRUB(2) UEFI {0} boot loader in {1}"
-msgstr ""
+msgstr "Инсталиране на GRUB(2) UEFI {0} мениджър на зареждане в {1}"
 
 #: ../thus/installation/bootloader.py:304
 #, python-brace-format
 msgid "grub-install command: {0}"
-msgstr ""
+msgstr "grub-install команда: {0}"
 
 #: ../thus/installation/bootloader.py:312
 #, python-brace-format
 msgid "Command grub-install failed. Error output: {0}"
-msgstr ""
+msgstr "Командата grub-install се провали. Данни за грешката: {0}"
 
 #: ../thus/installation/bootloader.py:314
 msgid "Command grub-install timed out."
-msgstr ""
+msgstr "Просрочено време при изпълнение на командата grub-install."
 
 #: ../thus/installation/bootloader.py:316
 #, python-brace-format
 msgid "Command grub-install failed. Unknown Error: {0}"
-msgstr ""
+msgstr "Командата grub-install се провали. Непозната Грешка: {0}"
 
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "Не е намерено ОЕМ зареждащо устройство в {0}. Копиране на Grub(2) в директорията."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
 msgid "Copying Grub(2) into OEM dir failed: {0}"
-msgstr ""
+msgstr "Копирането на Grub(2) в директорията на OEM се провали: {0}"
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "Файлът не е намерен."
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr ""
+msgstr "Файлът вече съществува."
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
@@ -1484,47 +1485,47 @@ msgstr "grub-mkconfig не отговаря. Спиране на grub-mount и o
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
-msgstr ""
+msgstr "GRUB(2) UEFI е успешно инсталиран"
 
 #: ../thus/installation/bootloader.py:395
 msgid "GRUB(2) UEFI install may not have completed successfully."
-msgstr ""
+msgstr "Инсталацията на GRUB(2) UEFI може да не е успешна."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
-msgstr ""
+msgstr "Успешно приложен пач за 50mounted-tests."
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "Неуспешно приложен пач за 50mounted-tests, файлът не е намерен."
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr ""
+msgstr "Копиране на графични теми за Grub(2)"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "Файл с графична тема за Grub2 не е намерен"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "Файл с графична тема за Grub2 вече съществува."
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
-msgstr "Инсталиране на Grub2 локали."
+msgstr "Инсталиране на преводи за Grub2."
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr ""
+msgstr "Не може да се инсталира превод на GRUB(2)."
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr ""
+msgstr "Gummiboot е успешно инсталиран"
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr ""
+msgstr "Инсталацията на Gummiboot не е успешна!"
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
@@ -1532,7 +1533,7 @@ msgstr "Не може да се замрази/размрази система x
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
-msgstr ""
+msgstr "Специалните директории вече са монтирани. Пропускане на стъпката."
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
@@ -1541,33 +1542,33 @@ msgstr "Специалните директории все още не са мо
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
 msgid "Unable to umount {0}"
-msgstr ""
+msgstr "Не беше възможно демонтиране на {0}"
 
 #: ../thus/installation/chroot.py:125 ../thus/installation/process.py:399
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "Командата {0} се провали."
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "Изходен процес : {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "Просрочено време при изпълнение на команда {0}"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr ""
+msgstr "Thus ще се опита да продължи"
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "Грешка при изпълнение на команда: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
@@ -1576,43 +1577,43 @@ msgstr "Настройване на куки и модули в mkinitcpio.conf"
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "Копиране '/{0}'"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Инсталиране използвайки '/{0}' метод"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Грешка при изпълнение на команда {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "Създаване на дялове и техните файлови системи в {0}"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "Монтиране на дял {0} в директория {1}"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
 msgid "Can't mount {0} in {1}"
-msgstr ""
+msgstr "Не е възможно да се монтира {0} в {1}"
 
 #: ../thus/installation/process.py:403
 #, python-brace-format
 msgid "Activating swap in {0}"
-msgstr ""
+msgstr "Активиране на swap в {0}"
 
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} изтрит"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
@@ -1633,13 +1634,13 @@ msgstr "Системата е конфигурирана."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "Данните от Thus не могат да се копират в {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "Не може да се демонтира {0}"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
@@ -1647,7 +1648,7 @@ msgstr "Инсталирането приключи успешно."
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr "Базова файлова система не съществува! Критична грешка(излизане)."
+msgstr "Базова файлова система не съществува! Критична грешка (излизане)."
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
@@ -1656,15 +1657,15 @@ msgstr "Десктоп файлова система не съществува! 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} вече е монтиран в {1} като {2}"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
-msgstr ""
+msgstr "Индексиране на файлове от root-image за копиране ..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "Индексиране на файлове от desktop-image за копиране ..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
@@ -1677,7 +1678,7 @@ msgstr "Разархивиране на desktop-image ..."
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr ""
+msgstr "Възстановяване на мета-информацията на {0}"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
@@ -1688,55 +1689,55 @@ msgstr "Не може да се копират файловете на мреж�
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Добавено към fstab : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Добавено към crypttab : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "Устройства : {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "Устройство: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab е създаден."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "Активирана {0} услуга."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
 msgid "Can't find service {0}"
-msgstr ""
+msgstr "Не може да се намери услуга {0}"
 
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr ""
+msgstr "Грешка при създаване на хаш-парола за потребител {0}"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "Грешка при промяна на паролата на потребител {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "Файлът locale.gen не е открит"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: Активиране на автоматичен вход за потребител {1}."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
@@ -1757,17 +1758,17 @@ msgstr "Часовата зона е определена."
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr ""
+msgstr "Sudo конфигурация за потребител {0} е готова."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Потребител {0} е добавен."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
 msgid "Hostname  {0} set."
-msgstr ""
+msgstr "Името на компютъра {0} е избрано."
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
@@ -1779,7 +1780,7 @@ msgstr "Задай съща парола на root"
 
 #: ../thus/installation/process.py:1144
 msgid "Generating locales ..."
-msgstr "Създаване на локали ..."
+msgstr "Създаване на локализации ..."
 
 #: ../thus/installation/process.py:1162
 msgid "Adjusting hardware clock ..."
@@ -1791,7 +1792,7 @@ msgstr "Конфигуриране на хардуер..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Настройките на Alsa Mixer са обновени"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
@@ -1799,7 +1800,7 @@ msgstr "Инсталиране на драйвъри ..."
 
 #: ../thus/installation/process.py:1198
 msgid "Configure display manager ..."
-msgstr "Конфигуриране мениджъра на прозорци..."
+msgstr "Конфигуриране мениджъра на монитора..."
 
 #: ../thus/installation/process.py:1246
 msgid "Configure System ..."
@@ -1807,15 +1808,15 @@ msgstr "Конфигуриране на Системата ..."
 
 #: ../thus/installation/process.py:1264
 msgid "Removing live configuration (packages)"
-msgstr "Премахване пакети принадлежащи на (живия) инсталатор"
+msgstr "Премахване на пакети, нужни за (живата) инсталацията"
 
 #: ../thus/installation/process.py:1280
 msgid "Configuring package manager"
-msgstr "Конфигуриране мениджъра на пакети"
+msgstr "Конфигуриране на мениджъра на пакети"
 
 #: ../thus/installation/process.py:1291
 msgid "Finished configuring package manager."
-msgstr "Край на конфигурирането мениджър на пакети."
+msgstr "Край на конфигурирането на мениджъра на пакети."
 
 #: ../thus/installation/process.py:1327
 msgid "Running mkinitcpio ..."
@@ -1827,7 +1828,7 @@ msgstr "Изпълнение на mkinitcpio ... готово"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "Криптиране на home директорията..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
@@ -1835,37 +1836,37 @@ msgstr "Домашната директория на потребителя е �
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Инсталиране на bootloader..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "Не може да се инсталира boot loader: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
 msgid "Can't change to locale '{0}' : {1}"
-msgstr ""
+msgstr "Не може да се смени езика '{0}' : {1}"
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Паролата е твърде кратка"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Слаба парола"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Задоволителна парола"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "Добра парола"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Силна парола"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1874,44 +1875,44 @@ msgstr "Паролите не съвпадат"
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
 msgid "Can't label a {0} partition"
-msgstr ""
+msgstr "Не може да се наименува дял {0}"
 
 #: ../thus/parted3/fs_module.py:172
 #, python-brace-format
 msgid "Can't verify if {0} is a Solid State Drive or not"
-msgstr ""
+msgstr "Не може да се потвърди дали {0} е SSD"
 
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "Съжелявам, но размера на файловата система {0} не може да се смали"
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "Не може да се премахне логически дял {0}"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "Не може да се премахне дялова група {0}"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "Не може да се премахне физически дял {0}"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr ""
+msgstr "Изключение: {0}.\nЗа повече информация погледнете в /tmp/thus.log"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "Не може да се изтрие дял {0}"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
@@ -1920,46 +1921,46 @@ msgstr "Дялът е твърде голям!"
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
 msgid "Can't detect used space from {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство от {0}"
 
 #: ../thus/parted3/used_space.py:42
 #, python-brace-format
 msgid "Can't detect used space of NTFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на NTFS дяла {0}"
 
 #: ../thus/parted3/used_space.py:71
 #, python-brace-format
 msgid "Can't detect used space of EXTFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на EXTFS дяла {0}"
 
 #: ../thus/parted3/used_space.py:103
 #, python-brace-format
 msgid "Can't detect used space of FAT partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на FAT дяла {0}"
 
 #: ../thus/parted3/used_space.py:134
 #, python-brace-format
 msgid "Can't detect used space of JFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на JFS дяла {0}"
 
 #: ../thus/parted3/used_space.py:159
 #, python-brace-format
 msgid "Can't detect used space of REISERFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на REISERFS дяла {0}"
 
 #: ../thus/parted3/used_space.py:187
 #, python-brace-format
 msgid "Can't detect used space of BTRFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на BTRFS дяла {0}"
 
 #: ../thus/parted3/used_space.py:224
 #, python-brace-format
 msgid "Can't detect used space of XFS partition {0}"
-msgstr ""
+msgstr "Не може да се определи използваното пространство на XFS дяла {0}"
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"
-msgstr "Вид дялова таблица:"
+msgstr "Вид на дялова таблица:"
 
 #: ../ui/advanced.ui:159
 msgid "Edit partition"
@@ -1999,7 +2000,7 @@ msgstr "Използване на това устройство за инста�
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
-msgstr ""
+msgstr "Настройки за криптиране"
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
@@ -2013,21 +2014,21 @@ msgstr "<small><span color=\"darkgreen\">Силна парола</span></small>"
 msgid ""
 "<b>WARNING! This installation mode will overwrite everything in your "
 "drive!</b>"
-msgstr ""
+msgstr "<b>ВНИМАНИЕ! Този режим на инсталация ще изтрие всичко на вашето устройство!</b>"
 
 #: ../ui/automatic.ui:60
 msgid ""
 "Please choose the drive where you want to install Manjaro and click the "
 "button below to start the process."
-msgstr ""
+msgstr "Моля, изберете устройство, където желаете да инсталирате Manjaro и натиснете бутона по-долу, за да стартирате процеса."
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "покажи паролата"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
-msgstr ""
+msgstr "LUKS парола. Не използвайте специални символи или ударения!"
 
 #: ../ui/bootloader.ui:69
 msgid "What is your boot system type?"
@@ -2035,7 +2036,7 @@ msgstr "Какъв тип е системното зареждане?"
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
-msgstr ""
+msgstr "BIOS (най-често)"
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
@@ -2047,7 +2048,7 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "Изберете \"отказ\" ако не искате да инсталирате мениджър на зареждането"
 
 #: ../ui/check.ui:17
 msgid ""
@@ -2059,7 +2060,7 @@ msgstr "<span weight=\"bold\" size=\"large\">За най-добри резулт
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr ""
+msgstr "(*) Това много зависи от избора ви на работна среда, затова може да се нуждаете от повече дисково пространство (Например: за KDE е нужно 6.5GB)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
@@ -2083,4 +2084,4 @@ msgstr "<small><span color=\"darkred\">Трябва да въведете име
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr "<span size=\"small\">Името, което ще се използва когато се свързва с други компютри.</span>"
+msgstr "<span size=\"small\">Името, което е видимо за другите компютри.</span>"

@@ -16,6 +16,7 @@
 # Fernando Jorge Cabanilla Charneco <fjcabanilla@gmail.com>, 2013
 # Fernando Jorge Cabanilla Charneco <fjcabanilla@gmail.com>, 2013
 # Jenn <jcmm986@gmail.com>, 2012
+# Jack Wyne <jackvwyne@gmail.com>, 2015
 # José Luis García Morillo, 2015
 # José Luis García Morillo, 2015
 # Jota_Erre <jota_erre@linuxmail.org>, 2014
@@ -24,6 +25,7 @@
 # Julio Gonzalez Mejías <juliolokooo@gmail.com>, 2014
 # Ramon Buldó <rbuldo@gmail.com>, 2013
 # Leonel <leonelmalon@gmail.com>, 2013
+# Mikel M. <lednion@gmail.com>, 2015
 # neiko <neikokz+tsfx@gmail.com>, 2011
 # Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013
 # philm <philm@manjaro.org>, 2013-2015
@@ -38,9 +40,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-05-06 07:28+0000\n"
-"Last-Translator: José Luis García Morillo\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/manjaro-thus/language/es/)\n"
+"PO-Revision-Date: 2015-08-14 20:12+0000\n"
+"Last-Translator: Noel Rodríguez Freire <noelrf.ou@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/manjarolinux/manjaro-thus/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,12 +59,12 @@ msgstr "desconocido"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr "Error en la llamada a hexdump: {0}"
+msgstr "Error ejecutando el comando hexdump: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr "Id de partición desconocida {0}"
+msgstr "Id de la partición desconocida {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -71,13 +73,13 @@ msgstr "Comprobación del Sistema"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr "tiene al menos {0}GB de espacio de almacenamiento disponible. (*)"
+msgstr "tiene al menos {0}GB de espacio disponible en disco.(*)"
 
 #: ../thus/check.py:77
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr "Esto depende en gran medida de qué escritorio elija, así que puede ser que necesite más espacio."
+msgstr "Esto depende en gran medida de qué entorno de escritorio elija, por lo que puede necesitar más espacio."
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
@@ -138,11 +140,11 @@ msgstr "Variantes"
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr "La distribución del teclado es {0}"
+msgstr "Distribución_del_teclado es {0}"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr "Bienvenido/a a Manjaro"
+msgstr "¡Bienvenido a Manjaro!"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
@@ -155,7 +157,7 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr "Thus es software en versión beta de pre-lanzamiento y está bajo \ndesarrollo activo. Todavía no gestiona RAID, subvolúmenes btrfs o \notras configuraciones avanzadas adecuadamente. ¡Por favor, \nproceda con cuidado ya que la pérdida de datos es posible!\n\nSi encuentra algún fallo, por favor informe sobre él en \nhttp://bugs.manjaro.org"
+msgstr "Thus es una versión beta y está en desarrollo. No funciona correctamente con RAID, subvolúmenes btrfs y otras configuraciones avanzadas. Por favor tenga cuidado,\nya que puede perder datos.\n\nSi encuentra algún error, por favor informe a <a href='http://bugs.manjaro.org'>http://bugs.manjaro.org</a>"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213

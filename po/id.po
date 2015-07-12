@@ -10,19 +10,19 @@
 # Ibnu Daru AJi, 2013
 # Arif Budiman <arifpedia@gmail.com>, 2014
 # Arif Budiman <me@kangarif.com>, 2014
-# Se7enTime <se7entime@tutanota.com>, 2015
+# Mohamad Hasan Al Banna <se7entime@tutanota.com>, 2015
 # Ade Malsasa Akbar <teknoloid@gmail.com>, 2013
 # Mohamad Hasan Al Banna, 2013
-# Se7enTime <se7entime@tutanota.com>, 2013-2014
+# Mohamad Hasan Al Banna <se7entime@tutanota.com>, 2013-2014
 # Rendiyono Wahyu Saputro <rendi.7936@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-06-18 00:30+0000\n"
+"PO-Revision-Date: 2015-07-14 22:34+0000\n"
 "Last-Translator: Rendiyono Wahyu Saputro <rendi.7936@gmail.com>\n"
-"Language-Team: Indonesian (http://www.transifex.com/p/manjaro-thus/language/id/)\n"
+"Language-Team: Indonesian (http://www.transifex.com/manjarolinux/manjaro-thus/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1024,7 +1024,7 @@ msgstr "Pilih partisi yang anda inginkan untuk disusutkan."
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Tidak dapat menemukan nomor partisi cadangan.\nPemasangan berdampingan tidak dapat dilanjutkan."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
@@ -1048,7 +1048,7 @@ msgstr "Tidak dapat mendeteksi OS apapun di perangkat sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "Tatanan cakram tidak mendukung untuk modus pemasangan 'berdampingan'"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
@@ -1100,7 +1100,7 @@ msgstr "Ini akan mengatur direktori /home anda pada partisi atau volume yang ber
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "Bagaimana jika anda melanjutkan ?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
@@ -1456,25 +1456,25 @@ msgstr "Perintah grub-install kehabisan waktu."
 #: ../thus/installation/bootloader.py:316
 #, python-brace-format
 msgid "Command grub-install failed. Unknown Error: {0}"
-msgstr ""
+msgstr "Perintah grub-install gagal. Galat Tidak Diketahui: {0}"
 
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "Tidak ditemukan pemuat loader OEM di {0}. Menyalin Grub(2) ke dalam direktori."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
 msgid "Copying Grub(2) into OEM dir failed: {0}"
-msgstr ""
+msgstr "Menyalin Grub(2) ke dalam direktori OEM gagal: {0}"
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "Berkas tidak ditemukan."
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr ""
+msgstr "Berkas telah ada."
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
@@ -1488,31 +1488,31 @@ msgstr "grub-mkconfig tampaknya menggantung. Matikan proses grub-mount dan os-pr
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
-msgstr ""
+msgstr "Pemasangan GRUB(2) UEFI telah berhasil diselesaikan."
 
 #: ../thus/installation/bootloader.py:395
 msgid "GRUB(2) UEFI install may not have completed successfully."
-msgstr ""
+msgstr "Pemasangan GRUB(2) UEFI tidak berhasil diselesaikan."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
-msgstr ""
+msgstr "berkas 50mounted-tests telah selesai diperbaiki"
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "Gagal untuk memperbaiki 50mounted-tests, berkas tidak ditemukan."
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr ""
+msgstr "Menyalin Berkas Tema GRUB(2)"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "Berkas tema Grub2 tidak ditemukan"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "Berkas tema Grub2 telah ada"
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
@@ -1520,15 +1520,15 @@ msgstr "Menginstal lokal Grub2."
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr ""
+msgstr "Tidak dapat memasang lokal GRUB(2)."
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr ""
+msgstr "Pemasangan Gummiboot telah berhasil diselesaikan"
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr ""
+msgstr "Pemasangan Gummiboot tidak berhasil diselesaikan!"
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
@@ -1536,7 +1536,7 @@ msgstr "Tidak dapat membekukan/mencairkan sistem xfs"
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
-msgstr ""
+msgstr "Direktori khusus telah dikaitkan. Melewati."
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
@@ -1545,33 +1545,33 @@ msgstr "Dirs khusus tidak dikaitkan. Melewati."
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
 msgid "Unable to umount {0}"
-msgstr ""
+msgstr "Tidak dapat melepas kait {0}."
 
 #: ../thus/installation/chroot.py:125 ../thus/installation/process.py:399
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "Perintah {0} telah gagal"
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "Keluaran: {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "Kehabisan waktu saat menjalankan perintah {0}"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr ""
+msgstr "Thus akan mencoba melanjutkan lagi"
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "Galat menjalankan perintah: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
@@ -1580,43 +1580,43 @@ msgstr "Mengatur hooks dan modul di mkinitcpio.conf"
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "Menyalin'/{0}'"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Memasang dengan menggunakan modus '{0}'"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Galat menjalankan perintah {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "Membuat partisi dan berkas sistemnya di {0}"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "Mengaitkan partisi {0} kedalam {1} direktori"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
 msgid "Can't mount {0} in {1}"
-msgstr ""
+msgstr "Tidak dapat mengaitkan {0} di {1}"
 
 #: ../thus/installation/process.py:403
 #, python-brace-format
 msgid "Activating swap in {0}"
-msgstr ""
+msgstr "Mengaktifkan swap di {0}"
 
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} terhapus"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
@@ -1637,13 +1637,13 @@ msgstr "Sistem terkonfigurasi."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "Tidak dapat menyalin log Thus ke {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "Tidak dapat melepas kait {0}"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
@@ -1660,15 +1660,15 @@ msgstr "Berkas sistem Desktop tidak ada! Kesalahan fatal (menutup)."
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} sudah dikaitkan {1} sebagai {2}"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
-msgstr ""
+msgstr "Mengindeks berkas dari root-image untuk disalin ..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "Mengindeks berkas dari desktop-image untuk disalin ..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
@@ -1681,7 +1681,7 @@ msgstr "Mengekstraksi desktop-image ..."
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr ""
+msgstr "Mengembalikan informasi-meta pada {0}"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
@@ -1692,55 +1692,55 @@ msgstr "Tidak dapat menyalin berkas konfigurasi jaringan"
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Ditambahkan ke fstab : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Ditambahkan ke crypttab : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "Daftar Divais : {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "Divais: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab tertulis."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "Layanan{0} diaktifkan."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
 msgid "Can't find service {0}"
-msgstr ""
+msgstr "Tidak menemukan layanan {0}"
 
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr ""
+msgstr "Galat membuat hash kata sandi untuk pengguna {0}"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "Galat mengubah kata sandi untuk pengguna {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "Tidak dapat menemukan berkas locale.gen"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: Mengaktifkan masuk otomatis untuk pengguna {1}."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
@@ -1761,17 +1761,17 @@ msgstr "Zona waktu diatur,"
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr ""
+msgstr "Konfigurasi sudo untuk pengguna {0} selesai."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Pengguna {0} ditambahkan."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
 msgid "Hostname  {0} set."
-msgstr ""
+msgstr "Hostname  {0} diatur."
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
@@ -1795,7 +1795,7 @@ msgstr "Mengkonfigurasi hardware ..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Memperbarui pengaturan Alsa mixer"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
@@ -1831,7 +1831,7 @@ msgstr "Menjalankan mkinitcpio - selesai"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "Mengenkripsi direktori rumah pengguna ..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
@@ -1839,37 +1839,37 @@ msgstr "Dir rumah pengguna dienkripsi"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Memasang bootloader..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "Tidak dapat memasang boot loader: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
 msgid "Can't change to locale '{0}' : {1}"
-msgstr ""
+msgstr "Tidak dapat mengubah ke lokal '{0}' : {1}"
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Kata sandi terlalu pendek"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Kata Sandi Lemah"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Kata Sandi Sedang"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "Kata Sandi Baik"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Kata Sandi Kuat"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1878,44 +1878,44 @@ msgstr "Kata sandi tidak sama"
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
 msgid "Can't label a {0} partition"
-msgstr ""
+msgstr "Tidak dapat melabel sebuah {0} partisi"
 
 #: ../thus/parted3/fs_module.py:172
 #, python-brace-format
 msgid "Can't verify if {0} is a Solid State Drive or not"
-msgstr ""
+msgstr "Tidak dapat memastikan jika {0} adalah sebuah Solid State Drive atau bukan"
 
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "Maaf tetapi berkas sistem {0} tidak dapat dikecilkan"
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "Tidak dapat membuang volume logikal {0}"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "Tidak dapat membuang grup volume {0}"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "Tidak dapat membuang volume fisik {0}"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr ""
+msgstr "Pengecualian: {0}.\nUntuk informasi lebih lanjut lihat pada /tmp/thus.log"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "Tidak dapat menghapus {0}"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
@@ -1924,42 +1924,42 @@ msgstr "Partisi terlalu besar!"
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
 msgid "Can't detect used space from {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari {0}"
 
 #: ../thus/parted3/used_space.py:42
 #, python-brace-format
 msgid "Can't detect used space of NTFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi NTFS {0}"
 
 #: ../thus/parted3/used_space.py:71
 #, python-brace-format
 msgid "Can't detect used space of EXTFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi EXTFS {0}"
 
 #: ../thus/parted3/used_space.py:103
 #, python-brace-format
 msgid "Can't detect used space of FAT partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi FAT {0}"
 
 #: ../thus/parted3/used_space.py:134
 #, python-brace-format
 msgid "Can't detect used space of JFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi JFS {0}"
 
 #: ../thus/parted3/used_space.py:159
 #, python-brace-format
 msgid "Can't detect used space of REISERFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi REISERFS {0}"
 
 #: ../thus/parted3/used_space.py:187
 #, python-brace-format
 msgid "Can't detect used space of BTRFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi BTRFS {0}"
 
 #: ../thus/parted3/used_space.py:224
 #, python-brace-format
 msgid "Can't detect used space of XFS partition {0}"
-msgstr ""
+msgstr "Tidak dapat mendeteksi ruang yang dipakai dari partisi XFS {0}"
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"

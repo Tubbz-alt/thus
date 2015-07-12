@@ -6,14 +6,15 @@
 # Translators:
 # lego37yoon <lego37yoon@outlook.com>, 2013-2014
 # Sungjin Kang <potopro@gmail.com>, 2014
+# Tune O Kim <st0ryt311a@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/manjaro-thus/language/ko/)\n"
+"PO-Revision-Date: 2015-08-18 05:17+0000\n"
+"Last-Translator: Tune O Kim <st0ryt311a@gmail.com>\n"
+"Language-Team: Korean (http://www.transifex.com/manjarolinux/manjaro-thus/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,12 +31,12 @@ msgstr "알수 없음"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr ""
+msgstr "헥스덤프 명령어 불러오기 오류입니다: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "파티션 아이디를 알수없습니다 {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -44,13 +45,13 @@ msgstr "시스템 확인"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "적어도 {0}GB 의 저장 공간이 있습니다. (*)"
 
 #: ../thus/check.py:77
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr ""
+msgstr "이것은 어떤 데스크탑 환경을 선택하는지에 따라 달라질수있기 때문에 더 많은 저장 공간이 필요할수 있습니다."
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
@@ -62,7 +63,7 @@ msgstr "가 인터넷에 연결되어 있음."
 
 #: ../thus/check.py:90
 msgid "For best results, please ensure that this computer:"
-msgstr ""
+msgstr "최상의 결과를 위해 이 컴퓨터가 분명히:"
 
 #: ../thus/check.py:169
 msgid "We have Internet connection."
@@ -78,48 +79,48 @@ msgstr "충분한 공간이 있습니다."
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "encfs 구성 파일들을 생성할수 없거나 변형할수 없습니다."
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "홈 디렉터리는 암호화되지 않을 것입니다."
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "encfs 를 실행할수 없습니다. 비밀번호를 잘못 입력한게 아닐까요?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
-msgstr ""
+msgstr "키보드 배치를 선택해주세요"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "키보드 배치들"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "키보드 변형들"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
-msgstr ""
+msgstr "배치들"
 
 #: ../thus/keymap.py:78
 msgid "Variants"
-msgstr ""
+msgstr "변형들"
 
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr ""
+msgstr "키보드_배치는 {0} 입니다"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "만자로에 오신것을 환영합니다"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
-msgstr ""
+msgstr "공지: 더 더스 설치 프로그램은 베타 소프트웨어입니다."
 
 #: ../thus/language.py:85
 msgid ""
@@ -128,67 +129,67 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "더스는 사전공개되는 베타 소프트웨어로서 활발히 개발중입니다.\n아직은 제대로 RAID, btrfs 서브볼륨들, 또는 다른 진보적인 구성을 다루지 못합니다. 자료의 손실이 있을수 있으니 신중하게 진행하길 바랍니다. 만약 버그들을 발견하셨다면 http://bugs.manjaro.org 로 보고하여 주시면 고맙겠습니다."
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "앞으로"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "뒤로"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "{0} 언어에 대한 번역 파일을 찾을수 없습니다"
 
 #: ../thus/location.py:71
 msgid "Select your location"
-msgstr ""
+msgstr "지역을 선택해 주세요"
 
 #: ../thus/location.py:75
 msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "선택한 지역을 통해 시스템 로켈이 결정되어 질 예정입니다. 일반적으로 자신이 거주하고있는 국가입니다. 그대가 선택한 언어를 기반으로 지역의 짧은 목록들을 뽑아 봤습니다."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
-msgstr ""
+msgstr "국가, 영토 또는 지역:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "모든 지역들 보여주기"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "지역이 {0} 로 변경되었습니다."
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr ""
+msgstr "로켈 '{0}' 로 변경할수 없습니다"
 
 #: ../thus/main_window.py:66
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
-msgstr ""
+msgstr "이 설치 소프트웨어는 꼭 관리자의 권한으로 실행시켜야하며 이러한 권한이 없는경우 진행할수 없습니다."
 
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "파일 '{0}' 이/가 이미 존재합니다."
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -200,21 +201,21 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "이 인스톨러 두개가 동시에 실행될수 없습니다.\n\n인스톨러가 이미 실행중인게 분명히 아니라면 --force 옵션으로 인스톨러를 실행시키거나 수동적으로 문제를 제공하는 파일을 삭제할수 있습니다.\n\n문제의 파일: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr ""
+msgstr "더스 인스톨러 버전 {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr ""
+msgstr "만자로 인스톨러 - 더스 {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr ""
+msgstr "정말로 인스톨러를 종료할까요?"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
@@ -222,35 +223,35 @@ msgstr "설치기를 종료하는 중 입니다."
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr ""
+msgstr "계급 미러 스크립트를 찾을수 없습니다."
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
-msgstr ""
+msgstr "자동 미러 선택을 실행할수 없었습니다"
 
 #: ../thus/show_message.py:59
 msgid "Manjaro Installer - Error"
-msgstr ""
+msgstr "만자로 인스톨러 - 에러"
 
 #: ../thus/show_message.py:73
 msgid "Manjaro Installer - Warning"
-msgstr ""
+msgstr "만자로 인스톨러 - 경고"
 
 #: ../thus/show_message.py:87
 msgid "Manjaro Installer - Information"
-msgstr ""
+msgstr "만자로 인스톨러 - 정보"
 
 #: ../thus/show_message.py:101
 msgid "Manjaro Installer - Confirmation"
-msgstr ""
+msgstr "만자로 인스톨러 - 확인"
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
-msgstr ""
+msgstr "만자로를 설치중입니다..."
 
 #: ../thus/slides.py:82
 msgid "Please wait..."
-msgstr ""
+msgstr "기다려주세요..."
 
 #: ../thus/slides.py:192
 msgid ""
@@ -261,28 +262,28 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "중요함: 부트로더 설치 문제가 있었을지도 모릅니다. 이것은 시스템이 제대로 부팅하지 못하게 합니다. 재부팅하기전에 부트로더가 설치되어있는지 설정이 잘 잡혀있는지 확인하는게 어떨까요. 아치 리눅스 위키에 문제점 해결 정보가 포함되어있습니다. https://wiki.archlinux.org/index.php/GRUB\n\n지금 위키 페이지를 방문 하시겠습니까?"
 
 #: ../thus/slides.py:205
 msgid ""
 "Installation Complete!\n"
 "Do you want to restart your system now?"
-msgstr ""
+msgstr "설치 완료!\n지금 시스템을 재시작할까요?"
 
 #: ../thus/thus.py:66
 #, python-brace-format
 msgid "Can't create Thus main window: {0}"
-msgstr ""
+msgstr "더스 메인 창을 생성할수 없습니다: {0}"
 
 #: ../thus/thus.py:166
 #, python-brace-format
 msgid "Using pyalpm v{0} as interface to libalpm v{1}"
-msgstr ""
+msgstr "libalpm v{1} 의 인터페이스로 pyalpm v{0} 을/를 사용중"
 
 #: ../thus/thus.py:181
 #, python-brace-format
 msgid "Thus v{0} - Manjaro Installer"
-msgstr ""
+msgstr "더스 v{0} - 만자로 인스톨러"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
@@ -290,7 +291,7 @@ msgstr "Thus 로그 레벨 'debug'로 설정"
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
-msgstr ""
+msgstr "또 하나의 더스가 실행중인것을 감지해도 더스 실행"
 
 #: ../thus/thus.py:210
 msgid "Do not perform any changes (useful for developers)"
@@ -298,11 +299,11 @@ msgstr "어떠한 변경사항도 바꾸지 않기(개발자에게 유용)"
 
 #: ../thus/thus.py:214
 msgid "Upgrade/downgrade Thus to the web version"
-msgstr ""
+msgstr "웹 버전으로 더스를 업그레이드/다운그레이드"
 
 #: ../thus/thus.py:218
 msgid "Do not search for new Thus versions online"
-msgstr ""
+msgstr "온라인 상태에서 새로운 더스 버전 검색하지 않기"
 
 #: ../thus/thus.py:222
 msgid "Show logging messages to stdout"
@@ -310,247 +311,247 @@ msgstr "로깅 메시지는 stdout으로 보기"
 
 #: ../thus/thus.py:226
 msgid "Show options in development (for developers only, do not use this!)"
-msgstr ""
+msgstr "개발중인 옵션 보여주기 (개발자들에게만, 일반인들 사용금지!) "
 
 #: ../thus/thus.py:265
 msgid "Program updated! Restarting..."
-msgstr ""
+msgstr "프로그램 업데이트 되었음! 재시작중입니다..."
 
 #: ../thus/thus.py:305
 msgid "Thus files not found. Please, install Thus using pacman"
-msgstr ""
+msgstr "더스 파일들 발견 못함. 팩맨을 사용해 더스를 설치해주세요"
 
 #: ../thus/thus.py:309
 #, python-brace-format
 msgid "Please install '{0}' before running this installer"
-msgstr ""
+msgstr "이 인스톨러를 실행하기전에 '{0}' 을/를 먼저 설치해주세요"
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
-msgstr ""
+msgstr "어디에 살고 있나요?"
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
-msgstr ""
+msgstr "지역:"
 
 #: ../thus/timezone.py:103 ../ui/timezone.ui:79
 msgid "Region:"
-msgstr ""
+msgstr "지방:"
 
 #: ../thus/timezone.py:107
 msgid "Use Network Time Protocol (NTP) for clock synchronization"
-msgstr ""
+msgstr "시간 동기화를 위해 네트웍 타임 프로토콜(NTP) 사용"
 
 #: ../thus/timezone.py:117
 #, python-brace-format
 msgid "location changed to : {0}"
-msgstr ""
+msgstr "지역이 {0} 으로/로 변경되었습니다."
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
-msgstr ""
+msgstr "타임존 좌표를 자동감지할수 없습니다"
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
-msgstr ""
+msgstr "타임존 쓰레드들을 멈추는 중입니다."
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr ""
+msgstr "네트웍 상태를 알수 없습니다."
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
-msgstr ""
+msgstr "연결되었습니다. 타임존을 얻어 볼까요"
 
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr ""
+msgstr "타임존 (위도 {0}, 경도 {1}) 발견"
 
 #: ../thus/updater.py:71
 msgid ""
 "Could not find 'update.info' file. Thus will not be able to update itself."
-msgstr ""
+msgstr "update.info 파일을 찾을수 없습니다. 더스는 업데이트를 할수 없게됩니다."
 
 #: ../thus/updater.py:91
 #, python-brace-format
 msgid "Thus Internet version: {0}"
-msgstr ""
+msgstr "더스 인터넷 버전: {0}"
 
 #: ../thus/updater.py:131
 msgid "New version found. Updating installer..."
-msgstr ""
+msgstr "새로운 버전 발견. 인스톨러를 업데이트 하는중..."
 
 #: ../thus/updater.py:134
 msgid "No new version found. Updating anyways..."
-msgstr ""
+msgstr "새로운 버전 발견 못함. 어쨋든 업데이트 중..."
 
 #: ../thus/updater.py:138
 msgid "Downloading new version of Thus..."
-msgstr ""
+msgstr "새로운 버전의 더스 내려받기중..."
 
 #: ../thus/updater.py:142
 msgid "Can't download new Thus version."
-msgstr ""
+msgstr "새로운 더스 버전을 내려받기 할수 없음."
 
 #: ../thus/updater.py:146
 msgid "Uncompressing new version..."
-msgstr ""
+msgstr "새로운 버전 압축풀기 중..."
 
 #: ../thus/updater.py:192
 #, python-brace-format
 msgid "Can't copy {0} to {1}"
-msgstr ""
+msgstr "{0} 에서 {1} 로 복사할수 없음"
 
 #: ../thus/updater.py:195
 msgid "Wrong md5. Bad download or wrong file, won't update this one"
-msgstr ""
+msgstr "잘못된 md5입니다. 제대로 다운로드 받지 못했거나 잘못된 파일입니다. 이것은 업데이트되지 않습니다."
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"
-msgstr ""
+msgstr "당신은 누구입니까?"
 
 #: ../thus/user_info.py:77 ../ui/user_info.ui:32
 msgid "Your name:"
-msgstr ""
+msgstr "이름:"
 
 #: ../thus/user_info.py:81 ../ui/user_info.ui:179
 msgid "Your name"
-msgstr ""
+msgstr "당신의 이름"
 
 #: ../thus/user_info.py:85 ../ui/user_info.ui:276
 msgid "Hostname"
-msgstr ""
+msgstr "호스트 이름"
 
 #: ../thus/user_info.py:89 ../ui/user_info.ui:603
 msgid "Your computer's name:"
-msgstr ""
+msgstr "당신의 컴퓨터 이름:"
 
 #: ../thus/user_info.py:93 ../ui/user_info.ui:44
 msgid "Pick a username:"
-msgstr ""
+msgstr "사용자 이름을 골라주세요:"
 
 #: ../thus/user_info.py:97 ../ui/user_info.ui:213
 msgid "Username"
-msgstr ""
+msgstr "사용자 이름"
 
 #: ../thus/user_info.py:101 ../ui/user_info.ui:57
 msgid "Choose a password:"
-msgstr ""
+msgstr "비밀번호를 선택해주세요:"
 
 #: ../thus/user_info.py:105 ../thus/user_info.py:121 ../ui/user_info.ui:91
 #: ../ui/user_info.ui:495
 msgid "Password"
-msgstr ""
+msgstr "비밀번호"
 
 #: ../thus/user_info.py:109 ../thus/installation/automatic.py:97
 #: ../ui/automatic.ui:302 ../ui/user_info.ui:70
 msgid "Confirm your password:"
-msgstr ""
+msgstr "비밀번호를 확인해주세요:"
 
 #: ../thus/user_info.py:113 ../thus/user_info.py:129 ../ui/user_info.ui:135
 #: ../ui/user_info.ui:552
 msgid "Confirm password"
-msgstr ""
+msgstr "비밀번호 확인"
 
 #: ../thus/user_info.py:117 ../ui/user_info.ui:531
 msgid "Choose a root password:"
-msgstr ""
+msgstr "관리자 암호를 선택해주세요:"
 
 #: ../thus/user_info.py:125 ../ui/user_info.ui:589
 msgid "Confirm root password:"
-msgstr ""
+msgstr "관리자 암호 확인:"
 
 #: ../thus/user_info.py:133
 msgid "Its name as it appears to other computers."
-msgstr ""
+msgstr "다른 컴퓨터들에게 보여질 이름."
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
-msgstr ""
+msgstr "이름을 꼭 입력해야만 합니다"
 
 #: ../thus/user_info.py:141
 msgid "You must enter a username"
-msgstr ""
+msgstr "사용자 이름을 꼭 입력해야합니다"
 
 #: ../thus/user_info.py:145 ../thus/user_info.py:149
 msgid "You must enter a password"
-msgstr ""
+msgstr "비밀번호를 꼭 입력해야합니다"
 
 #: ../thus/user_info.py:153 ../ui/user_info.ui:383
 msgid "Log in automatically"
-msgstr ""
+msgstr "자동으로 로그 인 하기"
 
 #: ../thus/user_info.py:154 ../ui/user_info.ui:400
 msgid "A password is required to log in"
-msgstr ""
+msgstr "로그 인 하기위해 비밀번호가 필요합니다"
 
 #: ../thus/user_info.py:155 ../ui/user_info.ui:439
 msgid "Encrypt home folder"
-msgstr ""
+msgstr "홈 폴더 암호화하기"
 
 #: ../thus/user_info.py:158 ../thus/installation/automatic.py:105
 #: ../ui/user_info.ui:333
 msgid "Show password"
-msgstr ""
+msgstr "비밀번호 보여주기"
 
 #: ../thus/user_info.py:161 ../ui/user_info.ui:468
 msgid "Show root password"
-msgstr ""
+msgstr "관리자 암호 보여주기"
 
 #: ../thus/user_info.py:164 ../ui/user_info.ui:350
 msgid "Use a root password"
-msgstr ""
+msgstr "관리자 암호 사용하기"
 
 #: ../thus/user_info.py:229
 msgid ""
 "Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
 "\n"
-msgstr ""
+msgstr "만자로는 eCryptfs 를 사용해 그대의 홈 디렉터리를 암호화할것 입니다. 불행히도 eCryptfs 는 공간의 효율성을 잘 활용하는 sparse files 를 잘 다루지 못합니다.\n"
 
 #: ../thus/user_info.py:230
 msgid ""
 "Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
 "\n"
-msgstr ""
+msgstr "걱정하지 마세요 대부분의 용도에 있어서 이 결함은 문제를 야기하지 않습니다.\n"
 
 #: ../thus/user_info.py:231
 msgid ""
 "Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
 "\n"
-msgstr ""
+msgstr "아무튼 한가지 인기있고 현명하지 못한 eCryptfs 의 적용은 비트토런트 다운로드 경로를 암호화하는 것으로서 이것은 eCryptfs 로 10GB 또는 그 이상을 다루게 해서 자칫하면 격렬한 디스크 궁핍을 겪을수 있습니다.\n"
 
 #: ../thus/user_info.py:232
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr ""
+msgstr "간단한 해결책은 sparse files 를 암호화하지 않은 공중 디렉터리 안에 넣는것 입니다.\n"
 
 #: ../thus/user_info.py:233
 msgid ""
 "Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
 "\n"
-msgstr ""
+msgstr "자세한것은 https://wiki.archlinux.org/index.php/ECryptfs 에서 확인 바랍니다.\n"
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
-msgstr ""
+msgstr "롬 디렉터리를 암호화 하시겠습니까?\n"
 
 #: ../thus/user_info.py:310
 msgid "Invalid characters entered"
-msgstr ""
+msgstr "유효하지 않은 글자들의 입력입니다."
 
 #: ../thus/user_info.py:314
 msgid "Username can't contain dots"
-msgstr ""
+msgstr "사용자 이름에는 점을 사용할수 없습니다"
 
 #: ../thus/user_info.py:318
 msgid "Too many characters"
-msgstr ""
+msgstr "너무나 많은 글자들입니다"
 
 #: ../thus/download/download_urllib.py:42
 msgid "Wrong url, will try another one if available."
-msgstr ""
+msgstr "잘못된 url 입니다. 사용가능한게 있다면 다른것으로 시도하겠습니다."
 
 #: ../thus/download/download_urllib.py:52
 #: ../thus/download/download_urllib.py:56
@@ -558,37 +559,37 @@ msgstr ""
 #: ../thus/download/download_urllib.py:64
 #, python-brace-format
 msgid "Can't open {0} - Reason: {1}"
-msgstr ""
+msgstr "{0} 을/를 열수없습니다 - 원인: {1}"
 
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr ""
+msgstr "HTTP 오류 : {0}"
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr ""
+msgstr "URL 오류 : {0}"
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
 msgid "Downloading {0} {1} ({2}/{3})..."
-msgstr ""
+msgstr "내려받기 중입니다 {0} {1} ({2}/{3})..."
 
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
 msgid "Metalink for package {0} has no size info"
-msgstr ""
+msgstr "패키지 {0} 을 위한 메타링크는 용량 정보가 없습니다"
 
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
 msgid "File {0} already exists, Thus will not overwrite it"
-msgstr ""
+msgstr "파일 {0} 은/는 이미 존재하며 더스는 덮어쓰기를 하지 않을것입니다"
 
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
 msgid "Can't download {0}, even after trying all available mirrors"
-msgstr ""
+msgstr "모든 사용 가능한 미러들을 사용했음에도 불구하고 {0} 을/를 내려받기할수 없었습니다"
 
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
@@ -637,31 +638,31 @@ msgstr "없음"
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
-msgstr ""
+msgstr "LVM 파일 시스템 형식을 가진 파티션을 편집할수 없습니다"
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
-msgstr ""
+msgstr "같은 마운트 위치를 두번 사용할수 없습니다"
 
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
 msgid "You will delete the partition {0} from disk {1}"
-msgstr ""
+msgstr "디스크 {1} 의 파티션 {0} 을 삭제하게 됩니다"
 
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
 msgid "Unmounting {0}..."
-msgstr ""
+msgstr "{0} 마운팅 해제..."
 
 #: ../thus/installation/advanced.py:995
 #, python-brace-format
 msgid "Sorry, you already have {0} primary partitions created."
-msgstr ""
+msgstr "프라이머리 파티션 {0} 은/는 이미 생성되어 있습니다. "
 
 #: ../thus/installation/advanced.py:999
 #, python-brace-format
 msgid "Sorry, you already have {0} primary and 1 extended partitions created."
-msgstr ""
+msgstr "프라이머리 파티션 {0} 와/과 1개의 확장 파티션이 이미 생성되어 있습니다."
 
 #: ../thus/installation/advanced.py:1054
 msgid "Can't use same mount point twice..."
@@ -669,19 +670,19 @@ msgstr "같은 마운트 위치를 두번 사용할 수 없습니다."
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
-msgstr ""
+msgstr "프리마리 파티션을 만들고 있습니다."
 
 #: ../thus/installation/advanced.py:1090
 msgid "Creating an extended partition"
-msgstr ""
+msgstr "확장 파티션을 만들고 있습니다"
 
 #: ../thus/installation/advanced.py:1096
 msgid "Creating a logical partition"
-msgstr ""
+msgstr "로지컬 파티션을 만들고 있습니다."
 
 #: ../thus/installation/advanced.py:1158
 msgid "LUKS passwords do not match!"
-msgstr ""
+msgstr "LUKS 비밀번호가 일치하지 않습니다!"
 
 #: ../thus/installation/advanced.py:1283
 msgid "Advanced installation mode"
@@ -689,21 +690,21 @@ msgstr "전문적인 설치모드"
 
 #: ../thus/installation/advanced.py:1287 ../thus/installation/automatic.py:110
 msgid "Use the device below for boot loader installation:"
-msgstr ""
+msgstr "부트로더 설치를 위해 밑에 있는 장치를 사용하세요:"
 
 #: ../thus/installation/advanced.py:1292 ../thus/installation/automatic.py:115
 #: ../ui/advanced.ui:1041 ../ui/automatic.ui:149
 msgid "Bootloader:"
-msgstr ""
+msgstr "부트로더:"
 
 #: ../thus/installation/advanced.py:1296 ../thus/installation/automatic.py:119
 #: ../ui/advanced.ui:1067 ../ui/automatic.ui:174
 msgid "Device:"
-msgstr ""
+msgstr "장치:"
 
 #: ../thus/installation/advanced.py:1300
 msgid "Mount Checklist:"
-msgstr ""
+msgstr "마운트 체크리스트:"
 
 #: ../thus/installation/advanced.py:1306
 msgid "Root"
@@ -723,7 +724,7 @@ msgstr "스왑"
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "되돌리기"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
@@ -731,11 +732,11 @@ msgstr "새로만들기"
 
 #: ../thus/installation/advanced.py:1334
 msgid "Delete"
-msgstr ""
+msgstr "삭제"
 
 #: ../thus/installation/advanced.py:1337
 msgid "Edit..."
-msgstr ""
+msgstr "편집..."
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
@@ -743,11 +744,11 @@ msgstr "새로운 파티션 테이블"
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
-msgstr ""
+msgstr "_취소"
 
 #: ../thus/installation/advanced.py:1362
 msgid "_Apply"
-msgstr ""
+msgstr "_적용"
 
 #: ../thus/installation/advanced.py:1365 ../ui/advanced.ui:405
 msgid "Size:"
@@ -779,11 +780,11 @@ msgstr "이 공간의 끝 지점"
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
-msgstr ""
+msgstr ":으로 사용합니다"
 
 #: ../thus/installation/advanced.py:1397 ../thus/installation/advanced.py:1414
 msgid "Mount Point:"
-msgstr ""
+msgstr "마운트지점:"
 
 #: ../thus/installation/advanced.py:1401 ../thus/installation/advanced.py:1418
 #: ../ui/advanced.ui:251 ../ui/advanced.ui:687
@@ -808,31 +809,31 @@ msgstr "파티션 테이블 만들기"
 
 #: ../thus/installation/advanced.py:1439
 msgid "Use LUKS encryption:"
-msgstr ""
+msgstr "LUKS 암호화 사용하기:"
 
 #: ../thus/installation/advanced.py:1443 ../ui/advanced.ui:1172
 msgid "LUKS volume name:"
-msgstr ""
+msgstr "LUKS 볼륨 이름:"
 
 #: ../thus/installation/advanced.py:1447 ../ui/advanced.ui:1184
 msgid "Password:"
-msgstr ""
+msgstr "비밀번호"
 
 #: ../thus/installation/advanced.py:1451 ../ui/advanced.ui:1196
 msgid "Confirm password:"
-msgstr ""
+msgstr "비밀번호 확인"
 
 #: ../thus/installation/advanced.py:1521
 #, python-brace-format
 msgid "Creating a new {0} partition table for disk {1}"
-msgstr ""
+msgstr "디스크 {1} 에 새로운 파티션 {0} 을/를 만들고 있습니다"
 
 #: ../thus/installation/advanced.py:1531
 msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr ""
+msgstr "GRUB는 바이오스 시스템들에서 바이오스 부트 파티션이 GPT 디스크들의 포스트-MBR 임베디드 갭의 부재로 인해 core.img 파일을 끼워넣는것을 필요로 합니다. \n\n더스는 그대를위해 이 바이오스 부트 파티션을 만들어 줄 것 입니다.\n "
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
@@ -852,7 +853,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} 가 스왑으로 마운트 됩니다.\n계속하려면 언마운트 하십시오.\nYes를 눌러 언마운트 하거나, No를 눌러 돌아가세요.\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -860,22 +861,22 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "'{1}' 에 {0} 이 마운트 되어있습니다.\n계속하려면 언마운트해야합니다.\nYes 를 눌러 언마운트하거나 No 를 눌러 되돌아가세요.\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
 msgid "{0} unmounted"
-msgstr ""
+msgstr "{0} 은/는 언마운트 되었습니다"
 
 #: ../thus/installation/advanced.py:1801
 #, python-brace-format
 msgid "Swap partition {0} unmounted"
-msgstr ""
+msgstr "스왑 파티션 {0} 은/는 언마운트 되었습니다"
 
 #: ../thus/installation/advanced.py:1812
 #, python-brace-format
 msgid "{0} shows as mounted (busy) but it has no mount point"
-msgstr ""
+msgstr "{0} 가 마운트 된 것으로 보이지만(바쁜상태) 마운트 지점이 존재하지 않습니다."
 
 #: ../thus/installation/advanced.py:1819
 msgid ""
@@ -888,12 +889,12 @@ msgstr "루트 파티션이 포맷하기로 표시되어 있지 않습니다.\n�
 msgid ""
 "Added {0} to changelist: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] "
 "encrypt[{5}]"
-msgstr ""
+msgstr "{0} 을/를 변경목록에 추가했습니다: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] encrypt[{5}]"
 
 #: ../thus/installation/advanced.py:1888
 #, python-brace-format
 msgid "Partition {0} will be deleted"
-msgstr ""
+msgstr "파티션 {0} 은/는 곧 삭제됩니다"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Partition"
@@ -909,7 +910,7 @@ msgstr "지점"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
-msgstr ""
+msgstr "암호화"
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
@@ -918,52 +919,52 @@ msgstr "이 디스크들은 다음과 같은 파티셔닝을 할 것입니다."
 #: ../thus/installation/advanced.py:2008
 #, python-brace-format
 msgid "Finished saving changes in {0}"
-msgstr ""
+msgstr "{0} 에 변경된 상태 저장을 완료했습니다"
 
 #: ../thus/installation/advanced.py:2031
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1} labeled {2}"
-msgstr ""
+msgstr "파일 시스템 {1} 레이블 {2} 에 새로운 {0} 을/를 생성중입니다"
 
 #: ../thus/installation/advanced.py:2034
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1}"
-msgstr ""
+msgstr "{1} 에 새로운 파일 시스템 {0} 을 만드는 중입니다"
 
 #: ../thus/installation/advanced.py:2043 ../thus/installation/advanced.py:2062
 #: ../thus/installation/advanced.py:2078
 #, python-brace-format
 msgid "Setting boot flag in {0} partition"
-msgstr ""
+msgstr "파티션 {0} 에다가 부트 플래그를 설정 중입니다"
 
 #: ../thus/installation/advanced.py:2051
 #, python-brace-format
 msgid "Setting boot_legacy flag in {0} partition"
-msgstr ""
+msgstr "구형 부트 플래그를 파티션 {0} 에 설정 중입니다"
 
 #: ../thus/installation/advanced.py:2086
 #, python-brace-format
 msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
-msgstr ""
+msgstr "{0} 을/를 암호화하고 있으며 볼륨 이름 {1} 을/를 할당하고 포맷합니다..."
 
 #: ../thus/installation/advanced.py:2101
 #, python-brace-format
 msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "LUKS 장치 '{0}' 의 레이블 {1} 을/를 '{2}' 로 포맷할수 없습니다"
 
 #: ../thus/installation/advanced.py:2125
 #, python-brace-format
 msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "파티션 '{0}' 의 레이블 {1} 을/를 '{2}' 로 포맷할수 없습니다"
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr ""
+msgstr "Thus는 어떠한 부트로더도 설치하지 않을 것입니다."
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
 msgid "Manjaro will install the bootloader {0} in device {1}"
-msgstr ""
+msgstr "만자로는 부트로더 {0} 을/를 장치 {1} 에 설치할 것입니다"
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
@@ -971,79 +972,79 @@ msgstr "테스트 모드입니다. Thus는 어떠한 변경사항도 저장하�
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
-msgstr ""
+msgstr "사용할수 있는 프라이머리 파티션이 없습니다"
 
 #: ../thus/installation/alongside.py:142
 #, python-brace-format
 msgid "Will shrink device {0} and create new device {1}"
-msgstr ""
+msgstr "장치 {0} 을/를 축소시키고 새로운 장치 {1} 을/를 만들것 입니다"
 
 #: ../thus/installation/alongside.py:150
 msgid "Thus recommends at least 6.5GB free to install Manjaro."
-msgstr ""
+msgstr "더스는 만자로를 설치할때 최소한 6.5GB 이상의 여유 공간을 추천해 드립니다."
 
 #: ../thus/installation/alongside.py:151
 #, python-brace-format
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr ""
+msgstr "{1} 의 축소한 결과물인 새로운 파티션 {0} 은/는 전체 설치할 충분한 공간이 없을 것입니다"
 
 #: ../thus/installation/alongside.py:152
 msgid ""
 "You can still install Manjaro, but be carefull on which DE you choose as it "
 "might not fit in."
-msgstr ""
+msgstr "아직 만자로를 설치할수있지만 어떤 DE (Desktop Environment - 작업환경) 를 선택하는지에 따라 공간 부족이 있을수 있습니다."
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
-msgstr ""
+msgstr "설치의 책임은 본인에게 있습니다!"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
-msgstr ""
+msgstr "다른 운영체제와 만자로를 같이"
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
-msgstr ""
+msgstr "설치의 새로운 공간을 선택해주세요"
 
 #: ../thus/installation/alongside.py:216
 msgid "Choose the partition that you want to shrink:"
-msgstr ""
+msgstr "축소하길 원하는 파티션을 선택하세요:"
 
 #: ../thus/installation/alongside.py:257
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "여분의 파티션 번호를 찾을수 없습니다.\n설치는 진행할수 없습니다."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "설치되어있는 운영체제가 전혀 없습니다!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
-msgstr ""
+msgstr "다중설치 모드는 UEFI 시스템을 지원하지 않습니다"
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "윈도우스(tm) 운영체제가 감지되었습니다."
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "윈도우스(tm) 운영체제가 발견되지 않았습니다."
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "sda 장치에서 어떠한 운영체제도 인식하지 못했습니다."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "나란히 설치 모드에서 지원되지 않는 디스크 레이아웃"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
-msgstr ""
+msgstr "그리고"
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
@@ -1052,15 +1053,15 @@ msgstr "설치종류"
 #: ../thus/installation/ask.py:235
 #, python-brace-format
 msgid "Replace {0} with Manjaro"
-msgstr ""
+msgstr "{0} 을/를 만자로로 교체"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "디스크 삭제후 만자로 설치"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr ""
+msgstr "경고: 이것은 디스크의 모든 자료들을 삭제할 것입니다."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
@@ -1068,7 +1069,7 @@ msgstr "추가적인 비밀보호를위해 설치시 암호화합니다."
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr ""
+msgstr "다음 단계에서 암호화 비밀번호를 생성하라고 부탁할겁니다"
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
@@ -1078,7 +1079,7 @@ msgstr "설치시 LVM을 사용합니다."
 msgid ""
 "This will setup LVM and allow you to easily manage partitions and create "
 "snapshots."
-msgstr ""
+msgstr "이것은 LVM 을 설정하고 쉽게 파티션을 관리하는것과 스냅샷을 만드는것을 가능하게 할 것입니다."
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
@@ -1087,35 +1088,35 @@ msgstr "다른 파티션 혹은 볼륨에 Home 폴더 설정"
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr ""
+msgstr "이것은 홈 디렉터리를 다른 파티션이나 볼륨에 설정할수있게 합니다."
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "어떻게 진행하시겠습니까?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
-msgstr ""
+msgstr "어디에 만자로를 설치할지 정확한 곳을 선택해주세요."
 
 #: ../thus/installation/ask.py:309
 msgid "Edit partition table and choose mount points."
-msgstr ""
+msgstr "파티션 테이블을 편집하고 마운트 지점을 선택해주세요."
 
 #: ../thus/installation/ask.py:341
 msgid "Manjaro installation will be encrypted using LUKS"
-msgstr ""
+msgstr "만자로 설치는 LUKS 를 통해 암호화될것 입니다"
 
 #: ../thus/installation/ask.py:344
 msgid "Manjaro will be installed using LVM volumes"
-msgstr ""
+msgstr "만자로는 LVM 볼륨들을 사용해 설치되어질 것입니다"
 
 #: ../thus/installation/ask.py:346
 msgid "Manjaro will be installed using a separate /home volume."
-msgstr ""
+msgstr "만자로는 개별적인 /홈 볼륨을 사용해 설치되어질 것입니다."
 
 #: ../thus/installation/ask.py:348
 msgid "Manjaro will be installed using a separate /home partition."
-msgstr ""
+msgstr "만자로는 개별적인 /홈 파티션을 사용해 설치되어질 것입니다."
 
 #: ../thus/installation/automatic.py:75
 msgid "Automatic installation mode"
@@ -1128,7 +1129,7 @@ msgstr "디스크 고르기: "
 #: ../thus/installation/automatic.py:83
 msgid ""
 "WARNING! This installation mode will overwrite everything on your drive!"
-msgstr ""
+msgstr "경고! 이 설치 방식은 드라이브 내에 모든 파일들을 덮어쓰기 할 예정입니다!"
 
 #: ../thus/installation/automatic.py:88
 msgid ""
@@ -1138,53 +1139,53 @@ msgstr "만자로를 설치하고 싶은 디스크를 고르세요.\n그리고 �
 
 #: ../thus/installation/automatic.py:93 ../ui/automatic.ui:223
 msgid "Encryption Password:"
-msgstr ""
+msgstr "암호화 비밀번호:"
 
 #: ../thus/installation/automatic.py:101
 msgid "LUKS Password. Do not use special characters or accents!"
-msgstr ""
+msgstr "LUKS 비밀번호. 특별한 글자들이나 액센트는 사용하지 마세요!"
 
 #: ../thus/installation/automatic.py:188
 msgid "A root LUKS password has been set"
-msgstr ""
+msgstr "루트 LUKS 비밀번호의 설정이 완료되었습니다"
 
 #: ../thus/installation/automatic.py:190
 #, python-brace-format
 msgid "Automatic install on {0}"
-msgstr ""
+msgstr "{0} 에 자동 설치"
 
 #: ../thus/installation/automatic.py:253
 msgid ""
 "Do you really want to proceed and delete all your content on your hard "
 "drive?"
-msgstr ""
+msgstr "정말 하드 드라이브에 있는 모든것을 삭제한후 진행하길 원하십니까?"
 
 #: ../thus/installation/automatic.py:267
 #, python-brace-format
 msgid "Thus will install Manjaro on device {0}"
-msgstr ""
+msgstr "더스는 만자로를 장치 {0} 에 설치 할 것입니다"
 
 #: ../thus/installation/automatic.py:286
 #, python-brace-format
 msgid "Thus will install the bootloader '{0}' in device '{1}'"
-msgstr ""
+msgstr "더스는 부트로더 '{0}' 을 장치 '{1}' 에 설치할 것 입니다"
 
 #: ../thus/installation/auto_partition.py:87
 #: ../thus/installation/process.py:485 ../thus/installation/process.py:502
 #: ../thus/installation/process.py:517
 #, python-brace-format
 msgid "Unmounting {0}"
-msgstr ""
+msgstr "{0} 을/를 언마운트 중 입니다"
 
 #: ../thus/installation/auto_partition.py:91
 #, python-brace-format
 msgid "Unmounting {0} failed. Trying lazy arg."
-msgstr ""
+msgstr "{0} 을/를 언마운트 하는데 실패하였습니다. 레이지 아규먼트를 시도하고있습니다."
 
 #: ../thus/installation/auto_partition.py:95
 #, python-brace-format
 msgid "Unmounting {0} failed."
-msgstr ""
+msgstr "{0} 을/를 언마운트 하는데 실패하였습니다."
 
 #: ../thus/installation/auto_partition.py:107
 #: ../thus/installation/auto_partition.py:113
@@ -1208,7 +1209,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:896
 #, python-brace-format
 msgid "Command {0} failed"
-msgstr ""
+msgstr "{0} 명령어 실패 입니다"
 
 #: ../thus/installation/auto_partition.py:108
 #: ../thus/installation/auto_partition.py:114
@@ -1233,92 +1234,92 @@ msgstr ""
 #: ../thus/installation/process.py:267
 #, python-brace-format
 msgid "Output: {0}"
-msgstr ""
+msgstr "아웃풋: {0}"
 
 #: ../thus/installation/auto_partition.py:158
 msgid "Can't delete existent LVM volumes"
-msgstr ""
+msgstr "존재하는 LVM 볼륨들을 삭제할수 없습니다"
 
 #: ../thus/installation/auto_partition.py:169
 msgid "Can't close already opened LUKS devices"
-msgstr ""
+msgstr "이미 열려있는 LUKS 장치들을 종료할수 없습니다"
 
 #: ../thus/installation/auto_partition.py:178
 #, python-brace-format
 msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
-msgstr ""
+msgstr "장치 {0} 의 LUKS 를 설정할수 없습니다. 비밀번호 또는 키 파일이 필요합니다"
 
 #: ../thus/installation/auto_partition.py:186
 #, python-brace-format
 msgid "Thus will setup LUKS on device {0}"
-msgstr ""
+msgstr "더스는 장치 {0} 의 LUKS 를 설정하겠습니다"
 
 #: ../thus/installation/auto_partition.py:204
 #: ../thus/installation/auto_partition.py:227
 #, python-brace-format
 msgid "Can't format and open the LUKS device {0}"
-msgstr ""
+msgstr "LUKS 장치 {0} 을/를 포맷할수 없고 열수도 없습니다"
 
 #: ../thus/installation/auto_partition.py:238
 #, python-brace-format
 msgid "Can't wipe filesystem of device {0}"
-msgstr ""
+msgstr "장치 {0} 의 파일 시스템을 지울수 없습니다"
 
 #: ../thus/installation/auto_partition.py:250
 msgid "Can't run dd command"
-msgstr ""
+msgstr "dd 명령어를 실행할수 없습니다"
 
 #: ../thus/installation/auto_partition.py:278
 #: ../thus/installation/auto_partition.py:306
 #, python-brace-format
 msgid "Error creating a new partition on device {0}"
-msgstr ""
+msgstr "장치 {0} 에 새로운 파티션을 생성하는 중 오류"
 
 #: ../thus/installation/auto_partition.py:319
 #, python-brace-format
 msgid "Error creating a new partition table on device {0}"
-msgstr ""
+msgstr "장치 {0} 에 새로운 파티션 테이블을 생성하는 중 오류"
 
 #: ../thus/installation/auto_partition.py:358
 #, python-brace-format
 msgid "Will format device {0} as {1}"
-msgstr ""
+msgstr "장치 {0} 을/를 {1} 으로/로 포맷 할 예정입니다"
 
 #: ../thus/installation/auto_partition.py:367
 #: ../thus/installation/process.py:407
 #, python-brace-format
 msgid "Can't activate swap in {0}"
-msgstr ""
+msgstr "{0} 의 swap 을 활성화 시킬수 없습니다"
 
 #: ../thus/installation/auto_partition.py:385
 #, python-brace-format
 msgid "Unknown filesystem type {0}"
-msgstr ""
+msgstr "{0} 은/는 알수없는 파일 시스템 입니다"
 
 #: ../thus/installation/auto_partition.py:393
 #, python-brace-format
 msgid "Can't create filesystem {0}"
-msgstr ""
+msgstr "{0} 에 파일 시스템을 생성 할 수 없습니다"
 
 #: ../thus/installation/auto_partition.py:422
 #, python-brace-format
 msgid "Error trying to  mount {0} in {1}"
-msgstr ""
+msgstr "{0} 을/를 {1} 에 마운트 하는중 오류"
 
 #: ../thus/installation/auto_partition.py:438
 #, python-brace-format
 msgid "Device details: {0} UUID={1} LABEL={2}"
-msgstr ""
+msgstr "장치 정보들: {0} UUID={1} 레이블={2}"
 
 #: ../thus/installation/auto_partition.py:522
 #, python-brace-format
 msgid "{0} will be mounted as {1}"
-msgstr ""
+msgstr "{0} 은/는 {1} 로 마운트 될 것 입니다"
 
 #: ../thus/installation/auto_partition.py:554
 #, python-brace-format
 msgid "Device {0} will have a {1} filesystem"
-msgstr ""
+msgstr "장치 {0} 은/는 파일 시스템 {1} 을/를 갖게될 것 입니다"
 
 #: ../thus/installation/auto_partition.py:604
 #, python-format
@@ -1328,7 +1329,7 @@ msgstr " 총 디스크 용량: %dMiB"
 #: ../thus/installation/auto_partition.py:606
 #, python-format
 msgid "EFI System Partition (ESP) size: %dMiB"
-msgstr ""
+msgstr "EFI 시스템 파티션 (ESP) 크기: %dMiB"
 
 #: ../thus/installation/auto_partition.py:607
 #, python-format
@@ -1363,504 +1364,504 @@ msgstr "설치 프로그램이 기기의 파티션 크기를 지정할 수 없�
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
-msgstr ""
+msgstr "커널에게 파티션 변경을 통보하는 중 오류"
 
 #: ../thus/installation/auto_partition.py:788
 #, python-brace-format
 msgid "Thus will setup LVM on device {0}"
-msgstr ""
+msgstr "더스는 장치 {0} 에 LVM 을 설정할 것 입니다"
 
 #: ../thus/installation/auto_partition.py:793
 msgid "Error creating LVM physical volume"
-msgstr ""
+msgstr "LVM 물리적 볼륨을 생성 하는중 오류"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr ""
+msgstr "LVM 볼륨 그룹을 생성하는중 오류"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
-msgstr ""
+msgstr "LVM 로지클 볼륨을 생성하는중 오류"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
-msgstr ""
+msgstr "LUKS 키 파일을 설치 장치에 복사할수 없습니다"
 
 #: ../thus/installation/bootloader.py:102
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "ruuid 변수가 정해지지 않았습니다. grub.cfg 의 루트 UUID 를 확인할수 없습니다, 잘 풀리면 참 좋을텐데"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
-msgstr ""
+msgstr "/etc/default/grub 구성은 성공적으로 완료되었습니다."
 
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
 msgid "Could not copy {0} to grub.d"
-msgstr ""
+msgstr "{0} 을/를 grub.d 에 복사할수 없었습니다"
 
 #: ../thus/installation/bootloader.py:229
 #, python-brace-format
 msgid "Installing GRUB(2) BIOS boot loader in {0}"
-msgstr ""
+msgstr "Grub(2) BIOS 부트로더를 {0} 에 설치중입니다"
 
 #: ../thus/installation/bootloader.py:260
 msgid ""
 "grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
 "continue."
-msgstr ""
+msgstr "grub-mkconfig 는 응답하지 않고 있습니다. 진행할수있게 grub-mount 와 os-prober 를 강제 종료 중 입니다"
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
-msgstr ""
+msgstr "GRUB(2) BIOS 는 성공적으로 실치되었습니다."
 
 #: ../thus/installation/bootloader.py:272
 msgid "ERROR installing GRUB(2) BIOS."
-msgstr ""
+msgstr "GRUB(2) BIOS 를 설치중 오류."
 
 #: ../thus/installation/bootloader.py:287
 #, python-brace-format
 msgid "The efi directory is: {0}"
-msgstr ""
+msgstr "efi 디렉터리는 {0} 입니다"
 
 #: ../thus/installation/bootloader.py:294
 #, python-brace-format
 msgid "Installing GRUB(2) UEFI {0} boot loader in {1}"
-msgstr ""
+msgstr "GRUB(2) UEFI {0} 부트로더를 {1} 에 설치중입니다"
 
 #: ../thus/installation/bootloader.py:304
 #, python-brace-format
 msgid "grub-install command: {0}"
-msgstr ""
+msgstr "grub-install 명령어: {0}"
 
 #: ../thus/installation/bootloader.py:312
 #, python-brace-format
 msgid "Command grub-install failed. Error output: {0}"
-msgstr ""
+msgstr "grub-install 명령어 실패. 오류 메세지: {0}"
 
 #: ../thus/installation/bootloader.py:314
 msgid "Command grub-install timed out."
-msgstr ""
+msgstr "grub-install 명령어 시간초과."
 
 #: ../thus/installation/bootloader.py:316
 #, python-brace-format
 msgid "Command grub-install failed. Unknown Error: {0}"
-msgstr ""
+msgstr "grub-install 명령어 실패. 알수없는 오류: {0}"
 
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "{0} 에 OEM 로더가 없습니다. Grub(2) 를 디렉터리로 복사중."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
 msgid "Copying Grub(2) into OEM dir failed: {0}"
-msgstr ""
+msgstr "Grub(2) 를 OEM 디렉터리로 복사하는것 실패: {0}"
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "파일 발견 못함."
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr ""
+msgstr "파일은 이미 존재합니다."
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
-msgstr ""
+msgstr "grub.cfg 를 생성중"
 
 #: ../thus/installation/bootloader.py:373
 msgid ""
 "grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
 " continue."
-msgstr ""
+msgstr "grub-mkconfig 는 응답하지 않고 있습니다. 진행할수있게 grub-mount 와 os-prober 를 강제 종료 중 입니다"
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
-msgstr ""
+msgstr "GRUB(2) UEFI 는 성공적으로 설치되었습니다."
 
 #: ../thus/installation/bootloader.py:395
 msgid "GRUB(2) UEFI install may not have completed successfully."
-msgstr ""
+msgstr "GRUB(2) UEFI 는 성공적으로 설치되지 않았을지도 모릅니다."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
-msgstr ""
+msgstr "50mounted-tests 파일은 성공적으로 패치되었습니다"
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "50mounted-tests 를 패치하는데 실패했습니다"
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr ""
+msgstr "GRUB(2) 테마 파일들을 복사 중 입니다"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "Grub2 테마 파일들을 찾을수 없습니다"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "Grub2 테마 파일들이 이미 존재합니다."
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
-msgstr ""
+msgstr "Grub2 로켈들을 설치 중 입니다."
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr ""
+msgstr "GRUB(2) 로켈을 설치 할수 없습니다."
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr ""
+msgstr "Gummiboot 는 성공적으로 설치가 완료되었습니다"
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr ""
+msgstr "Gummiboot 는 성공적으로 설치되지 않았습니다!"
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
-msgstr ""
+msgstr "xfs 시스템을 얼리기/녹이기 할수 없습니다"
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
-msgstr ""
+msgstr "특별한 디렉터리들은 이미 마운트되어 있습니다. 건너뛰기 중."
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
-msgstr ""
+msgstr "특별한 디렉터리들은 마운트되지 않았습니다. 건너뛰기 중."
 
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
 msgid "Unable to umount {0}"
-msgstr ""
+msgstr "{0} 을/를 언마운트 할수 없습니다"
 
 #: ../thus/installation/chroot.py:125 ../thus/installation/process.py:399
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "{0} 명령어 실패 입니다."
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "아웃풋: {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "명령어 {0} 을/를 실행하는 중 시간이 초과되었습니다"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr ""
+msgstr "더스는 어떻게든 진행해보겠습니다"
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "명령어 {0} 을/를 실행하는 중 오류"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
-msgstr ""
+msgstr "mkinitcpio.conf 의 훅들과 모듈들을 설정하고 있습니다"
 
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "'/{0}' 을/를 복사중"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "'{0}' 방법을 통해 설치 중 입니다"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "명령어 {0} 을 실행하는 오류"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "{0} 에 파티션들과 그것들의 파일 시스템들을 만드는 중 입니다"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "파티션 {0} 을 디렉터리 {1} 에 마운트 중 입니다"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
 msgid "Can't mount {0} in {1}"
-msgstr ""
+msgstr "{0} 을/를 {1} 에 마운트 할수 없습니다"
 
 #: ../thus/installation/process.py:403
 #, python-brace-format
 msgid "Activating swap in {0}"
-msgstr ""
+msgstr "{0} 의 스웝을 활성화 중 입니다"
 
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} 삭제 되었음"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
-msgstr ""
+msgstr "시스템 설치 중..."
 
 #: ../thus/installation/process.py:439
 msgid "System installed."
-msgstr ""
+msgstr "시스템 설치 완료."
 
 #: ../thus/installation/process.py:441
 msgid "Configuring system ..."
-msgstr ""
+msgstr "시스템 구성 중..."
 
 #: ../thus/installation/process.py:443
 msgid "System configured."
-msgstr ""
+msgstr "시스템 구성 완료."
 
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "더스 로그를 {0} 에 복사할수 없음"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "{0} 을 언마운트 할수 없음"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
-msgstr ""
+msgstr "설치 성공적으로 완료."
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "베이스 파일 시스템이 존재하지 않습니다! 치명적 오류 (종료중)."
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "데스크탑 파일 시스템이 존재하지 않습니다! 치명적 오류 (종료중)."
 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} 은/는 이미 {1} 에 {2} 로 마운트 되었습니다"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
-msgstr ""
+msgstr "루트 이미지의 인덱싱 파일들은 복사될 예정입니다..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "데스크탑 이미지의 인덱싱 파일들은 복사될 예정입니다..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
-msgstr ""
+msgstr "루트 이미지 추출 중..."
 
 #: ../thus/installation/process.py:601
 msgid "Extracting desktop-image ..."
-msgstr ""
+msgstr "데스크탑 이미지 추출 중..."
 
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr ""
+msgstr "{0} 의 메타 정보를 복원 중"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
-msgstr ""
+msgstr "넷웍 구성 파일들을 복사 할수 없습니다"
 
 #: ../thus/installation/process.py:698 ../thus/installation/process.py:724
 #: ../thus/installation/process.py:739 ../thus/installation/process.py:797
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "fstab 에 추가했습니다 : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "crypttab 에 추가했습니다 : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "장치 목록 : {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "장치: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab 작성되었음."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "{0} 서비스 이용 가능."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
 msgid "Can't find service {0}"
-msgstr ""
+msgstr "서비스 {0} 을 찾을수 없습니다"
 
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr ""
+msgstr "사용자 {0} 의 비밀번호 해쉬를 만드는 중 오류"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "사용자 {0} 의 비밀번호를 변경중 오류"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "locale.gen 파일을 찾을수 없습니다"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: 사용자 {1} 의 자동 로그인 사용하기."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
-msgstr ""
+msgstr "그대의 새로운 시스템을 구성 중입니다"
 
 #: ../thus/installation/process.py:1055
 msgid "fstab file generated."
-msgstr ""
+msgstr "fstab 파일 생성되었음."
 
 #: ../thus/installation/process.py:1061
 msgid "Network configuration copied."
-msgstr ""
+msgstr "네트웍 구성 복사 되었음."
 
 #: ../thus/installation/process.py:1087
 msgid "Time zone set."
-msgstr ""
+msgstr "지역 시간 설정되었음."
 
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr ""
+msgstr "사용자 {0} 의 Sudo 구성 완료."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "사용자 {0} 추가 되었음."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
 msgid "Hostname  {0} set."
-msgstr ""
+msgstr "호스트 이름 {0} 설정 완료."
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
-msgstr ""
+msgstr "루트 비밀번호 정하기"
 
 #: ../thus/installation/process.py:1138
 msgid "Set the same password to root."
-msgstr ""
+msgstr "루트에 같은 비밀번호 사용."
 
 #: ../thus/installation/process.py:1144
 msgid "Generating locales ..."
-msgstr ""
+msgstr "로켈들 생성중..."
 
 #: ../thus/installation/process.py:1162
 msgid "Adjusting hardware clock ..."
-msgstr ""
+msgstr "하드웨어 시간 조절 중..."
 
 #: ../thus/installation/process.py:1171
 msgid "Configuring hardware ..."
-msgstr ""
+msgstr "하드웨어 구성 중..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Alsa 믹서 설정 갱신되었음"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
-msgstr ""
+msgstr "드라이버들 설치 중..."
 
 #: ../thus/installation/process.py:1198
 msgid "Configure display manager ..."
-msgstr ""
+msgstr "디스플레이 매니저 구성하기..."
 
 #: ../thus/installation/process.py:1246
 msgid "Configure System ..."
-msgstr ""
+msgstr "시스템 구성하기..."
 
 #: ../thus/installation/process.py:1264
 msgid "Removing live configuration (packages)"
-msgstr ""
+msgstr "라이브 구성 (꾸러미들) 제거 중"
 
 #: ../thus/installation/process.py:1280
 msgid "Configuring package manager"
-msgstr ""
+msgstr "패키지 매니저 형성 중"
 
 #: ../thus/installation/process.py:1291
 msgid "Finished configuring package manager."
-msgstr ""
+msgstr "패키지 매니저 환경 설정 완료."
 
 #: ../thus/installation/process.py:1327
 msgid "Running mkinitcpio ..."
-msgstr ""
+msgstr "mkinitcpio 실행중..."
 
 #: ../thus/installation/process.py:1329
 msgid "Running mkinitcpio - done"
-msgstr ""
+msgstr "mkinitcpio 실행 완료"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "사용자의 홈 디렉터리 암호화 중..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
-msgstr ""
+msgstr "사용자 홈 디렉터리 암호화 완료"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "부트로더를 설치 중..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "부트로더를 설치할수 없었습니다: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
 msgid "Can't change to locale '{0}' : {1}"
-msgstr ""
+msgstr "로켈 '{0}' 로/으로 변경할수 없습니다 : {1}"
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "비밀번호가 너무 짧습니다."
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "약한 비밀번호입니다."
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "괜찮은 비밀번호입니다"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "좋은 비밀번호입니다"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "강력한 비밀번호입니다"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1869,96 +1870,96 @@ msgstr "비밀번호가 일치하지 않습니다."
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
 msgid "Can't label a {0} partition"
-msgstr ""
+msgstr "파티션 {0} 에 레이블을 부여할수 없습니다"
 
 #: ../thus/parted3/fs_module.py:172
 #, python-brace-format
 msgid "Can't verify if {0} is a Solid State Drive or not"
-msgstr ""
+msgstr "{0} 이/가 SSD 인지 아닌지 확인할수 없습니다"
 
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "파일시스템 {0} 은/는 축소할수 없습니다"
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "로지컬 볼륨 {0} 을/를 제거 할수 없습니다"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "볼륨 그룹 {0} 을/를 지울수 없습니다"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "물리적 볼륨 {0} 을/를 지울수 없습니다"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr ""
+msgstr "불복: {0}.\n자세한 정보는 /tmp/thus.log 를 확인하세요"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "파티션 {0} 을/를 삭제할수 없습니다"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
-msgstr ""
+msgstr "파티션은 너무나 거대합니다!"
 
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
 msgid "Can't detect used space from {0}"
-msgstr ""
+msgstr "{0} 에서 사용된 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:42
 #, python-brace-format
 msgid "Can't detect used space of NTFS partition {0}"
-msgstr ""
+msgstr "NTFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:71
 #, python-brace-format
 msgid "Can't detect used space of EXTFS partition {0}"
-msgstr ""
+msgstr "EXTFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:103
 #, python-brace-format
 msgid "Can't detect used space of FAT partition {0}"
-msgstr ""
+msgstr "FAT 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:134
 #, python-brace-format
 msgid "Can't detect used space of JFS partition {0}"
-msgstr ""
+msgstr "JFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:159
 #, python-brace-format
 msgid "Can't detect used space of REISERFS partition {0}"
-msgstr ""
+msgstr "REISERFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:187
 #, python-brace-format
 msgid "Can't detect used space of BTRFS partition {0}"
-msgstr ""
+msgstr "BTRFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../thus/parted3/used_space.py:224
 #, python-brace-format
 msgid "Can't detect used space of XFS partition {0}"
-msgstr ""
+msgstr "XFS 파티션 {0} 의 사용 공간을 인식할수 없습니다"
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"
-msgstr "파티션 태이블 형태"
+msgstr "파티션 테이블 종류:"
 
 #: ../ui/advanced.ui:159
 msgid "Edit partition"
-msgstr ""
+msgstr "파티션 편집"
 
 #: ../ui/advanced.ui:181 ../ui/advanced.ui:436
 msgid "Use as:"
@@ -1970,112 +1971,112 @@ msgstr "마운트지점:"
 
 #: ../ui/advanced.ui:317 ../ui/advanced.ui:723
 msgid "Encryption options..."
-msgstr ""
+msgstr "암호화 옵션..."
 
 #: ../ui/advanced.ui:382
 msgid "Create partition"
-msgstr ""
+msgstr "파티션 만들기"
 
 #: ../ui/advanced.ui:421
 msgid "Location:"
-msgstr ""
+msgstr "위치:"
 
 #: ../ui/advanced.ui:581
 msgid "MB"
-msgstr ""
+msgstr "메가바이트"
 
 #: ../ui/advanced.ui:942
 msgid "label"
-msgstr ""
+msgstr "레이블"
 
 #: ../ui/advanced.ui:1022 ../ui/automatic.ui:128
 msgid "Use this device for boot loader installation:"
-msgstr "부트로더 설치를 위한 기기 선택:"
+msgstr "부트로더 설치를 위한 장치 선택:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
-msgstr ""
+msgstr "암호화 속성들"
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
-msgstr ""
+msgstr "LUKS 암호화 사용하기:"
 
 #: ../ui/advanced.ui:1285 ../ui/user_info.ui:107 ../ui/user_info.ui:511
 msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkgreen\">강력한 비밀번호</span></small>"
 
 #: ../ui/automatic.ui:38
 msgid ""
 "<b>WARNING! This installation mode will overwrite everything in your "
 "drive!</b>"
-msgstr ""
+msgstr "<b>경고! 이 설치 방식은 드라이브 내에 모든 파일들을 덮어쓰기 할 예정입니다!</b>"
 
 #: ../ui/automatic.ui:60
 msgid ""
 "Please choose the drive where you want to install Manjaro and click the "
 "button below to start the process."
-msgstr ""
+msgstr "만자로를 설치하고 싶은 디스크를 고르세요.\n그리고 밑에 있는 단추를 눌러서 계속 진행하세요."
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "비밀번호 보여주기"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
-msgstr ""
+msgstr "LUKS 비밀번호. 특별한 글자들이나 액센트는 사용하지 마세요!"
 
 #: ../ui/bootloader.ui:69
 msgid "What is your boot system type?"
-msgstr "당신의 시스템 타입은 무엇입니까?"
+msgstr "당신의 부트 시스템 종류는 무엇입니까?"
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
-msgstr ""
+msgstr "바이오스 (Common)"
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
-msgstr "64비트"
+msgstr "64비트 UEFI"
 
 #: ../ui/bootloader.ui:142
 msgid "i386 UEFI"
-msgstr "32비트"
+msgstr "32비트 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "무트로더를 설치하고 싶지 않다면 '취소' 를 선택하세요"
 
 #: ../ui/check.ui:17
 msgid ""
 "<span weight=\"bold\" size=\"large\">For best results, please ensure that "
 "this computer:</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"large\">최상의 결과를 위해 이 컴퓨터가 분명히:</span>"
 
 #: ../ui/check.ui:86
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr ""
+msgstr "(*) 이것은 어떤 데스크탑 환경을 선택하는지에 따라 달라질수있기 때문에 더 많은 저장 공간이 필요할수 있습니다. (예를들어 KDE 는 6.5GB를 사용함)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"large\">만자로에 오신 것을 환영합니다</span>"
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
-msgstr ""
+msgstr "시간 동기화를 위해 네트웍 타임 프로토콜 사용:"
 
 #: ../ui/user_info.ui:152 ../ui/user_info.ui:569
 msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">비밀번호를 꼭 입력해야 합니다</span></small>"
 
 #: ../ui/user_info.ui:230
 msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">사용자 이름을 꼭 입력해야합니다</span></small>"
 
 #: ../ui/user_info.ui:290
 msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
-msgstr ""
+msgstr "<small><span color=\"darkred\">이름을 꼭 입력해야합니다</span></small>"
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr ""
+msgstr "<span size=\"small\">다른 컴퓨터들에게 보여질 이름</span>"

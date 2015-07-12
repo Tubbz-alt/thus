@@ -10,15 +10,16 @@
 # jakobw <jakob.wadsager@gmail.com>, 2012
 # Joe Hansen <joedalton2@yahoo.dk>, 2011,2013
 # KriZ0 <kdrejer@gmail.com>, 2014
+# Member 1221 <eclipsingrainbows@zakfarmer.com>, 2015
 # Morten Juhl-Johansen Zölde-Fejér <morten@writtenandread.net>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-05-06 12:27+0000\n"
-"Last-Translator: Dan Johansen\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/manjaro-thus/language/da/)\n"
+"PO-Revision-Date: 2015-07-28 16:17+0000\n"
+"Last-Translator: Member 1221 <eclipsingrainbows@zakfarmer.com>\n"
+"Language-Team: Danish (http://www.transifex.com/manjarolinux/manjaro-thus/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -370,7 +371,7 @@ msgstr "Vi har forbindelse. Lad os få fat i vores tidszone"
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr ""
+msgstr "Tidszone (længdegrad {0}, breddegrad {1}) opdaget."
 
 #: ../thus/updater.py:71
 msgid ""
@@ -656,7 +657,7 @@ msgstr "Du vil slette partition {0} fra disk {1}"
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
 msgid "Unmounting {0}..."
-msgstr "Unmounter {0}..."
+msgstr "Afmonterer {0}..."
 
 #: ../thus/installation/advanced.py:995
 #, python-brace-format
@@ -1484,11 +1485,11 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
-msgstr ""
+msgstr "GRUB(2) UEFI er blevet installeret korrekt."
 
 #: ../thus/installation/bootloader.py:395
 msgid "GRUB(2) UEFI install may not have completed successfully."
-msgstr ""
+msgstr "GRUB(2) UEFI installationen er muligvis ikke installeret korrekt."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
@@ -1496,19 +1497,19 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "Fejlede med at patche 50mounted-tests, fil ikke fundet."
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr ""
+msgstr "Kopiérer GRUB(2) Temafiler"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "Grub2 temafiler ikke fundet"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "Grub2 temafiler eksistere allerede."
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
@@ -1516,23 +1517,23 @@ msgstr "Installerer regionsdata for Grub2."
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr ""
+msgstr "Kan ikke installere GRUB(2) sprog konfiguration."
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr ""
+msgstr "Gummiboot blev installeret korrekt."
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr ""
+msgstr "Gummiboot blev IKKE installeret korrekt!"
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
-msgstr ""
+msgstr "Kan ikke fryse/optø xfs systemet."
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
-msgstr ""
+msgstr "Specielle mapper er allerede monteret. Springer over."
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
@@ -1541,33 +1542,33 @@ msgstr "Specialmapper er ikke monteret. De springes over."
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
 msgid "Unable to umount {0}"
-msgstr ""
+msgstr "Kan ikke afmontere {0}"
 
 #: ../thus/installation/chroot.py:125 ../thus/installation/process.py:399
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "Kommandoen {0} er fejlet."
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "Output : {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "Timeout ved afvikling af kommando {0}"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr ""
+msgstr "Vil prøve at fortsætte alligevel"
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "Fejl med afvikling af kommando {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
@@ -1576,43 +1577,43 @@ msgstr "Sætter hooks og moduler i mkinitcpio.conf"
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "Kopierer '/{0}'"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Installerer med metoden '{0}'"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Fejl ved afvikling af kommando {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "Laver partioner og deres filsystemer på {0}"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "Monterer partition {0} på mappen {1}"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
 msgid "Can't mount {0} in {1}"
-msgstr ""
+msgstr "Kan ikke montere {0} i {1}"
 
 #: ../thus/installation/process.py:403
 #, python-brace-format
 msgid "Activating swap in {0}"
-msgstr ""
+msgstr "Aktiverer swap på {0}"
 
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} blev slettet"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
@@ -1633,13 +1634,13 @@ msgstr "System opsat."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "Can ikke kopiere Thus logfil til {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "Kan ikke afmontere {0}"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
@@ -1656,7 +1657,7 @@ msgstr "Desktop-filsystem findes ikke! Kritisk fejl (afbryder)."
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} er allerede monteret på {1} som {2}"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
@@ -1688,26 +1689,26 @@ msgstr "Kan ikke kopiere filer til netværksopsætning"
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Tilføjet til fstab : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Tilføjet til cryptab : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "Enhedsliste : {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "Enhed: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab er blevet skrevet."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
@@ -1727,16 +1728,16 @@ msgstr ""
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "Fejl ved ændring af adgangskode for bruger {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "Kan ikke finde locale.gen filen"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: Aktiver automatisk login for burger {1}."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
@@ -1762,7 +1763,7 @@ msgstr ""
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Bruger {0} tilføjet."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
@@ -1791,11 +1792,11 @@ msgstr "Konfigurerer hardware..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Opdaterede Alsa mixer indstillinger"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
-msgstr ""
+msgstr "Installerer drivere ..."
 
 #: ../thus/installation/process.py:1198
 msgid "Configure display manager ..."
@@ -1827,7 +1828,7 @@ msgstr "Kører mkinitcpio... færdig"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "Enkrypterer brugers hjemme mappe..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
@@ -1835,12 +1836,12 @@ msgstr "Brugerens home-mappe krypteret"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Installerer bootloader..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "Kunne ikke installere bootloader: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
@@ -1849,23 +1850,23 @@ msgstr ""
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Adgangskoden er for kort"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Svag adgangskode"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Rimelig adganskode"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "God adgangskode"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Stærk adgangskode"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1884,22 +1885,22 @@ msgstr ""
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "Undskyld, men filesystemet {0} kan ikke blive skrumpet."
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "Kan ikke fjerne logisk volume {0}"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "Kan ikke fjerne volume gruppe {0}"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "Kan ikke fjerne fyskisk volume {0}"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
@@ -1911,7 +1912,7 @@ msgstr ""
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "Kan ikke slette partition {0}"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
@@ -1999,7 +2000,7 @@ msgstr "Anvend denne enhed til installation af bootloader:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
-msgstr ""
+msgstr "Enkrypterings indstillinger"
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
@@ -2013,7 +2014,7 @@ msgstr "<small><span color=\"darkgreen\">Stærk adgangskode</span></small>"
 msgid ""
 "<b>WARNING! This installation mode will overwrite everything in your "
 "drive!</b>"
-msgstr ""
+msgstr "<b>ADVARSEL! Denne installationsform VIL overskrive alt på din harddisk!</b>"
 
 #: ../ui/automatic.ui:60
 msgid ""
@@ -2023,7 +2024,7 @@ msgstr ""
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "vis adgangskode"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
@@ -2035,7 +2036,7 @@ msgstr "Hvilket opstartssystem anvender computeren?"
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
-msgstr ""
+msgstr "BIOS (Almindeligt)"
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
@@ -2047,7 +2048,7 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "Vælg 'Annuller' hvis du ikke vil installere en bootloader"
 
 #: ../ui/check.ui:17
 msgid ""
@@ -2059,7 +2060,7 @@ msgstr "<span weight=\"bold\" size=\"large\">For at få de bedste resultater ska
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr ""
+msgstr "(*) Dette afhænger i høj grad af det skrivebordsmiljø der vælges, så der kan blive brug for mere plads. (For eksempel, har KDE brug for 6.5GB plads)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
