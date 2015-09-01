@@ -355,8 +355,11 @@ def get_flag(part, flag):
 
 @misc.raise_privileges
 def finalize_changes(diskob):
-    diskob.commit()
-
+    try:
+        diskob.commit()
+    except parted._ped.IOException as io_error:
+        logging.error(str(io_error))
+        raise IOError(str(io_error))
 
 def order_partitions(partdic):
     """ Pass the result of get_partitions here and it will return list

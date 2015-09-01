@@ -1,4 +1,4 @@
-{"version":"0.8.13.1","files":[
+{"version":"0.8.13.2","files":[
 {"name":"/usr/share/thus/data/kbdnames.gz","md5":"8117dbfb5002236a6a34714d78c2a2d8"},
 {"name":"/usr/share/thus/data/FUTURAM.ttf","md5":"42f28d726573bd70dfa105afed6661b6"},
 {"name":"/usr/share/thus/data/powerpill.json","md5":"547568178d3ad7072fa7e0c2734951e8"},
@@ -133,7 +133,7 @@
 {"name":"/usr/share/thus/thus/bootinfo.py","md5":"911445f36e6c750fff86e326002bf0f7"},
 {"name":"/usr/share/thus/thus/location.py","md5":"a6fcc736444bad0499d9889a0494b9f3"},
 {"name":"/usr/share/thus/thus/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
-{"name":"/usr/share/thus/thus/info.py","md5":"87a2bb27f7ba7c4470cc5d53d3dacf45"},
+{"name":"/usr/share/thus/thus/info.py","md5":"0a8e2536340573540c17549963ce131b"},
 {"name":"/usr/share/thus/thus/slides.py","md5":"1a1039ab62acbad7135c9e28132b1f93"},
 {"name":"/usr/share/thus/thus/gtkbasebox.py","md5":"b2e56cc9811994881b950330e0fcae7c"},
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
@@ -171,9 +171,9 @@
 {"name":"/usr/share/thus/thus/parted3/used_space.py","md5":"6ee93a3e49a318d222b0a20e198c4619"},
 {"name":"/usr/share/thus/thus/parted3/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
 {"name":"/usr/share/thus/thus/parted3/lvm.py","md5":"1b225fd40b540fdfd549793dbfb8f551"},
-{"name":"/usr/share/thus/thus/parted3/fs_module.py","md5":"2fd2eea051cdd379b49fcfda55d2f97b"},
+{"name":"/usr/share/thus/thus/parted3/fs_module.py","md5":"211d10e19964d90c081f746a3ee66559"},
 {"name":"/usr/share/thus/thus/parted3/README","md5":"cf28aa5ca9975804e37676302f09c2cc"},
-{"name":"/usr/share/thus/thus/parted3/partition_module.py","md5":"aebfcd930d68565be917b00936a96283"},
+{"name":"/usr/share/thus/thus/parted3/partition_module.py","md5":"f4f9ff20c87169d780a4e8591960011a"},
 {"name":"/usr/share/thus/ui/location.ui","md5":"a2d905992a7f4268312974f2d159c8c8"},
 {"name":"/usr/share/thus/ui/timezone.ui","md5":"b7ed15f3ab4f4a3cef3189bd9c3f4275"},
 {"name":"/usr/share/thus/ui/slides.ui","md5":"ad460e21041771799eaa3478a881432c"},
