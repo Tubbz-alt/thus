@@ -134,7 +134,7 @@
 {"name":"/usr/share/thus/thus/location.py","md5":"a6fcc736444bad0499d9889a0494b9f3"},
 {"name":"/usr/share/thus/thus/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
 {"name":"/usr/share/thus/thus/info.py","md5":"c2fc4c28a664489dfb4e8ffc714a42c9"},
-{"name":"/usr/share/thus/thus/slides.py","md5":"871d7f0cc44342a426544ef49d5eaadf"},
+{"name":"/usr/share/thus/thus/slides.py","md5":"20edb621f3d44aa7b8c70e6e4d0129a6"},
 {"name":"/usr/share/thus/thus/gtkbasebox.py","md5":"b2e56cc9811994881b950330e0fcae7c"},
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
 {"name":"/usr/share/thus/thus/show_message.py","md5":"b6c90c3a12977aad226ed1f532359615"},

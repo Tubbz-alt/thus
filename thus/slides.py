@@ -247,7 +247,7 @@ class Slides(GtkBaseBox):
         if os.path.exists("/usr/bin/systemctl"):
             subprocess.call(["/usr/bin/systemctl", "reboot", "--force", "--no-wall"])
         else:
-            subprocess.call(["/usr/bin/reboot", "--force", "--no-wall"])
+            subprocess.call(["/usr/bin/reboot", "-f"])
 
 # When testing, no _() is available
 try:
