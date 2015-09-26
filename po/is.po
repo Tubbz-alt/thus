@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-08-21 12:21+0000\n"
+"PO-Revision-Date: 2015-09-10 21:38+0000\n"
 "Last-Translator: Kristján Magnússon <kristjanmagnus@gmail.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -1001,7 +1001,7 @@ msgstr "Uppsetning á þinni ábyrgð!"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
-msgstr ""
+msgstr "Manjaro með öðru OS"
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
@@ -1019,7 +1019,7 @@ msgstr ""
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "Get ekki fundið uppsett OS!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
@@ -1027,15 +1027,15 @@ msgstr ""
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "Windows(tm) OS fundið."
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "Windows(tm) OS ekki fundið."
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "Get ekki fundið OS á þessu tæki sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
@@ -1052,7 +1052,7 @@ msgstr ""
 #: ../thus/installation/ask.py:235
 #, python-brace-format
 msgid "Replace {0} with Manjaro"
-msgstr ""
+msgstr "Skipta út {0} fyrir Manjaro"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
@@ -1123,7 +1123,7 @@ msgstr "Sjálfvirk uppsetningar kerfi"
 
 #: ../thus/installation/automatic.py:79 ../ui/automatic.ui:81
 msgid "Select drive:"
-msgstr ""
+msgstr "Veldu drif:"
 
 #: ../thus/installation/automatic.py:83
 msgid ""
@@ -1323,7 +1323,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:604
 #, python-format
 msgid "Total disk size: %dMiB"
-msgstr ""
+msgstr "Heildar disk pláss: %dMiB"
 
 #: ../thus/installation/auto_partition.py:606
 #, python-format
@@ -1399,7 +1399,7 @@ msgstr ""
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
 msgid "Could not copy {0} to grub.d"
-msgstr ""
+msgstr "Gat ekki afritað {0} til grub.d"
 
 #: ../thus/installation/bootloader.py:229
 #, python-brace-format
@@ -1418,7 +1418,7 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:272
 msgid "ERROR installing GRUB(2) BIOS."
-msgstr ""
+msgstr "VILLA uppsetning GRUB(2) BIOS."
 
 #: ../thus/installation/bootloader.py:287
 #, python-brace-format
@@ -1542,7 +1542,7 @@ msgstr ""
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "Skipun {0} hefur mistekist."
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
@@ -1562,7 +1562,7 @@ msgstr ""
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "Villa keyra skipun: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
@@ -1571,17 +1571,17 @@ msgstr ""
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "Afritar '/{0}'"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Uppsetning notar '{0}' aðferðina"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Villa keyra skipun {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format

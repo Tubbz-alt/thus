@@ -14,14 +14,15 @@
 # Ade Malsasa Akbar <teknoloid@gmail.com>, 2013
 # Mohamad Hasan Al Banna, 2013
 # Mohamad Hasan Al Banna <se7entime@tutanota.com>, 2013-2014
+# opik16 <opik.r16@gmail.com>, 2015
 # Rendiyono Wahyu Saputro <rendi.7936@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-07-14 22:34+0000\n"
-"Last-Translator: Rendiyono Wahyu Saputro <rendi.7936@gmail.com>\n"
+"PO-Revision-Date: 2015-09-18 14:35+0000\n"
+"Last-Translator: opik16 <opik.r16@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/manjarolinux/manjaro-thus/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -137,7 +138,7 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "Thus adalah perangkat lunak versi beta, masih dalam pengembangan\ndan belum cukup teruji untuk menangani RAID, btrfs subvolumes,\ndan pengaturan tingkat lanjut lainnya.\nLanjutkan dengan hati-hati.\nBila menemukan masalah, laporkan ke http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
@@ -155,7 +156,7 @@ msgstr "Kembali"
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr "Tidak dapat menemukan berjas terjemahan untuk bahasa {0}"
+msgstr "Tidak dapat menemukan bekas terjemahan untuk bahasa {0}"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -186,7 +187,7 @@ msgstr "lokal diubah ke : {0}"
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr "Tidak dapat mengubah locale '{0}'"
+msgstr "Tidak dapat mengubah lokal '{0}'"
 
 #: ../thus/main_window.py:66
 msgid ""
@@ -209,12 +210,12 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Anda tidak bisa menjalankan dua penginstal bersamaan.\n\nBila Anda yakin tidak ada penginstal lain yang berjalan,\ngunakan penginstal ini dengan opsi perintah --force\natau buang berkas yang menghalangi secara manual.\n\nBerkas yang menghalangi: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr "Versi pemasang Thus {0}"
+msgstr "Versi penginstal Thus {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
@@ -223,7 +224,7 @@ msgstr "Pemasang Manjaro - Thus {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr "Apakah anda ingin menghentikan pemasang ?"
+msgstr "Apakah Anda ingin menghentikan penginstal?"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
@@ -231,7 +232,7 @@ msgstr "Menghentikan penginstal..."
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr "Skrip mirror rangking tidak ditemukan"
+msgstr "Skrip rangking mirror tidak ditemukan"
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
@@ -270,7 +271,7 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "PENTING: Mungkin ada masalah dengan pemasangan bootloader\nyang bisa mengakibatkan sistem Anda gagal menyala. \nSebelum menyalakan ulang, pastikan apakah bootloader sudah\nterpasang dan terkonfigurasi dengan benar atau belum.\nInformasi terkait dapat dibaca di https://wiki.archlinux.org/index.php/GRUB\n\nKunjungi wiki?"
 
 #: ../thus/slides.py:205
 msgid ""
@@ -332,7 +333,7 @@ msgstr "Berkas Thus tidak ditemukan. Silakan, pasang Thus menggunakan pacman"
 #: ../thus/thus.py:309
 #, python-brace-format
 msgid "Please install '{0}' before running this installer"
-msgstr "Silakan install '{0}' sebelum menjalankan pemasang ini"
+msgstr "Silakan install '{0}' sebelum menjalankan penginstal ini"
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
@@ -374,7 +375,7 @@ msgstr "Kita telah mendapatkan koneksi. Mari dapatkan zona waktu kita"
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr "Zona waktu (latitude {0}, longitude {1}) terdeteksi."
+msgstr "Zona waktu (garis lintang {0}, garis bujur {1}) terdeteksi."
 
 #: ../thus/updater.py:71
 msgid ""
@@ -388,7 +389,7 @@ msgstr "Versi Internet Thus: {0}"
 
 #: ../thus/updater.py:131
 msgid "New version found. Updating installer..."
-msgstr "Versi baru ditemukan. Memperbarui pemasang..."
+msgstr "Versi baru ditemukan. Memperbarui penginstal..."
 
 #: ../thus/updater.py:134
 msgid "No new version found. Updating anyways..."
@@ -732,7 +733,7 @@ msgstr "Swap"
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "Ulangi"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
@@ -841,7 +842,7 @@ msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr ""
+msgstr "GRUB memerlukan sebuah Partisi Boot dalam sistem BIOS untuk menempatkan berkas core.img karena kekurangan post-MBR embed gap pada diska GPT.\n\nThus akan membuatkan Partisi Boot BIOS untuk Anda."
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
@@ -861,7 +862,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} dikaitkan sebagai swap.\nUntuk melanjutkan, kaitan harus dilepas.\nKlik Ya untuk melepas atau Tidak untuk kembali\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -869,7 +870,7 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} dikaitkan pada '{1}'.\nUntuk melanjutkan, kaitan harus dilepas.\nKlik Ya untuk melepas atau Tidak untuk kembali\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
@@ -897,7 +898,7 @@ msgstr "Partisi root belum ditandai untuk diformat.\nHal ini dapat menimbulkan m
 msgid ""
 "Added {0} to changelist: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] "
 "encrypt[{5}]"
-msgstr ""
+msgstr "{0} ditambahkan ke daftap perubahan: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] encrypt[{5}]"
 
 #: ../thus/installation/advanced.py:1888
 #, python-brace-format

@@ -7,7 +7,7 @@
 # Bård Spein <baard.spein@gmail.com>, 2013
 # Harald <haarektrans@gmail.com>, 2014-2015
 # Jon Gjengset <jon@thesquareplanet.com>, 2011,2013
-# Kristoffer Ulseth <ulseth85@gmail.com>, 2013-2014
+# Kristoffer Ulseth <ulseth85@gmail.com>, 2013-2015
 # philm <philm@manjaro.org>, 2014
 # philm <philm@manjaro.org>, 2014
 # pjhalsli <pjhalsli@gmail.com>, 2014
@@ -17,9 +17,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/manjaro-thus/language/nb/)\n"
+"PO-Revision-Date: 2015-09-13 12:17+0000\n"
+"Last-Translator: Kristoffer Ulseth <ulseth85@gmail.com>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/manjarolinux/manjaro-thus/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "Ukjent partisjon id {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -50,7 +50,7 @@ msgstr "System Check"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "har minst {0}GB tilgjengelig lagringsplass. (*)"
 
 #: ../thus/check.py:77
 msgid ""
@@ -84,15 +84,15 @@ msgstr "Vi har nok plass på disken."
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "Kan ikke opprette og endre encfs konfigurasjonsfiler."
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "Hjemmekatalogen vil ikke bli kryptert."
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "Kan ikke kjøre encfs. Dårlig passord?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
@@ -100,11 +100,11 @@ msgstr "Velg ditt tastaturoppsett"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Tastaturoppsett"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "Tastatur Varianter"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -117,11 +117,11 @@ msgstr "Varianter"
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr ""
+msgstr "tastatursoppsettet er {0}"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "Velkommen til Manjaro"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
@@ -134,25 +134,25 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "Thus er pre-release beta programvare som er under aktiv utvikling.\nDen klarer ennå ikke riktig å håndtere RAID, btrfs subvolumes, eller andre\navanserte oppsett. Vennligst fortsette med varsomhet siden tap av data er mulig!\n\n\nHvis du finner noen feil, vennligst meld fra på http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "Fremover"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "Lukk"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "Tilbake"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "Kan ikke finne oversettelsesfil for {0} språk"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -163,7 +163,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "Plasseringen du velger vil bli brukt til å fastslå systemets lokalitet. Det skal normalt være det landet der du bor. Her er en liste over de stedene basert på språket du valgte."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -171,30 +171,30 @@ msgstr "Land, fylke eller området:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "Vis alle steder"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "lokalitet endret til : {0}"
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr ""
+msgstr "Kan ikke skifte til lokalitet '{0}'"
 
 #: ../thus/main_window.py:66
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
-msgstr ""
+msgstr "Denne installasjonen må kjøres med administratorrettigheter, og kan ikke fortsette uten dem."
 
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "Filen '{0}' finnes allerede."
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -206,17 +206,17 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Du kan ikke kjøre to forekomster av dette installasjonsprogrammet.\n\nHvis du er sikker på at installasjonsprogrammet ikke kjører allerede\nkan du kjøre dette installasjonsprogrammet bruker --force alternativet\neller du kan manuelt slette den fornærmende filen.\n\nFornærmende filen: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr ""
+msgstr "Thus installasjonsprogram versjon {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr ""
+msgstr "Manjaro Installasjonsprogram - Thus {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"

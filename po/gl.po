@@ -14,9 +14,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-07-12 09:48+0000\n"
-"Last-Translator: Noel Rodríguez Freire <noelrf.ou@gmail.com>\n"
-"Language-Team: Galician (http://www.transifex.com/p/manjaro-thus/language/gl/)\n"
+"PO-Revision-Date: 2015-09-11 14:09+0000\n"
+"Last-Translator: Ismael Ordóñez <isorfe@gmail.com>\n"
+"Language-Team: Galician (http://www.transifex.com/manjarolinux/manjaro-thus/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,12 +33,12 @@ msgstr "descoñecido"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr "Erro chamando hexdump comando: {0}"
+msgstr "Erro chamando ó comando hexdump: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr "Identificación partición descoñecida {0}"
+msgstr "Identificación da partición descoñecida {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -47,7 +47,7 @@ msgstr "Comprobación do Sistema"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr "ten, polo menos, {0} GB espazo de almacenamento dispoñible. (*)"
+msgstr "ten, polo menos, {0} GB de espazo de almacenamento dispoñible. (*)"
 
 #: ../thus/check.py:77
 msgid ""

@@ -318,7 +318,7 @@ class InstallationAdvanced(GtkBaseBox):
 
         if os.path.exists('/sys/firmware/efi'):
             self.bootloader_entry.append_text("Grub2")
-            self.bootloader_entry.append_text("Gummiboot")
+            self.bootloader_entry.append_text("Systed-Boot")
             self.bootloader_entry.set_active(0)
             self.bootloader_entry.show()
         else:
@@ -1637,7 +1637,7 @@ class InstallationAdvanced(GtkBaseBox):
         are correct.
         Root (/): Always needed. Not fat, ntfs or swap.
         Boot (/boot) in non efi system: Only with lvm. Not f2fs or swap.
-        Boot (/boot) in efi system: With gummiboot. Only fat.
+        Boot (/boot) in efi system: With systemd-boot. Only fat.
         Boot efi (/boot/efi) in efi system: With grub. Only fat.
         Swap (swap): Only if we decide that the system has low memory.
         """
@@ -1665,7 +1665,7 @@ class InstallationAdvanced(GtkBaseBox):
         if is_uefi:
             if self.bootloader == "grub2":
                 part_label["/boot/efi"].show()
-            if self.bootloader == "gummiboot":
+            if self.bootloader == "systemd-boot":
                 part_label["/boot"].show()
         else:
             if self.lv_partitions:
@@ -1695,7 +1695,7 @@ class InstallationAdvanced(GtkBaseBox):
                     if self.bootloader == "grub2" and mnt == "/boot/efi":
                         has_part["/boot/efi"] = True
                         part_label["/boot/efi"].set_state(True)
-                    elif self.bootloader == "gummiboot" and mnt == "/boot":
+                    elif self.bootloader == "systemd-boot" and mnt == "/boot":
                         has_part["/boot"] = True
                         part_label["/boot"].set_state(True)
             else:
@@ -1708,7 +1708,7 @@ class InstallationAdvanced(GtkBaseBox):
         if is_uefi:
             if self.bootloader == "grub2":
                 check_ok = check_ok and has_part["/boot/efi"]
-            elif self.bootloader == "gummiboot":
+            elif self.bootloader == "systemd-boot":
                 check_ok = check_ok and has_part["/boot"]
         else:
             if self.lv_partitions:

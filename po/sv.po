@@ -18,7 +18,7 @@
 # jockejoakim <joakim@sydsvenskafoto.se>, 2014
 # Mats Björklund <mats_bjork007@yahoo.se>, 2013
 # Mattias Johansson <cashew75s@gmail.com>, 2014
-# sixdegree <n.carlsson@gmail.com>, 2014
+# sixdegree <n.carlsson@gmail.com>, 2014-2015
 #   <pojk3n@gmail.com>, 2011
 # sixdegree <n.carlsson@gmail.com>, 2014
 # chippey5 <s.wijmenga@gmail.com>, 2014-2015
@@ -28,9 +28,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-05-11 10:21+0000\n"
-"Last-Translator: chippey5 <s.wijmenga@gmail.com>\n"
-"Language-Team: Swedish (http://www.transifex.com/projects/p/manjaro-thus/language/sv/)\n"
+"PO-Revision-Date: 2015-09-07 18:19+0000\n"
+"Last-Translator: sixdegree <n.carlsson@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/manjarolinux/manjaro-thus/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2011,7 +2011,7 @@ msgstr "Använd den här enheten för att installera starthanteraren:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
-msgstr ""
+msgstr "Krypteringsalternativ..."
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "

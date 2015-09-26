@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-07-30 19:15+0000\n"
-"Last-Translator: Chris Caudill <cclemur@gmail.com>\n"
+"PO-Revision-Date: 2015-09-24 08:55+0000\n"
+"Last-Translator: Archibald Lu <chienius@outlook.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/manjarolinux/manjaro-thus/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +43,7 @@ msgstr ""
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "未知的分区id {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -52,7 +52,7 @@ msgstr "系统校验"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "需要至少 {0}GB 的可用储存空间。(*)"
 
 #: ../thus/check.py:77
 msgid ""
@@ -86,15 +86,15 @@ msgstr "充足的磁盘空间。"
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "不能创建或更改 encfs 配置文件"
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "主目录将不会被加密。"
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "不能运行 encfs 命令。密码是否错误？"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
@@ -106,7 +106,7 @@ msgstr "键盘布局"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "键盘版本"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -119,7 +119,7 @@ msgstr "变种"
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr ""
+msgstr "keyboard_layout 是 {0}"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
@@ -136,25 +136,25 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "您正使用的是正在积极开发中的预发行测试版本软件。\n本版本尚不能正确处理 RAID, btrfs 字卷 或其他\n高级设置。请在操作时注意数据丢失的风险！\n\n如果您发现任何 bug ，请将它们报告到 http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "前进"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "后退"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "无法找到 {0} 语言的翻译文件"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -165,7 +165,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "您选择的位置将帮助系统确定地区选项。一般而言您应选择您居住的国家。这里列出的是根据您使用的语言所列出的一部分地区位置。"
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -173,30 +173,30 @@ msgstr "国家，领地或地区:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "显示所有位置"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "系统地区改变为: {0}"
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr ""
+msgstr "无法改变系统地区为 '{0}'"
 
 #: ../thus/main_window.py:66
 msgid ""
 "This installer must be run with administrative privileges, and cannot "
 "continue without them."
-msgstr ""
+msgstr "本安装程序必须在拥有管理权限的环境下运行，否则将不能继续执行操作。"
 
 #: ../thus/main_window.py:74
 #, python-brace-format
 msgid "File '{0}' already exists."
-msgstr ""
+msgstr "文件 '{0}' 已存在。"
 
 #: ../thus/main_window.py:75
 #, python-brace-format
@@ -208,21 +208,21 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "您不能同时运行两个本安装程序的实例。\n\n如果您确定安装程序此时并未在运行中\n您可以使用 --force 选项强制运行本程序\n或者您可以手动删除妨碍程序运行的文件。\n\n妨碍运行的文件: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
 msgid "Thus installer version {0}"
-msgstr ""
+msgstr "Thus 安装程序版本 {0}"
 
 #: ../thus/main_window.py:190
 #, python-brace-format
 msgid "Manjaro Installer - Thus {0}"
-msgstr ""
+msgstr "Manjaro 安装程序 - Thus {0}"
 
 #: ../thus/main_window.py:322
 msgid "Do you really want to quit the installer?"
-msgstr ""
+msgstr "您真的想要退出安装程序吗？"
 
 #: ../thus/main_window.py:331
 msgid "Quiting installer..."
@@ -269,28 +269,28 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "重要: 若 bootloader 安装出现问题将很可能导致\n系统无法正常启动。在您重启之前，请您务必确认\nbootloader 已经正确安装并完成配置。Arch Linux Wiki\n中包含了有关帮助解决问题的信息：\nhttps://wiki.archlinux.org/index.php/GRUB\n\n您现在就像查看这个 wiki 页面码？"
 
 #: ../thus/slides.py:205
 msgid ""
 "Installation Complete!\n"
 "Do you want to restart your system now?"
-msgstr ""
+msgstr "安装完成！\n您希望现在重启系统吗？"
 
 #: ../thus/thus.py:66
 #, python-brace-format
 msgid "Can't create Thus main window: {0}"
-msgstr ""
+msgstr "无法创建 Thus 主窗口: {0}"
 
 #: ../thus/thus.py:166
 #, python-brace-format
 msgid "Using pyalpm v{0} as interface to libalpm v{1}"
-msgstr ""
+msgstr "正在使用 pyalpm v{0} 作为 libalpm v{1} 的接口"
 
 #: ../thus/thus.py:181
 #, python-brace-format
 msgid "Thus v{0} - Manjaro Installer"
-msgstr ""
+msgstr "Thus v{0} - Manjaro 安装程序"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
@@ -298,7 +298,7 @@ msgstr "将Thus日志级别设置为“debug”"
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
-msgstr ""
+msgstr "即使检测到另一个示例仍继续运行 Thus"
 
 #: ../thus/thus.py:210
 msgid "Do not perform any changes (useful for developers)"
@@ -306,11 +306,11 @@ msgstr "不要执行任何更改（仅对开发者可用）"
 
 #: ../thus/thus.py:214
 msgid "Upgrade/downgrade Thus to the web version"
-msgstr ""
+msgstr "升级/降级 Thus 为网页上的版本"
 
 #: ../thus/thus.py:218
 msgid "Do not search for new Thus versions online"
-msgstr ""
+msgstr "不联网搜索 Thus 的新版本"
 
 #: ../thus/thus.py:222
 msgid "Show logging messages to stdout"
@@ -318,20 +318,20 @@ msgstr "将日志信息显示到stdout中"
 
 #: ../thus/thus.py:226
 msgid "Show options in development (for developers only, do not use this!)"
-msgstr ""
+msgstr "显示开发选项 (仅供开发者，一般人请勿使用！)"
 
 #: ../thus/thus.py:265
 msgid "Program updated! Restarting..."
-msgstr ""
+msgstr "程序已升级！正在重启..."
 
 #: ../thus/thus.py:305
 msgid "Thus files not found. Please, install Thus using pacman"
-msgstr ""
+msgstr "Thus 文件未找到。请使用 pacman 安装 Thus"
 
 #: ../thus/thus.py:309
 #, python-brace-format
 msgid "Please install '{0}' before running this installer"
-msgstr ""
+msgstr "请在运行本安装程序前先安装 '{0}'"
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
@@ -347,12 +347,12 @@ msgstr "地区:"
 
 #: ../thus/timezone.py:107
 msgid "Use Network Time Protocol (NTP) for clock synchronization"
-msgstr ""
+msgstr "使用 网络时间协议(NTP) 来进行时钟同步"
 
 #: ../thus/timezone.py:117
 #, python-brace-format
 msgid "location changed to : {0}"
-msgstr ""
+msgstr "位置已更改为: {0}"
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
@@ -360,59 +360,59 @@ msgstr "无法自动检测时区坐标"
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
-msgstr ""
+msgstr "终止时区线程..."
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr ""
+msgstr "无法获取网络状态。"
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
-msgstr ""
+msgstr "网络已连接。让我们开始时区设置。"
 
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr ""
+msgstr "时区 (纬度 {0}， 经度 {1}) 已检测到。"
 
 #: ../thus/updater.py:71
 msgid ""
 "Could not find 'update.info' file. Thus will not be able to update itself."
-msgstr ""
+msgstr "找不到 'update.info' 文件。Thus 将不会自动更新。"
 
 #: ../thus/updater.py:91
 #, python-brace-format
 msgid "Thus Internet version: {0}"
-msgstr ""
+msgstr "Thus 网络版本: {0}"
 
 #: ../thus/updater.py:131
 msgid "New version found. Updating installer..."
-msgstr ""
+msgstr "已发现新版本。正在升级安装程序..."
 
 #: ../thus/updater.py:134
 msgid "No new version found. Updating anyways..."
-msgstr ""
+msgstr "没有找到新版本。不管怎么说，怎么先升级再说..."
 
 #: ../thus/updater.py:138
 msgid "Downloading new version of Thus..."
-msgstr ""
+msgstr "正在下载 Thus 的新版本..."
 
 #: ../thus/updater.py:142
 msgid "Can't download new Thus version."
-msgstr ""
+msgstr "下载 Thus 新版本失败"
 
 #: ../thus/updater.py:146
 msgid "Uncompressing new version..."
-msgstr ""
+msgstr "正在解压新版本..."
 
 #: ../thus/updater.py:192
 #, python-brace-format
 msgid "Can't copy {0} to {1}"
-msgstr ""
+msgstr "无法将 {0} 复制到 {1}"
 
 #: ../thus/updater.py:195
 msgid "Wrong md5. Bad download or wrong file, won't update this one"
-msgstr ""
+msgstr "错误的 md5 值。可能是下载失败或者文件错误，这个文件将不会被用于升级。"
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"

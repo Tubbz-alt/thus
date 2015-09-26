@@ -8,7 +8,7 @@
 # b0f00nmanjaro <boris.fonda@gmail.com>, 2014
 # Nenad Latinović <inactive+holden1987@transifex.com>, 2013
 # Nenad Latinović <inactive+holden1987@transifex.com>, 2013
-# ansich <mojmejlzaforume@gmail.com>, 2014
+# ansich <mojmejlzaforume@gmail.com>, 2014-2015
 # Nenad Latinović <inactive+holden1987@transifex.com>, 2013
 # smlu <smluprenos@gmail.com>, 2012
 msgid ""
@@ -16,9 +16,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-04-14 10:10+0000\n"
-"Last-Translator: philm <philm@manjaro.org>\n"
-"Language-Team: Slovenian (http://www.transifex.com/projects/p/manjaro-thus/language/sl/)\n"
+"PO-Revision-Date: 2015-09-05 10:55+0000\n"
+"Last-Translator: ansich <mojmejlzaforume@gmail.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/manjarolinux/manjaro-thus/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,12 +35,12 @@ msgstr "neznan"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr ""
+msgstr "Napaka pri klicu ukaza hexdump: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr ""
+msgstr "Neznan id razdelka {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -49,7 +49,7 @@ msgstr "Preverjanje sistema"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr ""
+msgstr "ima najmanj {0}GB razpoložljivega prostora. (*)"
 
 #: ../thus/check.py:77
 msgid ""
@@ -83,15 +83,15 @@ msgstr "Na voljo je dovolj prostora na disku."
 
 #: ../thus/encfs.py:105
 msgid "Can't create and modify encfs configuration files."
-msgstr ""
+msgstr "Ni bilo mogoče ustvariti in spremeniti nastavitvenih datotek encfs."
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr ""
+msgstr "Domača mapa ne bo kriptirana. "
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
-msgstr ""
+msgstr "Ni mogoče zagnati encfs. Slabo geslo?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
@@ -99,11 +99,11 @@ msgstr "Izberi svojo postavitev tipkovnice"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Razporeditve tipkovnice"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "Različice tipkovnice"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -116,11 +116,11 @@ msgstr "Možnosti"
 #: ../thus/keymap.py:106
 #, python-brace-format
 msgid "keyboard_layout is {0}"
-msgstr ""
+msgstr "razporeditev_tipkovnice je {0}"
 
 #: ../thus/language.py:79
 msgid "Welcome to Manjaro"
-msgstr ""
+msgstr "Dobrodošli v Manjaru"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
@@ -133,25 +133,25 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "Thus je beta program, ki je še pred izidom (pre-release) in v procesu dejavnega razvijanja.\nZanekrat še ne zmore pravilno upravljati z RAID, btrfs podnosilci ali\ndrugimi naprednimi konfiguracijami. Nadaljujte pazljivo, ker obstaja možnost izgube podatkov!\nČe v programu najdete hrošče, vas prosimo, da jih sporočite na naslov http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "Naprej"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "Ni mogoče najti datoteke za prevajanje za {0} jezik"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -162,7 +162,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "Izbrana lokacija bo v pomoči pri izbiri lokalnih nastavitev sistema. Običajno je izbrana država, v kateri prebivate. To je kratek spisek lokacij na podlagi jezika, ki je osnovan na podlagi jezika, ki ste ga izbrali."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -170,7 +170,7 @@ msgstr "Država, območje ali okoliš:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "Pokaži vse lokacije"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969

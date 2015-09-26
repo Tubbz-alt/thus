@@ -13,6 +13,7 @@
 # Dércio Lopes <derci0_l0pes@hotmail.com>, 2015
 # Gonçalo Silva <inactive+glrs@transifex.com>, 2014
 # John <pnt12@live.com.pt>, 2015
+# Jorge Gamboias <SoftBoost75@yahoo.com>, 2015
 # philm <philm@manjaro.org>, 2013
 # philm <philm@manjaro.org>, 2013
 # Seaco <marcoafmiranda@gmail.com>, 2013
@@ -22,8 +23,8 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-07-21 14:08+0000\n"
-"Last-Translator: John <pnt12@live.com.pt>\n"
+"PO-Revision-Date: 2015-09-11 17:40+0000\n"
+"Last-Translator: Jorge Gamboias <SoftBoost75@yahoo.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/manjarolinux/manjaro-thus/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -211,7 +212,7 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Você não pode correr dois processos do instalador. Se tem a certeza de que o instalador não está já a correr, pode executá-lo através do comando --force option, ou pode apagar manualmente o processo que está a impedir a sua execução.\nFicheiro prejudicial: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
