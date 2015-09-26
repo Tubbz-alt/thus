@@ -318,7 +318,8 @@ class InstallationAdvanced(GtkBaseBox):
 
         if os.path.exists('/sys/firmware/efi'):
             self.bootloader_entry.append_text("Grub2")
-            self.bootloader_entry.append_text("Systed-Boot")
+            if os.path.exists('/usr/bin/bootctl'):
+                self.bootloader_entry.append_text("Systemd-Boot")
             self.bootloader_entry.set_active(0)
             self.bootloader_entry.show()
         else:
