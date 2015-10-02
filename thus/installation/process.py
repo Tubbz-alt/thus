@@ -1121,6 +1121,11 @@ class InstallationProcess(multiprocessing.Process):
         chroot_run(['pacman-key', '--populate', 'archlinux', 'manjaro'])
         self.queue_event('info', _("Finished configuring package manager."))
 
+        # Workaround for pacman-key bug FS#45351 https://bugs.archlinux.org/task/45351
+        # We have to kill gpg-agent because if it stays around we can't reliably unmount
+        # the target partition.
+        chroot_run(['killall', '-9', 'gpg-agent'])
+
         # Let's start without using hwdetect for mkinitcpio.conf.
         # I think it should work out of the box most of the time.
         # This way we don't have to fix deprecated hooks.
