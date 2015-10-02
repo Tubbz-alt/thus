@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-09-10 21:38+0000\n"
+"PO-Revision-Date: 2015-09-28 09:14+0000\n"
 "Last-Translator: Kristján Magnússon <kristjanmagnus@gmail.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -573,7 +573,7 @@ msgstr "Vefslóða Villa : {0}"
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
 msgid "Downloading {0} {1} ({2}/{3})..."
-msgstr "Niðurhlaðning {0} {1} ({2}/{3})..."
+msgstr "Niðurhalning {0} {1} ({2}/{3})..."
 
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
@@ -2058,7 +2058,7 @@ msgstr ""
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"large\">Velkomin(n) til Manjaro</span>"
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
