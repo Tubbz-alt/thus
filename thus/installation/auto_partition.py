@@ -130,36 +130,44 @@ def unmount_all(dest_dir):
     if dest_dir in mount_result:
         unmount(dest_dir)
 
-    # Remove all previous LVM volumes
-    # (it may have been left created due to a previous failed installation)
+
+def remove_lvm(device):
+    """ Remove all previous LVM volumes
+    (it may have been left created due to a previous failed installation) """
     try:
-        lvolumes = check_output("lvs -o lv_name,vg_name --noheading").split("\n")
+        lvolumes = check_output("lvs -o lv_name,vg_name,devices --noheadings").split("\n")
         if len(lvolumes[0]) > 0:
             for lvolume in lvolumes:
                 if len(lvolume) > 0:
-                    (lvolume, vgroup) = lvolume.split()
-                    lvdev = "/dev/" + vgroup + "/" + lvolume
-                    subprocess.check_call(["wipefs", "-a", lvdev])
-                    subprocess.check_call(["lvremove", "-f", lvdev])
+                    (lvolume, vgroup, ldevice) = lvolume.split()
+                    if device in ldevice:
+                        lvdev = "/dev/" + vgroup + "/" + lvolume
+                        subprocess.check_call(["wipefs", "-a", lvdev])
+                        subprocess.check_call(["lvremove", "-f", lvdev])
 
-        vgnames = check_output("vgs -o vg_name --noheading").split("\n")
+        vgnames = check_output("vgs -o vg_name,devices --noheadings").split("\n")
         if len(vgnames[0]) > 0:
             for vgname in vgnames:
-                vgname = vgname.strip()
-                if len(vgname) > 0:
+                (vgname, vgdevice) = vgname.split()
+                if len(vgname) > 0 and device in vgdevice:
                     subprocess.check_call(["vgremove", "-f", vgname])
 
-        pvolumes = check_output("pvs -o pv_name --noheading").split("\n")
+        pvolumes = check_output("pvs -o pv_name --noheadings").split("\n")
         if len(pvolumes[0]) > 0:
             for pvolume in pvolumes:
                 pvolume = pvolume.strip(" ")
-                subprocess.check_call(["pvremove", "-f", pvolume])
+                if device in pvolume:
+                    subprocess.check_call(["pvremove", "-f", pvolume])
     except subprocess.CalledProcessError as err:
         logging.warning(_("Can't delete existent LVM volumes"))
         logging.warning(_("Command {0} failed".format(err.cmd)))
         logging.warning(_("Output: {0}".format(err.output)))
 
-    # Close LUKS devices (they may have been left open because of a previous failed installation)
+
+def close_luks_devices():
+    """ Close LUKS devices (they may have been left open because of a previous
+    failed installation) """
+
     try:
         if os.path.exists("/dev/mapper/cryptManjaro"):
             subprocess.check_call(["cryptsetup", "luksClose", "/dev/mapper/cryptManjaro"])
@@ -660,6 +668,8 @@ class AutoPartition(object):
 
         # Disable swap and all mounted partitions, umount / last!
         unmount_all(self.dest_dir)
+        remove_lvm(device)
+        close_luks_devices()
 
         printk(False)
 
