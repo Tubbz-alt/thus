@@ -12,9 +12,11 @@
 # Daniel Gerep <daniel.gerep@gmail.com>, 2014
 # Dércio Lopes <derci0_l0pes@hotmail.com>, 2015
 # Gonçalo Silva <inactive+glrs@transifex.com>, 2014
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2015
 # jubileu <pnt12@live.com.pt>, 2015
 # Jorge Gamboias <SoftBoost75@yahoo.com>, 2015
 # philm <philm@manjaro.org>, 2013
+# Nuno Duarte <inactive+nuno.passiano@transifex.com>, 2015
 # philm <philm@manjaro.org>, 2013
 # jubileu <pnt12@live.com.pt>, 2015
 # Seaco <marcoafmiranda@gmail.com>, 2013
@@ -24,8 +26,8 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-10-28 18:27+0000\n"
-"Last-Translator: jubileu <pnt12@live.com.pt>\n"
+"PO-Revision-Date: 2015-11-20 10:38+0000\n"
+"Last-Translator: Nuno Duarte <inactive+nuno.passiano@transifex.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/manjarolinux/manjaro-thus/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -274,7 +276,7 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "IMPORTANTE: Pode ter havido um problema com o bootloader, instalação que possa impedir o seu sistema de inicializar corretamente. Antes de reiniciar, você pode querer verificar se o bootloader está instalado e configurado. \nO Arch Linux Wiki contém informações e solução de problemas: https://wiki.archlinux.org/index.php/GRUB\nGostaria de ver a página wiki agora?"
 
 #: ../thus/slides.py:205
 msgid ""
@@ -845,7 +847,7 @@ msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr ""
+msgstr "GRUB requer uma partição de inicialização da BIOS em sistemas de BIOS para incorporar o seu arquivo core.img devido à falta de pós-MBR, lacuna ao incorporar em discos GPT.\n\nAssim vai criar esta partição de inicialização do BIOS para você."
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
@@ -1028,7 +1030,7 @@ msgstr "Escolha a partição que quer encolher:"
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Não é possível localizar qualquer número de partição de reposição.\nJuntamente com a instalação não pode continuar."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
@@ -1036,7 +1038,7 @@ msgstr "Não foi possível encontrar nenhum SO instalado!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
-msgstr ""
+msgstr "O modo de instalação 'ao lado de' não funciona em sistemas UEFI"
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
@@ -1052,7 +1054,7 @@ msgstr "Não foi possível detectar nenhum SO no dispositivo sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "Layout de disco não suportado para o modo de instalação 'ao lado de'"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
@@ -1100,7 +1102,7 @@ msgstr "Definir a sua Home numa partição/volume diferente"
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr ""
+msgstr "Isto irá configurar a / home numa partição ou volume diferente."
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
@@ -1192,7 +1194,7 @@ msgstr "Desmontando {0}"
 #: ../thus/installation/auto_partition.py:91
 #, python-brace-format
 msgid "Unmounting {0} failed. Trying lazy arg."
-msgstr ""
+msgstr "Desmontando {0} falhou. Tentando argumento preguiçoso."
 
 #: ../thus/installation/auto_partition.py:95
 #, python-brace-format
@@ -1246,7 +1248,7 @@ msgstr "Comando {0} falhou"
 #: ../thus/installation/process.py:267
 #, python-brace-format
 msgid "Output: {0}"
-msgstr ""
+msgstr "Saída: {0}"
 
 #: ../thus/installation/auto_partition.py:158
 msgid "Can't delete existent LVM volumes"
@@ -1389,7 +1391,7 @@ msgstr "Erro ao criar volume físico LVM"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr ""
+msgstr "Erro ao criar o grupo de volume LVM"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
@@ -1397,13 +1399,13 @@ msgstr "Erro ao criar volume lógico LVM"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
-msgstr ""
+msgstr "Não é possível copiar LUKS keyfile ao dispositivo de instalação"
 
 #: ../thus/installation/bootloader.py:102
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "variável 'ruuid' não está definido. Não consigo verificar a UUID raiz em grub.cfg, vamos esperar que seja ok"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
@@ -1465,7 +1467,7 @@ msgstr "O comando grub-install falhou. Erro desconhecido: {0}"
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "Nenhum carregador OEM encontrado em {0}. Copiando Grub (2) à dir."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
@@ -1500,11 +1502,11 @@ msgstr "GRUB(2) UEFI pode não ter sido instalado com sucesso."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
-msgstr ""
+msgstr "Arquivo-testes 50mounted corrigido com êxito"
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "Falha ao corrigir 50mounted-testes, arquivo não encontrado."
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
@@ -1561,7 +1563,7 @@ msgstr "Comando {0} falhou."
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "Saída : {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format

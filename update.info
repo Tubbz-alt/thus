@@ -1,4 +1,4 @@
-{"version":"0.9.1","files":[
+{"version":"0.9.2","files":[
 {"name":"/usr/share/thus/data/powerpill.json","md5":"547568178d3ad7072fa7e0c2734951e8"},
 {"name":"/usr/share/thus/data/FUTURAM.ttf","md5":"42f28d726573bd70dfa105afed6661b6"},
 {"name":"/usr/share/thus/data/kbdnames.gz","md5":"8117dbfb5002236a6a34714d78c2a2d8"},
@@ -115,7 +115,7 @@
 {"name":"/usr/share/thus/data/images/slides/8.png","md5":"a8dc19c5038e98a5f984e202ba9201d0"},
 {"name":"/usr/share/thus/data/locale/languagelist.txt.gz","md5":"4fc6ba242a3ac557fd4d661721438a08"},
 {"name":"/usr/share/thus/data/locale/timezones.xml","md5":"7de1c400a0f1ae6030d5a2082b51df4c"},
-{"name":"/usr/share/thus/data/locale/iso3366-1.xml","md5":"5334aee8f22a5e8df147e43754ecebde"},
+{"name":"/usr/share/thus/data/locale/iso3366-1.xml","md5":"10abc27fdfb646d41beeccdbe835da4a"},
 {"name":"/usr/share/thus/data/locale/locales.xml","md5":"4b952a0291ba850bc6c57bdaf58ee8ce"},
 {"name":"/usr/share/thus/data/locale/geonames-cities15000.txt.gz","md5":"9f885d4cc9f1d93db01d2b0e44d6c435"},
 {"name":"/usr/share/thus/data/css/scale.css","md5":"61da3a5a6db4d31b3ef601b9cd26d0f7"},
@@ -138,7 +138,7 @@
 {"name":"/usr/share/thus/thus/timezone.py","md5":"d30559c4a4b3e0c7dc2d7050d5d43a58"},
 {"name":"/usr/share/thus/thus/encfs.py","md5":"be0f263d47f0d7bcd67ba3ff61fffb57"},
 {"name":"/usr/share/thus/thus/check.py","md5":"6d1741ee360023cb2109f1011f51c6e4"},
-{"name":"/usr/share/thus/thus/info.py","md5":"ddd4c0c1740d4f499d63bc57e30241bd"},
+{"name":"/usr/share/thus/thus/info.py","md5":"46d618edf526c2f33dc1830d9aa25b0d"},
 {"name":"/usr/share/thus/thus/thus.py","md5":"1692686eea62c5c171254aade677adc4"},
 {"name":"/usr/share/thus/thus/rank_mirrors.py","md5":"92567d9cc777b0391dbe7a2e7f958f9e"},
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
@@ -158,7 +158,7 @@
 {"name":"/usr/share/thus/thus/installation/automatic.py","md5":"87f4239bfca602e34e9eef2464c94549"},
 {"name":"/usr/share/thus/thus/installation/alongside.py","md5":"5e4fef73cd96822ee9056fc2065c8078"},
 {"name":"/usr/share/thus/thus/installation/bootloader.py","md5":"091e555ac26c4926fe55f5dc6c837dfc"},
-{"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"5e268a6be5bcd6b865aa81790a17649d"},
+{"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"f0bccaa0f9a94b417aa3b5e2551edd3b"},
 {"name":"/usr/share/thus/thus/installation/mkinitcpio.py","md5":"687510210978bc229599ab75bf7e2033"},
 {"name":"/usr/share/thus/thus/installation/fstab.conf","md5":"40d74f532242a498daffb48ae55f446a"},
 {"name":"/usr/share/thus/thus/installation/fstab.py","md5":"3391f6b11dbcce65fa64172c1e3befe2"},

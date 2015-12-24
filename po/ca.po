@@ -12,6 +12,7 @@
 # Gustau Castells <karasu@antergos.com>, 2013
 # Ramon Buldó <rbuldo@gmail.com>, 2013
 # philm <philm@manjaro.org>, 2013
+# Davidmp <medipas@gmail.com>, 2015
 # Oriol Fernandez <oriolfa@ono.com>, 2013
 # philm <philm@manjaro.org>, 2013-2014
 # Ramon Buldó <rbuldo@gmail.com>, 2013,2015
@@ -23,9 +24,9 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-05-08 17:26+0000\n"
-"Last-Translator: Ramon Buldó <rbuldo@gmail.com>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/manjaro-thus/language/ca/)\n"
+"PO-Revision-Date: 2015-11-24 14:30+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/manjarolinux/manjaro-thus/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -102,7 +103,7 @@ msgstr "No es pot executar encfs. Contrasenya errònia?"
 
 #: ../thus/keymap.py:60
 msgid "Select your keyboard layout"
-msgstr "Selecciona la teva distribució de teclat"
+msgstr "Seleccioneu la disposició del teclat"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
@@ -114,7 +115,7 @@ msgstr "Variants de teclat"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
-msgstr "Distribucions"
+msgstr "Disposicions"
 
 #: ../thus/keymap.py:78
 msgid "Variants"
@@ -140,7 +141,7 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr "Thus és programari beta de pre-llençament que està en desenvolupament actiu.\nEncara no gestiona correctament RAID, subvolums btrfs o altres configuracions avançades.\nSi us plau, procediu amb precaució ja que hi ha possibilitat de pèrdua de dades!\n\nSi trobeu cap errada, si us plau, reporteu-la a http://bugs.manjaro.org"
+msgstr "Thus és programari beta de pre-llençament que està en desenvolupament actiu.\nEncara no gestiona correctament RAID, subvolums btrfs o altres configuracions avançades.\nSi us plau, procediu amb precaució ja que hi ha possibilitat de pèrdua de dades!\n\nSi trobeu cap errada, si us plau, informeu-ne a http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
@@ -169,7 +170,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr "La ubicació que trieu s'utilitzarà per a ajudar a triar la configuració local. Normalment hauria de ser el vostre país de residència. Aquí hi ha una llista d'ubicacions basades en l'idioma que heu triat."
+msgstr "La ubicació que trieu s'utilitzarà per ajudar a triar la configuració local. Normalment hauria de ser el vostre país de residència. Aquí hi ha una llista d'ubicacions basades en l'idioma que heu triat."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -234,11 +235,11 @@ msgstr "S'està sortint de l'instal·lador"
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr "No es troba l'script de la classificació de miralls"
+msgstr "No es troba l'script de la classificació de rèpliques"
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
-msgstr "No puc seleccionar un 'mirror' de manera automàtica"
+msgstr "No puc seleccionar una rèplica de manera automàtica"
 
 #: ../thus/show_message.py:59
 msgid "Manjaro Installer - Error"
@@ -258,11 +259,11 @@ msgstr "Instal·lador del Manjaro - Confirmació"
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
-msgstr "Instal·lant Manjaro..."
+msgstr "Instal·lant el Manjaro..."
 
 #: ../thus/slides.py:82
 msgid "Please wait..."
-msgstr "Si us plau, espera..."
+msgstr "Si us plau, espereu..."
 
 #: ../thus/slides.py:192
 msgid ""
@@ -298,7 +299,7 @@ msgstr "Thus v{0} - Instal·lador del Manjaro"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
-msgstr "Estableix el nivell de registre a 'debug'"
+msgstr "Estableix el nivell de registre a \"debug\""
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
@@ -339,7 +340,7 @@ msgstr "Si us plau, instal·leu '{0}' abans d'executar aquest instal·lador"
 
 #: ../thus/timezone.py:94
 msgid "Where are you?"
-msgstr "On ets?"
+msgstr "On sou?"
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
@@ -360,7 +361,7 @@ msgstr "ubicació canviada a: {0}"
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
-msgstr "No puc detectar automàticament la teva zona horària"
+msgstr "No puc detectar automàticament la zona horària"
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
@@ -420,7 +421,7 @@ msgstr "Error d'md5. Descàrrega errònia o fitxer incorrecte; no s'actualitzar�
 
 #: ../thus/user_info.py:72
 msgid "Who are you?"
-msgstr "Qui ets?"
+msgstr "Qui sou?"
 
 #: ../thus/user_info.py:77 ../ui/user_info.ui:32
 msgid "Your name:"
@@ -440,7 +441,7 @@ msgstr "El nom del vostre ordinador:"
 
 #: ../thus/user_info.py:93 ../ui/user_info.ui:44
 msgid "Pick a username:"
-msgstr "Escull un nom d'usuari:"
+msgstr "Escolliu un nom d'usuari:"
 
 #: ../thus/user_info.py:97 ../ui/user_info.ui:213
 msgid "Username"
@@ -448,7 +449,7 @@ msgstr "Nom d'usuari"
 
 #: ../thus/user_info.py:101 ../ui/user_info.ui:57
 msgid "Choose a password:"
-msgstr "Escull una contrasenya:"
+msgstr "Escolliu una contrasenya:"
 
 #: ../thus/user_info.py:105 ../thus/user_info.py:121 ../ui/user_info.ui:91
 #: ../ui/user_info.ui:495
@@ -475,7 +476,7 @@ msgstr "Confirmeu la contrasenya d'administrador"
 
 #: ../thus/user_info.py:133
 msgid "Its name as it appears to other computers."
-msgstr "El seu nom tal com es mostra als altres ordinadors."
+msgstr "El nom tal com es mostra als altres ordinadors."
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
@@ -499,7 +500,7 @@ msgstr "Cal una contrasenya per iniciar la sessió"
 
 #: ../thus/user_info.py:155 ../ui/user_info.ui:439
 msgid "Encrypt home folder"
-msgstr "Encripta la carpeta home"
+msgstr "Encripta la carpeta d'inici"
 
 #: ../thus/user_info.py:158 ../thus/installation/automatic.py:105
 #: ../ui/user_info.ui:333
@@ -518,7 +519,7 @@ msgstr "Fes servir una contrasenya d'administrador"
 msgid ""
 "Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
 "\n"
-msgstr "El Manjaro utilitzarà eCryptfs per a xifrar el vostre directori d'usuari. Malauradament, eCryptfs no gestiona correctament els fitxers dispersos.\n\n"
+msgstr "El Manjaro utilitzarà eCryptfs per xifrar el vostre directori d'usuari. Malauradament, eCryptfs no gestiona correctament els fitxers dispersos.\n\n"
 
 #: ../thus/user_info.py:230
 msgid ""
@@ -536,13 +537,13 @@ msgstr "De totes maneres, un popular i poc aconsellable ús d'eCryptfs és xifra
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr "Una senzilla solució temporal consisteix en desar els fitxers dispersos en un directori .Public sense encriptar\n\n"
+msgstr "Una senzilla solució temporal consisteix a desar els fitxers dispersos en un directori .Public sense encriptar\n\n"
 
 #: ../thus/user_info.py:233
 msgid ""
 "Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
 "\n"
-msgstr "Mira https://wiki.archlinux.org/index.php/ECryptfs per obtenir informació detallada\n\n\n"
+msgstr "Mireu https://wiki.archlinux.org/index.php/ECryptfs per obtenir informació detallada\n\n\n"
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
@@ -590,7 +591,7 @@ msgstr "Descarregant {0} {1} ({2}/{3})..."
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
 msgid "Metalink for package {0} has no size info"
-msgstr "El meta-enllaç per al paquet {0} no té informació de mida"
+msgstr "El metaenllaç per al paquet {0} no té informació de mida"
 
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
@@ -600,7 +601,7 @@ msgstr "El fitxer {0} ja existeix; el Thus no el sobreescriurà"
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
 msgid "Can't download {0}, even after trying all available mirrors"
-msgstr "No es pot descarregar {0}, ni després de provar-ho a totes les rèpliques disponibles"
+msgstr "No es pot descarregar {0}, ni després de provar-ho des de totes les rèpliques disponibles"
 
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
@@ -751,7 +752,7 @@ msgstr "Edita..."
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
-msgstr "Nova taula de particions"
+msgstr "Taula de particions nova"
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
@@ -820,7 +821,7 @@ msgstr "Crea la taula de particions"
 
 #: ../thus/installation/advanced.py:1439
 msgid "Use LUKS encryption:"
-msgstr "Utilitza encriptació LUKS:"
+msgstr "Utilitza l'encriptació LUKS:"
 
 #: ../thus/installation/advanced.py:1443 ../ui/advanced.ui:1172
 msgid "LUKS volume name:"
@@ -844,7 +845,7 @@ msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr "El GRUB requereix una partició d'arrencada BIOS als sistemes BIOS per a incrustar-hi el fitxer core.img degut a la falta d'una separació incrustada als discs GPT.\n\nEl Thus crearà aquesta Partició d'Arrencada BIOS."
+msgstr "El GRUB requereix una partició d'arrencada BIOS als sistemes BIOS per incrustar-hi el fitxer core.img a causa de la falta d'una separació incrustada als discs GPT.\n\nEl Thus crearà aquesta partició d'arrencada BIOS."
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
@@ -856,7 +857,7 @@ msgstr "No es pot crear una partició d'arrencada BIOS GPT"
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
-msgstr "Instal·lar ara!"
+msgstr "Instal·la ara!"
 
 #: ../thus/installation/advanced.py:1772
 #, python-brace-format
@@ -864,7 +865,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr "{0} s'ha muntat com d'intercanvi.\nPer a continuar s'ha de desmuntar.\nFeu clic a Sí per a desmuntar-la, o No per a tornar\n"
+msgstr "{0} s'ha muntat com d'intercanvi.\nPer continuar s'ha de desmuntar.\nFeu clic a Sí per desmuntar-la, o No per tornar enrere\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -872,7 +873,7 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr "{0} s'ha muntat a '{1}'.\nPer a continuar s'ha de desmuntar.\nFeu clic a Sí per a desmuntar-la, o No per a tornar\n"
+msgstr "{0} s'ha muntat a '{1}'.\nPer continuar s'ha de desmuntar.\nFeu clic a Sí per desmuntar-la, o No per tornar enrere\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
@@ -893,7 +894,7 @@ msgstr "{0} es mostra com a muntada (ocupada) però no té punt de muntatge"
 msgid ""
 "The root partition is not marked to be formatted.\n"
 "This might create problems. Should it be marked to be formatted now?"
-msgstr "La partició arrel no està marcada per a formatar.\nAixò podria crear problemes. La voleu marcar per a formatar ara?"
+msgstr "La partició arrel no està marcada per formatar.\nAixò podria crear problemes. La voleu marcar per formatar ara?"
 
 #: ../thus/installation/advanced.py:1863
 #, python-brace-format
@@ -946,12 +947,12 @@ msgstr "Creant un nou {0} sistema de fitxers a {1}"
 #: ../thus/installation/advanced.py:2078
 #, python-brace-format
 msgid "Setting boot flag in {0} partition"
-msgstr "Posant marcador d'arrencada a la partició {0}"
+msgstr "Establint el marcador d'arrencada a la partició {0}"
 
 #: ../thus/installation/advanced.py:2051
 #, python-brace-format
 msgid "Setting boot_legacy flag in {0} partition"
-msgstr "Posant marcador d'arrencada antic a la partició {0}"
+msgstr "Establint el marcador d'arrencada de llegat a la partició {0}"
 
 #: ../thus/installation/advanced.py:2086
 #, python-brace-format
@@ -979,7 +980,7 @@ msgstr "El Manjaro instal·larà el carregador d'arrencada {0} al dispositiu {1}
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
-msgstr "Mode test. El Thus no aplicarà cap canvi al vostre sistema!"
+msgstr "Mode de test. El Thus no aplicarà cap canvi al vostre sistema!"
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
@@ -992,14 +993,14 @@ msgstr "S'encongirà el dispositiu {0} i es crearà el nou dispositu {1}"
 
 #: ../thus/installation/alongside.py:150
 msgid "Thus recommends at least 6.5GB free to install Manjaro."
-msgstr "El Thus recomana com a mínim 6,5 GB disponibles per a instal·lar el Manjaro."
+msgstr "El Thus recomana com a mínim 6,5 GB disponibles per instal·lar el Manjaro."
 
 #: ../thus/installation/alongside.py:151
 #, python-brace-format
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr "La nova partició {0} resultat d'encongir {1} no tindrà prou espai disponible per a una instal·lació completa."
+msgstr "La nova partició {0}, resultat d'encongir {1}, no tindrà prou espai disponible per a una instal·lació completa."
 
 #: ../thus/installation/alongside.py:152
 msgid ""
@@ -1027,7 +1028,7 @@ msgstr "Trieu la partició que voleu encongir:"
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr "No es troba cap número de partició de recanvi.\nLa instal·lació contigua no pot seguir."
+msgstr "No es troba cap número de partició lliure.\nLa instal·lació contigua no pot continuar"
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
@@ -1035,7 +1036,7 @@ msgstr "No es troba cap SO instal·lat!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
-msgstr "El mode d'instal·lació contigu no funciona a sistemes UEFI"
+msgstr "El mode d'instal·lació contigu no funciona amb sistemes UEFI"
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
@@ -1068,11 +1069,11 @@ msgstr "Substitueix {0} amb el Manjaro"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr "Esborra el disc i instal·la el Manjaro"
+msgstr "Esborra el disc i instal·la-hi el Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr "Advertiment: això esborrarà TOTES les dades del vostre disk."
+msgstr "Advertiment: això esborrarà TOTES les dades del disc."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
@@ -1080,11 +1081,11 @@ msgstr "Encripteu la instal·lació per a més seguretat."
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr "Se us demanarà de crear una contrasenya d'encriptació al següent pas."
+msgstr "Se us demanarà de crear una contrasenya d'encriptació al pas següent."
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
-msgstr "Utilitza el LVM amb aquesta instal·lació."
+msgstr "Utilitza LVM en aquesta instal·lació."
 
 #: ../thus/installation/ask.py:265
 msgid ""
@@ -1135,7 +1136,7 @@ msgstr "Mode d'instal.lació automàtica"
 
 #: ../thus/installation/automatic.py:79 ../ui/automatic.ui:81
 msgid "Select drive:"
-msgstr "Selecciona la unitat:"
+msgstr "Seleccioneu la unitat:"
 
 #: ../thus/installation/automatic.py:83
 msgid ""
@@ -1284,12 +1285,12 @@ msgstr "No es pot executar l'ordre dd"
 #: ../thus/installation/auto_partition.py:306
 #, python-brace-format
 msgid "Error creating a new partition on device {0}"
-msgstr "Error al crear una nova partició al dispositiu {0}"
+msgstr "Error en crear una nova partició al dispositiu {0}"
 
 #: ../thus/installation/auto_partition.py:319
 #, python-brace-format
 msgid "Error creating a new partition table on device {0}"
-msgstr "Error al crear una taula de particions nova al dispositiu {0}"
+msgstr "Error en crear una taula de particions nova al dispositiu {0}"
 
 #: ../thus/installation/auto_partition.py:358
 #, python-brace-format
@@ -1315,7 +1316,7 @@ msgstr "No es pot crear el sistema de fitxers {0}"
 #: ../thus/installation/auto_partition.py:422
 #, python-brace-format
 msgid "Error trying to  mount {0} in {1}"
-msgstr "Error a l'intentar muntar {0} a {1}"
+msgstr "Error en intentar muntar {0} a {1}"
 
 #: ../thus/installation/auto_partition.py:438
 #, python-brace-format
@@ -1371,11 +1372,11 @@ msgstr "Mida de la partició de l'usuari: %d MiB"
 msgid ""
 "Setup cannot detect size of your device, please use advanced installation "
 "routine for partitioning and mounting devices."
-msgstr "L'instal·lador no pot detectar la mida del dispositiu. Utilitzeu la rutina avançada d'instal·lació per particionar i muntar dispositius."
+msgstr "L'instal·lador no pot detectar la mida del dispositiu. Utilitzeu la rutina avançada d'instal·lació per partir i muntar dispositius."
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
-msgstr "Error en informar al kernel del canvi a la partició."
+msgstr "Error en informar el nucli del canvi a la partició."
 
 #: ../thus/installation/auto_partition.py:788
 #, python-brace-format
@@ -1384,15 +1385,15 @@ msgstr "Això configurarà LVM al dispositiu {0}"
 
 #: ../thus/installation/auto_partition.py:793
 msgid "Error creating LVM physical volume"
-msgstr "Error al crear el volum físic LVM"
+msgstr "Error en crear el volum físic LVM"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr "Error al crear el grup de volums LVM"
+msgstr "Error en crear el grup de volums LVM"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
-msgstr "Error al crear el volum lògic LVM"
+msgstr "Error en crear el volum lògic LVM"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
@@ -1402,11 +1403,11 @@ msgstr "No es pot copiar el fitxer clau LUKS al dispositiu d'instal·lació"
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr "La variable 'ruuid' no s'ha definit. No es pot comprovar l'UUID arrel al grub.cfg, esperem que sigui correcta"
+msgstr "La variable \"ruuid\" no s'ha definit. No es pot comprovar l'UUID d'arrel al grub.cfg, esperem que sigui correcta"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
-msgstr "Configuració d' /etc/default/grub finalitzada correctament."
+msgstr "Configuració d'/etc/default/grub finalitzada correctament."
 
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
@@ -1422,7 +1423,7 @@ msgstr "Instal·lant el GRUB(2) BIOS al carregador d'arrencada a {0} "
 msgid ""
 "grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
 "continue."
-msgstr "grub-mkconfig no respon. Matant grub-mount i os-prober per a poder continuar."
+msgstr "grub-mkconfig no respon. Matant grub-mount i os-prober per poder continuar."
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
@@ -1511,11 +1512,11 @@ msgstr "Copiant els fitxers del tema GRUB(2)"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr "Fitxers del tema Grub2 no trobats"
+msgstr "No s'han trobat els fitxers de tema del Grub2"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr "Els fitxers del tema Grub2 ja existeixen."
+msgstr "Els fitxers de tema del Grub2 ja existeixen."
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
@@ -1640,7 +1641,7 @@ msgstr "S'ha configurat el sistema."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr "No es pot copiar el log del Thus a {0}"
+msgstr "No es pot copiar el \"log\" del Thus a {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
@@ -1671,7 +1672,7 @@ msgstr "Indexant els fitxers de la imatge arrel per a copiar-los..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr "Indexant els fitxers de la imatge d'escriptori per a copiar-los..."
+msgstr "Indexant els fitxers de la imatge d'escriptori per copiar-los..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
@@ -1684,7 +1685,7 @@ msgstr "S'està extraient la imatge de l'escriptori..."
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr "Recuperant meta-informació a {0}"
+msgstr "Recuperant metainformació a {0}"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
@@ -1729,12 +1730,12 @@ msgstr "No es troba el servei {0}"
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr "Error al crear el hash de la contrasenya per a l'usuari {0}"
+msgstr "Error en crear el \"hash\" de la contrasenya per a l'usuari {0}"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr "Error al canviar la contrasenya de l'usuari {0}"
+msgstr "Error en canviar la contrasenya de l'usuari {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
@@ -1764,7 +1765,7 @@ msgstr "S'ha establert la zona horària."
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr "Configuració sudo per a l'usuari {0} finalitzada."
+msgstr "Configuració de sudo per a l'usuari {0} finalitzada."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
@@ -1913,7 +1914,7 @@ msgstr "No es pot eliminar el volum físic {0}"
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr "Excepció: {0}\nPer més informació feu una ullada a /tmp/thus.log"
+msgstr "Excepció: {0}\nPer a més informació feu una ullada a /tmp/thus.log"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
@@ -1974,7 +1975,7 @@ msgstr "Edita la partició"
 
 #: ../ui/advanced.ui:181 ../ui/advanced.ui:436
 msgid "Use as:"
-msgstr "Usa com:"
+msgstr "Usa com a:"
 
 #: ../ui/advanced.ui:214 ../ui/advanced.ui:469
 msgid "Mount point:"
@@ -2002,7 +2003,7 @@ msgstr "etiqueta"
 
 #: ../ui/advanced.ui:1022 ../ui/automatic.ui:128
 msgid "Use this device for boot loader installation:"
-msgstr "Utilitza aquest dispositiu per a instal·lar el carregador d'arrencada:"
+msgstr "Utilitza aquest dispositiu per instal·lar-hi el carregador d'arrencada:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
@@ -2010,7 +2011,7 @@ msgstr "Propietats de l'encriptació"
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
-msgstr "Utilitza encriptació LUKS:"
+msgstr "Utilitza l'encriptació LUKS:"
 
 #: ../ui/advanced.ui:1285 ../ui/user_info.ui:107 ../ui/user_info.ui:511
 msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
@@ -2026,7 +2027,7 @@ msgstr "<b>AVÍS! Aquest mode d'instal·lació sobreescriurà tot el contingut d
 msgid ""
 "Please choose the drive where you want to install Manjaro and click the "
 "button below to start the process."
-msgstr "Si us plau, trieu la unitat on voleu instal·lar el Manjaro i feu clic al botó d'aquí sota per a començar el procés."
+msgstr "Si us plau, trieu la unitat on voleu instal·lar el Manjaro i feu clic al botó d'aquí sota per començar el procés."
 
 #: ../ui/automatic.ui:271
 msgid "show password"
@@ -2054,7 +2055,7 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr "Trieu 'cancel·la' si no voleu instal·lar un carregador d'arrencada"
+msgstr "Trieu \"cancel·la\" si no voleu instal·lar un carregador d'arrencada"
 
 #: ../ui/check.ui:17
 msgid ""
@@ -2066,11 +2067,11 @@ msgstr "<span weight=\"bold\" size=\"large\">Per a uns resultats òptims, assegu
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr "(*) Això depèn molt de quin entorn d'escriptori trieu, per tant podríeu necessitar més espai. (per exemple, el KDE requereix 6,5 GB)."
+msgstr "(*) Això depèn molt de quin entorn d'escriptori trieu; per tant, podríeu necessitar més espai (per exemple, el KDE requereix 6,5 GB)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
-msgstr "<span weight=\"bold\" size=\"large\">Benvingut a Manjaro</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Benvinguts al Manjaro</span>"
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
@@ -2086,8 +2087,8 @@ msgstr "<small><span color=\"darkred\">Heu d'introduir un nom d'usuari</span></s
 
 #: ../ui/user_info.ui:290
 msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
-msgstr "<small><span color=\"darkred\">Heu d'entrar un nom</span></small>"
+msgstr "<small><span color=\"darkred\">Heu d'introduir un nom</span></small>"
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr "<span size=\"small\">El seu nom tal com es mostra als altres ordinadors.</span>"
+msgstr "<span size=\"small\">El nom tal com es mostra als altres ordinadors.</span>"
