@@ -456,10 +456,8 @@ class AutoPartition(object):
         device = self.auto_device
 
         # Detect if it is a NVME SSD device
-        if "/dev/nvme" not in device:
-            nvme_part=""
-        else:
-            nvme_part="p"
+        if "/dev/nvme" in device:
+            device = "{0}p".format(device)
 
         # device is of type /dev/sdX, /dev/hdX or /dev/nvme*n*pX
 
@@ -471,22 +469,22 @@ class AutoPartition(object):
                 part_num = 1
 
             if self.bootloader == "grub2":
-                devices['efi'] = "{0}{1}{2}".format(device, nvme_part, part_num)
+                devices['efi'] = "{0}{1}".format(device, part_num)
                 part_num += 1
-            devices['boot'] = "{0}{1}{2}".format(device, nvme_part, part_num)
+            devices['boot'] = "{0}{1}".format(device, part_num)
             part_num += 1
-            devices['root'] = "{0}{1}{2}".format(device, nvme_part, part_num)
+            devices['root'] = "{0}{1}".format(device, part_num)
             part_num += 1
             if self.home:
-                devices['home'] = "{0}{1}{2}".format(device, nvme_part, part_num)
+                devices['home'] = "{0}{1}".format(device, part_num)
                 part_num += 1
-            devices['swap'] = "{0}{1}{2}".format(device, nvme_part, part_num)            
+            devices['swap'] = "{0}{1}".format(device, part_num)            
         else:
-            devices['boot'] = "{0}{1}{2}".format(device, nvme_part, 1)
-            devices['root'] = "{0}{1}{2}".format(device, nvme_part, 2)
+            devices['boot'] = "{0}{1}".format(device, 1)
+            devices['root'] = "{0}{1}".format(device, 2)
             if self.home:
-                devices['home'] = "{0}{1}{2}".format(device, nvme_part, 3)
-            devices['swap'] = "{0}{1}{2}".format(device, nvme_part, 5)
+                devices['home'] = "{0}{1}".format(device, 3)
+            devices['swap'] = "{0}{1}".format(device, 5)
 
         if self.luks:
             if self.lvm:
