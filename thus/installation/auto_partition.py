@@ -455,7 +455,7 @@ class AutoPartition(object):
         devices = {}
         device = self.auto_device
 
-        # Detect if it is a NVME SSD device
+        # Detect if it is a NVMe SSD device
         # https://github.com/manjaro/thus/issues/37
         if "/dev/nvme" in device:
             device = "{0}p".format(device)

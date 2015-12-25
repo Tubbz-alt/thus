@@ -141,6 +141,11 @@ class InstallationAutomatic(GtkBaseBox):
         # https://github.com/manjaro/thus/issues/37
 
         for dev in device_list:
+            # Detect if it is a NVMe SSD device
+            # https://github.com/manjaro/thus/issues/37
+            if dev.path.startswith("/dev/nvme"):
+                cut = -1
+                dev = '{0}p{1}'.format(dev[:cut], dev[cut:])
             # avoid cdrom and any raid, lvm volumes or encryptfs
             if not dev.path.startswith("/dev/sr") and \
                not dev.path.startswith("/dev/mapper"):
@@ -148,11 +153,6 @@ class InstallationAutomatic(GtkBaseBox):
                 size_in_gigabytes = int((dev.length * dev.sectorSize) / 1000000000)
                 line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev.path)
                 logging.debug(line)
-                # Detect if it is a NVME SSD device
-                # https://github.com/manjaro/thus/issues/37
-                if dev.path.startswith("/dev/nvme"):
-                    cut = -1
-                    dev = '{0}p{1}'.format(dev[:cut], dev[cut:])
                 self.device_store.append_text(line)
                 self.devices[line] = dev.path
                 self.bootloader_device_entry.append_text(line)
