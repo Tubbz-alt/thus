@@ -152,7 +152,7 @@ class InstallationAutomatic(GtkBaseBox):
                 # https://github.com/manjaro/thus/issues/37
                 if dev.path.startswith("/dev/nvme"):
                     cut = -1
-                    dev.path = '{0}p{1}'.format(dev.path[:cut], dev.path[cut:])
+                    dev = '{0}p{1}'.format(dev[:cut], dev[cut:])
                 self.device_store.append_text(line)
                 self.devices[line] = dev.path
                 self.bootloader_device_entry.append_text(line)
