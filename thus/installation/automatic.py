@@ -137,6 +137,9 @@ class InstallationAutomatic(GtkBaseBox):
         self.bootloader_device_entry.remove_all()
         self.bootloader_devices.clear()
 
+        # TODO: find a proper solution to detect NVMe devices
+        # https://github.com/manjaro/thus/issues/37
+
         for dev in device_list:
             # avoid cdrom and any raid, lvm volumes or encryptfs
             if not dev.path.startswith("/dev/sr") and \
@@ -144,11 +147,11 @@ class InstallationAutomatic(GtkBaseBox):
                 # hard drives measure themselves assuming kilo=1000, mega=1mil, etc
                 size_in_gigabytes = int((dev.length * dev.sectorSize) / 1000000000)
                 line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev.path)
+                logging.debug(line)
                 self.device_store.append_text(line)
                 self.devices[line] = dev.path
                 self.bootloader_device_entry.append_text(line)
                 self.bootloader_devices[line] = dev.path
-                logging.debug(line)
 
         self.select_first_combobox_item(self.device_store)
         self.select_first_combobox_item(self.bootloader_device_entry)
@@ -163,6 +166,7 @@ class InstallationAutomatic(GtkBaseBox):
         line = self.device_store.get_active_text()
         if line is not None:
             self.auto_device = self.devices[line]
+            logging.debug(_("Drive changed: {0}").format(self.auto_device))
         self.forward_button.set_sensitive(True)
 
     def prepare(self, direction):

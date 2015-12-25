@@ -455,11 +455,7 @@ class AutoPartition(object):
         devices = {}
         device = self.auto_device
 
-        # Detect if it is a NVME SSD device
-        if "/dev/nvme" in device:
-            device = "{0}p".format(device)
-
-        # device is of type /dev/sdX, /dev/hdX or /dev/nvme*n*pX
+        # device is of type /dev/sdX or /dev/hdX
 
         if self.GPT:
             if not self.UEFI:
