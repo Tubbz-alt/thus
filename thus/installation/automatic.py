@@ -141,22 +141,25 @@ class InstallationAutomatic(GtkBaseBox):
         # https://github.com/manjaro/thus/issues/37
 
         for dev in device_list:
-            # Detect if it is a NVMe SSD device
-            # https://github.com/manjaro/thus/issues/37
-            if dev.path.startswith("/dev/nvme"):
-                cut = -1
-                dev = '{0}p{1}'.format(dev[:cut], dev[cut:])
             # avoid cdrom and any raid, lvm volumes or encryptfs
             if not dev.path.startswith("/dev/sr") and \
                not dev.path.startswith("/dev/mapper"):
                 # hard drives measure themselves assuming kilo=1000, mega=1mil, etc
                 size_in_gigabytes = int((dev.length * dev.sectorSize) / 1000000000)
-                line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev.path)
+                # Detect if it is a NVMe SSD device
+                # https://github.com/manjaro/thus/issues/37
+                if dev.path.startswith("/dev/nvme"):
+                    cut = -1
+                    dev_path = dev.path
+                    dev_line = '{0}p{1}'.format(dev_path[:cut], dev_path[cut:])
+                else:
+                    dev_line = dev.path
+                line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev_line)
                 logging.debug(line)
                 self.device_store.append_text(line)
-                self.devices[line] = dev.path
+                self.devices[line] = dev_line
                 self.bootloader_device_entry.append_text(line)
-                self.bootloader_devices[line] = dev.path
+                self.bootloader_devices[line] = dev_line
 
         self.select_first_combobox_item(self.device_store)
         self.select_first_combobox_item(self.bootloader_device_entry)
