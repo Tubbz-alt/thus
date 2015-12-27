@@ -459,7 +459,7 @@ class AutoPartition(object):
         # https://github.com/manjaro/thus/issues/37
         if "/dev/nvme" in device:
             #device = "{0}p".format(device)
-            logging.debug(_("NVMe drive detected: {0}".format(device)
+            logging.debug(_("NVMe drive detected: {0}".format(device)))
 
         # device is of type /dev/sdX, /dev/hdX or /dev/nvme*n*pX
 
