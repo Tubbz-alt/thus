@@ -666,14 +666,14 @@ class AutoPartition(object):
             if device[-2] == 'p':
                 cut = -2
                 dev_name = '{0}'.format(device_name[:cut])
-                device = '{0}p'.format(device_name[:cut])
                 base_path = os.path.join("/sys/block", dev_name)
+                device = '{0}p'.format(device[:cut])
             else:
-                base_path = os.path.join("/sys/block", device)
+                base_path = os.path.join("/sys/block", device_name)
                 device = '{0}p'.format(device)
             logging.debug(_("Using now following: {0}".format(device)))
         else:
-            base_path = os.path.join("/sys/block", device)
+            base_path = os.path.join("/sys/block", device_name)
         size_path = os.path.join(base_path, "size")
         if os.path.exists(size_path):
             logical_path = os.path.join(base_path, "queue/logical_block_size")
