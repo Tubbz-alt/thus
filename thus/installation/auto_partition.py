@@ -461,7 +461,10 @@ class AutoPartition(object):
         # https://github.com/manjaro/thus/issues/37
         if "/dev/nvme" in device:
             logging.debug(_("NVMe drive detected: {0}".format(device)))
-            cut = -1
+            if device[-2] == 'p':
+                cut = -2
+            else:
+                cut = -1
             dev = '{0}p'.format(device[:cut])
             device = dev
             logging.debug(_("Using now following: {0}".format(device)))
@@ -660,7 +663,10 @@ class AutoPartition(object):
         # https://github.com/manjaro/thus/issues/37
         if "nvme" in device_name:
             logging.debug(_("NVMe drive detected: {0}".format(device_name)))
-            cut = -2
+            if device[-2] == 'p':
+                cut = -2
+            else:
+                cut = -1
             dev_name = '{0}'.format(device_name[:cut])
             base_path = os.path.join("/sys/block", dev_name)
             device = '{0}p'.format(device_name[:cut])

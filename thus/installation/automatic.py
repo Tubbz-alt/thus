@@ -149,8 +149,11 @@ class InstallationAutomatic(GtkBaseBox):
                 # Detect if it is a NVMe SSD device
                 # https://github.com/manjaro/thus/issues/37
                 if dev.path.startswith("/dev/nvme"):
-                    cut = -1
                     dev_path = dev.path
+                    if dev_path[-2] == 'p':
+                        cut = -2
+                    else:
+                        cut = -1
                     dev_line = '{0}p{1}'.format(dev_path[:cut], dev_path[cut:])
                 else:
                     dev_line = dev.path
