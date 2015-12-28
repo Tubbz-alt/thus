@@ -455,6 +455,8 @@ class AutoPartition(object):
         devices = {}
         device = self.auto_device
 
+        logging.debug(_("Following device detected: {0}".format(device)))
+
         # Detect if it is a NVMe SSD device
         # https://github.com/manjaro/thus/issues/37
         if "/dev/nvme" in device:
@@ -647,6 +649,15 @@ class AutoPartition(object):
 
         # Get just the disk size in MiB
         device = self.auto_device
+
+        logging.debug(_("Following device detected: {0}".format(device)))
+
+        # Detect if it is a NVMe SSD device
+        # https://github.com/manjaro/thus/issues/37
+        if "/dev/nvme" in device:
+            #device = "{0}p".format(device)
+            logging.debug(_("NVMe drive detected: {0}".format(device)))
+
         device_name = check_output("basename {0}".format(device))
         base_path = os.path.join("/sys/block", device_name)
         size_path = os.path.join(base_path, "size")
