@@ -460,8 +460,11 @@ class AutoPartition(object):
         # Detect if it is a NVMe SSD device
         # https://github.com/manjaro/thus/issues/37
         if "/dev/nvme" in device:
-            #device = "{0}p".format(device)
             logging.debug(_("NVMe drive detected: {0}".format(device)))
+            cut = -1
+            dev = '{0}p'.format(device[:cut])
+            device = dev
+            logging.debug(_("Using now following: {0}".format(device)))
 
         # device is of type /dev/sdX, /dev/hdX or /dev/nvme*n*pX
 
@@ -652,14 +655,18 @@ class AutoPartition(object):
 
         logging.debug(_("Following device detected: {0}".format(device)))
 
+        device_name = check_output("basename {0}".format(device))
         # Detect if it is a NVMe SSD device
         # https://github.com/manjaro/thus/issues/37
-        if "/dev/nvme" in device:
-            #device = "{0}p".format(device)
-            logging.debug(_("NVMe drive detected: {0}".format(device)))
-
-        device_name = check_output("basename {0}".format(device))
-        base_path = os.path.join("/sys/block", device_name)
+        if "nvme" in device_name:
+            logging.debug(_("NVMe drive detected: {0}".format(device_name)))
+            cut = -2
+            dev_name = '{0}'.format(device_name[:cut])
+            base_path = os.path.join("/sys/block", dev_name)
+            device = '{0}p'.format(device_name[:cut])
+            logging.debug(_("Using now following: {0}".format(device)))
+        else:
+            base_path = os.path.join("/sys/block", device_name)
         size_path = os.path.join(base_path, "size")
         if os.path.exists(size_path):
             logical_path = os.path.join(base_path, "queue/logical_block_size")
