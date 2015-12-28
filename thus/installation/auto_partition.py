@@ -463,10 +463,10 @@ class AutoPartition(object):
             logging.debug(_("NVMe drive detected: {0}".format(device)))
             if device[-2] == 'p':
                 cut = -2
+                device = '{0}p'.format(device[:cut])
             else:
-                cut = -1
-            dev = '{0}p'.format(device[:cut])
-            device = dev
+                device = '{0}p'.format(device)
+
             logging.debug(_("Using now following: {0}".format(device)))
 
         # device is of type /dev/sdX, /dev/hdX or /dev/nvme*n*pX
@@ -665,14 +665,15 @@ class AutoPartition(object):
             logging.debug(_("NVMe drive detected: {0}".format(device_name)))
             if device[-2] == 'p':
                 cut = -2
+                dev_name = '{0}'.format(device_name[:cut])
+                device = '{0}p'.format(device_name[:cut])
+                base_path = os.path.join("/sys/block", dev_name)
             else:
-                cut = -1
-            dev_name = '{0}'.format(device_name[:cut])
-            base_path = os.path.join("/sys/block", dev_name)
-            device = '{0}p'.format(device_name[:cut])
+                base_path = os.path.join("/sys/block", device)
+                device = '{0}p'.format(device)
             logging.debug(_("Using now following: {0}".format(device)))
         else:
-            base_path = os.path.join("/sys/block", device_name)
+            base_path = os.path.join("/sys/block", device)
         size_path = os.path.join(base_path, "size")
         if os.path.exists(size_path):
             logical_path = os.path.join(base_path, "queue/logical_block_size")
