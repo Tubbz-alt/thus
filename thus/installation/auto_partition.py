@@ -671,9 +671,10 @@ class AutoPartition(object):
             else:
                 base_path = os.path.join("/sys/block", device_name)
                 device = '{0}p'.format(device)
-            logging.debug(_("Using now following: {0}".format(device)))
+            logging.debug(_("Using now following (device): {0}".format(device)))
         else:
             base_path = os.path.join("/sys/block", device_name)
+        logging.debug(_("Using now following (base_path): {0}".format(base_path)))
         size_path = os.path.join(base_path, "size")
         if os.path.exists(size_path):
             logical_path = os.path.join(base_path, "queue/logical_block_size")
