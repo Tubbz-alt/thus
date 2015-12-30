@@ -37,7 +37,7 @@ import download.download_urllib as download
 import info
 
 _branch="master"
-_update_info_url = "https://raw.github.com/manjaro/thus/{0}/update.info".format(_branch)
+_update_info_url = "https://raw.githubusercontent.com/manjaro/thus/{0}/update.info".format(_branch)
 _zip_url = "https://github.com/manjaro/thus/archive/{0}.zip".format(_branch)
 _update_info = "/usr/share/thus/update.info"
 

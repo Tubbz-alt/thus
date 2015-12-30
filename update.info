@@ -127,7 +127,7 @@
 {"name":"/usr/share/thus/scripts/mhwd.sh","md5":"e30434bdd514e40302476b19b172d002"},
 {"name":"/usr/share/thus/scripts/set-settings","md5":"1b746dd9c61e1c12065e5a66d998a397"},
 {"name":"/usr/share/thus/scripts/rankmirrors-script","md5":"dc35d2aa578cd24f0c9546df962a7ea1"},
-{"name":"/usr/share/thus/thus/updater.py","md5":"eac1611a46565b1d25371fac1d1f55db"},
+{"name":"/usr/share/thus/thus/updater.py","md5":"67dbe4034ebef56019ea61cb048c9cee"},
 {"name":"/usr/share/thus/thus/gtkbasebox.py","md5":"b2e56cc9811994881b950330e0fcae7c"},
 {"name":"/usr/share/thus/thus/slides.py","md5":"20edb621f3d44aa7b8c70e6e4d0129a6"},
 {"name":"/usr/share/thus/thus/main_window.py","md5":"141259ed9dc378e2f9a5ec18f7983f36"},
