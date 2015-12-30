@@ -268,8 +268,8 @@ def sgdisk(command, device):
 
 def sgdisk_new(device, nvme_p, part_num, label, size, hex_code):
     """ Helper function to call sgdisk --new (GPT) """
-    cmd = ['sgdisk', '--new={0}:0:+{1}M'.format(nvme_p, part_num, size), '--typecode={0}:{1}'.format(nvme_p, part_num, hex_code),
-           '--change-name={0}:{1}'.format(nvme_p, part_num, label), device]
+    cmd = ['sgdisk', '--new={0}:0:+{1}M'.format(part_num, size), '--typecode={0}:{1}'.format(part_num, hex_code),
+           '--change-name={0}:{1}'.format(part_num, label), device]
     # --new: Create a new partition, numbered partnum, starting at sector start and ending at sector end.
     # Parameters: partnum:start:end (zero in start or end means using default value)
     # --typecode: Change a partition's GUID type code to the one specified by hexcode.
@@ -475,16 +475,16 @@ class AutoPartition(object):
                 part_num = 1
 
             if self.bootloader == "grub2":
-                devices['efi'] = "{0}{1}".format(device, nvme_p, part_num)
+                devices['efi'] = "{0}{1}{2}".format(device, nvme_p, part_num)
                 part_num += 1
-            devices['boot'] = "{0}{1}".format(device, nvme_p, part_num)
+            devices['boot'] = "{0}{1}{2}".format(device, nvme_p, part_num)
             part_num += 1
-            devices['root'] = "{0}{1}".format(device, nvme_p, part_num)
+            devices['root'] = "{0}{1}{2}".format(device, nvme_p, part_num)
             part_num += 1
             if self.home:
-                devices['home'] = "{0}{1}".format(device, nvme_p, part_num)
+                devices['home'] = "{0}{1}{2}".format(device, nvme_p, part_num)
                 part_num += 1
-            devices['swap'] = "{0}{1}".format(device, nvme_p, part_num)            
+            devices['swap'] = "{0}{1}{2}".format(device, nvme_p, part_num)            
         else:
             devices['boot'] = "{0}{1}".format(device, 1)
             devices['root'] = "{0}{1}".format(device, 2)
