@@ -155,7 +155,7 @@
 {"name":"/usr/share/thus/thus/misc/i18n.py","md5":"aa1317103e3a33eff0ecf0a9a01d088b"},
 {"name":"/usr/share/thus/thus/misc/keyboard_widget.py","md5":"57b16217b6da299edf20543d002d45f2"},
 {"name":"/usr/share/thus/thus/misc/osextras.py","md5":"4c08382e0c61935131f13681542e716e"},
-{"name":"/usr/share/thus/thus/installation/automatic.py","md5":"f9debf64f5f0e99e855a38f94577ad30"},
+{"name":"/usr/share/thus/thus/installation/automatic.py","md5":"87f4239bfca602e34e9eef2464c94549"},
 {"name":"/usr/share/thus/thus/installation/alongside.py","md5":"5e4fef73cd96822ee9056fc2065c8078"},
 {"name":"/usr/share/thus/thus/installation/bootloader.py","md5":"091e555ac26c4926fe55f5dc6c837dfc"},
 {"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"ef5866a6e4ef21b9260d3ba3628b95f5"},

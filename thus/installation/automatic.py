@@ -137,32 +137,18 @@ class InstallationAutomatic(GtkBaseBox):
         self.bootloader_device_entry.remove_all()
         self.bootloader_devices.clear()
 
-        # TODO: find a proper solution to detect NVMe devices
-        # https://github.com/manjaro/thus/issues/37
-
         for dev in device_list:
             # avoid cdrom and any raid, lvm volumes or encryptfs
             if not dev.path.startswith("/dev/sr") and \
                not dev.path.startswith("/dev/mapper"):
                 # hard drives measure themselves assuming kilo=1000, mega=1mil, etc
                 size_in_gigabytes = int((dev.length * dev.sectorSize) / 1000000000)
-                # Detect if it is a NVMe SSD device
-                # https://github.com/manjaro/thus/issues/37
-                if dev.path.startswith("/dev/nvme"):
-                    dev_path = dev.path
-                    if dev_path[-2] == 'p':
-                        cut = -2
-                    else:
-                        cut = -1
-                    dev_line = '{0}p{1}'.format(dev_path[:cut], dev_path[cut:])
-                else:
-                    dev_line = dev.path
-                line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev_line)
-                logging.debug(line)
+                line = '{0} [{1} GB] ({2})'.format(dev.model, size_in_gigabytes, dev.path)
                 self.device_store.append_text(line)
-                self.devices[line] = dev_line
+                self.devices[line] = dev.path
                 self.bootloader_device_entry.append_text(line)
-                self.bootloader_devices[line] = dev_line
+                self.bootloader_devices[line] = dev.path
+                logging.debug(line)
 
         self.select_first_combobox_item(self.device_store)
         self.select_first_combobox_item(self.bootloader_device_entry)
@@ -177,7 +163,6 @@ class InstallationAutomatic(GtkBaseBox):
         line = self.device_store.get_active_text()
         if line is not None:
             self.auto_device = self.devices[line]
-            logging.debug(_("Drive changed: {0}").format(self.auto_device))
         self.forward_button.set_sensitive(True)
 
     def prepare(self, direction):
