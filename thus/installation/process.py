@@ -367,12 +367,12 @@ class InstallationProcess(multiprocessing.Process):
         all_ok = True
 
         try:
-            self.queue_event('debug', _('Install System ...'))
+            logging.debug(_('Install System ...'))
             self.install_system()
-            self.queue_event('debug', _('System installed.'))
-            self.queue_event('debug', _('Configuring system ...'))
+            logging.debug(_('System installed.'))
+            logging.debug(_('Configuring system ...'))
             self.configure_system()
-            self.queue_event('debug', _('System configured.'))
+            logging.debug(_('System configured.'))
 
         except subprocess.CalledProcessError as err:
             logging.error(err)
@@ -866,13 +866,13 @@ class InstallationProcess(multiprocessing.Process):
         self.queue_event('action', _("Configuring your new system"))
 
         self.auto_fstab()
-        self.queue_event('debug', _('fstab file generated.'))
+        logging.debug(_('fstab file generated.'))
 
         # Copy configured networks in Live medium to target system
         if self.network_manager == 'NetworkManager':
             self.copy_network_config()
 
-        self.queue_event('debug', _('Network configuration copied.'))
+        logging.debug(_('Network configuration copied.'))
 
         # enable services
         # self.enable_services([self.network_manager])
@@ -884,7 +884,7 @@ class InstallationProcess(multiprocessing.Process):
         # enable targets
         # self.enable_targets(['remote-fs.target'])
 
-        # self.queue_event('debug', 'Enabled installed services.')
+        # logging.debug('Enabled installed services.')
 
         # Wait FOREVER until the user sets the timezone
         while self.settings.get('timezone_done') is False:
@@ -898,7 +898,7 @@ class InstallationProcess(multiprocessing.Process):
         zoneinfo_path = os.path.join("/usr/share/zoneinfo", self.settings.get("timezone_zone"))
         chroot_run(['ln', '-s', zoneinfo_path, "/etc/localtime"])
 
-        self.queue_event('debug', _('Time zone set.'))
+        logging.debug(_('Time zone set.'))
 
         # Wait FOREVER until the user sets his params
         while self.settings.get('user_info_done') is False:
@@ -919,7 +919,7 @@ class InstallationProcess(multiprocessing.Process):
 
         subprocess.check_call(["chmod", "440", sudoers_path])
 
-        self.queue_event('debug', _('Sudo configuration for user {0} done.'.format(username)))
+        logging.debug(_('Sudo configuration for user {0} done.'.format(username)))
 
         default_groups = 'lp,video,network,storage,wheel,audio'
 
@@ -929,7 +929,7 @@ class InstallationProcess(multiprocessing.Process):
 
         chroot_run(['useradd', '-m', '-s', '/bin/bash', '-g', 'users', '-G', default_groups, username])
 
-        self.queue_event('debug', _('User {0} added.'.format(username)))
+        logging.debug(_('User {0} added.'.format(username)))
 
         self.change_user_password(username, password)
 
@@ -941,15 +941,15 @@ class InstallationProcess(multiprocessing.Process):
         with open(hostname_path, "w") as hostname_file:
             hostname_file.write(hostname)
 
-        self.queue_event('debug', _('Hostname  {0} set.'.format(hostname)))
+        logging.debug(_('Hostname  {0} set.'.format(hostname)))
 
         # Set root password
         if root_password is not '':
             self.change_user_password('root', root_password)
-            self.queue_event('debug', _('Set root password.'))
+            logging.debug(_('Set root password.'))
         else:
             self.change_user_password('root', password)
-            self.queue_event('debug', _('Set the same password to root.'))
+            logging.debug(_('Set the same password to root.'))
 
         # Generate locales
         locale = self.settings.get("locale")
@@ -1020,7 +1020,7 @@ class InstallationProcess(multiprocessing.Process):
             mhwd_script_path = os.path.join(self.settings.get("thus"), "scripts", MHWD_SCRIPT)
             try:
                 subprocess.check_call(["/usr/bin/bash", mhwd_script_path])
-                self.queue_event('debug', "Finished installing drivers.")
+                logging.debug("Finished installing drivers.")
             except subprocess.CalledProcessError as e:
                 txt = "CalledProcessError.output = {0}".format(e.output)
                 logging.error(txt)
