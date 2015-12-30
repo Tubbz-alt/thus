@@ -266,7 +266,7 @@ def sgdisk(command, device):
     subprocess.check_call(cmd)
 
 
-def sgdisk_new(device, nvme_p, part_num, label, size, hex_code):
+def sgdisk_new(device, part_num, label, size, hex_code):
     """ Helper function to call sgdisk --new (GPT) """
     cmd = ['sgdisk', '--new={0}:0:+{1}M'.format(part_num, size), '--typecode={0}:{1}'.format(part_num, hex_code),
            '--change-name={0}:{1}'.format(part_num, label), device]
@@ -712,14 +712,6 @@ class AutoPartition(object):
                 logging.error(_("Output: {0}".format(err.output)))
                 raise InstallError(txt)
 
-            # Detect if it is a NVMe SSD device
-            # https://github.com/manjaro/thus/issues/37
-            if "nvme" in device_name:
-                logging.debug(_("NVMe drive detected: {0}".format(device)))
-                nvme_p = "p"
-            else:
-                nvme_p = ""
-
             part_num = 1
 
             if not self.UEFI:
@@ -729,32 +721,32 @@ class AutoPartition(object):
                 # GPT GUID: 21686148-6449-6E6F-744E-656564454649
                 # This partition is not required if the system is UEFI based,
                 # as there is no such embedding of the second-stage code in that case
-                sgdisk_new(device, nvme_p, part_num, "BIOS_BOOT", gpt_bios_grub_part_size, "EF02")
+                sgdisk_new(device, part_num, "BIOS_BOOT", gpt_bios_grub_part_size, "EF02")
                 part_num += 1
 
             # Create EFI System Partition (ESP)
             # GPT GUID: C12A7328-F81F-11D2-BA4B-00A0C93EC93B
             if self.bootloader == "grub2":
-                sgdisk_new(device, nvme_p, part_num, "UEFI_SYSTEM", part_sizes['efi'], "EF00")
+                sgdisk_new(device, part_num, "UEFI_SYSTEM", part_sizes['efi'], "EF00")
                 part_num += 1
 
             # Create Boot partition
             if self.bootloader == "systemd-boot":
-                sgdisk_new(device, nvme_p, part_num, "MANJARO_BOOT", part_sizes['boot'], "EF00")
+                sgdisk_new(device, part_num, "MANJARO_BOOT", part_sizes['boot'], "EF00")
             else:
-                sgdisk_new(device, nvme_p, part_num, "MANJARO_BOOT", part_sizes['boot'], "8300")
+                sgdisk_new(device, part_num, "MANJARO_BOOT", part_sizes['boot'], "8300")
             part_num += 1
 
             if self.lvm:
                 # Create partition for lvm (will store root, swap and home (if desired) logical volumes)
-                sgdisk_new(device, nvme_p, part_num, "MANJARO_LVM", 0, "8E00")
+                sgdisk_new(device, part_num, "MANJARO_LVM", 0, "8E00")
             else:
-                sgdisk_new(device, nvme_p, part_num, "MANJARO_ROOT", part_sizes['root'], "8300")
+                sgdisk_new(device, part_num, "MANJARO_ROOT", part_sizes['root'], "8300")
                 part_num += 1
                 if self.home:
-                    sgdisk_new(device, nvme_p, part_num, "MANJARO_HOME", part_sizes['home'], "8302")
+                    sgdisk_new(device, part_num, "MANJARO_HOME", part_sizes['home'], "8302")
                     part_num += 1
-                sgdisk_new(device, nvme_p, part_num, "MANJARO_SWAP", 0, "8200")
+                sgdisk_new(device, part_num, "MANJARO_SWAP", 0, "8200")
 
             logging.debug(check_output("sgdisk --print {0}".format(device)))
         else:
