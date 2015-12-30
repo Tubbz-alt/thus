@@ -42,13 +42,13 @@ _special_dirs_mounted = False
 
 def get_special_dirs():
     """ Get special dirs to be mounted or unmounted """
-    special_dirs = ["/dev", "/dev/pts", "/proc", "/sys"]    
+    special_dirs = ["/dev", "/dev/pts", "/proc", "/sys"]
     efi = "/sys/firmware/efi/efivars"
     if os.path.exists(efi):
         special_dirs.append(efi)
     return special_dirs
 
-    
+
 def mount_special_dirs(dest_dir):
     """ Mount special directories for our chroot (bind them)"""
 
@@ -61,24 +61,24 @@ def mount_special_dirs(dest_dir):
 
     # Don't try to remount them
     if _special_dirs_mounted:
-        logging.debug(_("Special dirs are already mounted. Skipping."))
+        msg = _("Special dirs are already mounted. Skipping.")
+        logging.debug(msg)
         return
 
+    special_dirs = []
     special_dirs = get_special_dirs()
 
     for special_dir in special_dirs:
         mountpoint = os.path.join(dest_dir, special_dir[1:])
-        os.makedirs(mountpoint, exist_ok=True)
-        os.chmod(mountpoint, 0o755)
+        os.makedirs(mountpoint, mode=0o755, exist_ok=True)
+        # os.chmod(mountpoint, 0o755)
         cmd = ["mount", "--bind", special_dir, mountpoint]
-        logging.debug("Mounting special dir '{0}' to {1}"
-                      .format(special_dir, mountpoint))
+        logging.debug("Mounting special dir '{0}' to {1}".format(special_dir, mountpoint))
         try:
             subprocess.check_call(cmd)
-        except subprocess.CalledProcessError as error:
-            logging.warning(_("Unable to mount {0}".format(mountpoint)))
-            logging.warning(_("Command {0} has failed.".format(error.cmd)))
-            logging.warning(_("Output : {0}".format(error.output)))
+        except subprocess.CalledProcessError as process_error:
+            txt = "Unable to mount {0}, command {1} failed: {2}".format(mountpoint, process_error.cmd, process_error.output)
+            logging.warning(txt)
 
     _special_dirs_mounted = True
 
@@ -94,21 +94,22 @@ def umount_special_dirs(dest_dir):
         logging.debug(msg)
         return
 
+    special_dirs = []
     special_dirs = get_special_dirs()
 
     for special_dir in reversed(special_dirs):
         mountpoint = os.path.join(dest_dir, special_dir[1:])
         logging.debug("Unmounting special dir '{0}'".format(mountpoint))
-        try:            
+        try:
             subprocess.check_call(["umount", mountpoint])
         except subprocess.CalledProcessError:
-            logging.debug("Can't unmount. Try -l to force it.")
+            logging.debug("Can't unmount. Trying -l to force it.")
             try:
                 subprocess.check_call(["umount", "-l", mountpoint])
-            except subprocess.CalledProcessError as error:
-                logging.warning(_("Unable to umount {0}".format(mountpoint)))
-                logging.warning(_("Command {0} has failed.".format(error.cmd)))
-                logging.warning(_("Output : {0}".format(error.output)))
+            except subprocess.CalledProcessError as process_error:
+                txt = "Unable to unmount {0}, command {1} failed: {2}".format(
+                    mountpoint, process_error.cmd, process_error.output)
+                logging.warning(txt)
 
     _special_dirs_mounted = False
 
@@ -130,12 +131,12 @@ def run(cmd, dest_dir, timeout=None, stdin=None):
         txt = outs.decode().strip()
         if len(txt) > 0:
             logging.debug(txt)
-    except subprocess.TimeoutExpired as error:
+    except subprocess.TimeoutExpired as timeout_error:
         if proc:
             proc.kill()
             proc.communicate()
-        logging.error(_("Timeout running the command {0}".format(error.cmd)))
-        logging.error(_("Thus will try to continue anyways"))
-    except OSError as error:
-        logging.error(_("Error running command: {0}".format(error.strerror)))
-        logging.error(_("Thus will try to continue anyways"))
+        logging.error("Timeout running the command {0}".format(timeout_error.cmd))
+    except subprocess.CalledProcessError as process_error:
+        logging.error("Error running command {0}: {1}".format(process_error.cmd, process_error.output))
+    except OSError as os_error:
+        logging.error("Error running command {0}: {1}".format(.join(full_cmd), os_error))
