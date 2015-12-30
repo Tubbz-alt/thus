@@ -161,7 +161,6 @@
 {"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"75ef13940dbc2bd79e0b358e3dde8b72"},
 {"name":"/usr/share/thus/thus/installation/mkinitcpio.py","md5":"687510210978bc229599ab75bf7e2033"},
 {"name":"/usr/share/thus/thus/installation/fstab.conf","md5":"40d74f532242a498daffb48ae55f446a"},
-{"name":"/usr/share/thus/thus/installation/chroot.py.ant","md5":"7edec2767eccd6694c72032066700c7c"},
 {"name":"/usr/share/thus/thus/installation/fstab.py","md5":"3391f6b11dbcce65fa64172c1e3befe2"},
 {"name":"/usr/share/thus/thus/installation/ask.py","md5":"038381674bd57724884846fd680ec81d"},
 {"name":"/usr/share/thus/thus/installation/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
