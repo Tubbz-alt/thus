@@ -158,7 +158,7 @@
 {"name":"/usr/share/thus/thus/installation/automatic.py","md5":"87f4239bfca602e34e9eef2464c94549"},
 {"name":"/usr/share/thus/thus/installation/alongside.py","md5":"5e4fef73cd96822ee9056fc2065c8078"},
 {"name":"/usr/share/thus/thus/installation/bootloader.py","md5":"091e555ac26c4926fe55f5dc6c837dfc"},
-{"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"78e84dbbe6999d469b05efdcfd3ca85f"},
+{"name":"/usr/share/thus/thus/installation/auto_partition.py","md5":"ae3b09e540e6003681fdc2f886e6bb68"},
 {"name":"/usr/share/thus/thus/installation/mkinitcpio.py","md5":"687510210978bc229599ab75bf7e2033"},
 {"name":"/usr/share/thus/thus/installation/fstab.conf","md5":"40d74f532242a498daffb48ae55f446a"},
 {"name":"/usr/share/thus/thus/installation/fstab.py","md5":"3391f6b11dbcce65fa64172c1e3befe2"},

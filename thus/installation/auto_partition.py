@@ -486,11 +486,11 @@ class AutoPartition(object):
                 part_num += 1
             devices['swap'] = "{0}{1}{2}".format(device, nvme_p, part_num)            
         else:
-            devices['boot'] = "{0}{1}".format(device, 1)
-            devices['root'] = "{0}{1}".format(device, 2)
+            devices['boot'] = "{0}{1}{2}".format(device, nvme_p, 1)
+            devices['root'] = "{0}{1}{2}".format(device, nvme_p, 2)
             if self.home:
-                devices['home'] = "{0}{1}".format(device, 3)
-            devices['swap'] = "{0}{1}".format(device, 5)
+                devices['home'] = "{0}{1}{2}".format(device, nvme_p, 3)
+            devices['swap'] = "{0}{1}{2}".format(device, nvme_p, 5)
 
         if self.luks:
             if self.lvm:
