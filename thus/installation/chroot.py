@@ -139,4 +139,4 @@ def run(cmd, dest_dir, timeout=None, stdin=None):
     except subprocess.CalledProcessError as process_error:
         logging.error("Error running command {0}: {1}".format(process_error.cmd, process_error.output))
     except OSError as os_error:
-        logging.error("Error running command {0}: {1}".format(.join(full_cmd), os_error))
+        logging.error("Error running command {0}: {1}".format(" ".join(full_cmd), os_error))
