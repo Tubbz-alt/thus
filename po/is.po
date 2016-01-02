@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-12-15 16:18+0000\n"
+"PO-Revision-Date: 2015-12-28 17:24+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -972,7 +972,7 @@ msgstr "Prófunarhamur. Þetta mun ekki gera neinar breytingar á kerfinu þínu
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
-msgstr "Það eru einginn aðal skipting í boði"
+msgstr "Það eru engar aðaldisksneiðar í boði"
 
 #: ../thus/installation/alongside.py:142
 #, python-brace-format
@@ -994,7 +994,7 @@ msgstr ""
 msgid ""
 "You can still install Manjaro, but be carefull on which DE you choose as it "
 "might not fit in."
-msgstr "Þú getur enn komið upp Manjaro, en vertu varkár um hvaða DE þú hefur valið því það gæti ekki passað."
+msgstr "Þú getur samt sett upp Manjaro, en vertu varkár varðandi hvaða skjáborðsumhverfi þú velur því það gæti þurft meira diskpláss."
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
@@ -1147,7 +1147,7 @@ msgstr "LUKS lykilorð. Ekki nota sértákn eða broddstafi!"
 
 #: ../thus/installation/automatic.py:188
 msgid "A root LUKS password has been set"
-msgstr "Rótar LUKS lykilorð hefur verið sett"
+msgstr "Rótarlykilorð LUKS hefur verið sett"
 
 #: ../thus/installation/automatic.py:190
 #, python-brace-format
@@ -1453,7 +1453,7 @@ msgstr "Skipunin grub-install mistókst. Óþekkt villa: {0}"
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr "Einginn OEM hlöðun fundinn í {0}. Afrita Grub(2) inn í dir."
+msgstr "Enginn OEM-hlaðari fannst í {0}. Afrita Grub(2) inn í möppu."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
@@ -1524,7 +1524,7 @@ msgstr "Ekki tókst að ljúka uppsetningu Gummiboot !"
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
-msgstr ""
+msgstr "Gat ekki frosið/afþýtt xfs kefið"
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
@@ -1643,11 +1643,11 @@ msgstr "Uppsetning kláruð án athugasemda."
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "Grunnskráakerfi er ekki til staðar! Alvarleg villa (hætti)."
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "Skráakerfi skjáborðs er ekki til staðar! Alvarleg villa (hætti)."
 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format

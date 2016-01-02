@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-09-17 12:48+0000\n"
+"PO-Revision-Date: 2015-12-25 15:19+0000\n"
 "Last-Translator: opik16 <opik.r16@gmail.com>\n"
 "Language-Team: Indonesian (Indonesia) (http://www.transifex.com/manjarolinux/manjaro-thus/language/id_ID/)\n"
 "MIME-Version: 1.0\n"
@@ -1008,7 +1008,7 @@ msgstr "Tentukan ukuran baru untuk pemasangan Anda"
 
 #: ../thus/installation/alongside.py:216
 msgid "Choose the partition that you want to shrink:"
-msgstr ""
+msgstr "Pilih partisi yang ingin Anda perkecil:"
 
 #: ../thus/installation/alongside.py:257
 msgid ""
