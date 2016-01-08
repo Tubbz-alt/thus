@@ -165,7 +165,7 @@
 {"name":"/usr/share/thus/thus/installation/ask.py","md5":"038381674bd57724884846fd680ec81d"},
 {"name":"/usr/share/thus/thus/installation/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
 {"name":"/usr/share/thus/thus/installation/process.py","md5":"f8176e8456e1801db8570a94cf1b36be"},
-{"name":"/usr/share/thus/thus/installation/advanced.py","md5":"53974c9b72c89afefb82062ab3d54194"},
+{"name":"/usr/share/thus/thus/installation/advanced.py","md5":"3149842a2497f47e518da2cc30b68859"},
 {"name":"/usr/share/thus/thus/installation/chroot.py","md5":"ff266cbfc95597b9155e3ad685729d6d"},
 {"name":"/usr/share/thus/thus/parted3/fs_module.py","md5":"211d10e19964d90c081f746a3ee66559"},
 {"name":"/usr/share/thus/thus/parted3/lvm.py","md5":"1b225fd40b540fdfd549793dbfb8f551"},

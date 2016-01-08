@@ -243,7 +243,6 @@ class InstallationAdvanced(GtkBaseBox):
             partition treeview """
 
         model, tree_iter = selection.get_selected()
-        logging.debug("Following was found: model '{0}', tree_iter '{1}'".format(model, tree_iter))
 
         path = None
         if tree_iter is not None:
@@ -691,7 +690,6 @@ class InstallationAdvanced(GtkBaseBox):
             return
 
         model, tree_iter = selection.get_selected()
-        logging.debug("Following was found: model '{0}', tree_iter '{1}'".format(model, tree_iter))
         if tree_iter is None:
             return
 
@@ -820,7 +818,6 @@ class InstallationAdvanced(GtkBaseBox):
             return
 
         model, tree_iter = selection.get_selected()
-        logging.debug("Following was found: model '{0}', tree_iter '{1}'".format(model, tree_iter))
 
         if tree_iter is None:
             return
@@ -920,7 +917,6 @@ class InstallationAdvanced(GtkBaseBox):
             return
 
         model, tree_iter = selection.get_selected()
-        logging.debug("Following was found: model '{0}', tree_iter '{1}'".format(model, tree_iter))
         if tree_iter is None:
             return
 
@@ -1496,7 +1492,6 @@ class InstallationAdvanced(GtkBaseBox):
             return
 
         model, tree_iter = selection.get_selected()
-        logging.debug("Following was found: model '{0}', tree_iter '{1}'".format(model, tree_iter))
 
         if tree_iter is None:
             return
