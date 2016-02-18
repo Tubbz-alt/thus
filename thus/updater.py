@@ -86,10 +86,8 @@ class Updater():
             if len(response) > 0:
                 update_info = json.loads(response)
                 self.remote_version = update_info['version']
-                for remote_file in update_info['files']:
-                    self.md5s[remote_file['name']] = remote_file['md5']
+                self.md5s = {remote_file['name']: remote_file['md5'] for remote_file in update_info['files']}
                 logging.info(_("Thus Internet version: {0}".format(self.remote_version)))
-                self.force = force_update
 
     def is_remote_version_newer(self):
         """ Returns true if the Internet version of Thus is newer than the local one """
@@ -101,8 +99,8 @@ class Updater():
         local_ver = info.THUS_VERSION.split(".")
         remote_ver = self.remote_version.split(".")
 
-        local = [int(local_ver[0]), int(local_ver[1]), int(local_ver[2])]
-        remote = [int(remote_ver[0]), int(remote_ver[1]), int(remote_ver[2])]
+        local = [int(local_ver[index]) for index in range(3)]
+        remote = [int(remote_ver[index]) for index in range(3)]
 
         if remote[0] > local[0]:
             return True
@@ -125,32 +123,29 @@ class Updater():
     def update(self):
         """ Check if a new version is available and
             update all files only if necessary (or forced) """
-        update_thus = False
 
         if self.is_remote_version_newer():
             logging.info(_("New version found. Updating installer..."))
-            update_thus = True
         elif self.force:
             logging.info(_("No new version found. Updating anyways..."))
-            update_thus = True
+        else:
+            return False
 
-        if update_thus:
-            logging.debug(_("Downloading new version of Thus..."))
-            zip_path = "/tmp/thus-{0}.zip".format(self.remote_version)
-            res = self.download_master_zip(zip_path)
-            if not res:
-                logging.error(_("Can't download new Thus version."))
-                return False
+        logging.debug(_("Downloading new version of Thus..."))
+        zip_path = "/tmp/thus-{0}.zip".format(self.remote_version)
+        if not self.download_master_zip(zip_path):
+            logging.error(_("Can't download new Thus version."))
+            return False
 
-            # master.zip file is downloaded, we must unzip it
-            logging.debug(_("Uncompressing new version..."))
-            try:
-                self.unzip_and_copy(zip_path)
-            except Exception as err:
-                logging.error(err)
-                return False
+        # master.zip file is downloaded, we must unzip it
+        logging.debug(_("Uncompressing new version..."))
+        try:
+            self.unzip_and_copy(zip_path)
+        except Exception as err:
+            logging.error(err)
+            return False
 
-        return update_thus
+        return True
 
     @staticmethod
     def download_master_zip(zip_path):
