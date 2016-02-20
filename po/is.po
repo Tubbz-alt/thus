@@ -4,15 +4,15 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
-# Kristján Magnússon <kristjanmagnus@gmail.com>, 2015
+# Kristján Magnússon, 2015-2016
 # Magnús Björn Traustason <mabjot@gmail.com>, 2015
-# Sveinn í Felli <sv1@fellsnet.is>, 2015
+# Sveinn í Felli <sv1@fellsnet.is>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-12-28 17:24+0000\n"
+"PO-Revision-Date: 2016-02-10 12:31+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,7 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr ""
+msgstr "Thus er pre-release beta hugbúnaður sem er í virkri þróun.\nIt does not yet properly handle RAID, btrfs subvolumes, eða annað\nháþróað skipulag. Vinsamlegast halda áfram með varúð eins og gagna tap er mögulegt!\n\nEf þú finnur einhverjar villur, vinsamlegast tilkynntu þá á http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
@@ -158,7 +158,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr ""
+msgstr "Staðsetningin þú velur verður notað til að ákveða kerfis stað. Það ætti að öllu jöfnu vera landið þar sem þú býrð. Hér er lítil listi af stöðum byggist á því tungumáli sem þú valdir."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -287,7 +287,7 @@ msgstr "Thus v{0} - Manjaro uppsetning"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
-msgstr "Setur annálsstig Thus á aflúsun"
+msgstr "Setur annálsstig Thus á 'aflúsun'"
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
@@ -507,13 +507,13 @@ msgstr "Nota lykilorð kerfisstjóra"
 msgid ""
 "Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
 "\n"
-msgstr ""
+msgstr "Manjaro mun nota eCryptfs til að dulkóða heimamöppu. Því miður, eCryptfs meðhöndlar sparse skár ekki vel.\n\n"
 
 #: ../thus/user_info.py:230
 msgid ""
 "Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
 "\n"
-msgstr ""
+msgstr "Ekki hafa áhyggjur, fyrir flesta ætlun og tilgangi mun ekki skapa vandamál.\n\n"
 
 #: ../thus/user_info.py:231
 msgid ""
@@ -853,7 +853,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} er tengt sem swap diskminni'\nTil að halda áfram það þarf að vera aftengt.\nVeldu 'Já' til að aftengja, eða 'Nei' til að snúa til baka\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -861,7 +861,7 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} er tengt í  '{1}'.\nTil að halda áfram það þarf að vera aftengd.\nVeldu Já til að aftengja , eða Nei til að snúa aftur\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
@@ -876,13 +876,13 @@ msgstr "SWAP-diskminnisdisksneiðin {0} er ekki tengd í skráakerfi"
 #: ../thus/installation/advanced.py:1812
 #, python-brace-format
 msgid "{0} shows as mounted (busy) but it has no mount point"
-msgstr ""
+msgstr "{0} sýnir sem tengt (upptekið) en það hefur engan tengipunt"
 
 #: ../thus/installation/advanced.py:1819
 msgid ""
 "The root partition is not marked to be formatted.\n"
 "This might create problems. Should it be marked to be formatted now?"
-msgstr ""
+msgstr "Rótar skipting er ekki merkt til að vera sniðin.\nÞetta gæti skapað vandamál. Ætti það að vera merkt til að vera sniðin nú?"
 
 #: ../thus/installation/advanced.py:1863
 #, python-brace-format
@@ -1016,7 +1016,7 @@ msgstr "Veldu disksneiðina sem þú vilt minnka:"
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Gat ekki fundið laust disksneiðanúmer.\nEkki er hægt að halda áfram með samhliða-uppsetningu."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
@@ -1040,7 +1040,7 @@ msgstr "Get ekki fundið neitt stýrikerfi á tækinu sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "Uppsetning disksins er ekki studd í 'samhliða' uppsetningarham"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
@@ -1180,7 +1180,7 @@ msgstr "Aftengi {0} úr skráakerfi"
 #: ../thus/installation/auto_partition.py:91
 #, python-brace-format
 msgid "Unmounting {0} failed. Trying lazy arg."
-msgstr ""
+msgstr "Aftenging {0} mistókst. Prófa 'letiham' viðfangs."
 
 #: ../thus/installation/auto_partition.py:95
 #, python-brace-format
@@ -1242,17 +1242,17 @@ msgstr "Get ekki eytt fyrirliggjandi LVM gagnageymslum"
 
 #: ../thus/installation/auto_partition.py:169
 msgid "Can't close already opened LUKS devices"
-msgstr ""
+msgstr "Get ekki lokað þegar opið LUKS tæki"
 
 #: ../thus/installation/auto_partition.py:178
 #, python-brace-format
 msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
-msgstr ""
+msgstr "Get ekki sett LUKS upp á tæki {0}. Lykilorð eða lykilskrá eru nauðsynleg"
 
 #: ../thus/installation/auto_partition.py:186
 #, python-brace-format
 msgid "Thus will setup LUKS on device {0}"
-msgstr "Thus mun sétja upp LUKS á tæki {0}"
+msgstr "Thus mun setja upp LUKS á tæki {0}"
 
 #: ../thus/installation/auto_partition.py:204
 #: ../thus/installation/auto_partition.py:227
@@ -1360,7 +1360,7 @@ msgstr "Stærð heimadisksneiðar: %dMiB"
 msgid ""
 "Setup cannot detect size of your device, please use advanced installation "
 "routine for partitioning and mounting devices."
-msgstr ""
+msgstr "Uppsetningaforritið náði ekki að finna stærðina á tækinu, notaðu ítarlegri uppsetningarham til að ákvarða disksneiðar og tengipunkta."
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
@@ -1385,13 +1385,13 @@ msgstr "Villa kom upp við að búa til LVM rökeintak"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
-msgstr ""
+msgstr "Get ekk afritað LUKS lykilskrá á uppsetningartækið"
 
 #: ../thus/installation/bootloader.py:102
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "'ruuid' breytan er ekki sett. Ekki er hægt að athuga UUID rótar í grub.cfg, Við skulum vona að þetta sé í lagi"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."

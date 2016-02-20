@@ -7,7 +7,7 @@
 #  Check it at https://github.com/antergos
 #
 #  Copyright 2013 Antergos (http://antergos.com/)
-#  Copyright 2013-2015 Manjaro (http://manjaro.org)
+#  Copyright 2013-2016 Manjaro (http://manjaro.org)
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -26,6 +26,6 @@
 
 """ Set some Thus global constants """
 
-THUS_VERSION = "0.9.2"
-THUS_LAST_STABLE = "0.9.1"
+THUS_VERSION = "0.9.3"
+THUS_LAST_STABLE = "0.9.2"
 THUS_WEBSITE = "http://www.manjaro.org"

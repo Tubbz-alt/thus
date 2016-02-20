@@ -22,7 +22,7 @@
 # LeilaSouad <drukova@hotmail.com>, 2015
 # Lowrider <pams@imail.ru>, 2014
 # Daniil <rostovslipknot@gmail.com>, 2013
-# NaN NaN <ghostinushanka@yandex.ru>, 2015
+# NaN NaN <ghostinushanka@yandex.ru>, 2015-2016
 # Nickston <nickston@yandex.ru>, 2014
 # Nickston <nickston@yandex.ru>, 2014
 # Lowrider <pams@imail.ru>, 2014
@@ -40,7 +40,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-12-26 12:28+0000\n"
+"PO-Revision-Date: 2016-01-12 17:46+0000\n"
 "Last-Translator: NaN NaN <ghostinushanka@yandex.ru>\n"
 "Language-Team: Russian (http://www.transifex.com/manjarolinux/manjaro-thus/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "имеет как минимум {0}GB свободного места �
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr "Сильно зависит от выбранного вами окружения рабочего стола, возможно потребуется больше места."
+msgstr "Зависит от выбранного вами окружения рабочего стола, возможно потребуется больше места."
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
@@ -157,12 +157,12 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr "Thus -бета-версия активно развивающегося ПО.\nПока еще в полной мере не реализованы поддержка RAID-массивов, подтомов btrfs и прочие расширенные возможности. \nПожалуйста, будьте осторожны так, как возможна потеря данных! \nЕсли Вы обнаружите ошибку, сообщите нам http://bugs.manjaro.org"
+msgstr "Thus является бета-версией активно развивающегося ПО.\nПоддержка RAID-массивов, подтомов btrfs и прочие расширенные\nвозможности пока еще в полной мере не реализованы.\nПожалуйста, будьте осторожны так, как возможна потеря данных!\n\nВ случае обнаружения ошибок, сообщите нам на http://bugs.manjaro.org."
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr "Вперед"
+msgstr "Далее"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
@@ -186,7 +186,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr "Выбранное местоположение будет использовано для определения языка системы. Обычно, это страна, в которой Вы проживате. Вот список местоположений для Вашего языка. "
+msgstr "Выбранное местоположение будет использовано для определения языка системы. Обычно, это страна, в которой Вы проживаете. Ниже представлен список местоположений в соответствии с Вами выбранным языком. "
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -360,11 +360,11 @@ msgstr "Где вы находитесь?"
 
 #: ../thus/timezone.py:99 ../ui/timezone.ui:36
 msgid "Zone:"
-msgstr "Зона:"
+msgstr "Регион:"
 
 #: ../thus/timezone.py:103 ../ui/timezone.ui:79
 msgid "Region:"
-msgstr "Регион:"
+msgstr "Город:"
 
 #: ../thus/timezone.py:107
 msgid "Use Network Time Protocol (NTP) for clock synchronization"
@@ -1111,12 +1111,12 @@ msgstr "Будет установлен LVM и вы сможете с легко
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
-msgstr "Установите вашу папку Home в другой раздел/том"
+msgstr "Вынести домашнюю папку в отдельный раздел/том"
 
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr "Домашняя папка /home будет установлена на другой раздел или том"
+msgstr "Домашняя папка /home будет вынесена в отдельный раздел или том"
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
@@ -1124,7 +1124,7 @@ msgstr "Продолжить?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
-msgstr "Выбрать где установить Manjaro"
+msgstr "Выбрать куда установить Manjaro."
 
 #: ../thus/installation/ask.py:309
 msgid "Edit partition table and choose mount points."

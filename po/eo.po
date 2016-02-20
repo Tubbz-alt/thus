@@ -4,14 +4,14 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
-# fenris <fenris.kcf@gmail.com>, 2014-2015
+# fenris <fenris.kcf@gmail.com>, 2014-2016
 # Michael Moroni <michael.moroni@openmailbox.org>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-12-29 16:34+0000\n"
+"PO-Revision-Date: 2016-02-01 14:15+0000\n"
 "Last-Translator: fenris <fenris.kcf@gmail.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/manjarolinux/manjaro-thus/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -94,11 +94,11 @@ msgstr "Elekti vian klavar-aranĝon"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr ""
+msgstr "Klavar-aranĝoj"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr ""
+msgstr "Klavar-variantoj"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -146,7 +146,7 @@ msgstr "Malantaŭen"
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr ""
+msgstr "Traduk-dosiero por lingvo {0} ne trovita"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -165,13 +165,13 @@ msgstr "Lando, teritorio aŭ regiono:"
 
 #: ../thus/location.py:87
 msgid "Show all locations"
-msgstr ""
+msgstr "Montri ĉiujn lokojn"
 
 #: ../thus/location.py:207 ../thus/location.py:215 ../thus/misc/misc.py:961
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "Loko ŝanĝita al : {0}"
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974

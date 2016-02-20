@@ -10,6 +10,7 @@
 # Chris Caudill <cclemur@gmail.com>, 2015
 # Daetalus <daetalusun@gmail.com>, 2014
 # leonfeng <chaofeng111@gmail.com>, 2011,2013
+# Leway Colin <colin4124@gmail.com>, 2016
 # Maddie Zhan <supereggx@gmail.com>, 2014
 # Mauhoi WU <lat9274@gmail.com>, 2014
 # mytbk <mytbk920423@gmail.com>, 2013
@@ -19,8 +20,8 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-09-24 08:55+0000\n"
-"Last-Translator: Archibald Lu <chienius@outlook.com>\n"
+"PO-Revision-Date: 2016-02-03 01:03+0000\n"
+"Last-Translator: Leway Colin <colin4124@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/manjarolinux/manjaro-thus/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -571,17 +572,17 @@ msgstr ""
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr ""
+msgstr "HTTP 错误: {0}"
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr ""
+msgstr "URL错误 : {0}"
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
 msgid "Downloading {0} {1} ({2}/{3})..."
-msgstr ""
+msgstr "下载中 {0} {1} ({2}/{3})..."
 
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
@@ -649,7 +650,7 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
-msgstr ""
+msgstr "不能再次使用同一个挂载点"
 
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
@@ -677,15 +678,15 @@ msgstr "无法两次使用相同的挂载点..."
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
-msgstr ""
+msgstr "创建一个主分区"
 
 #: ../thus/installation/advanced.py:1090
 msgid "Creating an extended partition"
-msgstr ""
+msgstr "创建一个扩展分区"
 
 #: ../thus/installation/advanced.py:1096
 msgid "Creating a logical partition"
-msgstr ""
+msgstr "创建一个逻辑分区"
 
 #: ../thus/installation/advanced.py:1158
 msgid "LUKS passwords do not match!"
@@ -731,7 +732,7 @@ msgstr "Swap"
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "撤销"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
@@ -787,11 +788,11 @@ msgstr "空间终末"
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
-msgstr ""
+msgstr "用作："
 
 #: ../thus/installation/advanced.py:1397 ../thus/installation/advanced.py:1414
 msgid "Mount Point:"
-msgstr ""
+msgstr "挂载点："
 
 #: ../thus/installation/advanced.py:1401 ../thus/installation/advanced.py:1418
 #: ../ui/advanced.ui:251 ../ui/advanced.ui:687
@@ -917,7 +918,7 @@ msgstr "挂载"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
-msgstr ""
+msgstr "加密"
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
@@ -1027,7 +1028,7 @@ msgstr ""
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "未能找到任何已安装了的操作系统！"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
@@ -1035,15 +1036,15 @@ msgstr ""
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "检测到Windows（商标）操作系统。"
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "没检测到 Windows（商标）系统。"
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "在设备 sda 未能检测到任何操作系统。"
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
@@ -1064,11 +1065,11 @@ msgstr ""
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "擦除磁盘并安装 Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr ""
+msgstr "警告：这将会擦除你磁盘上的所有数据。"
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
@@ -1076,7 +1077,7 @@ msgstr "对安装进行加密有助于提高安全系数。"
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr ""
+msgstr "下一步将会让你创建一个用来加密的密码。"
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
@@ -1274,7 +1275,7 @@ msgstr ""
 
 #: ../thus/installation/auto_partition.py:250
 msgid "Can't run dd command"
-msgstr ""
+msgstr "不能运行 dd 命令"
 
 #: ../thus/installation/auto_partition.py:278
 #: ../thus/installation/auto_partition.py:306
@@ -1380,15 +1381,15 @@ msgstr ""
 
 #: ../thus/installation/auto_partition.py:793
 msgid "Error creating LVM physical volume"
-msgstr ""
+msgstr "创建 LVM 物理卷出现错误"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr ""
+msgstr "创建 LVM 卷组出现错误"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
-msgstr ""
+msgstr "创建 LVM 逻辑卷出现错误"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
@@ -1450,7 +1451,7 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:314
 msgid "Command grub-install timed out."
-msgstr ""
+msgstr "命令 grub-install 超时。"
 
 #: ../thus/installation/bootloader.py:316
 #, python-brace-format
@@ -1469,7 +1470,7 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "未找到文件。"
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
@@ -1507,11 +1508,11 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "没有找到 Grub2 主题文件"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "Grub2 主题文件已经存在。"
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
@@ -1734,7 +1735,7 @@ msgstr ""
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "未能找到 locale.gen 文件"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
@@ -1838,7 +1839,7 @@ msgstr "用户home目录加密完成"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "安装 bootloader……"
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
@@ -1852,7 +1853,7 @@ msgstr ""
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "密码太短"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
@@ -2050,7 +2051,7 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "如果你不打算安装一个 boot loader，就选择”取消“"
 
 #: ../ui/check.ui:17
 msgid ""

@@ -17,9 +17,10 @@
 # fredrikfritte <fredrikfritte@gmail.com>, 2013
 # jockejoakim <joakim@sydsvenskafoto.se>, 2014
 # Mats Björklund <mats_bjork007@yahoo.se>, 2013
-# Mattias Johansson <cashew75s@gmail.com>, 2014
+# Mattias Johansson <cashew75s@gmail.com>, 2014,2016
 # sixdegree <n.carlsson@gmail.com>, 2014-2015
 #   <pojk3n@gmail.com>, 2011
+# riiga <riiga_92@hotmail.com>, 2016
 # sixdegree <n.carlsson@gmail.com>, 2014
 # chippey5 <s.wijmenga@gmail.com>, 2014-2015
 # 1Miguel1 <the1miguel1guy@gmail.com>, 2013
@@ -28,8 +29,8 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-09-07 18:19+0000\n"
-"Last-Translator: sixdegree <n.carlsson@gmail.com>\n"
+"PO-Revision-Date: 2016-02-07 12:21+0000\n"
+"Last-Translator: riiga <riiga_92@hotmail.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/manjarolinux/manjaro-thus/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,12 +48,12 @@ msgstr "okänt"
 #: ../thus/bootinfo.py:104
 #, python-brace-format
 msgid "Error calling hexdump command: {0}"
-msgstr ""
+msgstr "Fel vid anrop av hexdumpkommandot: {0}"
 
 #: ../thus/bootinfo.py:137
 #, python-brace-format
 msgid "Unknown partition id {0}"
-msgstr "Okänd partition id {0}"
+msgstr "Okänt partition-id {0}"
 
 #: ../thus/check.py:69
 msgid "System Check"
@@ -61,13 +62,13 @@ msgstr "Systemkontroll"
 #: ../thus/check.py:74
 #, python-brace-format
 msgid "has at least {0}GB available storage space. (*)"
-msgstr "har åtminstone {0}GB tillgängligt utrymme. (*)"
+msgstr "har åtminstone {0} GB tillgängligt utrymme. (*)"
 
 #: ../thus/check.py:77
 msgid ""
 "This highly depends on which desktop environment you choose, so you might "
 "need more space."
-msgstr "Detta är mycket beroende på vilken fönsterhanterare du väljer, så du kan behöva mer hårddiskutrymme."
+msgstr "Detta är mycket beroende på vilken skrivbordmiljö du väljer, så du kan behöva mer hårddiskutrymme."
 
 #: ../thus/check.py:82
 msgid "is plugged in to a power source"
@@ -87,7 +88,7 @@ msgstr "Vi har anslutning till internet."
 
 #: ../thus/check.py:170
 msgid "We're connected to a power source."
-msgstr "Vi är ansluten till en kraftkälla."
+msgstr "Vi är anslutna till en strömkälla."
 
 #: ../thus/check.py:171
 msgid "We have enough disk space."
@@ -111,11 +112,11 @@ msgstr "Välj layout för ditt tangentbord"
 
 #: ../thus/keymap.py:65 ../ui/keymap.ui:75
 msgid "Keyboard Layouts"
-msgstr "Välj layout för ditt tangentbord"
+msgstr "Tangentbordslayouter"
 
 #: ../thus/keymap.py:68 ../ui/keymap.ui:86
 msgid "Keyboard Variants"
-msgstr "Varianter"
+msgstr "Tangentbordsvarianter"
 
 #: ../thus/keymap.py:72
 msgid "Layouts"
@@ -136,7 +137,7 @@ msgstr "Välkommen till Manjaro!"
 
 #: ../thus/language.py:83
 msgid "Notice: The Thus Installer is beta software."
-msgstr "Kom Ihåg: Installationshanteraren är i beta stadiet."
+msgstr "Kom Ihåg: Installationshanteraren är i betastadiet."
 
 #: ../thus/language.py:85
 msgid ""
@@ -150,20 +151,20 @@ msgstr "Thus är förhandsutgiven mjukvara som är under aktiv utveckling.\nDen 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
 msgid "Forward"
-msgstr ""
+msgstr "Framåt"
 
 #: ../thus/language.py:130 ../thus/installation/ask.py:215
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 #: ../thus/language.py:132 ../thus/installation/ask.py:217
 msgid "Back"
-msgstr ""
+msgstr "Bakåt"
 
 #: ../thus/language.py:136
 #, python-brace-format
 msgid "Can't find translation file for the {0} language"
-msgstr "Kan inte hitta översättning för {0} språket"
+msgstr "Kan inte hitta översättning för språket {0}"
 
 #: ../thus/location.py:71
 msgid "Select your location"
@@ -188,13 +189,13 @@ msgstr "Visa alla platser"
 #: ../thus/misc/misc.py:969
 #, python-brace-format
 msgid "locale changed to : {0}"
-msgstr ""
+msgstr "Plats ändrad till :{0}"
 
 #: ../thus/location.py:209 ../thus/location.py:218 ../thus/location.py:220
 #: ../thus/misc/misc.py:971 ../thus/misc/misc.py:974
 #, python-brace-format
 msgid "Can't change to locale '{0}'"
-msgstr ""
+msgstr "Kan inte ändra plats till '{0}'"
 
 #: ../thus/main_window.py:66
 msgid ""
@@ -239,7 +240,7 @@ msgstr "Avbryter installationen..."
 
 #: ../thus/rank_mirrors.py:54
 msgid "Can't find rank mirrors script"
-msgstr "Kan inte hitta ranka speglarskript"
+msgstr "Kan inte hitta skriptet för rankning av speglar"
 
 #: ../thus/rank_mirrors.py:61
 msgid "Couldn't execute auto mirroring selection"
@@ -259,7 +260,7 @@ msgstr "Installation av Manjaro - Information"
 
 #: ../thus/show_message.py:101
 msgid "Manjaro Installer - Confirmation"
-msgstr "Installation av Manjaro - Information"
+msgstr "Installation av Manjaro - Bekräftelse"
 
 #: ../thus/slides.py:77
 msgid "Installing Manjaro..."
@@ -278,7 +279,7 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "VIKTIGT: Det kan ha uppstått ett problem med uppstartshanteraren\nvilket kan leda till att ditt system inte starta på rätt sätt. Innan\ndu startar om bör du försöka bekräfta att uppstartshanteraren är installerad och\nkonfigurerad. Arch Linux-wikin innehåller felsökningsinformation:\nhttps://wiki.archlinux.org/index.php/GRUB\n\nVill du besöka wikisidan nu?"
 
 #: ../thus/slides.py:205
 msgid ""
@@ -289,25 +290,25 @@ msgstr "Installationen är klar!\nVill du starta om ditt system nu?"
 #: ../thus/thus.py:66
 #, python-brace-format
 msgid "Can't create Thus main window: {0}"
-msgstr ""
+msgstr "Kan inte skapa Thus huvudfönster: {0}"
 
 #: ../thus/thus.py:166
 #, python-brace-format
 msgid "Using pyalpm v{0} as interface to libalpm v{1}"
-msgstr ""
+msgstr "Använder pyalpm v{0} som gränssnitt mot libalpm v{1}"
 
 #: ../thus/thus.py:181
 #, python-brace-format
 msgid "Thus v{0} - Manjaro Installer"
-msgstr ""
+msgstr "Thus v{0} - Manjaroinstallerare"
 
 #: ../thus/thus.py:194
 msgid "Sets Thus log level to 'debug'"
-msgstr "Sätter Thus loggnings nivå till 'debug'"
+msgstr "Sätter Thus loggningsnivå till 'debug'"
 
 #: ../thus/thus.py:198
 msgid "Runs thus even if it detects that another instance is running"
-msgstr "Kör thus även om andra aktiva instanser upptäcks"
+msgstr "Kör Thus även om andra aktiva instanser upptäcks"
 
 #: ../thus/thus.py:210
 msgid "Do not perform any changes (useful for developers)"
@@ -315,7 +316,7 @@ msgstr "Gör inga ändringar (användbart för utvecklare)"
 
 #: ../thus/thus.py:214
 msgid "Upgrade/downgrade Thus to the web version"
-msgstr "Uppgradera/nedgradera Thus till webbversionen"
+msgstr "Upp-/nedgradera Thus till webbversionen"
 
 #: ../thus/thus.py:218
 msgid "Do not search for new Thus versions online"
@@ -323,7 +324,7 @@ msgstr "Leta ej efter nya Thus-versioner online"
 
 #: ../thus/thus.py:222
 msgid "Show logging messages to stdout"
-msgstr "Visa logg meddelanden till stdout"
+msgstr "Visa loggmeddelanden till stdout"
 
 #: ../thus/thus.py:226
 msgid "Show options in development (for developers only, do not use this!)"
@@ -361,7 +362,7 @@ msgstr "Använd (NTP) för synkronisering av klockan"
 #: ../thus/timezone.py:117
 #, python-brace-format
 msgid "location changed to : {0}"
-msgstr "Plats ändrar till : {0}"
+msgstr "plats ändrad till : {0}"
 
 #: ../thus/timezone.py:196
 msgid "Can't autodetect timezone coordinates"
@@ -369,11 +370,11 @@ msgstr "Kan inte automatiskt känna av koordinaterna för tidszonen"
 
 #: ../thus/timezone.py:264
 msgid "Stoping timezone threads..."
-msgstr ""
+msgstr "Stoppar tidzonstrådar..."
 
 #: ../thus/timezone.py:301
 msgid "Can't get network status."
-msgstr "Kan inte kontrollera nätverksstatus"
+msgstr "Kan inte hämta nätverksstatus"
 
 #: ../thus/timezone.py:312
 msgid "We have connection. Let's get our timezone"
@@ -382,12 +383,12 @@ msgstr "Vi har anslutning. Låt oss hämta vår tidszon"
 #: ../thus/timezone.py:335
 #, python-brace-format
 msgid "Timezone (latitude {0}, longitude {1}) detected."
-msgstr "Tidszon (latitud {0}, longitude {1}) upptäckt."
+msgstr "Tidszon (latitud {0}, longitud {1}) upptäckt."
 
 #: ../thus/updater.py:71
 msgid ""
 "Could not find 'update.info' file. Thus will not be able to update itself."
-msgstr ""
+msgstr "Hittar inte 'update.info'-filen. Thus kommer inte att kunna uppdatera sig själv."
 
 #: ../thus/updater.py:91
 #, python-brace-format
@@ -408,7 +409,7 @@ msgstr "Laddar ned ny version av Thus..."
 
 #: ../thus/updater.py:142
 msgid "Can't download new Thus version."
-msgstr "Kan ej ladda ner ny Thus version."
+msgstr "Kan ej ladda ner ny version av Thus."
 
 #: ../thus/updater.py:146
 msgid "Uncompressing new version..."
@@ -441,7 +442,7 @@ msgstr "Värdnamn"
 
 #: ../thus/user_info.py:89 ../ui/user_info.ui:603
 msgid "Your computer's name:"
-msgstr "Namn på din dator:"
+msgstr "Din dators namn:"
 
 #: ../thus/user_info.py:93 ../ui/user_info.ui:44
 msgid "Pick a username:"
@@ -476,11 +477,11 @@ msgstr "Välj ett lösenord för root:"
 
 #: ../thus/user_info.py:125 ../ui/user_info.ui:589
 msgid "Confirm root password:"
-msgstr "Bekräfta root lösenord:"
+msgstr "Bekräfta rootlösenord:"
 
 #: ../thus/user_info.py:133
 msgid "Its name as it appears to other computers."
-msgstr "Namnet som syns på andra datorer"
+msgstr "Hur namnet kommer att synas på andra datorer"
 
 #: ../thus/user_info.py:137
 msgid "You must enter a name"
@@ -509,21 +510,21 @@ msgstr "Kryptera min hemkatalog"
 #: ../thus/user_info.py:158 ../thus/installation/automatic.py:105
 #: ../ui/user_info.ui:333
 msgid "Show password"
-msgstr "visa lösenordet"
+msgstr "Visa lösenordet"
 
 #: ../thus/user_info.py:161 ../ui/user_info.ui:468
 msgid "Show root password"
-msgstr "visa root lösenordet"
+msgstr "Visa rootlösenordet"
 
 #: ../thus/user_info.py:164 ../ui/user_info.ui:350
 msgid "Use a root password"
-msgstr "Använd root lösenord"
+msgstr "Använd rootlösenord"
 
 #: ../thus/user_info.py:229
 msgid ""
 "Manjaro will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
 "\n"
-msgstr "Manjaro kommer att kryptera din hemkatalog med eCryptfs. Notera att eCryptfs inte hanterar vitt spridda, en sorts förallokerade, filer väl.\n"
+msgstr "Manjaro kommer att kryptera din hemkatalog med eCryptfs. Notera att eCryptfs inte hanterar vitt spridda filer väl.\n"
 
 #: ../thus/user_info.py:230
 msgid ""
@@ -567,7 +568,7 @@ msgstr "För många tecken"
 
 #: ../thus/download/download_urllib.py:42
 msgid "Wrong url, will try another one if available."
-msgstr "Fel url, försöker en annan om möjligt."
+msgstr "Felaktig url, försöker en annan om möjligt."
 
 #: ../thus/download/download_urllib.py:52
 #: ../thus/download/download_urllib.py:56
@@ -580,12 +581,12 @@ msgstr "Kan ej öppna {0} - Anledning: {1}"
 #: ../thus/download/download_urllib.py:80
 #, python-brace-format
 msgid "HTTP Error : {0}"
-msgstr "HTTP Fel : {0}"
+msgstr "HTTP-fel : {0}"
 
 #: ../thus/download/download_urllib.py:83
 #, python-brace-format
 msgid "URL Error : {0}"
-msgstr "URL Fel : {0}"
+msgstr "URL-fel : {0}"
 
 #: ../thus/download/download_urllib.py:117
 #, python-brace-format
@@ -595,7 +596,7 @@ msgstr "Laddar ner {0} {1} ({2}/{3})..."
 #: ../thus/download/download_urllib.py:124
 #, python-brace-format
 msgid "Metalink for package {0} has no size info"
-msgstr "Metalink för paket {0} har ingen storleksinformation"
+msgstr "Metalänk för paket {0} har ingen storleksinformation"
 
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
@@ -605,7 +606,7 @@ msgstr "Filen {0} finns redan, Thus kommer ej att skriva över denna"
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
 msgid "Can't download {0}, even after trying all available mirrors"
-msgstr "Kan ej ladda ned {0}, även efter försök på alla källor"
+msgstr "Kan ej ladda ned {0}, även efter försök på alla speglar"
 
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
@@ -654,7 +655,7 @@ msgstr "ingen"
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
-msgstr ""
+msgstr "Kan inte redigera en partition med LVM filsystemstyp"
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
@@ -663,22 +664,22 @@ msgstr "Kan ej använda samma monteringspunkt två gånger."
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
 msgid "You will delete the partition {0} from disk {1}"
-msgstr ""
+msgstr "Du kommer att ta bort partitionen {0} från disk {1}"
 
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
 msgid "Unmounting {0}..."
-msgstr ""
+msgstr "Avmonterar {0}..."
 
 #: ../thus/installation/advanced.py:995
 #, python-brace-format
 msgid "Sorry, you already have {0} primary partitions created."
-msgstr ""
+msgstr "Ledsen, men det finns redan {0} primära partitioner skapade"
 
 #: ../thus/installation/advanced.py:999
 #, python-brace-format
 msgid "Sorry, you already have {0} primary and 1 extended partitions created."
-msgstr ""
+msgstr "Ledsen, men du har redan skapat {0} primära och 1 utökad partition"
 
 #: ../thus/installation/advanced.py:1054
 msgid "Can't use same mount point twice..."
@@ -686,19 +687,19 @@ msgstr "Kan inte använda samma monteringspunkt två gånger..."
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
-msgstr ""
+msgstr "Skapar en primär partition"
 
 #: ../thus/installation/advanced.py:1090
 msgid "Creating an extended partition"
-msgstr ""
+msgstr "Skapar en utökad partition"
 
 #: ../thus/installation/advanced.py:1096
 msgid "Creating a logical partition"
-msgstr ""
+msgstr "Skapar en logisk partition"
 
 #: ../thus/installation/advanced.py:1158
 msgid "LUKS passwords do not match!"
-msgstr ""
+msgstr "LUKS-lösenorden är inte lika!"
 
 #: ../thus/installation/advanced.py:1283
 msgid "Advanced installation mode"
@@ -706,21 +707,21 @@ msgstr "Avancerad installationsmetod"
 
 #: ../thus/installation/advanced.py:1287 ../thus/installation/automatic.py:110
 msgid "Use the device below for boot loader installation:"
-msgstr ""
+msgstr "Använd nedanstående enhet för att installera starthanteraren:"
 
 #: ../thus/installation/advanced.py:1292 ../thus/installation/automatic.py:115
 #: ../ui/advanced.ui:1041 ../ui/automatic.ui:149
 msgid "Bootloader:"
-msgstr ""
+msgstr "Starthanterare:"
 
 #: ../thus/installation/advanced.py:1296 ../thus/installation/automatic.py:119
 #: ../ui/advanced.ui:1067 ../ui/automatic.ui:174
 msgid "Device:"
-msgstr ""
+msgstr "Enhet:"
 
 #: ../thus/installation/advanced.py:1300
 msgid "Mount Checklist:"
-msgstr "Monterings checklista:"
+msgstr "Monteringschecklista:"
 
 #: ../thus/installation/advanced.py:1306
 msgid "Root"
@@ -740,7 +741,7 @@ msgstr "Växlingsfil"
 
 #: ../thus/installation/advanced.py:1328
 msgid "Undo"
-msgstr ""
+msgstr "Ångra"
 
 #: ../thus/installation/advanced.py:1331 ../thus/installation/advanced.py:1896
 msgid "New"
@@ -748,11 +749,11 @@ msgstr "Ny"
 
 #: ../thus/installation/advanced.py:1334
 msgid "Delete"
-msgstr ""
+msgstr "Ta bort"
 
 #: ../thus/installation/advanced.py:1337
 msgid "Edit..."
-msgstr ""
+msgstr "Redigera..."
 
 #: ../thus/installation/advanced.py:1340
 msgid "New partition table"
@@ -760,11 +761,11 @@ msgstr "Ny partitionstabell"
 
 #: ../thus/installation/advanced.py:1351
 msgid "_Cancel"
-msgstr ""
+msgstr "_Ångra"
 
 #: ../thus/installation/advanced.py:1362
 msgid "_Apply"
-msgstr ""
+msgstr "_Tillämpa"
 
 #: ../thus/installation/advanced.py:1365 ../ui/advanced.ui:405
 msgid "Size:"
@@ -796,11 +797,11 @@ msgstr "Slutet av detta utrymme"
 
 #: ../thus/installation/advanced.py:1393 ../thus/installation/advanced.py:1410
 msgid "Use As:"
-msgstr ""
+msgstr "Använd som:"
 
 #: ../thus/installation/advanced.py:1397 ../thus/installation/advanced.py:1414
 msgid "Mount Point:"
-msgstr ""
+msgstr "Monteringspunkt"
 
 #: ../thus/installation/advanced.py:1401 ../thus/installation/advanced.py:1418
 #: ../ui/advanced.ui:251 ../ui/advanced.ui:687
@@ -825,11 +826,11 @@ msgstr "Skapa partitionstabell"
 
 #: ../thus/installation/advanced.py:1439
 msgid "Use LUKS encryption:"
-msgstr ""
+msgstr "Använd LUKS-kryptering:"
 
 #: ../thus/installation/advanced.py:1443 ../ui/advanced.ui:1172
 msgid "LUKS volume name:"
-msgstr "LUKS enhetens namn:"
+msgstr "LUKS-enhetens namn:"
 
 #: ../thus/installation/advanced.py:1447 ../ui/advanced.ui:1184
 msgid "Password:"
@@ -842,22 +843,22 @@ msgstr "Bekräfta ditt lösenord:"
 #: ../thus/installation/advanced.py:1521
 #, python-brace-format
 msgid "Creating a new {0} partition table for disk {1}"
-msgstr ""
+msgstr "Skapar en ny partitionstabell {0} för disk {1}"
 
 #: ../thus/installation/advanced.py:1531
 msgid ""
 "GRUB requires a BIOS Boot Partition in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
 "\n"
 "Thus will create this BIOS Boot Partition for you."
-msgstr ""
+msgstr "GRUB kräver en BIOS-partition i BIOS-systemet för att bädda in sin core.img-fil på grund av efter-MBR-inbäddningsgapet hos GPT-diskar.\n\nThus kommer därför att skapa denna partition åt dig."
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
-msgstr "Kan inte skapa en BIOS GPT Boot partition!"
+msgstr "Kan inte skapa en BIOS GPT-partition!"
 
 #: ../thus/installation/advanced.py:1588
 msgid "Couldn't create BIOS GPT Boot partition"
-msgstr "Kan inte skapa en BIOS GPT Boot partition!"
+msgstr "Kunde inte skapa en BIOS GPT-partition!"
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
@@ -869,7 +870,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} är monterad som swap.\nFör att fortsätta måste du avmontera den.\nTryck Ja för att avmontera den eller Nej för att gå tillbaka.\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -877,40 +878,40 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} är monterad i '{1}'.\nFör att fortsätta måste den avmonteras.\nKlicka Ja för att avmontera eller Nej för att återgå\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
 msgid "{0} unmounted"
-msgstr ""
+msgstr "{0} avmonterad"
 
 #: ../thus/installation/advanced.py:1801
 #, python-brace-format
 msgid "Swap partition {0} unmounted"
-msgstr ""
+msgstr "Växlingspartition {0} avmonterad"
 
 #: ../thus/installation/advanced.py:1812
 #, python-brace-format
 msgid "{0} shows as mounted (busy) but it has no mount point"
-msgstr ""
+msgstr "{0} anges som monterad (upptagen) men saknar monteringspunkt"
 
 #: ../thus/installation/advanced.py:1819
 msgid ""
 "The root partition is not marked to be formatted.\n"
 "This might create problems. Should it be marked to be formatted now?"
-msgstr "Root partionen är inte markerad för formatering.\nDetta kan skapa problem. Ska den markeras för att bli formaterad nu?"
+msgstr "Rootpartionen är inte markerad för formatering.\nDetta kan skapa problem. Ska den markeras för formatering nu?"
 
 #: ../thus/installation/advanced.py:1863
 #, python-brace-format
 msgid ""
 "Added {0} to changelist: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] "
 "encrypt[{5}]"
-msgstr ""
+msgstr "Lade till {0} i ändringslistan: createme[{1}] relabel[{2}] fmt[{3}] mnt[{4}] encrypt[{5}]"
 
 #: ../thus/installation/advanced.py:1888
 #, python-brace-format
 msgid "Partition {0} will be deleted"
-msgstr ""
+msgstr "Partition {0} kommer att tas bort"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Partition"
@@ -926,7 +927,7 @@ msgstr "Montera"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
-msgstr ""
+msgstr "Kryptera"
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
@@ -935,52 +936,52 @@ msgstr "För dessa diskar kommer partitionerna att påverkas:"
 #: ../thus/installation/advanced.py:2008
 #, python-brace-format
 msgid "Finished saving changes in {0}"
-msgstr ""
+msgstr "Sparar ändringar gjorda på {0}"
 
 #: ../thus/installation/advanced.py:2031
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1} labeled {2}"
-msgstr ""
+msgstr "Skapar filsystem av typen {0} i {1} med etiketten {2}"
 
 #: ../thus/installation/advanced.py:2034
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1}"
-msgstr ""
+msgstr "Skapar filsystem av typen {0} i {1}"
 
 #: ../thus/installation/advanced.py:2043 ../thus/installation/advanced.py:2062
 #: ../thus/installation/advanced.py:2078
 #, python-brace-format
 msgid "Setting boot flag in {0} partition"
-msgstr ""
+msgstr "Ställer in bootflagga på partitionen {0}"
 
 #: ../thus/installation/advanced.py:2051
 #, python-brace-format
 msgid "Setting boot_legacy flag in {0} partition"
-msgstr ""
+msgstr "Ställer in boot_legacy-flagga på partitionen {0}"
 
 #: ../thus/installation/advanced.py:2086
 #, python-brace-format
 msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
-msgstr ""
+msgstr "Krypterar {0}, anger volymnamn {1} och formaterar..."
 
 #: ../thus/installation/advanced.py:2101
 #, python-brace-format
 msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "Kunde inte formatera LUKS-enhet '{0}'  med namn '{1}' som '{2}'"
 
 #: ../thus/installation/advanced.py:2125
 #, python-brace-format
 msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "Kunde inte formatera partion '{0}'  med namn '{1}' som '{2}'"
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr ""
+msgstr "Thus kommer inte att installera någon uppstartshanterare"
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
 msgid "Manjaro will install the bootloader {0} in device {1}"
-msgstr ""
+msgstr "Manjaro kommer att installera uppstartshanteraren {0}, på {1}"
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
@@ -988,33 +989,33 @@ msgstr "Testläge. Inga ändringar kommer sparas!"
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
-msgstr ""
+msgstr "Det finns inga primära partitioner tillgängliga"
 
 #: ../thus/installation/alongside.py:142
 #, python-brace-format
 msgid "Will shrink device {0} and create new device {1}"
-msgstr ""
+msgstr "Kommer att förminska {0} och skapa ny {1}"
 
 #: ../thus/installation/alongside.py:150
 msgid "Thus recommends at least 6.5GB free to install Manjaro."
-msgstr ""
+msgstr "Thus rekommenderar minst 6,5 GB ledigt utrymme för Manjaro."
 
 #: ../thus/installation/alongside.py:151
 #, python-brace-format
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr ""
+msgstr "Ny partition {0} som resultat av {1} kommer inte att ha tillräckligt med ledigt utrymme för en installation."
 
 #: ../thus/installation/alongside.py:152
 msgid ""
 "You can still install Manjaro, but be carefull on which DE you choose as it "
 "might not fit in."
-msgstr ""
+msgstr "Du kan fortfarande installaera Manjaro, men var försiktig vid val av skrivbordmiljö."
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
-msgstr ""
+msgstr "Installera på egen risk!"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
@@ -1022,21 +1023,21 @@ msgstr "Manjaro bredvid ett annat operativsystem"
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
-msgstr ""
+msgstr "Välj storlek på din installation"
 
 #: ../thus/installation/alongside.py:216
 msgid "Choose the partition that you want to shrink:"
-msgstr ""
+msgstr "Välj vilken partition du vill krympa:"
 
 #: ../thus/installation/alongside.py:257
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Kunde inte hitta något ledigt partitionsnummer.\nInstallationen kan inte fortsätta."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "Kan inte hitta några installerade OS!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
@@ -1044,15 +1045,15 @@ msgstr ""
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "Windows upptäckt."
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "Windows inte upptäckt."
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "Kunde inte hitta några OS på /dev/sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
@@ -1060,7 +1061,7 @@ msgstr ""
 
 #: ../thus/installation/ask.py:197
 msgid " and "
-msgstr ""
+msgstr "och"
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
@@ -1069,15 +1070,15 @@ msgstr "Typ av installation"
 #: ../thus/installation/ask.py:235
 #, python-brace-format
 msgid "Replace {0} with Manjaro"
-msgstr ""
+msgstr "Ersätt {0} med Manjaro"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "Rensa disken och installera Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr ""
+msgstr "Varning: Det här kommer att ta bort ALL data på din disk."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
@@ -1085,7 +1086,7 @@ msgstr "Krypterar installationen för ökad säkerhet."
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr ""
+msgstr "Du kommer att skapa ett krypteringslösenord i nästa steg."
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
@@ -1095,32 +1096,32 @@ msgstr "Använd LVM med denna installation."
 msgid ""
 "This will setup LVM and allow you to easily manage partitions and create "
 "snapshots."
-msgstr ""
+msgstr "Detta ställer in LVM och möjliggör snapshots och ändring av partitionsstorlekar på enkelt sätt."
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
-msgstr "Detta kommer skapa din /home katalog på en annan partition eller enhet."
+msgstr "Skapa hemkatalogen på en annan partition eller enhet."
 
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr ""
+msgstr "Detta kommer skapa din /home-katalog på en annan partition eller enhet."
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "Hur vill du fortsätta?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
-msgstr ""
+msgstr "Välj exakt var Manjaro ska installeras."
 
 #: ../thus/installation/ask.py:309
 msgid "Edit partition table and choose mount points."
-msgstr ""
+msgstr "Redigera partitionstabell och välj monteringspunkter."
 
 #: ../thus/installation/ask.py:341
 msgid "Manjaro installation will be encrypted using LUKS"
-msgstr "Manjaro installationen kommer att krypteras med LUKS"
+msgstr "Manjaroinstallationen kommer att krypteras med LUKS"
 
 #: ../thus/installation/ask.py:344
 msgid "Manjaro will be installed using LVM volumes"
@@ -1128,15 +1129,15 @@ msgstr "Manjaro installeras med LVM-uppsättning"
 
 #: ../thus/installation/ask.py:346
 msgid "Manjaro will be installed using a separate /home volume."
-msgstr "Manjaro installeras med separat /home volym"
+msgstr "Manjaro kommer att installeras med en separat /home-volym."
 
 #: ../thus/installation/ask.py:348
 msgid "Manjaro will be installed using a separate /home partition."
-msgstr "Manjaro installeras med separat /home volym"
+msgstr "Manjaro kommer att installeras med en separat /home-partition."
 
 #: ../thus/installation/automatic.py:75
 msgid "Automatic installation mode"
-msgstr "Automatiskt läge av installation"
+msgstr "Automatiskt installationsläge"
 
 #: ../thus/installation/automatic.py:79 ../ui/automatic.ui:81
 msgid "Select drive:"
@@ -1155,53 +1156,53 @@ msgstr "Vänligen välj vilken disk du vill installera Manjaro på och \nklicka 
 
 #: ../thus/installation/automatic.py:93 ../ui/automatic.ui:223
 msgid "Encryption Password:"
-msgstr "Krypterings lösenord:"
+msgstr "Krypteringslösenord:"
 
 #: ../thus/installation/automatic.py:101
 msgid "LUKS Password. Do not use special characters or accents!"
-msgstr ""
+msgstr "LUKS-lösenord. Använd inte specialtecken eller åäö!"
 
 #: ../thus/installation/automatic.py:188
 msgid "A root LUKS password has been set"
-msgstr ""
+msgstr "LUKS-lösenord har ställts in"
 
 #: ../thus/installation/automatic.py:190
 #, python-brace-format
 msgid "Automatic install on {0}"
-msgstr ""
+msgstr "Automatisk installation på {0}"
 
 #: ../thus/installation/automatic.py:253
 msgid ""
 "Do you really want to proceed and delete all your content on your hard "
 "drive?"
-msgstr ""
+msgstr "Vill du verkligen fortsätta och förstöra all data som finns på hårddisken?"
 
 #: ../thus/installation/automatic.py:267
 #, python-brace-format
 msgid "Thus will install Manjaro on device {0}"
-msgstr ""
+msgstr "Thus kommer att installera Manjaro på {0}"
 
 #: ../thus/installation/automatic.py:286
 #, python-brace-format
 msgid "Thus will install the bootloader '{0}' in device '{1}'"
-msgstr ""
+msgstr "Manjaro kommer att installera uppstartshanteraren {0}, på {1}"
 
 #: ../thus/installation/auto_partition.py:87
 #: ../thus/installation/process.py:485 ../thus/installation/process.py:502
 #: ../thus/installation/process.py:517
 #, python-brace-format
 msgid "Unmounting {0}"
-msgstr ""
+msgstr "Avmonterar {0}"
 
 #: ../thus/installation/auto_partition.py:91
 #, python-brace-format
 msgid "Unmounting {0} failed. Trying lazy arg."
-msgstr ""
+msgstr "Avmonteringen av {0} misslyckades. Försöker med lata argument."
 
 #: ../thus/installation/auto_partition.py:95
 #, python-brace-format
 msgid "Unmounting {0} failed."
-msgstr ""
+msgstr "Avmonteringen av {0} misslyckades."
 
 #: ../thus/installation/auto_partition.py:107
 #: ../thus/installation/auto_partition.py:113
@@ -1225,7 +1226,7 @@ msgstr ""
 #: ../thus/installation/auto_partition.py:896
 #, python-brace-format
 msgid "Command {0} failed"
-msgstr ""
+msgstr "Kommandot {0} misslyckades"
 
 #: ../thus/installation/auto_partition.py:108
 #: ../thus/installation/auto_partition.py:114
@@ -1250,184 +1251,184 @@ msgstr ""
 #: ../thus/installation/process.py:267
 #, python-brace-format
 msgid "Output: {0}"
-msgstr ""
+msgstr "Utdata: {0}"
 
 #: ../thus/installation/auto_partition.py:158
 msgid "Can't delete existent LVM volumes"
-msgstr ""
+msgstr "Kan inte ta bort existerande LVM-volym"
 
 #: ../thus/installation/auto_partition.py:169
 msgid "Can't close already opened LUKS devices"
-msgstr ""
+msgstr "Kan inte stänga redan öppna LUKS-enheter"
 
 #: ../thus/installation/auto_partition.py:178
 #, python-brace-format
 msgid "Can't setup LUKS in device {0}. A password or a key file are needed"
-msgstr ""
+msgstr "Kan inte installera LUKS på {0}. Ett lösenord eller nyckelfil krävs"
 
 #: ../thus/installation/auto_partition.py:186
 #, python-brace-format
 msgid "Thus will setup LUKS on device {0}"
-msgstr ""
+msgstr "Thus kommer att installera LUKS på {0}"
 
 #: ../thus/installation/auto_partition.py:204
 #: ../thus/installation/auto_partition.py:227
 #, python-brace-format
 msgid "Can't format and open the LUKS device {0}"
-msgstr ""
+msgstr "Kan inte formatera och öppna LUKS-enheten {0}"
 
 #: ../thus/installation/auto_partition.py:238
 #, python-brace-format
 msgid "Can't wipe filesystem of device {0}"
-msgstr ""
+msgstr "Kan inte rensa filsystem på {0}"
 
 #: ../thus/installation/auto_partition.py:250
 msgid "Can't run dd command"
-msgstr ""
+msgstr "Kan inte köra kommandot dd"
 
 #: ../thus/installation/auto_partition.py:278
 #: ../thus/installation/auto_partition.py:306
 #, python-brace-format
 msgid "Error creating a new partition on device {0}"
-msgstr ""
+msgstr "Fel vid partitionsskapande på {0}"
 
 #: ../thus/installation/auto_partition.py:319
 #, python-brace-format
 msgid "Error creating a new partition table on device {0}"
-msgstr ""
+msgstr "Fel vid partitionstabellsskapande på {0}"
 
 #: ../thus/installation/auto_partition.py:358
 #, python-brace-format
 msgid "Will format device {0} as {1}"
-msgstr ""
+msgstr "Kommer att formatera {0} som {1}"
 
 #: ../thus/installation/auto_partition.py:367
 #: ../thus/installation/process.py:407
 #, python-brace-format
 msgid "Can't activate swap in {0}"
-msgstr ""
+msgstr "Kan inte aktivera växlingsfil på {0}"
 
 #: ../thus/installation/auto_partition.py:385
 #, python-brace-format
 msgid "Unknown filesystem type {0}"
-msgstr ""
+msgstr "Okänt filsystem på {0}"
 
 #: ../thus/installation/auto_partition.py:393
 #, python-brace-format
 msgid "Can't create filesystem {0}"
-msgstr ""
+msgstr "Kan inte skapa filsystem {0}"
 
 #: ../thus/installation/auto_partition.py:422
 #, python-brace-format
 msgid "Error trying to  mount {0} in {1}"
-msgstr ""
+msgstr "Fel vid montering av {0} på {1}"
 
 #: ../thus/installation/auto_partition.py:438
 #, python-brace-format
 msgid "Device details: {0} UUID={1} LABEL={2}"
-msgstr ""
+msgstr "Enhetsinformation: {0} UUID={1} ETIKETT={2}"
 
 #: ../thus/installation/auto_partition.py:522
 #, python-brace-format
 msgid "{0} will be mounted as {1}"
-msgstr ""
+msgstr "{0} kommer att monteras som {1}"
 
 #: ../thus/installation/auto_partition.py:554
 #, python-brace-format
 msgid "Device {0} will have a {1} filesystem"
-msgstr ""
+msgstr "Enheten {0} kommer att ha filsystemet {1}"
 
 #: ../thus/installation/auto_partition.py:604
 #, python-format
 msgid "Total disk size: %dMiB"
-msgstr "Total diskstorlek: %dMiB"
+msgstr "Total diskstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:606
 #, python-format
 msgid "EFI System Partition (ESP) size: %dMiB"
-msgstr ""
+msgstr "EFI-systempartitionsstorlek (ESP): %d MiB"
 
 #: ../thus/installation/auto_partition.py:607
 #, python-format
 msgid "Boot partition size: %dMiB"
-msgstr "Boot partitionsstorlek: %dMiB"
+msgstr "Bootpartitionsstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:610
 #, python-format
 msgid "LVM physical volume size: %dMiB"
-msgstr "LVM fysisk volymstorlek: %dMiB"
+msgstr "Fysisk LVM-volymstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:612
 #, python-format
 msgid "Swap partition size: %dMiB"
-msgstr "Swap partitionsstorlek: %dMiB"
+msgstr "Växlingsfilsstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:613
 #, python-format
 msgid "Root partition size: %dMiB"
-msgstr "Root partitionsstorlek: %dMiB"
+msgstr "Rootpartitionsstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:616
 #, python-format
 msgid "Home partition size: %dMiB"
-msgstr "Hem partitionstorlek: %dMiB"
+msgstr "Hempartitionstorlek: %d MiB"
 
 #: ../thus/installation/auto_partition.py:636
 msgid ""
 "Setup cannot detect size of your device, please use advanced installation "
 "routine for partitioning and mounting devices."
-msgstr "installations programmet kan inte dektektera storleken av din lagring, Använd istället avancerad installation för att kunna partionera och montera din lagring."
+msgstr "installationsprogrammet kunde inte avgöra storleken på dina enheter. Använd istället avancerad installation för att kunna partionera och montera din hårddisk."
 
 #: ../thus/installation/auto_partition.py:675
 msgid "Error informing the kernel of the partition change."
-msgstr ""
+msgstr "Fel vid meddelande av ändringar till kärnan."
 
 #: ../thus/installation/auto_partition.py:788
 #, python-brace-format
 msgid "Thus will setup LVM on device {0}"
-msgstr ""
+msgstr "Thus kommer sätta upp LUKS på {0}"
 
 #: ../thus/installation/auto_partition.py:793
 msgid "Error creating LVM physical volume"
-msgstr ""
+msgstr "Fel vid skapande av fysisk LVM-volym"
 
 #: ../thus/installation/auto_partition.py:802
 msgid "Error creating LVM volume group"
-msgstr ""
+msgstr "Fel vid skapande av LVM-volymgrupp"
 
 #: ../thus/installation/auto_partition.py:837
 msgid "Error creating LVM logical volume"
-msgstr ""
+msgstr "Fel vid skapande av logisk LVM-volym"
 
 #: ../thus/installation/auto_partition.py:894
 msgid "Can't copy LUKS keyfile to the installation device"
-msgstr ""
+msgstr "Kan inte kopiera LUKS nyckelfi till installationsenheten"
 
 #: ../thus/installation/bootloader.py:102
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "'ruuid'-variabeln är inte satt. Kan inte kontrollera root-UUID i grub.cfg, hoppas att den är okej"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
-msgstr ""
+msgstr "Konfiguration av /etc/default/grub slutfördes utan problem."
 
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
 msgid "Could not copy {0} to grub.d"
-msgstr ""
+msgstr "Kunde inte kopiera {0} till grub.d"
 
 #: ../thus/installation/bootloader.py:229
 #, python-brace-format
 msgid "Installing GRUB(2) BIOS boot loader in {0}"
-msgstr ""
+msgstr "Installerar GRUB(2)-uppstartshanteraren för BIOS på {0}"
 
 #: ../thus/installation/bootloader.py:260
 msgid ""
 "grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
 "continue."
-msgstr ""
+msgstr "grub-mkconfig verkar ha hängt sig. Tvingar avslut av grub-mount och os-prober så att installationen kan fortsätta."
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
@@ -1440,49 +1441,49 @@ msgstr "FEL vid installation av GRUB(2) BIOS."
 #: ../thus/installation/bootloader.py:287
 #, python-brace-format
 msgid "The efi directory is: {0}"
-msgstr ""
+msgstr "EFI-katalogen är: {0}"
 
 #: ../thus/installation/bootloader.py:294
 #, python-brace-format
 msgid "Installing GRUB(2) UEFI {0} boot loader in {1}"
-msgstr ""
+msgstr "Installerar GRUB(2)-uppstartshanteraren för UEFI {0} på {1}"
 
 #: ../thus/installation/bootloader.py:304
 #, python-brace-format
 msgid "grub-install command: {0}"
-msgstr ""
+msgstr "grub-install-kommando: {0}"
 
 #: ../thus/installation/bootloader.py:312
 #, python-brace-format
 msgid "Command grub-install failed. Error output: {0}"
-msgstr ""
+msgstr "Kommandot grub-install misslyckades. Felrapport: {0}"
 
 #: ../thus/installation/bootloader.py:314
 msgid "Command grub-install timed out."
-msgstr ""
+msgstr "Kommandot grub-install tog för lång tid."
 
 #: ../thus/installation/bootloader.py:316
 #, python-brace-format
 msgid "Command grub-install failed. Unknown Error: {0}"
-msgstr ""
+msgstr "Kommandot grub-install misslycakdes. Okänt fel: {0}"
 
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "Ingen OEM-uppstartare hittad i {0}. Kopierar Grub(2) till katalogen."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
 msgid "Copying Grub(2) into OEM dir failed: {0}"
-msgstr ""
+msgstr "Kopiering av Grub(2) till OEM-katalog misslyckdes: {0}"
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
-msgstr ""
+msgstr "Filen kunde inte hittas."
 
 #: ../thus/installation/bootloader.py:341
 msgid "File already exists."
-msgstr ""
+msgstr "Filen finns redan."
 
 #: ../thus/installation/bootloader.py:359
 msgid "Generating grub.cfg"
@@ -1496,11 +1497,11 @@ msgstr "grub-mkconfig verkar ha hängt sig. Tvingar avslut av grub-mount och os-
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
-msgstr ""
+msgstr "GRUB(2) UEFI installerades utan problem."
 
 #: ../thus/installation/bootloader.py:395
 msgid "GRUB(2) UEFI install may not have completed successfully."
-msgstr ""
+msgstr "Installationen av GRUB(2) UEFI kanske inte slutfördes på ett korrekt sätt."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
@@ -1512,119 +1513,119 @@ msgstr ""
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
-msgstr ""
+msgstr "Kopierar GRUB(2)-temafiler"
 
 #: ../thus/installation/bootloader.py:419
 msgid "Grub2 theme files not found"
-msgstr ""
+msgstr "GRUB2-temafiler kunde inte hittas"
 
 #: ../thus/installation/bootloader.py:421
 msgid "Grub2 theme files already exist."
-msgstr ""
+msgstr "GRUB2-temafiler finns redan."
 
 #: ../thus/installation/bootloader.py:425
 msgid "Installing Grub2 locales."
-msgstr "Installerar grub2 lokaler"
+msgstr "Installerar språkfiler för GRUB2."
 
 #: ../thus/installation/bootloader.py:436
 msgid "Can't install GRUB(2) locale."
-msgstr ""
+msgstr "Kunde inte hitta GRUB(2)-språkfiler."
 
 #: ../thus/installation/bootloader.py:502
 msgid "Gummiboot install completed successfully"
-msgstr ""
+msgstr "Installationen av Gummiboot slutfördes utan problem."
 
 #: ../thus/installation/bootloader.py:506
 msgid "Gummiboot install has NOT completed successfully!"
-msgstr ""
+msgstr "Installationen av Gummiboot slutfördes INTE korrekt."
 
 #: ../thus/installation/bootloader.py:538
 msgid "Can't freeze/unfreeze xfs system"
-msgstr "Omöjligt att frysa eller släppa xfce systemet"
+msgstr "Omöjligt att frysa eller släppa xfs-systemet"
 
 #: ../thus/installation/chroot.py:55
 msgid "Special dirs are already mounted. Skipping."
-msgstr ""
+msgstr "Specialkataloger är redan monterade. Hoppar över."
 
 #: ../thus/installation/chroot.py:105
 msgid "Special dirs are not mounted. Skipping."
-msgstr "Special mappar är inte monterade, Skippar."
+msgstr "Specialkataloger är inte monterade. Hoppar över."
 
 #: ../thus/installation/chroot.py:124
 #, python-brace-format
 msgid "Unable to umount {0}"
-msgstr ""
+msgstr "Kunde inte avmontera {0}"
 
 #: ../thus/installation/chroot.py:125 ../thus/installation/process.py:399
 #: ../thus/installation/process.py:408
 #, python-brace-format
 msgid "Command {0} has failed."
-msgstr ""
+msgstr "Kommandot {0} misslyckades."
 
 #: ../thus/installation/chroot.py:127 ../thus/installation/process.py:400
 #: ../thus/installation/process.py:409
 #, python-brace-format
 msgid "Output : {0}"
-msgstr ""
+msgstr "Utdata: {0}"
 
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "Kommandot {0} tog för lång tid"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
-msgstr ""
+msgstr "Thus kommer att försöka fortsätta ändå"
 
 #: ../thus/installation/chroot.py:157
 #, python-brace-format
 msgid "Error running command: {0}"
-msgstr ""
+msgstr "Fel vid exekvering av kommandot: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
-msgstr "Ställer in hooks och moduler i mkinitcpio.conf"
+msgstr "Ställer in hakar och moduler i mkinitcpio.conf"
 
 #: ../thus/installation/process.py:130
 #, python-brace-format
 msgid "Copying '/{0}'"
-msgstr ""
+msgstr "Kopierar '/{0}'"
 
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Använder '{0}' som installationsmetod"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Fel vid exekvering av kommandot {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "Skapar partitioner och deras filsystem på {0}"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "Monterar partitionen {0} i katalogen [1}"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
 msgid "Can't mount {0} in {1}"
-msgstr ""
+msgstr "Kan inte montera {0} på {1}"
 
 #: ../thus/installation/process.py:403
 #, python-brace-format
 msgid "Activating swap in {0}"
-msgstr ""
+msgstr "Aktiverar växlingsfil på {0}"
 
 #: ../thus/installation/process.py:419
 #, python-brace-format
 msgid "{0} deleted"
-msgstr ""
+msgstr "{0} har tagit bort"
 
 #: ../thus/installation/process.py:434
 msgid "Install System ..."
@@ -1645,38 +1646,38 @@ msgstr "Systemet konfigurerat."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "Kan inte kopiera Thus loggar till {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "Kan inte avmontera {0}"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
-msgstr "Installationen har slutförts utan problem"
+msgstr "Installationen slutfördes utan problem."
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr "Grund filsystemet finns inte! Kritiskt fel (avslutar)."
+msgstr "Grundfilsystemet finns inte! Kritiskt fel (avslutar)."
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
-msgstr "Skrivbords filsystem finns inte! Allvarligt fel (avslutar)"
+msgstr "Skrivbordsfilsystemet finns inte! Kritiskt fel (avslutar)."
 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} är redan monterad på {1} som {2}"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
-msgstr ""
+msgstr "Bygger index på filer som ska kopieras ..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "Bygger index på filer som ska kopieras ..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
@@ -1689,66 +1690,66 @@ msgstr "Packar upp skrivbords-image"
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr ""
+msgstr "Återställer metainformation på {0}"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
-msgstr "Nätverks konfiguration inte kopierad"
+msgstr "Kan inte kopiera nätverkskonfiguration"
 
 #: ../thus/installation/process.py:698 ../thus/installation/process.py:724
 #: ../thus/installation/process.py:739 ../thus/installation/process.py:797
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Tillagd i fstab: {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Tillagd i crypttab: {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "Enhetslista: {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "Enhet: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab skriven."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "Aktiverade tjänsten {0}."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
 msgid "Can't find service {0}"
-msgstr ""
+msgstr "Kunde inte hitta tjänsten {0}"
 
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr ""
+msgstr "Fel vid skapande av lösenordskryptering för användare {0}"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "Fel när lösenordet ändrades för användare {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "Kan inte hittade locale.gen-filen"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: Aktivera automatisk inloggning för {1}."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
@@ -1756,42 +1757,42 @@ msgstr "Konfigurerar ditt nya system"
 
 #: ../thus/installation/process.py:1055
 msgid "fstab file generated."
-msgstr "fstab fil genererad "
+msgstr "fstab-fil genererad "
 
 #: ../thus/installation/process.py:1061
 msgid "Network configuration copied."
-msgstr "Nätverks konfiguration kopierad"
+msgstr "Nätverkskonfiguration kopierad."
 
 #: ../thus/installation/process.py:1087
 msgid "Time zone set."
-msgstr "Tidszon aktivt"
+msgstr "Tidszon vald."
 
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr ""
+msgstr "Sudokonfiguration för användare {0} klar."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Användaren {0} lades till."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
 msgid "Hostname  {0} set."
-msgstr ""
+msgstr "Värdnamn {0} satt."
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
-msgstr "Sätt root lösenord"
+msgstr "Sätt rootlösenord."
 
 #: ../thus/installation/process.py:1138
 msgid "Set the same password to root."
-msgstr "Sätt samma lösenord för root"
+msgstr "Använd samma lösenord för root"
 
 #: ../thus/installation/process.py:1144
 msgid "Generating locales ..."
-msgstr "Genererar språk..."
+msgstr "Genererar språkfiler..."
 
 #: ../thus/installation/process.py:1162
 msgid "Adjusting hardware clock ..."
@@ -1803,7 +1804,7 @@ msgstr "Konfigurerar hårdvara..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Uppdaterade Alsamixerinställningar"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
@@ -1815,7 +1816,7 @@ msgstr "Konfigurerar grafikhanterare..."
 
 #: ../thus/installation/process.py:1246
 msgid "Configure System ..."
-msgstr "Konfigurerar System..."
+msgstr "Konfigurerar system..."
 
 #: ../thus/installation/process.py:1264
 msgid "Removing live configuration (packages)"
@@ -1839,7 +1840,7 @@ msgstr "Kör mkinitcpio... Klar"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "Krypterar användarens hemkatalog..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
@@ -1847,37 +1848,37 @@ msgstr "Användarens hemkatalog krypterad"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr ""
+msgstr "Installerar uppstartshanterare..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "Kunde inte installera uppstartshanteraren: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
 msgid "Can't change to locale '{0}' : {1}"
-msgstr ""
+msgstr "Kan inte ändra språk till '{0}' : {1}"
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Lösenordet är för kort"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Svagt lösenord"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Okej lösenord"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "Bra lösenord"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Starkt lösenord"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1886,44 +1887,44 @@ msgstr "Lösenorden stämmer inte överens"
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
 msgid "Can't label a {0} partition"
-msgstr ""
+msgstr "Kan inte ge {0} en etikett"
 
 #: ../thus/parted3/fs_module.py:172
 #, python-brace-format
 msgid "Can't verify if {0} is a Solid State Drive or not"
-msgstr ""
+msgstr "Kan inte bekräfta om {0} är en Solid State-disk eller inte"
 
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "Tyvärr, det går inte att ändra storlek på {0}"
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "Kan inte ta bort logisk volym {0}"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "Kan inte ta bort volymgrupp {0}"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "Kan inte ta bort fysisk volym {0}"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr ""
+msgstr "Undantag: {0}.\nFör mer information titta i /tmp/thus.log"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "Kan inte ta bort partition {0}"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
@@ -1932,42 +1933,42 @@ msgstr "Partitionen är för stor!"
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
 msgid "Can't detect used space from {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme från {0}"
 
 #: ../thus/parted3/used_space.py:42
 #, python-brace-format
 msgid "Can't detect used space of NTFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på NTFS-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:71
 #, python-brace-format
 msgid "Can't detect used space of EXTFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på EXTFS-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:103
 #, python-brace-format
 msgid "Can't detect used space of FAT partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på FAT-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:134
 #, python-brace-format
 msgid "Can't detect used space of JFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på JFS-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:159
 #, python-brace-format
 msgid "Can't detect used space of REISERFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på REISERFS-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:187
 #, python-brace-format
 msgid "Can't detect used space of BTRFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på BTRFS-partitionen {0}"
 
 #: ../thus/parted3/used_space.py:224
 #, python-brace-format
 msgid "Can't detect used space of XFS partition {0}"
-msgstr ""
+msgstr "Kan inte hitta använt utrymme på XFS-partitionen {0}"
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"
@@ -2007,7 +2008,7 @@ msgstr "Etikett"
 
 #: ../ui/advanced.ui:1022 ../ui/automatic.ui:128
 msgid "Use this device for boot loader installation:"
-msgstr "Använd den här enheten för att installera starthanteraren:"
+msgstr "Använd den här enheten för starthanterarinstallation:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
@@ -2015,7 +2016,7 @@ msgstr "Krypteringsalternativ..."
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
-msgstr "Använd LUKS kryptering:"
+msgstr "Använd LUKS-kryptering:"
 
 #: ../ui/advanced.ui:1285 ../ui/user_info.ui:107 ../ui/user_info.ui:511
 msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
@@ -2025,21 +2026,21 @@ msgstr "<small><span color=\"darkgreen\">Starkt lösenord</span></small>"
 msgid ""
 "<b>WARNING! This installation mode will overwrite everything in your "
 "drive!</b>"
-msgstr ""
+msgstr "<b>VARNING! Den här installationsmetoden kommer att skriva över allt på din disk!</b>"
 
 #: ../ui/automatic.ui:60
 msgid ""
 "Please choose the drive where you want to install Manjaro and click the "
 "button below to start the process."
-msgstr ""
+msgstr "Vänligen välj vilken disk du vill installera Manjaro på och \nklicka på knappen nedan för att påbörja processen."
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "visa lösenordet"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
-msgstr ""
+msgstr "LUKS-lösenord. Använde inte specialtecken eller åäö!"
 
 #: ../ui/bootloader.ui:69
 msgid "What is your boot system type?"
@@ -2047,7 +2048,7 @@ msgstr "Vad är ditt startsystem?"
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
-msgstr ""
+msgstr "BIOS (vanlig)"
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
@@ -2059,7 +2060,7 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "Välj 'avbryt' om du inte vill installera en starthanterare"
 
 #: ../ui/check.ui:17
 msgid ""
@@ -2071,7 +2072,7 @@ msgstr "<span weight=\"bold\" size=\"large\">För bästa resultat, vänligen sä
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr ""
+msgstr "(*) Detta beror mycket på vilken skrivbordsmiljö du väljer, så du kan behöva mer hårddiskutrymme (t.ex. kräver KDE 6,5 GB)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
@@ -2095,4 +2096,4 @@ msgstr "<small><span color=\"darkred\">Du måste skriva in ett namn</span></smal
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr "<span size=\"small\">Namnet den använder för att prata med andra datorer.</span>"
+msgstr "<span size=\"small\">Namnet som syns på andra datorer.</span>"

@@ -923,13 +923,13 @@ class InstallationProcess(multiprocessing.Process):
 
         logging.debug(_('Sudo configuration for user {0} done.'.format(username)))
 
-        default_groups = 'lp,video,network,storage,wheel,audio'
+        default_groups = 'lp,video,network,storage,wheel,audio,users'
 
         if self.settings.get('require_password') is False:
             chroot_run(['groupadd', 'autologin'])
             default_groups += ',autologin'
 
-        chroot_run(['useradd', '-m', '-s', '/bin/bash', '-g', 'users', '-G', default_groups, username])
+        chroot_run(['useradd', '-m', '-s', '/bin/bash', '-U', '-G', default_groups, username])
 
         logging.debug(_('User {0} added.'.format(username)))
 
@@ -937,7 +937,7 @@ class InstallationProcess(multiprocessing.Process):
 
         chroot_run(['chfn', '-f', fullname, username])
 
-        chroot_run(['chown', '-R', '{0}:users'.format(username), "/home/{0}".format(username)])
+        chroot_run(['chown', '-R', '{0}:{1}'.format(username, username), "/home/{0}".format(username)])
 
         hostname_path = os.path.join(DEST_DIR, "etc/hostname")
         with open(hostname_path, "w") as hostname_file:
