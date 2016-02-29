@@ -411,7 +411,7 @@ class InstallationProcess(multiprocessing.Process):
                 logging.warning(_("Can't copy Thus log to {0}".format(dst)))
             except FileExistsError:
                 pass
-            
+
             source_dirs = ["/source", "/source_desktop"]
 
             partition_dirs = []
@@ -837,7 +837,7 @@ class InstallationProcess(multiprocessing.Process):
             if os.path.isfile(sddm_conf_path):
                 self.queue_event('info', "SDDM config file exists")
             else:
-                chroot_run(["sh", "-c", "sddm --example-config > /etc/sddm.conf"])           
+                chroot_run(["sh", "-c", "sddm --example-config > /etc/sddm.conf"])
             text = []
             with open(sddm_conf_path, "r") as sddm_conf:
                 text = sddm_conf.readlines()
@@ -863,7 +863,7 @@ class InstallationProcess(multiprocessing.Process):
 
         # First and last thing we do here mounting/unmouting special dirs.
         chroot.mount_special_dirs(DEST_DIR)
-        
+
         self.queue_event('pulse', 'start')
         self.queue_event('action', _("Configuring your new system"))
 
@@ -1017,7 +1017,7 @@ class InstallationProcess(multiprocessing.Process):
             chroot_run(['pulseaudio-ctl', 'set', '75%'])'''
 
         # Install xf86-video driver
-        if os.path.exists("/opt/livecd/pacman-gfx.conf"):
+        if os.path.exists("/opt/live/pacman-gfx.conf"):
             self.queue_event('info', _("Installing drivers ..."))
             mhwd_script_path = os.path.join(self.settings.get("thus"), "scripts", MHWD_SCRIPT)
             try:
@@ -1162,6 +1162,6 @@ class InstallationProcess(multiprocessing.Process):
             except Exception as error:
                 logging.error(_("Couldn't install boot loader: {0}"
                                 .format(error)))
-      
-        self.queue_event('pulse', 'stop')        
+
+        self.queue_event('pulse', 'stop')
         chroot.umount_special_dirs(DEST_DIR)
