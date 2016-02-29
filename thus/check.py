@@ -102,10 +102,7 @@ class Check(GtkBaseBox):
         space = self.has_enough_space()
         self.prepare_enough_space.set_state(space)
 
-        if space:
-            return True
-
-        return False
+        return space
 
     def on_battery(self):
         """ Checks if we are on battery power """
@@ -121,15 +118,13 @@ class Check(GtkBaseBox):
     def has_battery(self):
         # UPower doesn't seem to have an interface for this.
         path = '/sys/class/power_supply'
-        if not os.path.exists(path):
-            return False
-        for folder in os.listdir(path):
-            type_path = os.path.join(path, folder, 'type')
-            if os.path.exists(type_path):
-                with open(type_path) as power_file:
-                    if power_file.read().startswith('Battery'):
-                        self.settings.set('laptop', 'True')
-                        return True
+        if os.path.exists(path):
+            for folder in os.listdir(path):
+                type_path = os.path.join(path, folder, 'type')
+                if os.path.exists(type_path):
+                    with open(type_path) as power_file:
+                        if power_file.read().startswith('Battery'):
+                            return True
         return False
 
     @staticmethod
@@ -138,20 +133,11 @@ class Check(GtkBaseBox):
         lsblk = subprocess.Popen(["lsblk", "-lnb"], stdout=subprocess.PIPE)
         output = lsblk.communicate()[0].decode("utf-8").split("\n")
 
-        max_size = 0
+        max_size = max(
+            [int(col[3]) for col in [item.split() for item in output] if len(col) >= 5 and col[5] in ["disk", "part"]]
+        )
 
-        for item in output:
-            col = item.split()
-            if len(col) >= 5:
-                if col[5] == "disk" or col[5] == "part":
-                    size = int(col[3])
-                    if size > max_size:
-                        max_size = size
-
-        if max_size >= MIN_ROOT_SIZE:
-            return True
-
-        return False
+        return max_size >= MIN_ROOT_SIZE
 
     def on_timer(self):
         """ If all requirements are meet, enable forward button """
