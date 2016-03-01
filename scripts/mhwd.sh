@@ -17,6 +17,7 @@ VIDEO="$(kernel_cmdline xdriver no)"
 DESTDIR="/install"
 
 REPO_PATH=/opt/live
+[ -d /opt/livecd ] && REPO_PATH=/opt/livecd
 PAC_CONF=${REPO_PATH}/pacman-gfx.conf
 
 echo "MHWD-Driver: ${USENONFREE}"
