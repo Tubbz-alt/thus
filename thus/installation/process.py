@@ -1015,13 +1015,13 @@ class InstallationProcess(multiprocessing.Process):
         if os.path.exists(os.path.join(DEST_DIR, "usr/bin/pulseaudio-ctl")):
             chroot_run(['pulseaudio-ctl', 'set', '75%'])'''
 
-	if os.path.exists("/opt/livecd"):
-		repo_path="/opt/livecd/pacman-gfx.conf"
-	else:
-		repo_path="/opt/live/pacman-gfx.conf"
+        if os.path.exists("/opt/livecd"):
+            repo_path="/opt/livecd/pacman-gfx.conf"
+        else:
+            repo_path="/opt/live/pacman-gfx.conf"
 
         # Install xf86-video driver
-        if os.path.exists(self.repo_path):
+        if os.path.exists(repo_path):
             self.queue_event('info', _("Installing drivers ..."))
             mhwd_script_path = os.path.join(self.settings.get("thus"), "scripts", MHWD_SCRIPT)
             try:
