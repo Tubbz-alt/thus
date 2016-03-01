@@ -1,4 +1,4 @@
-{"version":"0.9.4","files":[
+{"version":"0.9.4.1","files":[
 {"name":"/usr/share/thus/data/powerpill.json","md5":"547568178d3ad7072fa7e0c2734951e8"},
 {"name":"/usr/share/thus/data/FUTURAM.ttf","md5":"42f28d726573bd70dfa105afed6661b6"},
 {"name":"/usr/share/thus/data/kbdnames.gz","md5":"8117dbfb5002236a6a34714d78c2a2d8"},
@@ -124,7 +124,7 @@
 {"name":"/usr/share/thus/data/css/slides-style.css","md5":"1f8fcf8e58710053058018548d766b93"},
 {"name":"/usr/share/thus/scripts/generate-mirrorlist.sh","md5":"b3ce6cd67237d59944309b584bbc85b6"},
 {"name":"/usr/share/thus/scripts/postinstall.sh","md5":"d2da169a5d95ea18852b68935e091751"},
-{"name":"/usr/share/thus/scripts/mhwd.sh","md5":"64eeebf298018ca9ce692885addae110"},
+{"name":"/usr/share/thus/scripts/mhwd.sh","md5":"0dff340b75438a90f517653269b8492e"},
 {"name":"/usr/share/thus/scripts/set-settings","md5":"1b746dd9c61e1c12065e5a66d998a397"},
 {"name":"/usr/share/thus/scripts/rankmirrors-script","md5":"dc35d2aa578cd24f0c9546df962a7ea1"},
 {"name":"/usr/share/thus/thus/updater.py","md5":"1721ae8992f2b736a30b2974956dc84c"},
@@ -137,8 +137,8 @@
 {"name":"/usr/share/thus/thus/location.py","md5":"a6fcc736444bad0499d9889a0494b9f3"},
 {"name":"/usr/share/thus/thus/timezone.py","md5":"d30559c4a4b3e0c7dc2d7050d5d43a58"},
 {"name":"/usr/share/thus/thus/encfs.py","md5":"be0f263d47f0d7bcd67ba3ff61fffb57"},
-{"name":"/usr/share/thus/thus/check.py","md5":"6d1741ee360023cb2109f1011f51c6e4"},
-{"name":"/usr/share/thus/thus/info.py","md5":"d833536a2341eaa887b903b4ff34b975"},
+{"name":"/usr/share/thus/thus/check.py","md5":"89674d81a7ebb2237a9243d076894f57"},
+{"name":"/usr/share/thus/thus/info.py","md5":"a3bf34dffd6781cba677cf0bbe0b2309"},
 {"name":"/usr/share/thus/thus/thus.py","md5":"1692686eea62c5c171254aade677adc4"},
 {"name":"/usr/share/thus/thus/rank_mirrors.py","md5":"92567d9cc777b0391dbe7a2e7f958f9e"},
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
