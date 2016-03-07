@@ -64,10 +64,10 @@ desktop_environments = [
     DesktopEnvironment('/usr/bin/startkde', 'kde-plasma'),  # KDE Plasma 4
     DesktopEnvironment('/usr/bin/budgie-desktop', 'budgie-desktop'), # Budgie v10.x
     DesktopEnvironment('/usr/bin/budgie-session', 'budgie-desktop'), # Budgie v8.x
+    DesktopEnvironment('/usr/bin/mate-session', 'mate'),
+    DesktopEnvironment('/usr/bin/cinnamon-session-cinnamon', 'cinnamon'),
     DesktopEnvironment('/usr/bin/gnome-session', 'gnome'),
     DesktopEnvironment('/usr/bin/startxfce4', 'xfce'),
-    DesktopEnvironment('/usr/bin/cinnamon-session-cinnamon', 'cinnamon'),
-    DesktopEnvironment('/usr/bin/mate-session', 'mate'),
     DesktopEnvironment('/usr/bin/enlightenment_start', 'enlightenment'),
     DesktopEnvironment('/usr/bin/lxsession', 'LXDE'),
     DesktopEnvironment('/usr/bin/startlxde', 'LXDE'),

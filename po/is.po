@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2016-02-22 12:02+0000\n"
+"PO-Revision-Date: 2016-03-04 22:48+0000\n"
 "Last-Translator: Kristján Magnússon\n"
 "Language-Team: Icelandic (http://www.transifex.com/manjarolinux/manjaro-thus/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -201,7 +201,7 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Þú getur ekki keyrt tvö dæmi af þessri uppsetningu.\n\nEf þú ert viss um að uppsetningin sé ekki keyrandi\ngetur þú getur keyrt þessa uppsetningu með --force valkosti\neða þú getur handvirkt eytt beinum skrám.\n\nBrotleg skrá: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
@@ -519,7 +519,7 @@ msgstr "Ekki hafa áhyggjur, fyrir flesta ætlun og tilgangi mun ekki skapa vand
 msgid ""
 "Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
 "\n"
-msgstr ""
+msgstr "Engu að síður, einn vinsælasta og óráðlega umsókn eCryptfs er að dulkóða BitTorrent niðurhal staðsetningu sem þetta krefst oft eCryptfs að höndla rýr skrár af 10 GB eða meira og getur leitt til mikillar diskua hungurs.\n\n"
 
 #: ../thus/user_info.py:232
 msgid ""
@@ -988,7 +988,7 @@ msgstr "Thus mælir með a.m.k. 6.5GB lausu plássi fyrir uppsetningu Manjaro."
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr ""
+msgstr "Ný skipting {0} leiðir af minnkandi {1} mun ekki hafa nóg laust pláss fyrir fulla uppsetningu."
 
 #: ../thus/installation/alongside.py:152
 msgid ""
@@ -1567,7 +1567,7 @@ msgstr "Villa keyra skipun: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
-msgstr ""
+msgstr "Setja króka og eingingar í mkinitcpio.conf"
 
 #: ../thus/installation/process.py:130
 #, python-brace-format
@@ -1660,7 +1660,7 @@ msgstr "Flokkun skráar af rót-mynd til að afrita ..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "Flokkun skráar af skjáborðs-mynd til að afrita ..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
@@ -2059,7 +2059,7 @@ msgstr "(*) Þetta veltur að miklu leiti hvaða gluggaumhverfi þú velur, þv�
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
-msgstr "<span weight=\"bold\" size=\"large\">Velkomin í Manjaro</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Velkomin(n) í Manjaro</span>"
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
