@@ -1057,8 +1057,8 @@ class InstallationProcess(multiprocessing.Process):
             default_desktop_environment = self.find_desktop_environment()
             if default_desktop_environment is not None:
                 os.system("echo \"XSession={0}\" >> \
-                {1}/var/lib/AccountsService/users/gdm".format(default_desktop_environment.desktop_file, DEST_DIR))
-                os.system("echo \"Icon=\" >> {0}/var/lib/AccountsService/users/gdm".format(DEST_DIR))
+                {1}/var/lib/AccountsService/users/{2}".format(default_desktop_environment.desktop_file, DEST_DIR, username))
+                os.system("echo \"Icon=\" >> {0}/var/lib/AccountsService/users/{1}".format(DEST_DIR, username))
             self.desktop_manager = 'gdm'
 
         # Setup mdm
