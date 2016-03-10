@@ -1,4 +1,4 @@
-{"version":"0.9.4.4","files":[
+{"version":"0.9.4.5","files":[
 {"name":"/usr/share/thus/data/powerpill.json","md5":"547568178d3ad7072fa7e0c2734951e8"},
 {"name":"/usr/share/thus/data/slides.html","md5":"79942ed9c7b9da648bdb389d03999c50"},
 {"name":"/usr/share/thus/data/kbdnames.gz","md5":"8117dbfb5002236a6a34714d78c2a2d8"},
@@ -136,7 +136,7 @@
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
 {"name":"/usr/share/thus/thus/rank_mirrors.py","md5":"92567d9cc777b0391dbe7a2e7f958f9e"},
 {"name":"/usr/share/thus/thus/location.py","md5":"a6fcc736444bad0499d9889a0494b9f3"},
-{"name":"/usr/share/thus/thus/info.py","md5":"b6dba3e13ee83b33d2800a738395619a"},
+{"name":"/usr/share/thus/thus/info.py","md5":"29156a2725e4c8ee62e14f5529333e9b"},
 {"name":"/usr/share/thus/thus/bootinfo.py","md5":"911445f36e6c750fff86e326002bf0f7"},
 {"name":"/usr/share/thus/thus/__init__.py","md5":"68b329da9893e34099c7d8ad5cb9c940"},
 {"name":"/usr/share/thus/thus/keymap.py","md5":"2eab0c5378b7b9478b934834ca035f81"},
@@ -158,7 +158,7 @@
 {"name":"/usr/share/thus/thus/installation/chroot.py","md5":"ff266cbfc95597b9155e3ad685729d6d"},
 {"name":"/usr/share/thus/thus/installation/ask.py","md5":"038381674bd57724884846fd680ec81d"},
 {"name":"/usr/share/thus/thus/installation/fstab.py","md5":"3391f6b11dbcce65fa64172c1e3befe2"},
-{"name":"/usr/share/thus/thus/installation/process.py","md5":"2a85e8d1b0af1de3446a15ed0fde4714"},
+{"name":"/usr/share/thus/thus/installation/process.py","md5":"20dfd6ee1442ef0621134af751629055"},
 {"name":"/usr/share/thus/thus/installation/alongside.py","md5":"5e4fef73cd96822ee9056fc2065c8078"},
 {"name":"/usr/share/thus/thus/installation/automatic.py","md5":"87f4239bfca602e34e9eef2464c94549"},
 {"name":"/usr/share/thus/thus/installation/fstab.conf","md5":"40d74f532242a498daffb48ae55f446a"},

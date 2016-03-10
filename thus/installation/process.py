@@ -1055,6 +1055,7 @@ class InstallationProcess(multiprocessing.Process):
         # Setup gdm
         if os.path.exists("{0}/usr/bin/gdm".format(DEST_DIR)):
             default_desktop_environment = self.find_desktop_environment()
+            os.system("echo \"[User]\" > {0}/var/lib/AccountsService/users/{1}".format(DEST_DIR, username))
             if default_desktop_environment is not None:
                 os.system("echo \"XSession={0}\" >> \
                 {1}/var/lib/AccountsService/users/{2}".format(default_desktop_environment.desktop_file, DEST_DIR, username))
