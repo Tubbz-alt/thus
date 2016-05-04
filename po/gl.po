@@ -8,14 +8,14 @@
 # faidoc <alexfilgueira@antergos.com>, 2013
 # Alexandre Filgueira <faidoc@gmail.com>, 2013
 # Ismael Ordóñez <isorfe@gmail.com>, 2015
-# Noel Rodríguez Freire <noelrf.ou@gmail.com>, 2015
+# Noel Rodríguez Freire <noelrf.ou@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-09-11 14:09+0000\n"
-"Last-Translator: Ismael Ordóñez <isorfe@gmail.com>\n"
+"PO-Revision-Date: 2016-03-18 12:50+0000\n"
+"Last-Translator: Noel Rodríguez Freire <noelrf.ou@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/manjarolinux/manjaro-thus/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -515,29 +515,29 @@ msgstr ""
 msgid ""
 "Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
 "\n"
-msgstr ""
+msgstr "Non se preocupe, na maioría de casos esta carencia non é un problema.\n\n"
 
 #: ../thus/user_info.py:231
 msgid ""
 "Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
 "\n"
-msgstr ""
+msgstr "Aínda así, un uso habitual e non aconsejable de eCryptfs é encriptar un cartafol de descarga de BitTorrent, e a miúdo require que eCryptfs manexe arquivos dispersos de 10 GB ou máis e pode acaparar o acceso ao disco.\n\n"
 
 #: ../thus/user_info.py:232
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr ""
+msgstr "Unha solución sinxela é colocar os arquivos dispersos nun directorio público sen cifrar.\n\n"
 
 #: ../thus/user_info.py:233
 msgid ""
 "Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
 "\n"
-msgstr ""
+msgstr "Para información detallada vexa https://wiki.archlinux.org/index.php/ECryptfs\n\n"
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
-msgstr ""
+msgstr "Está seguro que quere cifrar o seu cartafol persoal?\n\n"
 
 #: ../thus/user_info.py:310
 msgid "Invalid characters entered"
@@ -586,12 +586,12 @@ msgstr "O paquete Metalink {0} non ten información sobre tamaño"
 #: ../thus/download/download_urllib.py:137
 #, python-brace-format
 msgid "File {0} already exists, Thus will not overwrite it"
-msgstr ""
+msgstr "O arquivo {0} xa existe, Thus non o sobreescribirá"
 
 #: ../thus/download/download_urllib.py:187
 #, python-brace-format
 msgid "Can't download {0}, even after trying all available mirrors"
-msgstr ""
+msgstr "Non se pode descargar {0}, logo de intentalo a través de todos os 'mirrors' dispoñibles"
 
 #: ../thus/installation/advanced.py:264 ../thus/installation/advanced.py:577
 #: ../thus/installation/advanced.py:589
@@ -640,16 +640,16 @@ msgstr "ningún"
 
 #: ../thus/installation/advanced.py:699
 msgid "Can't edit a partition with LVM filesystem type"
-msgstr ""
+msgstr "Non se pode editar unha partición cun sistema de arquivos LVM"
 
 #: ../thus/installation/advanced.py:754
 msgid "Can't use same mount point twice."
-msgstr ""
+msgstr "Non se pode usar o mesmo punto de montaxe dúas veces."
 
 #: ../thus/installation/advanced.py:852
 #, python-brace-format
 msgid "You will delete the partition {0} from disk {1}"
-msgstr ""
+msgstr "Eliminará a partición {0} do disco {1}"
 
 #: ../thus/installation/advanced.py:870
 #, python-brace-format
@@ -664,11 +664,11 @@ msgstr "Sentímolo, vostede xa ten {0} creado particións primarias."
 #: ../thus/installation/advanced.py:999
 #, python-brace-format
 msgid "Sorry, you already have {0} primary and 1 extended partitions created."
-msgstr ""
+msgstr "Sentímolo, xa existen {0} particiones primarias e 1 estendida."
 
 #: ../thus/installation/advanced.py:1054
 msgid "Can't use same mount point twice..."
-msgstr ""
+msgstr "Non se pode usar dúas veces o mesmo punto de montaxe..."
 
 #: ../thus/installation/advanced.py:1079
 msgid "Creating a primary partition"
@@ -839,11 +839,11 @@ msgstr ""
 
 #: ../thus/installation/advanced.py:1559
 msgid "Can't create BIOS GPT Boot partition!"
-msgstr ""
+msgstr "¡Non se pode crear a partición de arranque BIOS GPT!"
 
 #: ../thus/installation/advanced.py:1588
 msgid "Couldn't create BIOS GPT Boot partition"
-msgstr ""
+msgstr "Non se puido crear a partición de arranque BIOS GTP"
 
 #: ../thus/installation/advanced.py:1706 ../thus/installation/automatic.py:107
 msgid "Install now!"
@@ -896,7 +896,7 @@ msgstr ""
 #: ../thus/installation/advanced.py:1888
 #, python-brace-format
 msgid "Partition {0} will be deleted"
-msgstr ""
+msgstr "A partición {0} será eliminada"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Partition"
@@ -912,7 +912,7 @@ msgstr "Montaxe"
 
 #: ../thus/installation/advanced.py:1896
 msgid "Encrypt"
-msgstr ""
+msgstr "Cifrar"
 
 #: ../thus/installation/advanced.py:1917
 msgid "These disks will have partition actions:"
@@ -921,98 +921,98 @@ msgstr "Estes discos terán accións de partición:"
 #: ../thus/installation/advanced.py:2008
 #, python-brace-format
 msgid "Finished saving changes in {0}"
-msgstr ""
+msgstr "Cambios gardados en {0}"
 
 #: ../thus/installation/advanced.py:2031
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1} labeled {2}"
-msgstr ""
+msgstr "Creando novo sistema de ficheros {0} en {1} etiquetado como {2}"
 
 #: ../thus/installation/advanced.py:2034
 #, python-brace-format
 msgid "Creating new {0} filesystem in {1}"
-msgstr ""
+msgstr "Creando novo sistema de ficheros {0} en {1}"
 
 #: ../thus/installation/advanced.py:2043 ../thus/installation/advanced.py:2062
 #: ../thus/installation/advanced.py:2078
 #, python-brace-format
 msgid "Setting boot flag in {0} partition"
-msgstr ""
+msgstr "Axustando a etiqueta de arranque na partición {0}"
 
 #: ../thus/installation/advanced.py:2051
 #, python-brace-format
 msgid "Setting boot_legacy flag in {0} partition"
-msgstr ""
+msgstr "Axustando a etiqueta de arranque boot_legacy na partición {0}"
 
 #: ../thus/installation/advanced.py:2086
 #, python-brace-format
 msgid "Encrypting {0}, assigning volume name {1} and formatting it..."
-msgstr ""
+msgstr "Cifrando {0}, asignando nome ao volume {1} e formateandolo"
 
 #: ../thus/installation/advanced.py:2101
 #, python-brace-format
 msgid "Couldn't format LUKS device '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "Non se puido formatear o dispositivo LUKS '{0}' coa etiqueta '{1}' como '{2}'"
 
 #: ../thus/installation/advanced.py:2125
 #, python-brace-format
 msgid "Couldn't format partition '{0}' with label '{1}' as '{2}'"
-msgstr ""
+msgstr "Non se puido formatear a partición '{0}' coa etiqueta '{1}' como '{2}'"
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr ""
+msgstr "Thus non instalará o xestor de arranque"
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
 msgid "Manjaro will install the bootloader {0} in device {1}"
-msgstr ""
+msgstr "Manjaro instalará o xestor de arranque {0} no dispositivo {1}"
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
-msgstr ""
+msgstr "Modo de proba. ¡Thus non aplicará ningún cambio no seu sistema!"
 
 #: ../thus/installation/alongside.py:139
 msgid "There are no primary partitions available"
-msgstr ""
+msgstr "Non hai particiones primarias dispoñibles"
 
 #: ../thus/installation/alongside.py:142
 #, python-brace-format
 msgid "Will shrink device {0} and create new device {1}"
-msgstr ""
+msgstr "A partición {0} reducirase e crearase a nova partición {1}"
 
 #: ../thus/installation/alongside.py:150
 msgid "Thus recommends at least 6.5GB free to install Manjaro."
-msgstr ""
+msgstr "Thus recomenda polo menos 6.5GB libres para instalar Manjaro"
 
 #: ../thus/installation/alongside.py:151
 #, python-brace-format
 msgid ""
 "New partition {0} resulting of shrinking {1} will not have enough free space"
 " for a full installation."
-msgstr ""
+msgstr "A nova partición {0} resultante de reducir {1} non dispoñerá de tamaño suficiente para unha instalación completa."
 
 #: ../thus/installation/alongside.py:152
 msgid ""
 "You can still install Manjaro, but be carefull on which DE you choose as it "
 "might not fit in."
-msgstr ""
+msgstr "Podes continuar a instalación de Manjaro, pero ten coidado co escritorio que elixas porque pode non haber espazo suficiente."
 
 #: ../thus/installation/alongside.py:153
 msgid "Install at your own risk!"
-msgstr ""
+msgstr "Instalar pola súa conta e risco"
 
 #: ../thus/installation/alongside.py:208
 msgid "Manjaro alongside another OS"
-msgstr ""
+msgstr "Manjaro compartida con outro sistema operativo"
 
 #: ../thus/installation/alongside.py:212
 msgid "Choose the new size of your installation"
-msgstr ""
+msgstr "Seleccione o novo tamaño da instalación"
 
 #: ../thus/installation/alongside.py:216
 msgid "Choose the partition that you want to shrink:"
-msgstr ""
+msgstr "Elixa a partición que queira reducir:"
 
 #: ../thus/installation/alongside.py:257
 msgid ""
@@ -1022,31 +1022,31 @@ msgstr ""
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
-msgstr ""
+msgstr "¡Non podo atopar ningún S.O. instalado!"
 
 #: ../thus/installation/ask.py:128
 msgid "The 'alongside' installation mode does not work in UEFI systems"
-msgstr ""
+msgstr "O modo de instalación compartida non funciona en sistemas UEFI"
 
 #: ../thus/installation/ask.py:142
 msgid "Windows(tm) OS detected."
-msgstr ""
+msgstr "Windows(tm) detectado."
 
 #: ../thus/installation/ask.py:145
 msgid "Windows(tm) OS not detected."
-msgstr ""
+msgstr "Windows(tm) non detectado."
 
 #: ../thus/installation/ask.py:148
 msgid "Can't detect any OS in device sda."
-msgstr ""
+msgstr "Non se puido detectar ningún S.O. no dispositivo sda."
 
 #: ../thus/installation/ask.py:152
 msgid "Unsuported disk layout for the 'alongside' installation mode"
-msgstr ""
+msgstr "Particionado de disco non soportado para o modo de instalación compartida"
 
 #: ../thus/installation/ask.py:197
 msgid " and "
-msgstr ""
+msgstr "e"
 
 #: ../thus/installation/ask.py:220
 msgid "Installation type"
@@ -1055,50 +1055,50 @@ msgstr "Tipo de instalación"
 #: ../thus/installation/ask.py:235
 #, python-brace-format
 msgid "Replace {0} with Manjaro"
-msgstr ""
+msgstr "Substituír {0} por Manjaro"
 
 #: ../thus/installation/ask.py:237
 msgid "Erase disk and install Manjaro"
-msgstr ""
+msgstr "Borrar disco e instalar Manjaro"
 
 #: ../thus/installation/ask.py:242
 msgid "Warning: This will erase ALL data on your disk."
-msgstr ""
+msgstr "Atención: Borrarase TODA a información no disco."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
-msgstr ""
+msgstr "Cifrar esta instalación para maior seguridade."
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr ""
+msgstr "Preguntaráselle pola clave de cifrado no seguinte paso."
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
-msgstr ""
+msgstr "Usar LVM con esta instalación."
 
 #: ../thus/installation/ask.py:265
 msgid ""
 "This will setup LVM and allow you to easily manage partitions and create "
 "snapshots."
-msgstr ""
+msgstr "Instalarase LVM permitindo administrar particiones facilmente e facer 'snapshots'."
 
 #: ../thus/installation/ask.py:271
 msgid "Set your Home in a different partition/volume"
-msgstr ""
+msgstr "Establece o teu cartafol persoal nun partición ou volume diferente"
 
 #: ../thus/installation/ask.py:276
 msgid ""
 "This will setup you /home directory in a different partition or volume."
-msgstr ""
+msgstr "Establece o directorio '/home' nunha partición ou volume diferente."
 
 #: ../thus/installation/ask.py:296
 msgid "How would you like to proceed?"
-msgstr ""
+msgstr "Que desexa facer?"
 
 #: ../thus/installation/ask.py:305
 msgid "Choose exactly where Manjaro should be installed."
-msgstr ""
+msgstr "Elixa onde se instalará Manjaro."
 
 #: ../thus/installation/ask.py:309
 msgid "Edit partition table and choose mount points."

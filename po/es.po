@@ -27,6 +27,7 @@
 # Leonel <leonelmalon@gmail.com>, 2013
 # Mikel M. <lednion@gmail.com>, 2015
 # neiko <neikokz+tsfx@gmail.com>, 2011
+# Noel Rodríguez Freire <noelrf.ou@gmail.com>, 2016
 # Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013
 # philm <philm@manjaro.org>, 2013-2015
 # Ramon Buldó <rbuldo@gmail.com>, 2013
@@ -40,7 +41,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2015-08-14 20:12+0000\n"
+"PO-Revision-Date: 2016-03-18 12:39+0000\n"
 "Last-Translator: Noel Rodríguez Freire <noelrf.ou@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/manjarolinux/manjaro-thus/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -987,7 +988,7 @@ msgstr "No se ha podido formatear la partición '{0}' con la etiqueta '{1}' como
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr "Thus no instalará gestor de arranque"
+msgstr "Thus no instalará el gestor de arranque"
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
