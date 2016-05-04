@@ -1084,10 +1084,6 @@ class InstallationProcess(multiprocessing.Process):
 
         self.queue_event('info', _("Configure System ..."))
 
-        # Add BROWSER var
-        os.system("echo \"BROWSER=/usr/bin/xdg-open\" >> {0}/etc/environment".format(DEST_DIR))
-        os.system("echo \"BROWSER=/usr/bin/xdg-open\" >> {0}/etc/skel/.bashrc".format(DEST_DIR))
-        os.system("echo \"BROWSER=/usr/bin/xdg-open\" >> {0}/etc/profile".format(DEST_DIR))
         # Add TERM var
         if os.path.exists("{0}/usr/bin/mate-session".format(DEST_DIR)):
             os.system("echo \"TERM=mate-terminal\" >> {0}/etc/environment".format(DEST_DIR))
