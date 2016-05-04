@@ -1,4 +1,4 @@
-{"version":"0.9.4.5","files":[
+{"version":"0.9.4.6","files":[
 {"name":"/usr/share/thus/data/powerpill.json","md5":"547568178d3ad7072fa7e0c2734951e8"},
 {"name":"/usr/share/thus/data/FUTURAM.ttf","md5":"42f28d726573bd70dfa105afed6661b6"},
 {"name":"/usr/share/thus/data/kbdnames.gz","md5":"8117dbfb5002236a6a34714d78c2a2d8"},
@@ -138,7 +138,7 @@
 {"name":"/usr/share/thus/thus/timezone.py","md5":"d30559c4a4b3e0c7dc2d7050d5d43a58"},
 {"name":"/usr/share/thus/thus/encfs.py","md5":"be0f263d47f0d7bcd67ba3ff61fffb57"},
 {"name":"/usr/share/thus/thus/check.py","md5":"89674d81a7ebb2237a9243d076894f57"},
-{"name":"/usr/share/thus/thus/info.py","md5":"29156a2725e4c8ee62e14f5529333e9b"},
+{"name":"/usr/share/thus/thus/info.py","md5":"a2cd4bf4afe5837492fc92cc7a88431c"},
 {"name":"/usr/share/thus/thus/thus.py","md5":"1692686eea62c5c171254aade677adc4"},
 {"name":"/usr/share/thus/thus/rank_mirrors.py","md5":"92567d9cc777b0391dbe7a2e7f958f9e"},
 {"name":"/usr/share/thus/thus/config.py","md5":"65a2b11ff9c80139a03feb4a7c23b9d1"},
