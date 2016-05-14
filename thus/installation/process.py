@@ -922,7 +922,7 @@ class InstallationProcess(multiprocessing.Process):
 
         logging.debug(_('Sudo configuration for user {0} done.'.format(username)))
 
-        default_groups = 'lp,video,network,storage,wheel,audio,users'
+        default_groups = 'lp,video,network,storage,wheel,users'
 
         if self.settings.get('require_password') is False:
             chroot_run(['groupadd', 'autologin'])

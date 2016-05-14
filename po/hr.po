@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: manjaro-thus\n"
 "Report-Msgid-Bugs-To: philm@manjaro.org\n"
 "POT-Creation-Date: 2015-04-04 18:39+0200\n"
-"PO-Revision-Date: 2016-05-01 18:50+0000\n"
+"PO-Revision-Date: 2016-05-07 09:56+0000\n"
 "Last-Translator: Lovro Kudelić <lovro.kudelic@outlook.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/manjarolinux/manjaro-thus/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "Ne mogu kreirati i promijeniti encfs konfiguracijske datoteke."
 
 #: ../thus/encfs.py:107
 msgid "Home directory won't be encrypted."
-msgstr "Home direktorij se neće kriptirati."
+msgstr "Home direktorij se neće šifriran."
 
 #: ../thus/encfs.py:132
 msgid "Can't run encfs. Bad password?"
@@ -135,7 +135,7 @@ msgid ""
 "advanced setups. Please proceed with caution as data loss is possible! \n"
 "\n"
 "If you find any bugs, please report them at http://bugs.manjaro.org"
-msgstr "Thus je program predizdanja koji se aktivno razvija.\nNe može još ispravno rukovati RAID-om, brtfs subvolume-om, te drugim naprednim podešavanjima. Molimo vas da nastavite sa oprezom pošto je moguć gubitak podataka! \n\nAko pronađete greške, prijavite ih na http://bugs.manjaro.org"
+msgstr "Thus je program predizdanja koji se aktivno razvija.\nNe može još ispravno rukovati RAID-om, brtfs subvolume-om, te drugim naprednim podešavanjima.\nMolimo vas da nastavite sa oprezom pošto je moguć gubitak podataka! \n\nAko pronađete greške, prijavite ih na http://bugs.manjaro.org"
 
 #: ../thus/language.py:128 ../thus/user_info.py:259
 #: ../thus/installation/ask.py:213
@@ -164,7 +164,7 @@ msgid ""
 "The location you select will be used to help determine the system locale. It"
 " should normally be the country in which you reside. Here is a shortlist of "
 "locations based on the language you selected."
-msgstr "Lokacija koju ste odabrali će se koristiti kao pomoć za određivanje jezične sheme sustava. To može normalno biti zemlja u kojoj živite. Ovdje se nalazi kratka lista lokacija baziranih na jeziku koji ste odabrali."
+msgstr "Lokacija koju ste odabrali će se koristiti kao pomoć za određivanje jezične sheme sustava. To može biti zemlja u kojoj živite. Ovdje se nalazi kratka lista lokacija baziranih na jeziku koji ste odabrali."
 
 #: ../thus/location.py:82
 msgid "Country, territory or area:"
@@ -207,7 +207,7 @@ msgid ""
 "or you can manually delete the offending file.\n"
 "\n"
 "Offending file: '{0}'"
-msgstr ""
+msgstr "Ne možete pokrenuti dvije instance ovog instalcijskog programa.\n\nAko ste sigurni da drugi instalacijski program nije već pokrenut\nmožete pokrenuti ovaj instalacijski program s --force opcijom\nili možete ručno obrisati offending datoteku.\n\nOffending datoteka: '{0}'"
 
 #: ../thus/main_window.py:87
 #, python-brace-format
@@ -268,7 +268,7 @@ msgid ""
 "\thttps://wiki.archlinux.org/index.php/GRUB\n"
 "\n"
 "Would you like to view the wiki page now?"
-msgstr ""
+msgstr "VAŽNO: Mogu nastati problemi s instalacijom boot učitavača\nšto može spriječiti ispravno pokretanje vašeg sustava. Prije\nponovnog pokretanja, možda želite provjeriti da li je boot učitavač ispravno instaliran i\npostavljen. Arch Linux Wiki sadrži informacije za rješavanje problema:\n⇥https://wiki.archlinux.org/index.php/GRUB\n\nŽelite li sada pogledati wiki stranicu?"
 
 #: ../thus/slides.py:205
 msgid ""
@@ -531,13 +531,13 @@ msgstr "U svakom slučaju, jedna popularna i preporučljiva primjena cCryptfs-a 
 msgid ""
 "A simple workaround is to place sparse files in an unencrypted .Public directory\n"
 "\n"
-msgstr ""
+msgstr "Jednostavno zaobilazno rješenje je da se \"rijetke\" datoteke presele u nešifriran .Public direktorij\n"
 
 #: ../thus/user_info.py:233
 msgid ""
 "Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
 "\n"
-msgstr ""
+msgstr "Pogledaj na https://wiki.archlinux.org/index.php/ECryptfs za detaljne informacije\n\n"
 
 #: ../thus/user_info.py:234
 msgid "Are you sure you want to encrypt your home directory?\n"
@@ -696,12 +696,12 @@ msgstr "Napredni oblik instalacije"
 
 #: ../thus/installation/advanced.py:1287 ../thus/installation/automatic.py:110
 msgid "Use the device below for boot loader installation:"
-msgstr "Koristi ovaj dolje uređaj za instalaciju programa za pokretanje:"
+msgstr "Koristi ovaj dolje uređaj za instalaciju boot učitavača:"
 
 #: ../thus/installation/advanced.py:1292 ../thus/installation/automatic.py:115
 #: ../ui/advanced.ui:1041 ../ui/automatic.ui:149
 msgid "Bootloader:"
-msgstr "Bootloader:"
+msgstr "Boot učitavač:"
 
 #: ../thus/installation/advanced.py:1296 ../thus/installation/automatic.py:119
 #: ../ui/advanced.ui:1067 ../ui/automatic.ui:174
@@ -859,7 +859,7 @@ msgid ""
 "{0} is mounted as swap.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} je montiran kao swap.\nDa bi nastavio  mora biti demontiran.\nKliknite Da za demontiranje ili Ne za povratak\n"
 
 #: ../thus/installation/advanced.py:1776
 #, python-brace-format
@@ -867,7 +867,7 @@ msgid ""
 "{0} is mounted in '{1}'.\n"
 "To continue it has to be unmounted.\n"
 "Click Yes to unmount, or No to return\n"
-msgstr ""
+msgstr "{0} je montiran na '{1}'.\nDa bi nastavio  mora biti demontiran.\nKliknite Da za demontiranje ili Ne za povratak\n"
 
 #: ../thus/installation/advanced.py:1787 ../thus/installation/advanced.py:1808
 #, python-brace-format
@@ -965,12 +965,12 @@ msgstr "Ne mogu formatirati particiju '{0}' sa oznakom '{1}' kao '{2}'"
 
 #: ../thus/installation/advanced.py:2183 ../thus/installation/automatic.py:274
 msgid "Thus will not install any bootloader"
-msgstr "Thus neće instalirati bootloader"
+msgstr "Thus neće instalirati boot učitavač"
 
 #: ../thus/installation/advanced.py:2192
 #, python-brace-format
 msgid "Manjaro will install the bootloader {0} in device {1}"
-msgstr "Manjaro će instalirati bootloader {0} na uređaj {1}"
+msgstr "Manjaro će instalirati boot učitavač {0} na uređaj {1}"
 
 #: ../thus/installation/advanced.py:2207 ../thus/installation/automatic.py:310
 msgid "Testing mode. Thus won't apply any changes to your system!"
@@ -1022,7 +1022,7 @@ msgstr "Odaberite particiju koju želite smanjiti:"
 msgid ""
 "Can't find any spare partition number.\n"
 "Alongside installation can't continue."
-msgstr ""
+msgstr "Ne mogu naći rezervnu particiju.\nInstalacija uz drugi OS se ne može nastaviti."
 
 #: ../thus/installation/alongside.py:268
 msgid "Can't find any installed OS!"
@@ -1071,11 +1071,11 @@ msgstr "Upozorenje: Ovo će izbrisati sve podatke na vašem disku."
 
 #: ../thus/installation/ask.py:249
 msgid "Encrypt this installation for increased security."
-msgstr "Kriptiraj ovu instalaciju za povećanu sigurnost."
+msgstr "Šifriraj ovu instalaciju za povećanu sigurnost."
 
 #: ../thus/installation/ask.py:254
 msgid "You will be asked to create an encryption password in the next step."
-msgstr "U sljedećem koraku bit će te pitani za stvaranje kriptirane lozinke."
+msgstr "U sljedećem koraku bit će te pitani za stvaranje šifrirane lozinke."
 
 #: ../thus/installation/ask.py:260
 msgid "Use LVM with this installation."
@@ -1135,7 +1135,7 @@ msgstr "Izaberi tvrdi disk:"
 #: ../thus/installation/automatic.py:83
 msgid ""
 "WARNING! This installation mode will overwrite everything on your drive!"
-msgstr "UPOZORENJE! Ovaj instalacijski mod će sve prebrisati na vašem disku!"
+msgstr "UPOZORENJE! Ovaj instalacijski mod će obrisati sve na vašem disku!"
 
 #: ../thus/installation/automatic.py:88
 msgid ""
@@ -1145,7 +1145,7 @@ msgstr "Molimo izaberite disk na koji želite instalirati Manjaro\ni kliknite na
 
 #: ../thus/installation/automatic.py:93 ../ui/automatic.ui:223
 msgid "Encryption Password:"
-msgstr "Lozinka za šifriranje:"
+msgstr "Šifra:"
 
 #: ../thus/installation/automatic.py:101
 msgid "LUKS Password. Do not use special characters or accents!"
@@ -1174,7 +1174,7 @@ msgstr "Thus će instalirati Manjaro na uređaj {0}"
 #: ../thus/installation/automatic.py:286
 #, python-brace-format
 msgid "Thus will install the bootloader '{0}' in device '{1}'"
-msgstr "Thus će instalirati bootloader '{0}' na uređaj '{1}'"
+msgstr "Thus će instalirati boot učitavač '{0}' na uređaj '{1}'"
 
 #: ../thus/installation/auto_partition.py:87
 #: ../thus/installation/process.py:485 ../thus/installation/process.py:502
@@ -1397,11 +1397,11 @@ msgstr "Ne mogu kopirati LUKS datoteku ključa na instalacijski uređaj"
 msgid ""
 "'ruuid' variable is not set. I can't check root UUID in grub.cfg, let's hope"
 " it's ok"
-msgstr ""
+msgstr "'ruuid' varijabla nije postavljena. Ne mogu provjeriti Root UUID u grub.cfg, nadajmo se da je sve u redu"
 
 #: ../thus/installation/bootloader.py:174
 msgid "/etc/default/grub configuration completed successfully."
-msgstr ""
+msgstr "/etc/default/grub postavljanje je uspješno završeno"
 
 #: ../thus/installation/bootloader.py:220
 #, python-brace-format
@@ -1411,13 +1411,13 @@ msgstr "Ne mogu kopirati {0} u grub.d"
 #: ../thus/installation/bootloader.py:229
 #, python-brace-format
 msgid "Installing GRUB(2) BIOS boot loader in {0}"
-msgstr "Instaliram GRUB(2) BIOS boot loader na {0}"
+msgstr "Instaliram GRUB(2) BIOS boot učitavač na {0}"
 
 #: ../thus/installation/bootloader.py:260
 msgid ""
 "grub-mkconfig does not respond. Killing grub-mount and os-prober so we can "
 "continue."
-msgstr ""
+msgstr "grub-mkconfig ne reagira. Ubij procese grub-mount i os-prober tako da možemo nastaviti."
 
 #: ../thus/installation/bootloader.py:268
 msgid "GRUB(2) BIOS has been successfully installed."
@@ -1435,7 +1435,7 @@ msgstr "EFI direktorij je: {0}"
 #: ../thus/installation/bootloader.py:294
 #, python-brace-format
 msgid "Installing GRUB(2) UEFI {0} boot loader in {1}"
-msgstr ""
+msgstr "Instaliram GRUB(2) UEFI {0} boot učitavač na {1}"
 
 #: ../thus/installation/bootloader.py:304
 #, python-brace-format
@@ -1445,7 +1445,7 @@ msgstr "grub-install naredba: {0}"
 #: ../thus/installation/bootloader.py:312
 #, python-brace-format
 msgid "Command grub-install failed. Error output: {0}"
-msgstr ""
+msgstr "Naredba grub-install nije uspjela. Ispis greške: {0}"
 
 #: ../thus/installation/bootloader.py:314
 msgid "Command grub-install timed out."
@@ -1459,12 +1459,12 @@ msgstr "Naredba grub-install nije izvršena. Nepoznata greška: {0}"
 #: ../thus/installation/bootloader.py:331
 #, python-brace-format
 msgid "No OEM loader found in {0}. Copying Grub(2) into dir."
-msgstr ""
+msgstr "Nije nađen OEM učitavač na {0}. Kopiram Grub(2) u direktorij."
 
 #: ../thus/installation/bootloader.py:335
 #, python-brace-format
 msgid "Copying Grub(2) into OEM dir failed: {0}"
-msgstr ""
+msgstr "Kopiranje Grub(2) u OEM direktorij nije uspjelo: {0}"
 
 #: ../thus/installation/bootloader.py:339
 msgid "File not found."
@@ -1482,7 +1482,7 @@ msgstr "Generiram grub.cfg"
 msgid ""
 "grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
 " continue."
-msgstr ""
+msgstr "Izgleda da grub-mkconfig ne reagira. Ubij procese grub-mount i os-prober tako da možemo nastaviti."
 
 #: ../thus/installation/bootloader.py:391
 msgid "GRUB(2) UEFI install completed successfully"
@@ -1494,11 +1494,11 @@ msgstr "GRUB(2) UEFI instalacija možda nije uspješno dovršena."
 
 #: ../thus/installation/bootloader.py:407
 msgid "50mounted-tests file patched successfully"
-msgstr ""
+msgstr "50mounted-tests datoteka je uspješno zakrpana"
 
 #: ../thus/installation/bootloader.py:409
 msgid "Failed to patch 50mounted-tests, file not found."
-msgstr ""
+msgstr "Greška prilikom primjene zakrpe za 50mounted-tests, datoteka nije nađena."
 
 #: ../thus/installation/bootloader.py:413
 msgid "Copying GRUB(2) Theme Files"
@@ -1560,7 +1560,7 @@ msgstr "Izlaz : {0}"
 #: ../thus/installation/chroot.py:154
 #, python-brace-format
 msgid "Timeout running the command {0}"
-msgstr ""
+msgstr "Vremensko ograničenje izvođenja naredbe {0}"
 
 #: ../thus/installation/chroot.py:155 ../thus/installation/chroot.py:158
 msgid "Thus will try to continue anyways"
@@ -1573,7 +1573,7 @@ msgstr "Greška kod pokretanja naredbe: {0}"
 
 #: ../thus/installation/mkinitcpio.py:104
 msgid "Setting hooks and modules in mkinitcpio.conf"
-msgstr ""
+msgstr "Postavljam hooks i module u mkinitcpio.conf"
 
 #: ../thus/installation/process.py:130
 #, python-brace-format
@@ -1583,23 +1583,23 @@ msgstr "Kopiram '/{0}'"
 #: ../thus/installation/process.py:194
 #, python-brace-format
 msgid "Installing using the '{0}' method"
-msgstr ""
+msgstr "Instaliram koristeći '{0}' metodu"
 
 #: ../thus/installation/process.py:266
 #, python-brace-format
 msgid "Error running command {0}"
-msgstr ""
+msgstr "Greška prilikom izvršavanja naredbe {0}"
 
 #: ../thus/installation/process.py:321
 #, python-brace-format
 msgid "Creating partitions and their filesystems in {0}"
-msgstr ""
+msgstr "Stvaram particije i njihove datotečne sustave u {0}"
 
 #: ../thus/installation/process.py:367 ../thus/installation/process.py:375
 #: ../thus/installation/process.py:392
 #, python-brace-format
 msgid "Mounting partition {0} into {1} directory"
-msgstr ""
+msgstr "Montiram particiju {0} u {1} direktorij"
 
 #: ../thus/installation/process.py:398
 #, python-brace-format
@@ -1626,7 +1626,7 @@ msgstr "Sistem instaliran."
 
 #: ../thus/installation/process.py:441
 msgid "Configuring system ..."
-msgstr "Podešavam sustav ..."
+msgstr "Postavljam sustav ..."
 
 #: ../thus/installation/process.py:443
 msgid "System configured."
@@ -1635,13 +1635,13 @@ msgstr "Sistem postavljen."
 #: ../thus/installation/process.py:476
 #, python-brace-format
 msgid "Can't copy Thus log to {0}"
-msgstr ""
+msgstr "Ne mogu kopirati Thus log na {0}"
 
 #: ../thus/installation/process.py:493 ../thus/installation/process.py:512
 #: ../thus/installation/process.py:526
 #, python-brace-format
 msgid "Can't unmount {0}"
-msgstr ""
+msgstr "Ne mogu odmontirati {0}"
 
 #: ../thus/installation/process.py:528
 msgid "Installation finished successfully."
@@ -1649,100 +1649,100 @@ msgstr "Instalacija uspješno završena."
 
 #: ../thus/installation/process.py:555
 msgid "Base filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "Bazni datotečni sustav ne postoji! Kritična pogreška (izlazim)."
 
 #: ../thus/installation/process.py:559
 msgid "Desktop filesystem does not exist! Critical error (exiting)."
-msgstr ""
+msgstr "Datotečni sustav radne površine ne postoji! Kritična pogreška (izlazim)."
 
 #: ../thus/installation/process.py:569 ../thus/installation/process.py:575
 #, python-brace-format
 msgid "{0} is already mounted at {1} as {2}"
-msgstr ""
+msgstr "{0} je već montiran na {1} kao {2}"
 
 #: ../thus/installation/process.py:582
 msgid "Indexing files of root-image to be copied ..."
-msgstr ""
+msgstr "Indeksiram root-image datoteke za kopiranje ..."
 
 #: ../thus/installation/process.py:586
 msgid "Indexing files of desktop-image to be copied ..."
-msgstr ""
+msgstr "Indeksiram desktop-image datoteke za kopiranje ..."
 
 #: ../thus/installation/process.py:591
 msgid "Extracting root-image ..."
-msgstr ""
+msgstr "Otpakiravam root-image ..."
 
 #: ../thus/installation/process.py:601
 msgid "Extracting desktop-image ..."
-msgstr ""
+msgstr "Otpakiravam desktop-image ..."
 
 #: ../thus/installation/process.py:616
 #, python-brace-format
 msgid "Restoring meta-information on {0}"
-msgstr ""
+msgstr "Vraćam meta-informacije na {0}"
 
 #: ../thus/installation/process.py:659
 msgid "Can't copy network configuration files"
-msgstr ""
+msgstr "Ne mogu kopirati datoteke mrežnih postavki"
 
 #: ../thus/installation/process.py:698 ../thus/installation/process.py:724
 #: ../thus/installation/process.py:739 ../thus/installation/process.py:797
 #: ../thus/installation/process.py:802
 #, python-brace-format
 msgid "Added to fstab : {0}"
-msgstr ""
+msgstr "Dodano u fstab : {0}"
 
 #: ../thus/installation/process.py:718 ../thus/installation/process.py:734
 #, python-brace-format
 msgid "Added to crypttab : {0}"
-msgstr ""
+msgstr "Dodano u crypttab : {0}"
 
 #: ../thus/installation/process.py:760
 #, python-brace-format
 msgid "Device list : {0}"
-msgstr ""
+msgstr "Lista uređaja : {0}"
 
 #: ../thus/installation/process.py:763
 #, python-brace-format
 msgid "Device: {0}, SSD: {1}"
-msgstr ""
+msgstr "Uređaj: {0}, SSD: {1}"
 
 #: ../thus/installation/process.py:810
 msgid "fstab written."
-msgstr ""
+msgstr "fstab zapisan."
 
 #: ../thus/installation/process.py:819
 #, python-brace-format
 msgid "Enabled {0} service."
-msgstr ""
+msgstr "Omogućen {0} servis."
 
 #: ../thus/installation/process.py:821
 #, python-brace-format
 msgid "Can't find service {0}"
-msgstr ""
+msgstr "Ne mogu pronaći servis {0}"
 
 #: ../thus/installation/process.py:829
 #, python-brace-format
 msgid "Error creating password hash for user {0}"
-msgstr ""
+msgstr "Greška prilikom stvaranja hash-a lozinke za korisnika {0}"
 
 #: ../thus/installation/process.py:835
 #, python-brace-format
 msgid "Error changing password for user {0}"
-msgstr ""
+msgstr "Greška prilikom promjene lozinke za korisnika {0}"
 
 #: ../thus/installation/process.py:863
 msgid "Can't find locale.gen file"
-msgstr ""
+msgstr "Ne mogu pronaći locale.gen datoteku"
 
 #: ../thus/installation/process.py:935
 #, python-brace-format
 msgid "{0}: Enable automatic login for user {1}."
-msgstr ""
+msgstr "{0}: Omogući automatsku prijavu za korisnika {1}."
 
 #: ../thus/installation/process.py:1052
 msgid "Configuring your new system"
-msgstr "Podešavanje vašeg novog sustava"
+msgstr "Postavljanje vašeg novog sustava"
 
 #: ../thus/installation/process.py:1055
 msgid "fstab file generated."
@@ -1750,7 +1750,7 @@ msgstr "fstab datoteka generirana."
 
 #: ../thus/installation/process.py:1061
 msgid "Network configuration copied."
-msgstr ""
+msgstr "Mrežne postavke su kopirane."
 
 #: ../thus/installation/process.py:1087
 msgid "Time zone set."
@@ -1759,17 +1759,17 @@ msgstr "Vremenska zona postavljena."
 #: ../thus/installation/process.py:1108
 #, python-brace-format
 msgid "Sudo configuration for user {0} done."
-msgstr ""
+msgstr "Sudo postavke za korisnika {0} su gotove."
 
 #: ../thus/installation/process.py:1118
 #, python-brace-format
 msgid "User {0} added."
-msgstr ""
+msgstr "Korisnik {0} dodan."
 
 #: ../thus/installation/process.py:1130
 #, python-brace-format
 msgid "Hostname  {0} set."
-msgstr ""
+msgstr "Ime računala {0} postavljeno."
 
 #: ../thus/installation/process.py:1135
 msgid "Set root password."
@@ -1781,11 +1781,11 @@ msgstr "Postavi istu lozinku za root."
 
 #: ../thus/installation/process.py:1144
 msgid "Generating locales ..."
-msgstr ""
+msgstr "Generiram jezične sheme ..."
 
 #: ../thus/installation/process.py:1162
 msgid "Adjusting hardware clock ..."
-msgstr ""
+msgstr "Postavljam sklopovski sat ..."
 
 #: ../thus/installation/process.py:1171
 msgid "Configuring hardware ..."
@@ -1793,81 +1793,81 @@ msgstr "postavljam sklopovlje ..."
 
 #: ../thus/installation/process.py:1179
 msgid "Updated Alsa mixer settings"
-msgstr ""
+msgstr "Ažurirane postavke Alsa mixer-a"
 
 #: ../thus/installation/process.py:1187
 msgid "Installing drivers ..."
-msgstr ""
+msgstr "Instaliram upravljačke programe ..."
 
 #: ../thus/installation/process.py:1198
 msgid "Configure display manager ..."
-msgstr ""
+msgstr "Postavljam display manager ..."
 
 #: ../thus/installation/process.py:1246
 msgid "Configure System ..."
-msgstr ""
+msgstr "Postavljam sustav ..."
 
 #: ../thus/installation/process.py:1264
 msgid "Removing live configuration (packages)"
-msgstr "Uklanjanje  live konfiguracije (paketa)"
+msgstr "Uklanjanje  live postavki (paketa)"
 
 #: ../thus/installation/process.py:1280
 msgid "Configuring package manager"
-msgstr "Podešavanje upravitelja paketa"
+msgstr "Postavljanje upravitelja paketa"
 
 #: ../thus/installation/process.py:1291
 msgid "Finished configuring package manager."
-msgstr "Završeno podešavanje upravitelja paketa."
+msgstr "Završeno postavljanje upravitelja paketa."
 
 #: ../thus/installation/process.py:1327
 msgid "Running mkinitcpio ..."
-msgstr ""
+msgstr "Izvodim mkinitcpio ..."
 
 #: ../thus/installation/process.py:1329
 msgid "Running mkinitcpio - done"
-msgstr ""
+msgstr "Izvođenje mkinitcpio - gotovo"
 
 #: ../thus/installation/process.py:1340
 msgid "Encrypting user home dir..."
-msgstr ""
+msgstr "Šifriram korisnički direktorij..."
 
 #: ../thus/installation/process.py:1342
 msgid "User home dir encrypted"
-msgstr ""
+msgstr "Korisnički direktorij šifriran"
 
 #: ../thus/installation/process.py:1347
 msgid "Installing bootloader..."
-msgstr "Instaliram bootloader..."
+msgstr "Instaliram boot učitavač..."
 
 #: ../thus/installation/process.py:1353
 #, python-brace-format
 msgid "Couldn't install boot loader: {0}"
-msgstr ""
+msgstr "Ne mogu instalirati boot učitavač: {0}"
 
 #: ../thus/misc/misc.py:963
 #, python-brace-format
 msgid "Can't change to locale '{0}' : {1}"
-msgstr ""
+msgstr "Ne mogu promijeniti na jezičnu shemu '{0}' : {1}"
 
 #: ../thus/misc/validation.py:136
 msgid "Password is too short"
-msgstr ""
+msgstr "Lozinka je prekratka"
 
 #: ../thus/misc/validation.py:139
 msgid "Weak password"
-msgstr ""
+msgstr "Slaba lozinka"
 
 #: ../thus/misc/validation.py:142
 msgid "Fair password"
-msgstr ""
+msgstr "Zadovoljavajuća lozinka"
 
 #: ../thus/misc/validation.py:145
 msgid "Good password"
-msgstr ""
+msgstr "Dobra lozinka"
 
 #: ../thus/misc/validation.py:148
 msgid "Strong password"
-msgstr ""
+msgstr "Jaka lozinka"
 
 #: ../thus/misc/validation.py:162
 msgid "Passwords do not match"
@@ -1876,44 +1876,44 @@ msgstr "Lozinke se ne podudaraju"
 #: ../thus/parted3/fs_module.py:105
 #, python-brace-format
 msgid "Can't label a {0} partition"
-msgstr ""
+msgstr "Ne mogu označiti {0} particiju"
 
 #: ../thus/parted3/fs_module.py:172
 #, python-brace-format
 msgid "Can't verify if {0} is a Solid State Drive or not"
-msgstr ""
+msgstr "Ne mogu provjeriti da li je {0} SSD ili ne"
 
 #: ../thus/parted3/fs_module.py:198
 #, python-brace-format
 msgid "Sorry but filesystem {0} can't be shrinked"
-msgstr ""
+msgstr "Sorry ali datotečni sustav {0} se ne može smanjiti"
 
 #: ../thus/parted3/lvm.py:81
 #, python-brace-format
 msgid "Can't remove logical volume {0}"
-msgstr ""
+msgstr "Ne mogu ukloniti logičku jedinicu {0}"
 
 #: ../thus/parted3/lvm.py:100
 #, python-brace-format
 msgid "Can't remove volume group {0}"
-msgstr ""
+msgstr "Ne mogu ukloniti jedinicu grupe {0}"
 
 #: ../thus/parted3/lvm.py:113
 #, python-brace-format
 msgid "Can't remove physical volume {0}"
-msgstr ""
+msgstr "Ne mogu ukloniti fizičku jedinicu {0}"
 
 #: ../thus/parted3/partition_module.py:111
 #, python-brace-format
 msgid ""
 "Exception: {0}.\n"
 "For more information take a look at /tmp/thus.log"
-msgstr ""
+msgstr "Iznimka: {0}.\nZa više informacija pogledajte u /tmp/thus.log"
 
 #: ../thus/parted3/partition_module.py:182
 #, python-brace-format
 msgid "Can't delete partition {0}"
-msgstr ""
+msgstr "Ne mogu obrisati particiju {0}"
 
 #: ../thus/parted3/partition_module.py:235
 msgid "Partition is too large!"
@@ -1922,42 +1922,42 @@ msgstr "Particija je prevelika!"
 #: ../thus/parted3/partition_module.py:299
 #, python-brace-format
 msgid "Can't detect used space from {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor od {0}"
 
 #: ../thus/parted3/used_space.py:42
 #, python-brace-format
 msgid "Can't detect used space of NTFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor NTFS particije {0}"
 
 #: ../thus/parted3/used_space.py:71
 #, python-brace-format
 msgid "Can't detect used space of EXTFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor EXTFS particije {0}"
 
 #: ../thus/parted3/used_space.py:103
 #, python-brace-format
 msgid "Can't detect used space of FAT partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor FAT particije {0}"
 
 #: ../thus/parted3/used_space.py:134
 #, python-brace-format
 msgid "Can't detect used space of JFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor JFS particije {0}"
 
 #: ../thus/parted3/used_space.py:159
 #, python-brace-format
 msgid "Can't detect used space of REISERFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor REISERFS particije {0}"
 
 #: ../thus/parted3/used_space.py:187
 #, python-brace-format
 msgid "Can't detect used space of BTRFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor BTRFS particije {0}"
 
 #: ../thus/parted3/used_space.py:224
 #, python-brace-format
 msgid "Can't detect used space of XFS partition {0}"
-msgstr ""
+msgstr "Ne mogu otkriti iskorišten prostor XFS particije {0}"
 
 #: ../ui/advanced.ui:84
 msgid "Partition table type:"
@@ -1993,19 +1993,19 @@ msgstr "MB"
 
 #: ../ui/advanced.ui:942
 msgid "label"
-msgstr ""
+msgstr "oznaka"
 
 #: ../ui/advanced.ui:1022 ../ui/automatic.ui:128
 msgid "Use this device for boot loader installation:"
-msgstr ""
+msgstr "Koristi ovaj uređaj za instalaciju boot učitavača:"
 
 #: ../ui/advanced.ui:1106
 msgid "Encryption properties"
-msgstr ""
+msgstr "Opcije šifriranja"
 
 #: ../ui/advanced.ui:1221
 msgid "Use LUKS encryption: "
-msgstr ""
+msgstr "Koristi LUKS šifriranje:"
 
 #: ../ui/advanced.ui:1285 ../ui/user_info.ui:107 ../ui/user_info.ui:511
 msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
@@ -2015,21 +2015,21 @@ msgstr "<small><span color=\"darkgreen\">Jaka lozinka</span></small>"
 msgid ""
 "<b>WARNING! This installation mode will overwrite everything in your "
 "drive!</b>"
-msgstr ""
+msgstr "<b>UPOZORENJE! Ovaj instalacijski mod će sve prebrisati na vašem disku!</b>"
 
 #: ../ui/automatic.ui:60
 msgid ""
 "Please choose the drive where you want to install Manjaro and click the "
 "button below to start the process."
-msgstr ""
+msgstr "Molimo izaberite disk na koji želite instalirati Manjaro i kliknite na gumb ispod da započnete postupak."
 
 #: ../ui/automatic.ui:271
 msgid "show password"
-msgstr ""
+msgstr "pokaži lozinku"
 
 #: ../ui/automatic.ui:289
 msgid "LUKS Password. Do not use special chars or chars with accents!"
-msgstr ""
+msgstr "LUKS lozinka. Ne koristite specijalne znakove ili znakove sa naglascima!"
 
 #: ../ui/bootloader.ui:69
 msgid "What is your boot system type?"
@@ -2037,7 +2037,7 @@ msgstr "Koji je vaš tip boot sistema?"
 
 #: ../ui/bootloader.ui:98
 msgid "BIOS (Common)"
-msgstr ""
+msgstr "BIOS (uobičajen)"
 
 #: ../ui/bootloader.ui:120
 msgid "x86_64 UEFI"
@@ -2049,19 +2049,19 @@ msgstr "i386 UEFI"
 
 #: ../ui/bootloader.ui:169
 msgid "Choose 'cancel' if you don't want to install a boot loader"
-msgstr ""
+msgstr "Odaberite 'cancel' ako ne želite instalirati boot učitavač"
 
 #: ../ui/check.ui:17
 msgid ""
 "<span weight=\"bold\" size=\"large\">For best results, please ensure that "
 "this computer:</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"large\">Za najbolje rezultate molimo vas osigurajte da je ovo računalo:</span>"
 
 #: ../ui/check.ui:86
 msgid ""
 "(*) This highly depends on which desktop environment you choose, so you "
 "might need more space (for instance, KDE needs 6.5GB)."
-msgstr ""
+msgstr "(*) To jako ovisi o tome koje dektop okruženje odaberete, tako da će te trebati još dodatnog prostora (primjerice, KDE-u je potrebno 6.5GB)."
 
 #: ../ui/main_window.ui:48
 msgid "<span weight=\"bold\" size=\"large\">Welcome to Manjaro</span>"
@@ -2069,7 +2069,7 @@ msgstr "<span weight=\"bold\" size=\"large\">Dobrodošli u Manjaro</span>"
 
 #: ../ui/timezone.ui:105
 msgid "Use Network Time Protocol for clock synchronization:"
-msgstr ""
+msgstr "Koristi Network Time Protocol za sinkronizaciju sata:"
 
 #: ../ui/user_info.ui:152 ../ui/user_info.ui:569
 msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
@@ -2085,4 +2085,4 @@ msgstr "<small><span color=\"darkred\">Unesite ime</span></small>"
 
 #: ../ui/user_info.ui:312
 msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
-msgstr ""
+msgstr "<span size=\"small\">Ime koje će biti prikazano drugim računalima.</span>"
