@@ -1084,11 +1084,6 @@ class InstallationProcess(multiprocessing.Process):
 
         self.queue_event('info', _("Configure System ..."))
 
-        # Add TERM var
-        if os.path.exists("{0}/usr/bin/mate-session".format(DEST_DIR)):
-            os.system("echo \"TERM=mate-terminal\" >> {0}/etc/environment".format(DEST_DIR))
-            os.system("echo \"TERM=mate-terminal\" >> {0}/etc/profile".format(DEST_DIR))
-
         # Adjust Steam-Native when libudev.so.0 is available
         if (os.path.exists("{0}/usr/lib/libudev.so.0".format(DEST_DIR)) or
                 os.path.exists("{0}/usr/lib32/libudev.so.0".format(DEST_DIR))):
