@@ -4,7 +4,6 @@
 # Philip Müller <philm@manjaro.org>, 2013-2015.
 # 
 # Translators:
-# davidiogame <davidiogame@gmail.com>, 2014
 # Giorgi Abuladze <g.abuladze@live.com>, 2014
 msgid ""
 msgstr ""
