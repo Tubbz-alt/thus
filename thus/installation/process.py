@@ -636,7 +636,7 @@ class InstallationProcess(multiprocessing.Process):
     def change_user_password(user, new_password):
         """ Changes the user's password """
         try:
-            shadow_password = crypt.crypt(new_password, "$6${0}$".format(user))
+            shadow_password = crypt.crypt(new_password, crypt.mksalt())
         except:
             logging.warning(_("Error creating password hash for user {0}".format(user)))
             return False
